@@ -25,6 +25,7 @@ export { CardMetaProps } from './Meta';
 
 export type CardType = 'inner';
 export type CardSize = 'default' | 'small';
+export type CardMode = 'normal' | 'gray' | 'shadow';
 
 export interface CardTabListType {
   key: string;
@@ -55,6 +56,7 @@ export interface CardProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 't
   activeTabKey?: string;
   defaultActiveTabKey?: string;
   tabProps?: TabsProps;
+  mode?: CardMode;
 }
 
 export interface CardInterface extends React.FC<CardProps> {
@@ -100,6 +102,7 @@ const Card: CardInterface = props => {
     tabBarExtraContent,
     hoverable,
     tabProps = {},
+    mode = 'normal',
     ...others
   } = props;
 
@@ -192,6 +195,8 @@ const Card: CardInterface = props => {
       [`${prefixCls}-${mergedSize}`]: mergedSize,
       [`${prefixCls}-type-${type}`]: !!type,
       [`${prefixCls}-rtl`]: direction === 'rtl',
+      [`${prefixCls}-gray`]: mode === 'gray',
+      [`${prefixCls}-shadow`]: mode === 'shadow',
     },
     className,
   );
