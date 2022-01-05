@@ -34,9 +34,6 @@ Array [
       >
         Success Tips
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
     <div
       class="ant-alert-action"
@@ -140,9 +137,6 @@ Array [
       >
         Warning Text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
     <div
       class="ant-alert-action"
@@ -305,9 +299,6 @@ Array [
       >
         Warning text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <br />,
@@ -343,9 +334,6 @@ Array [
       >
         Very long warning text warning text text text text text text text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
     <button
       class="ant-alert-close-icon"
@@ -387,9 +375,6 @@ Array [
       >
         Warning text without icon
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <br />,
@@ -425,9 +410,6 @@ Array [
       >
         Error text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
 ]
@@ -447,9 +429,6 @@ exports[`renders ./components/alert/demo/basic.md correctly 1`] = `
     >
       Success Text
     </div>
-    <div
-      class="ant-alert-description"
-    />
   </div>
 </div>
 `;
@@ -469,9 +448,6 @@ Array [
       >
         Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
     <button
       class="ant-alert-close-icon"
@@ -561,9 +537,6 @@ exports[`renders ./components/alert/demo/close-text.md correctly 1`] = `
     >
       Info Text
     </div>
-    <div
-      class="ant-alert-description"
-    />
   </div>
   <button
     class="ant-alert-close-icon"
@@ -594,9 +567,6 @@ Array [
       >
         showIcon = false
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -631,9 +601,6 @@ Array [
       >
         Success Tips
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -668,9 +635,6 @@ Array [
       >
         Informational Notes
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -705,9 +669,6 @@ Array [
       >
         Warning
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -742,9 +703,6 @@ Array [
       >
         Error
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -1036,9 +994,6 @@ Array [
       >
         Success Tips
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -1073,9 +1028,6 @@ Array [
       >
         Informational Notes
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -1110,9 +1062,6 @@ Array [
       >
         Warning
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
     <button
       class="ant-alert-close-icon"
@@ -1172,9 +1121,6 @@ Array [
       >
         Error
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -1362,6 +1308,7 @@ Array [
 `;
 
 exports[`renders ./components/alert/demo/loop-banner.md correctly 1`] = `
+<<<<<<< HEAD
 <div
   class="ant-alert ant-alert-warning ant-alert-banner"
   data-show="true"
@@ -1386,34 +1333,91 @@ exports[`renders ./components/alert/demo/loop-banner.md correctly 1`] = `
       />
     </svg>
   </span>
+=======
+Array [
+>>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
   <div
-    class="ant-alert-content"
+    class="ant-alert ant-alert-warning ant-alert-banner"
+    data-show="true"
+    role="alert"
   >
+    <span
+      aria-label="exclamation-circle"
+      class="anticon anticon-exclamation-circle ant-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="exclamation-circle"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
+        />
+      </svg>
+    </span>
     <div
-      class="ant-alert-message"
+      class="ant-alert-content"
     >
       <div
-        class="x0 x1 x2 x3 "
+        class="ant-alert-message"
       >
         <div
-          style="transition:width 150ms linear;height:auto;width:auto"
+          class="x0 x1 x2 x3 "
         >
           <div
-            class="x1 x4 x5 x6"
-            style="opacity:1;transform:translateY(0px);position:relative"
+            style="transition:width 150ms linear;height:auto;width:auto"
           >
-            <div>
-              Notice message one
+            <div
+              class="x1 x4 x5 x6"
+              style="opacity:1;transform:translateY(0px);position:relative"
+            >
+              <div>
+                Notice message one
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>,
+  <div
+    class="ant-alert ant-alert-warning ant-alert-banner"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="exclamation-circle"
+      class="anticon anticon-exclamation-circle ant-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="exclamation-circle"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
+        />
+      </svg>
+    </span>
     <div
-      class="ant-alert-description"
-    />
-  </div>
-</div>
+      class="ant-alert-content"
+    >
+      <div
+        class="ant-alert-message"
+      />
+    </div>
+  </div>,
+]
 `;
 
 exports[`renders ./components/alert/demo/smooth-closed.md correctly 1`] = `
@@ -1431,9 +1435,6 @@ exports[`renders ./components/alert/demo/smooth-closed.md correctly 1`] = `
       >
         Alert Message Text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
     <button
       class="ant-alert-close-icon"
@@ -1482,9 +1483,6 @@ Array [
       >
         Success Text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -1500,9 +1498,6 @@ Array [
       >
         Info Text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -1518,9 +1513,6 @@ Array [
       >
         Warning Text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
   <div
@@ -1536,9 +1528,6 @@ Array [
       >
         Error Text
       </div>
-      <div
-        class="ant-alert-description"
-      />
     </div>
   </div>,
 ]
