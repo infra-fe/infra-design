@@ -126,21 +126,6 @@ Array [
         class="ant-skeleton ant-skeleton-element"
       >
         <span
-<<<<<<< HEAD
-          class="ant-skeleton-button"
-        />
-      </div>
-    </div>
-    <div
-      class="ant-space-item"
-      style="margin-right:16px"
-    >
-      <div
-        class="ant-skeleton ant-skeleton-element"
-      >
-        <span
-=======
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
           class="ant-skeleton-avatar ant-skeleton-avatar-circle"
         />
       </div>

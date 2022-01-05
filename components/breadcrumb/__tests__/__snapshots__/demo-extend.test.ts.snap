@@ -71,7 +71,7 @@ exports[`renders ./components/breadcrumb/demo/overlay.md extend context correctl
     <span
       class="ant-breadcrumb-link"
     >
-      Ant Design
+      Infra Design
     </span>
     <span
       class="ant-breadcrumb-separator"

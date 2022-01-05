@@ -17,11 +17,7 @@ exports[`renders ./components/typography/demo/basic.md correctly 1`] = `
   <div
     class="ant-typography"
   >
-<<<<<<< HEAD
-    After massive project practice and summaries, Infra Design, a design language for background applications, is refined by Ant UED Team, which aims to
-=======
-    After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims to 
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
+    After massive project practice and summaries, Infra Design, a design language for background applications, is refined by Ant UED Team, which aims to 
     <span
       class="ant-typography"
     >

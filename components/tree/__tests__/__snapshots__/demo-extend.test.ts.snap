@@ -304,7 +304,7 @@ exports[`renders ./components/tree/demo/basic.md extend context correctly 1`] = 
                 class="ant-tree-title"
               >
                 <span
-                  style="color:#1890ff"
+                  style="color:#2673dd"
                 >
                   sss
                 </span>
@@ -3634,6 +3634,7 @@ exports[`renders ./components/tree/demo/search.md extend context correctly 1`] =
             aria-label="search"
             class="anticon anticon-search"
             role="img"
+            style="color:#999999"
           >
             <svg
               aria-hidden="true"

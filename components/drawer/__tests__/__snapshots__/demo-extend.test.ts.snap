@@ -32,7 +32,7 @@ exports[`renders ./components/drawer/demo/extra.md extend context correctly 1`] 
 >
   <div
     class="ant-space-item"
-    style="margin-right:8px"
+    style="margin-right:16px"
   >
     <div
       class="ant-radio-group ant-radio-group-outline"
@@ -193,7 +193,7 @@ exports[`renders ./components/drawer/demo/placement.md extend context correctly 
 >
   <div
     class="ant-space-item"
-    style="margin-right:8px"
+    style="margin-right:16px"
   >
     <div
       class="ant-radio-group ant-radio-group-outline"
@@ -364,7 +364,7 @@ exports[`renders ./components/drawer/demo/size.md extend context correctly 1`] =
 >
   <div
     class="ant-space-item"
-    style="margin-right:8px"
+    style="margin-right:16px"
   >
     <button
       class="ant-btn ant-btn-primary"

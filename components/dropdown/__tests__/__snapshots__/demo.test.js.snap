@@ -360,7 +360,7 @@ exports[`renders ./components/dropdown/demo/loading.md correctly 1`] = `
 >
   <div
     class="ant-space-item"
-    style="margin-bottom:8px"
+    style="margin-bottom:16px"
   >
     <div
       class="ant-btn-group ant-dropdown-button"
@@ -424,7 +424,7 @@ exports[`renders ./components/dropdown/demo/loading.md correctly 1`] = `
   </div>
   <div
     class="ant-space-item"
-    style="margin-bottom:8px"
+    style="margin-bottom:16px"
   >
     <div
       class="ant-btn-group ant-btn-group-sm ant-dropdown-button"
@@ -488,7 +488,7 @@ exports[`renders ./components/dropdown/demo/loading.md correctly 1`] = `
   </div>
   <div
     class="ant-space-item"
-    style="margin-bottom:8px"
+    style="margin-bottom:16px"
   >
     <div
       class="ant-btn-group ant-dropdown-button"

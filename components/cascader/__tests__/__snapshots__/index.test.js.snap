@@ -598,56 +598,6 @@ exports[`Cascader can be selected in RTL direction 2`] = `
               role="img"
             >
               <svg
-<<<<<<< HEAD
-                fill="none"
-                height="96"
-                viewBox="0 0 96 96"
-                width="96"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <ellipse
-                  cx="48"
-                  cy="85"
-                  fill="#F2F2F2"
-                  rx="45"
-                  ry="6"
-                />
-                <path
-                  d="M15.5 7C15.5 6.17157 16.1716 5.5 17 5.5H66.6371L79.5 17.4859V83C79.5 83.8284 78.8284 84.5 78 84.5H17C16.1716 84.5 15.5 83.8284 15.5 83V7Z"
-                  fill="white"
-                  stroke="#D8D8D8"
-                />
-                <path
-                  d="M66 6H67.1293V16.4295C67.1293 17.1939 67.7192 17.8136 68.4469 17.8136H79V19H68.4469C67.0955 19 66 17.8491 66 16.4295V6Z"
-                  fill="#DBDBDB"
-                />
-                <circle
-                  cx="91"
-                  cy="14"
-                  fill="#D8D8D8"
-                  opacity="0.5"
-                  r="3"
-                />
-                <circle
-                  cx="85"
-                  cy="7"
-                  fill="#D8D8D8"
-                  opacity="0.3"
-                  r="2"
-                />
-                <path
-                  clip-rule="evenodd"
-                  d="M96 6.5C96 5.11929 94.8807 4 93.5 4C92.1193 4 91 5.11929 91 6.5C91 7.88071 92.1193 9 93.5 9C94.8807 9 96 7.88071 96 6.5ZM92 6.5C92 5.67157 92.6716 5 93.5 5C94.3284 5 95 5.67157 95 6.5C95 7.32843 94.3284 8 93.5 8C92.6716 8 92 7.32843 92 6.5Z"
-                  fill="#D8D8D8"
-                  fill-rule="evenodd"
-                  opacity="0.3"
-                />
-                <path
-                  clip-rule="evenodd"
-                  d="M67 7V16.5258C67 16.5258 67.0952 18 68.2714 18C69.4476 18 79 18 79 18L67 7Z"
-                  fill="#FAFAFA"
-                  fill-rule="evenodd"
-=======
                 aria-hidden="true"
                 data-icon="left"
                 fill="currentColor"
@@ -658,7 +608,6 @@ exports[`Cascader can be selected in RTL direction 2`] = `
               >
                 <path
                   d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
                 />
               </svg>
             </span>
@@ -1255,70 +1204,50 @@ exports[`Cascader popup correctly with defaultValue RTL 1`] = `
     unselectable="on"
   >
     <span
-      aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      aria-label="arrow-up"
+      class="anticon anticon-arrow-up ant-select-suffix"
       role="img"
     >
       <svg
         aria-hidden="true"
-        data-icon="down"
+        data-icon="arrow-up"
         fill="currentColor"
         focusable="false"
         height="1em"
-        viewBox="64 64 896 896"
+        viewBox="0 0 16 16"
         width="1em"
       >
         <path
-          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          d="M8 6.81l3.97 3.97a.75.75 0 101.06-1.06l-4.5-4.5a.75.75 0 00-1.06 0l-4.5 4.5a.75.75 0 101.06 1.06L8 6.81z"
         />
       </svg>
     </span>
   </span>
   <span
-<<<<<<< HEAD
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down ant-cascader-picker-arrow"
-    role="img"
-  >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
-    >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-=======
     aria-hidden="true"
     class="ant-select-clear"
     style="user-select: none;"
     unselectable="on"
   >
     <span
-      aria-label="close-circle"
-      class="anticon anticon-close-circle"
+      aria-label="close-fullfiled"
+      class="anticon anticon-close-fullfiled"
       role="img"
     >
       <svg
         aria-hidden="true"
-        data-icon="close-circle"
+        data-icon="close-fullfiled"
         fill="currentColor"
         focusable="false"
         height="1em"
-        viewBox="64 64 896 896"
+        viewBox="0 0 16 16"
         width="1em"
       >
         <path
-          d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 01-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+          d="M8 1a7 7 0 110 14A7 7 0 018 1zm0 6.3L5.88 5.16a.5.5 0 00-.77.64l.06.07L7.3 8l-2.12 2.12a.5.5 0 00.64.77l.07-.06L8 8.7l2.12 2.12a.5.5 0 00.77-.64l-.06-.07L8.7 8l2.12-2.12a.5.5 0 00-.64-.77l-.07.06L8 7.3 5.88 5.17 8 7.3z"
         />
       </svg>
     </span>
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
   </span>
 </div>
 `;
@@ -1360,21 +1289,21 @@ exports[`Cascader rtl render component should be rendered correctly in RTL direc
     unselectable="on"
   >
     <span
-      aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      aria-label="arrow-down"
+      class="anticon anticon-arrow-down ant-select-suffix"
       role="img"
     >
       <svg
         aria-hidden="true"
-        data-icon="down"
+        data-icon="arrow-down"
         fill="currentColor"
         focusable="false"
         height="1em"
-        viewBox="64 64 896 896"
+        viewBox="0 0 16 16"
         width="1em"
       >
         <path
-          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
         />
       </svg>
     </span>
@@ -1532,99 +1461,59 @@ exports[`Cascader should render not found content 1`] = `
             <div
               class="ant-empty ant-empty-normal ant-empty-small"
             >
-<<<<<<< HEAD
-              <svg
-                fill="none"
-                height="96"
-                viewBox="0 0 96 96"
-                width="96"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <ellipse
-                  cx="48"
-                  cy="85"
-                  fill="#F2F2F2"
-                  rx="45"
-                  ry="6"
-                />
-                <path
-                  d="M15.5 7C15.5 6.17157 16.1716 5.5 17 5.5H66.6371L79.5 17.4859V83C79.5 83.8284 78.8284 84.5 78 84.5H17C16.1716 84.5 15.5 83.8284 15.5 83V7Z"
-                  fill="white"
-                  stroke="#D8D8D8"
-                />
-                <path
-                  d="M66 6H67.1293V16.4295C67.1293 17.1939 67.7192 17.8136 68.4469 17.8136H79V19H68.4469C67.0955 19 66 17.8491 66 16.4295V6Z"
-                  fill="#DBDBDB"
-                />
-                <circle
-                  cx="91"
-                  cy="14"
-                  fill="#D8D8D8"
-                  opacity="0.5"
-                  r="3"
-                />
-                <circle
-                  cx="85"
-                  cy="7"
-                  fill="#D8D8D8"
-                  opacity="0.3"
-                  r="2"
-                />
-                <path
-                  clip-rule="evenodd"
-                  d="M96 6.5C96 5.11929 94.8807 4 93.5 4C92.1193 4 91 5.11929 91 6.5C91 7.88071 92.1193 9 93.5 9C94.8807 9 96 7.88071 96 6.5ZM92 6.5C92 5.67157 92.6716 5 93.5 5C94.3284 5 95 5.67157 95 6.5C95 7.32843 94.3284 8 93.5 8C92.6716 8 92 7.32843 92 6.5Z"
-                  fill="#D8D8D8"
-                  fill-rule="evenodd"
-                  opacity="0.3"
-                />
-                <path
-                  clip-rule="evenodd"
-                  d="M67 7V16.5258C67 16.5258 67.0952 18 68.2714 18C69.4476 18 79 18 79 18L67 7Z"
-                  fill="#FAFAFA"
-                  fill-rule="evenodd"
-                />
-              </svg>
-            </div>
-            <div
-              class="ant-empty-description"
-            >
-              No Data
-=======
               <div
                 class="ant-empty-image"
               >
                 <svg
-                  class="ant-empty-img-simple"
-                  height="41"
-                  viewBox="0 0 64 41"
-                  width="64"
+                  fill="none"
+                  height="96"
+                  viewBox="0 0 96 96"
+                  width="96"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g
-                    fill="none"
+                  <ellipse
+                    cx="48"
+                    cy="85"
+                    fill="#F2F2F2"
+                    rx="45"
+                    ry="6"
+                  />
+                  <path
+                    d="M15.5 7C15.5 6.17157 16.1716 5.5 17 5.5H66.6371L79.5 17.4859V83C79.5 83.8284 78.8284 84.5 78 84.5H17C16.1716 84.5 15.5 83.8284 15.5 83V7Z"
+                    fill="white"
+                    stroke="#D8D8D8"
+                  />
+                  <path
+                    d="M66 6H67.1293V16.4295C67.1293 17.1939 67.7192 17.8136 68.4469 17.8136H79V19H68.4469C67.0955 19 66 17.8491 66 16.4295V6Z"
+                    fill="#DBDBDB"
+                  />
+                  <circle
+                    cx="91"
+                    cy="14"
+                    fill="#D8D8D8"
+                    opacity="0.5"
+                    r="3"
+                  />
+                  <circle
+                    cx="85"
+                    cy="7"
+                    fill="#D8D8D8"
+                    opacity="0.3"
+                    r="2"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M96 6.5C96 5.11929 94.8807 4 93.5 4C92.1193 4 91 5.11929 91 6.5C91 7.88071 92.1193 9 93.5 9C94.8807 9 96 7.88071 96 6.5ZM92 6.5C92 5.67157 92.6716 5 93.5 5C94.3284 5 95 5.67157 95 6.5C95 7.32843 94.3284 8 93.5 8C92.6716 8 92 7.32843 92 6.5Z"
+                    fill="#D8D8D8"
                     fill-rule="evenodd"
-                    transform="translate(0 1)"
-                  >
-                    <ellipse
-                      class="ant-empty-img-simple-ellipse"
-                      cx="32"
-                      cy="33"
-                      rx="32"
-                      ry="7"
-                    />
-                    <g
-                      class="ant-empty-img-simple-g"
-                      fill-rule="nonzero"
-                    >
-                      <path
-                        d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
-                      />
-                      <path
-                        class="ant-empty-img-simple-path"
-                        d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
-                      />
-                    </g>
-                  </g>
+                    opacity="0.3"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M67 7V16.5258C67 16.5258 67.0952 18 68.2714 18C69.4476 18 79 18 79 18L67 7Z"
+                    fill="#FAFAFA"
+                    fill-rule="evenodd"
+                  />
                 </svg>
               </div>
               <div
@@ -1632,7 +1521,6 @@ exports[`Cascader should render not found content 1`] = `
               >
                 No Data
               </div>
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
             </div>
           </div>
         </li>
@@ -1667,99 +1555,59 @@ exports[`Cascader should show not found content when options.length is 0 1`] = `
             <div
               class="ant-empty ant-empty-normal ant-empty-small"
             >
-<<<<<<< HEAD
-              <svg
-                fill="none"
-                height="96"
-                viewBox="0 0 96 96"
-                width="96"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <ellipse
-                  cx="48"
-                  cy="85"
-                  fill="#F2F2F2"
-                  rx="45"
-                  ry="6"
-                />
-                <path
-                  d="M15.5 7C15.5 6.17157 16.1716 5.5 17 5.5H66.6371L79.5 17.4859V83C79.5 83.8284 78.8284 84.5 78 84.5H17C16.1716 84.5 15.5 83.8284 15.5 83V7Z"
-                  fill="white"
-                  stroke="#D8D8D8"
-                />
-                <path
-                  d="M66 6H67.1293V16.4295C67.1293 17.1939 67.7192 17.8136 68.4469 17.8136H79V19H68.4469C67.0955 19 66 17.8491 66 16.4295V6Z"
-                  fill="#DBDBDB"
-                />
-                <circle
-                  cx="91"
-                  cy="14"
-                  fill="#D8D8D8"
-                  opacity="0.5"
-                  r="3"
-                />
-                <circle
-                  cx="85"
-                  cy="7"
-                  fill="#D8D8D8"
-                  opacity="0.3"
-                  r="2"
-                />
-                <path
-                  clip-rule="evenodd"
-                  d="M96 6.5C96 5.11929 94.8807 4 93.5 4C92.1193 4 91 5.11929 91 6.5C91 7.88071 92.1193 9 93.5 9C94.8807 9 96 7.88071 96 6.5ZM92 6.5C92 5.67157 92.6716 5 93.5 5C94.3284 5 95 5.67157 95 6.5C95 7.32843 94.3284 8 93.5 8C92.6716 8 92 7.32843 92 6.5Z"
-                  fill="#D8D8D8"
-                  fill-rule="evenodd"
-                  opacity="0.3"
-                />
-                <path
-                  clip-rule="evenodd"
-                  d="M67 7V16.5258C67 16.5258 67.0952 18 68.2714 18C69.4476 18 79 18 79 18L67 7Z"
-                  fill="#FAFAFA"
-                  fill-rule="evenodd"
-                />
-              </svg>
-            </div>
-            <div
-              class="ant-empty-description"
-            >
-              No Data
-=======
               <div
                 class="ant-empty-image"
               >
                 <svg
-                  class="ant-empty-img-simple"
-                  height="41"
-                  viewBox="0 0 64 41"
-                  width="64"
+                  fill="none"
+                  height="96"
+                  viewBox="0 0 96 96"
+                  width="96"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g
-                    fill="none"
+                  <ellipse
+                    cx="48"
+                    cy="85"
+                    fill="#F2F2F2"
+                    rx="45"
+                    ry="6"
+                  />
+                  <path
+                    d="M15.5 7C15.5 6.17157 16.1716 5.5 17 5.5H66.6371L79.5 17.4859V83C79.5 83.8284 78.8284 84.5 78 84.5H17C16.1716 84.5 15.5 83.8284 15.5 83V7Z"
+                    fill="white"
+                    stroke="#D8D8D8"
+                  />
+                  <path
+                    d="M66 6H67.1293V16.4295C67.1293 17.1939 67.7192 17.8136 68.4469 17.8136H79V19H68.4469C67.0955 19 66 17.8491 66 16.4295V6Z"
+                    fill="#DBDBDB"
+                  />
+                  <circle
+                    cx="91"
+                    cy="14"
+                    fill="#D8D8D8"
+                    opacity="0.5"
+                    r="3"
+                  />
+                  <circle
+                    cx="85"
+                    cy="7"
+                    fill="#D8D8D8"
+                    opacity="0.3"
+                    r="2"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M96 6.5C96 5.11929 94.8807 4 93.5 4C92.1193 4 91 5.11929 91 6.5C91 7.88071 92.1193 9 93.5 9C94.8807 9 96 7.88071 96 6.5ZM92 6.5C92 5.67157 92.6716 5 93.5 5C94.3284 5 95 5.67157 95 6.5C95 7.32843 94.3284 8 93.5 8C92.6716 8 92 7.32843 92 6.5Z"
+                    fill="#D8D8D8"
                     fill-rule="evenodd"
-                    transform="translate(0 1)"
-                  >
-                    <ellipse
-                      class="ant-empty-img-simple-ellipse"
-                      cx="32"
-                      cy="33"
-                      rx="32"
-                      ry="7"
-                    />
-                    <g
-                      class="ant-empty-img-simple-g"
-                      fill-rule="nonzero"
-                    >
-                      <path
-                        d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
-                      />
-                      <path
-                        class="ant-empty-img-simple-path"
-                        d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
-                      />
-                    </g>
-                  </g>
+                    opacity="0.3"
+                  />
+                  <path
+                    clip-rule="evenodd"
+                    d="M67 7V16.5258C67 16.5258 67.0952 18 68.2714 18C69.4476 18 79 18 79 18L67 7Z"
+                    fill="#FAFAFA"
+                    fill-rule="evenodd"
+                  />
                 </svg>
               </div>
               <div
@@ -1767,7 +1615,6 @@ exports[`Cascader should show not found content when options.length is 0 1`] = `
               >
                 No Data
               </div>
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
             </div>
           </div>
         </li>
@@ -1817,70 +1664,50 @@ exports[`Cascader support controlled mode 1`] = `
     unselectable="on"
   >
     <span
-      aria-label="down"
-      class="anticon anticon-down ant-select-suffix"
+      aria-label="arrow-down"
+      class="anticon anticon-arrow-down ant-select-suffix"
       role="img"
     >
       <svg
         aria-hidden="true"
-        data-icon="down"
+        data-icon="arrow-down"
         fill="currentColor"
         focusable="false"
         height="1em"
-        viewBox="64 64 896 896"
+        viewBox="0 0 16 16"
         width="1em"
       >
         <path
-          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
         />
       </svg>
     </span>
   </span>
   <span
-<<<<<<< HEAD
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down ant-cascader-picker-arrow"
-    role="img"
-  >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
-    >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-=======
     aria-hidden="true"
     class="ant-select-clear"
     style="user-select: none;"
     unselectable="on"
   >
     <span
-      aria-label="close-circle"
-      class="anticon anticon-close-circle"
+      aria-label="close-fullfiled"
+      class="anticon anticon-close-fullfiled"
       role="img"
     >
       <svg
         aria-hidden="true"
-        data-icon="close-circle"
+        data-icon="close-fullfiled"
         fill="currentColor"
         focusable="false"
         height="1em"
-        viewBox="64 64 896 896"
+        viewBox="0 0 16 16"
         width="1em"
       >
         <path
-          d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 01-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+          d="M8 1a7 7 0 110 14A7 7 0 018 1zm0 6.3L5.88 5.16a.5.5 0 00-.77.64l.06.07L7.3 8l-2.12 2.12a.5.5 0 00.64.77l.07-.06L8 8.7l2.12 2.12a.5.5 0 00.77-.64l-.06-.07L8.7 8l2.12-2.12a.5.5 0 00-.64-.77l-.07.06L8 7.3 5.88 5.17 8 7.3z"
         />
       </svg>
     </span>
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
   </span>
 </div>
 `;

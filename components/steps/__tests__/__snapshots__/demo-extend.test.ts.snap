@@ -524,21 +524,21 @@ exports[`renders ./components/steps/demo/error.md extend context correctly 1`] =
           class="ant-steps-icon"
         >
           <span
-            aria-label="check"
-            class="anticon anticon-check ant-steps-finish-icon"
+            aria-label="selector"
+            class="anticon anticon-selector ant-steps-finish-icon"
             role="img"
           >
             <svg
               aria-hidden="true"
-              data-icon="check"
+              data-icon="selector"
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="64 64 896 896"
+              viewBox="0 0 16 16"
               width="1em"
             >
               <path
-                d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
               />
             </svg>
           </span>
@@ -867,21 +867,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -1015,21 +1015,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -1161,21 +1161,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -1210,21 +1210,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -1325,21 +1325,21 @@ exports[`renders ./components/steps/demo/progress.md extend context correctly 1`
           class="ant-steps-icon"
         >
           <span
-            aria-label="check"
-            class="anticon anticon-check ant-steps-finish-icon"
+            aria-label="selector"
+            class="anticon anticon-selector ant-steps-finish-icon"
             role="img"
           >
             <svg
               aria-hidden="true"
-              data-icon="check"
+              data-icon="selector"
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="64 64 896 896"
+              viewBox="0 0 16 16"
               width="1em"
             >
               <path
-                d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
               />
             </svg>
           </span>
@@ -1570,21 +1570,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -1755,21 +1755,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -1940,21 +1940,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -2125,21 +2125,21 @@ Array [
             class="ant-steps-icon"
           >
             <span
-              aria-label="check"
-              class="anticon anticon-check ant-steps-finish-icon"
+              aria-label="selector"
+              class="anticon anticon-selector ant-steps-finish-icon"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="check"
+                data-icon="selector"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="64 64 896 896"
+                viewBox="0 0 16 16"
                 width="1em"
               >
                 <path
-                  d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                  d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
                 />
               </svg>
             </span>
@@ -2619,21 +2619,21 @@ exports[`renders ./components/steps/demo/simple.md extend context correctly 1`] 
           class="ant-steps-icon"
         >
           <span
-            aria-label="check"
-            class="anticon anticon-check ant-steps-finish-icon"
+            aria-label="selector"
+            class="anticon anticon-selector ant-steps-finish-icon"
             role="img"
           >
             <svg
               aria-hidden="true"
-              data-icon="check"
+              data-icon="selector"
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="64 64 896 896"
+              viewBox="0 0 16 16"
               width="1em"
             >
               <path
-                d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
               />
             </svg>
           </span>
@@ -2752,21 +2752,21 @@ exports[`renders ./components/steps/demo/small-size.md extend context correctly 
           class="ant-steps-icon"
         >
           <span
-            aria-label="check"
-            class="anticon anticon-check ant-steps-finish-icon"
+            aria-label="selector"
+            class="anticon anticon-selector ant-steps-finish-icon"
             role="img"
           >
             <svg
               aria-hidden="true"
-              data-icon="check"
+              data-icon="selector"
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="64 64 896 896"
+              viewBox="0 0 16 16"
               width="1em"
             >
               <path
-                d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
               />
             </svg>
           </span>
@@ -3245,21 +3245,21 @@ exports[`renders ./components/steps/demo/vertical.md extend context correctly 1`
           class="ant-steps-icon"
         >
           <span
-            aria-label="check"
-            class="anticon anticon-check ant-steps-finish-icon"
+            aria-label="selector"
+            class="anticon anticon-selector ant-steps-finish-icon"
             role="img"
           >
             <svg
               aria-hidden="true"
-              data-icon="check"
+              data-icon="selector"
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="64 64 896 896"
+              viewBox="0 0 16 16"
               width="1em"
             >
               <path
-                d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
               />
             </svg>
           </span>
@@ -3372,21 +3372,21 @@ exports[`renders ./components/steps/demo/vertical-small.md extend context correc
           class="ant-steps-icon"
         >
           <span
-            aria-label="check"
-            class="anticon anticon-check ant-steps-finish-icon"
+            aria-label="selector"
+            class="anticon anticon-selector ant-steps-finish-icon"
             role="img"
           >
             <svg
               aria-hidden="true"
-              data-icon="check"
+              data-icon="selector"
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="64 64 896 896"
+              viewBox="0 0 16 16"
               width="1em"
             >
               <path
-                d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
+                d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
               />
             </svg>
           </span>

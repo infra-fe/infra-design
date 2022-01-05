@@ -32,7 +32,7 @@ exports[`renders ./components/drawer/demo/extra.md correctly 1`] = `
 >
   <div
     class="ant-space-item"
-    style="margin-right:8px"
+    style="margin-right:16px"
   >
     <div
       class="ant-radio-group ant-radio-group-outline"
@@ -322,11 +322,7 @@ exports[`renders ./components/drawer/demo/render-in-current.md correctly 1`] = `
       />
       <div
         class="ant-drawer-content-wrapper"
-<<<<<<< HEAD
-        style="transform:translateX(100%);-ms-transform:translateX(100%);width:528px"
-=======
         style="transform:translateX(100%);-ms-transform:translateX(100%);width:378px"
->>>>>>> a559742e2119b5c5fd5996afeb762bb33ffd9543
       >
         <div
           class="ant-drawer-content"
@@ -368,7 +364,7 @@ exports[`renders ./components/drawer/demo/size.md correctly 1`] = `
 >
   <div
     class="ant-space-item"
-    style="margin-right:8px"
+    style="margin-right:16px"
   >
     <button
       class="ant-btn ant-btn-primary"
