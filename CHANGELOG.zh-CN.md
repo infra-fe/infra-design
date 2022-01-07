@@ -5,6 +5,16 @@ toc: false
 timeline: true
 ---
 
+### 我们（infrad）根据 shopee 设计规范对 antd 的组件进行了样式上的修改，antd 原组件的功能无任何改动、antd 原组件的功能无任何改动、antd 原组件的功能无任何改动，重要的事情说三遍，具体修改内容如下：
+
+| 版本号 | 更新内容 | 时间 |
+| --- | --- | --- |
+| 4.18.2 | 同步 antd 4.18.2 版本的更新 | 2022-01-04 |
+| 4.16.16 | 1. 修复了 alert 多行文字时居中问题<br/>2. 修改了 button 按钮字重为 500 | 2021-12-24 |
+| 4.16.15 | 根据[feedback](https://docs.google.com/document/d/1xtUxcpfCuE9SnWs6q24ix78LO-lEexMwmwyztmtmArE/edit#heading=h.8ch5ybkzq0nl)对组件的样式进行符合 shopee 设计规范的修改 | 2021-10-26 |
+
+如有问题或者建议，欢迎 seatalk 滴滴`taofeng.yang@shopee.com` or `lay.zhang@shopee.com`
+
 `antd` 严格遵循 [Semantic Versioning 2.0.0](http://semver.org/lang/zh-CN/) 语义化版本规范。
 
 #### 发布周期
