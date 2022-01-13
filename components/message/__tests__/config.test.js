@@ -100,7 +100,7 @@ describe('message.config', () => {
     message.info('last');
     expect(document.querySelectorAll('.ant-message-notice')).toHaveLength(0);
     expect(document.querySelectorAll('.prefix-test-message-notice')).toHaveLength(1);
-    expect(document.querySelectorAll('.anticon-information-filled')).toHaveLength(1);
+    expect(document.querySelectorAll('.bamboo-information-filled')).toHaveLength(1);
     ConfigProvider.config({ prefixCls: 'ant', iconPrefixCls: null });
   });
   it('should be able to config prefixCls', () => {
