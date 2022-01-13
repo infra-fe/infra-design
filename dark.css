@@ -3198,6 +3198,12 @@ a.ant-btn-sm {
 .ant-card-bordered {
   border: 1px solid #eee;
 }
+.ant-card-gray {
+  background-color: #f6f6f6;
+}
+.ant-card-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
 .ant-card-head {
   min-height: 48px;
   margin-bottom: -1px;
@@ -6759,7 +6765,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   display: inline-block;
 }
 .ant-form-inline .ant-form-item .ant-form-item-label > label::after {
-  margin: 0 4px 0 4px;
+  margin: 0 4px;
 }
 .ant-form-horizontal .ant-form-item-label {
   flex-grow: 0;
