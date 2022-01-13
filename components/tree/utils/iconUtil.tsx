@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { LoadingOutlined } from 'infra-design-icons';
 import {
+  LoadingOutlined,
   FileOutlined,
   MinusSquareOutlined,
   PlusSquareOutlined,

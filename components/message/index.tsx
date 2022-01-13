@@ -5,12 +5,12 @@ import {
   NotificationInstance as RCNotificationInstance,
   NoticeContent,
 } from 'rc-notification/lib/Notification';
-import { LoadingOutlined } from 'infra-design-icons';
 import {
   ISuccessFilled,
   IInformationFilled,
   ICloseFullfiled,
   INoticeCircleFilled,
+  LoadingOutlined,
 } from 'infra-design-icons';
 import createUseMessage from './hooks/useMessage';
 import ConfigProvider, { globalConfig } from '../config-provider';

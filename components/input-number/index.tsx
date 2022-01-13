@@ -1,8 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import RcInputNumber, { InputNumberProps as RcInputNumberProps } from 'rc-input-number';
-import { UpOutlined } from 'infra-design-icons';
-import { DownOutlined } from 'infra-design-icons';
+import { DownOutlined, UpOutlined } from 'infra-design-icons';
 
 import { ConfigContext } from '../config-provider';
 import SizeContext, { SizeType } from '../config-provider/SizeContext';

@@ -2,9 +2,7 @@ import * as React from 'react';
 import RcTabs, { TabPane, TabsProps as RcTabsProps, TabPaneProps } from 'rc-tabs';
 import { EditableConfig } from 'rc-tabs/lib/interface';
 import classNames from 'classnames';
-import { EllipsisOutlined } from 'infra-design-icons';
-import { PlusOutlined } from 'infra-design-icons';
-import { CloseOutlined } from 'infra-design-icons';
+import { PlusOutlined, EllipsisOutlined, CloseOutlined } from 'infra-design-icons';
 
 import devWarning from '../_util/devWarning';
 import { ConfigContext } from '../config-provider';
