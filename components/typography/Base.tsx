@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import toArray from 'rc-util/lib/Children/toArray';
 import copy from 'copy-to-clipboard';
 import omit from 'rc-util/lib/omit';
+import { composeRef } from 'rc-util/lib/ref';
 import { EditOutlined, CheckOutlined, CopyOutlined } from 'infra-design-icons';
 import ResizeObserver from 'rc-resize-observer';
 import { AutoSizeType } from 'rc-textarea/lib/ResizableTextArea';
@@ -110,6 +111,7 @@ interface BaseState {
   ellipsisText: string;
   ellipsisContent: React.ReactNode;
   isEllipsis: boolean;
+  isNativeEllipsis: boolean;
   expanded: boolean;
   clientRendered: boolean;
 }
@@ -167,6 +169,7 @@ class Base extends React.Component<InternalBlockProps, BaseState> {
     ellipsisText: '',
     ellipsisContent: null,
     isEllipsis: false,
+    isNativeEllipsis: false,
     expanded: false,
     clientRendered: false,
   };
@@ -178,10 +181,24 @@ class Base extends React.Component<InternalBlockProps, BaseState> {
 
   componentDidUpdate(prevProps: BlockProps) {
     const { children } = this.props;
+    const { isNativeEllipsis } = this.state;
+
     const ellipsis = this.getEllipsis();
     const prevEllipsis = this.getEllipsis(prevProps);
     if (children !== prevProps.children || ellipsis.rows !== prevEllipsis.rows) {
       this.resizeOnNextFrame();
+    }
+
+    // If use native ellipsis, we should check if ellipsis changed
+    const textEle = this.contentRef.current;
+    if (this.canUseCSSEllipsis() && textEle) {
+      const currentEllipsis = textEle.offsetWidth < textEle.scrollWidth;
+      if (isNativeEllipsis !== currentEllipsis) {
+        // eslint-disable-next-line react/no-did-update-set-state
+        this.setState({
+          isNativeEllipsis: currentEllipsis,
+        });
+      }
     }
   }
 
@@ -295,9 +312,9 @@ class Base extends React.Component<InternalBlockProps, BaseState> {
   canUseCSSEllipsis(): boolean {
     const { clientRendered } = this.state;
     const { editable, copyable } = this.props;
-    const { rows, expandable, suffix, onEllipsis, tooltip } = this.getEllipsis();
+    const { rows, expandable, suffix, onEllipsis } = this.getEllipsis();
 
-    if (suffix || tooltip) return false;
+    if (suffix) return false;
     // Can't use css ellipsis since we need to provide the place for button
     if (editable || copyable || expandable || !clientRendered || onEllipsis) {
       return false;
@@ -456,7 +473,7 @@ class Base extends React.Component<InternalBlockProps, BaseState> {
   }
 
   renderContent() {
-    const { ellipsisContent, isEllipsis, expanded } = this.state;
+    const { ellipsisContent, isEllipsis, isNativeEllipsis, expanded } = this.state;
     const { component, children, className, type, disabled, style, ...restProps } = this.props;
     const { direction } = this.context;
     const { rows, suffix, tooltip } = this.getEllipsis();
@@ -506,15 +523,6 @@ class Base extends React.Component<InternalBlockProps, BaseState> {
           {suffix}
         </>
       );
-
-      // If provided tooltip, we need wrap with span to let Tooltip inject events
-      if (tooltip) {
-        textNode = (
-          <Tooltip title={tooltip === true ? children : tooltip}>
-            <span>{textNode}</span>
-          </Tooltip>
-        );
-      }
     } else {
       textNode = (
         <>
@@ -536,31 +544,44 @@ class Base extends React.Component<InternalBlockProps, BaseState> {
 
           return (
             <ResizeObserver onResize={this.resizeOnNextFrame} disabled={cssEllipsis}>
-              <Typography
-                className={classNames(
-                  {
-                    [`${prefixCls}-${type}`]: type,
-                    [`${prefixCls}-disabled`]: disabled,
-                    [`${prefixCls}-ellipsis`]: rows,
-                    [`${prefixCls}-single-line`]: rows === 1 && !isEllipsis,
-                    [`${prefixCls}-ellipsis-single-line`]: cssTextOverflow,
-                    [`${prefixCls}-ellipsis-multiple-line`]: cssLineClamp,
-                  },
-                  className,
-                )}
-                style={{
-                  ...style,
-                  WebkitLineClamp: cssLineClamp ? rows : undefined,
-                }}
-                component={component}
-                ref={this.contentRef}
-                direction={direction}
-                onClick={triggerType.indexOf('text') !== -1 ? this.onEditClick : () => {}}
-                {...textProps}
-              >
-                {textNode}
-                {this.renderOperations()}
-              </Typography>
+              {resizeRef => {
+                let typography = (
+                  <Typography
+                    className={classNames(
+                      {
+                        [`${prefixCls}-${type}`]: type,
+                        [`${prefixCls}-disabled`]: disabled,
+                        [`${prefixCls}-ellipsis`]: rows,
+                        [`${prefixCls}-single-line`]: rows === 1 && !isEllipsis,
+                        [`${prefixCls}-ellipsis-single-line`]: cssTextOverflow,
+                        [`${prefixCls}-ellipsis-multiple-line`]: cssLineClamp,
+                      },
+                      className,
+                    )}
+                    style={{
+                      ...style,
+                      WebkitLineClamp: cssLineClamp ? rows : undefined,
+                    }}
+                    component={component}
+                    ref={composeRef(this.contentRef, resizeRef)}
+                    direction={direction}
+                    onClick={triggerType.indexOf('text') !== -1 ? this.onEditClick : () => {}}
+                    {...textProps}
+                  >
+                    {textNode}
+                    {this.renderOperations()}
+                  </Typography>
+                );
+
+                // If provided tooltip, we need wrap with span to let Tooltip inject events
+                if (cssEllipsis ? isNativeEllipsis : isEllipsis) {
+                  typography = (
+                    <Tooltip title={tooltip === true ? children : tooltip}>{typography}</Tooltip>
+                  );
+                }
+
+                return typography;
+              }}
             </ResizeObserver>
           );
         }}
