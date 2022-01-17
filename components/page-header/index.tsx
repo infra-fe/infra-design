@@ -1,7 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import ArrowLeftOutlined from '@ant-design/icons/ArrowLeftOutlined';
-import ArrowRightOutlined from '@ant-design/icons/ArrowRightOutlined';
+import { ArrowLeftOutlined, ArrowRightOutlined } from 'infra-design-icons';
 import ResizeObserver from 'rc-resize-observer';
 import { ConfigConsumer, ConfigConsumerProps, DirectionType } from '../config-provider';
 import { TagType } from '../tag';
@@ -9,6 +8,7 @@ import Breadcrumb, { BreadcrumbProps } from '../breadcrumb';
 import Avatar, { AvatarProps } from '../avatar';
 import TransButton from '../_util/transButton';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
+import useDestroyed from '../_util/hooks/useDestroyed';
 
 export interface PageHeaderProps {
   backIcon?: React.ReactNode;
@@ -121,8 +121,11 @@ const renderChildren = (prefixCls: string, children: React.ReactNode) => (
 
 const PageHeader: React.FC<PageHeaderProps> = props => {
   const [compact, updateCompact] = React.useState(false);
+  const isDestroyed = useDestroyed();
   const onResize = ({ width }: { width: number }) => {
-    updateCompact(width < 768);
+    if (!isDestroyed()) {
+      updateCompact(width < 768);
+    }
   };
   return (
     <ConfigConsumer>

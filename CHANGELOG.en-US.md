@@ -25,6 +25,26 @@ if you have some problem, welcome to connect `taofeng.yang@shopee.com` or `lay.z
 
 ---
 
+## 4.18.3
+
+`2022-01-10`
+
+- 🆕 Menu support `home` and `end` keyboard navigate. [#33642](https://github.com/ant-design/ant-design/pull/33642) [@dartamonov-vertex](https://github.com/dartamonov-vertex)
+- Table
+  - ⚡️ Improve Table perfermance significantly when mount and unmount. [#33554](https://github.com/ant-design/ant-design/pull/33554)
+  - 🐞 Fix Table emptynode fixed display. [#33610](https://github.com/ant-design/ant-design/pull/33610) [@hemengke1997](https://github.com/hemengke1997)
+  - 🐞 Fix Table tree data hover error. [#33638](https://github.com/ant-design/ant-design/pull/33638) [@LongHaoo](https://github.com/LongHaoo)
+- Form
+  - 🐞 Fix Form validateMessages is not correct in default locale. [#33511](https://github.com/ant-design/ant-design/pull/33511)
+  - 🐞 Fix Form.Item help with empty string makes layout shaking. [#33644](https://github.com/ant-design/ant-design/pull/33644)
+- 🐞 Fix Input.Textarea throws error on preact. [#33536](https://github.com/ant-design/ant-design/pull/33536) [@developit](https://github.com/developit)
+- 🐞 Fix PageHeader state update error after unmounted. [#33546](https://github.com/ant-design/ant-design/pull/33546) [@wuifdesign](https://github.com/wuifdesign)
+- 💄 Fix Select tag margin issue when using `tagRender`. [#33539](https://github.com/ant-design/ant-design/pull/33539)
+- 💄 Remove svg reset style for IE9-, fix svg elements being cutting style problem. [#33579](https://github.com/ant-design/ant-design/pull/33579)
+- TypeScript
+  - 🤖 Fix Upload types for pass generic. [#33543](https://github.com/ant-design/ant-design/pull/33543) [@woochanleee](https://github.com/woochanleee)
+  - 🤖 Fix Card.Grid props should expose Div Properties like `onClick`. [#33563](https://github.com/ant-design/ant-design/pull/33563) [@LongHaoo](https://github.com/LongHaoo)
+
 ## 4.18.2
 
 `2021-12-30`
@@ -392,7 +412,7 @@ if you have some problem, welcome to connect `taofeng.yang@shopee.com` or `lay.z
 
 `2021-06-23`
 
-- 🐞 Fix Menu to import `@ant-design/icons` icon directly to reduce bundle size without tree shaking. [#31011](https://github.com/ant-design/ant-design/pull/31011)
+- 🐞 Fix Menu to import `infra-design-icons` icon directly to reduce bundle size without tree shaking. [#31011](https://github.com/ant-design/ant-design/pull/31011)
 - 🐞 Fix Menu with overflow indicator popup do not follow current theme. [#31043](https://github.com/ant-design/ant-design/pull/31043)
 - 🐞 Fix Table styles not using `@{table-prefix-cls}` less variable. [#30983](https://github.com/ant-design/ant-design/pull/30983)
 - 🐞 Fix Input.Password hover border color in Form validation. [#30999](https://github.com/ant-design/ant-design/pull/30999)

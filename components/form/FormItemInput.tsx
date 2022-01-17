@@ -1,7 +1,11 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
-import { ISuccessFilled, ICloseFullfiled, INoticeCircleFilled } from 'infra-design-icons';
+import {
+  ISuccessFilled,
+  ICloseFullfiled,
+  INoticeCircleFilled,
+  LoadingOutlined,
+} from 'infra-design-icons';
 
 import Col, { ColProps } from '../grid/col';
 import { ValidateStatus } from './FormItem';

@@ -25,6 +25,26 @@ timeline: true
 
 ---
 
+## 4.18.3
+
+`2022-01-10`
+
+- 🆕 Menu 组件支持 `home`（跳转到第一项）和 `end`（跳转到最后一项）的键盘操作。[#33642](https://github.com/ant-design/ant-design/pull/33642) [@dartamonov-vertex](https://github.com/dartamonov-vertex)
+- Table
+  - ⚡️ 大幅优化 Table 渲染时和卸载时的性能。[#33554](https://github.com/ant-design/ant-design/pull/33554)
+  - 🐞 修复 Table 空状态未居中显示。[#33610](https://github.com/ant-design/ant-design/pull/33610) [@hemengke1997](https://github.com/hemengke1997)
+  - 🐞 修复 Table 树形数据展示 hover 高亮异常的问题。[#33638](https://github.com/ant-design/ant-design/pull/33638) [@LongHaoo](https://github.com/LongHaoo)
+- Form
+  - 🐞 修复 Form 在英文语言包下错误提示文案不生效的问题。[#33511](https://github.com/ant-design/ant-design/pull/33511)
+  - 🐞 修复 Form.Item `help` 使用空字符串的时候布局抖动的问题。[#33644](https://github.com/ant-design/ant-design/pull/33644)
+- 🐞 修复 Input.Textarea 在 preact 下报错的问题。[#33536](https://github.com/ant-design/ant-design/pull/33536) [@developit](https://github.com/developit)
+- 🐞 修复 PageHeader unmounted 后报 `React state update on an unmounted component` 的错误。[#33546](https://github.com/ant-design/ant-design/pull/33546) [@wuifdesign](https://github.com/wuifdesign)
+- 💄 修复 Select 使用 `tagRender` 时标签上下边距不统一的问题。[#33539](https://github.com/ant-design/ant-design/pull/33539)
+- 💄 移除 svg 针对 IE9- 的重设样式，修复全局样式影响部分 svg 元素的问题。[#33579](https://github.com/ant-design/ant-design/pull/33579)
+- TypeScript
+  - 🤖 修复 Upload 泛型定义。[#33543](https://github.com/ant-design/ant-design/pull/33543) [@woochanleee](https://github.com/woochanleee)
+  - 🤖 修复 Card.Grid 未能正常支持 `onClick` 的问题。[#33563](https://github.com/ant-design/ant-design/pull/33563) [@LongHaoo](https://github.com/LongHaoo)
+
 ## 4.18.2
 
 `2021-12-30`
@@ -392,7 +412,7 @@ timeline: true
 
 `2021-06-23`
 
-- 🐞 修复 Menu 直接导入 `@ant-design/icons` 的方式以减少不使用 Tree Shaking 的打包尺寸。[#31011](https://github.com/ant-design/ant-design/pull/31011)
+- 🐞 修复 Menu 直接导入 `infra-design-icons` 的方式以减少不使用 Tree Shaking 的打包尺寸。[#31011](https://github.com/ant-design/ant-design/pull/31011)
 - 🐞 修复 Menu 过长省略弹层没有跟随 `theme` 配置的问题。[#31043](https://github.com/ant-design/ant-design/pull/31043)
 - 🐞 修复 Table 某处样式代码没有使用 `@{table-prefix-cls}` less 变量可能导致样式覆盖失效的问题。[#30983](https://github.com/ant-design/ant-design/pull/30983)
 - 🐞 修复 Input.Password 校验失败时的 hover 边框色。[#30999](https://github.com/ant-design/ant-design/pull/30999)
@@ -2584,7 +2604,7 @@ Infra Design 4.0-rc 发布，发布文档请查看[此处](https://github.com/an
   - 🌟 范围选择器可以允许开始与结束时间为空。
   - 🌟 优化手工输入与键盘交互支持。
   - 🌟 支持 `inputReadOnly` 禁用手动输入。
-- 🌟 移除 Icon，使用 `@ant-design/icons` 代替。[#18217](https://github.com/ant-design/ant-design/pull/18217)
+- 🌟 移除 Icon，使用 `infra-design-icons` 代替。[#18217](https://github.com/ant-design/ant-design/pull/18217)
 - Skeleton
   - 🌟 支持 Skeleton.Avatar 占位组件。[#19898](https://github.com/ant-design/ant-design/pull/19898) [@Rustin-Liu](https://github.com/Rustin-Liu)
   - 🌟 支持 Skeleton.Button 占位组件。[#19699](https://github.com/ant-design/ant-design/pull/19699) [@Rustin-Liu](https://github.com/Rustin-Liu)
