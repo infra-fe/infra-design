@@ -15,7 +15,7 @@ You can make preview controlled.
 
 ```jsx
 import React, { useState } from 'react';
-import { Image, Button } from 'antd';
+import { Image, Button } from 'infrad';
 
 function ImageDemo() {
   const [visible, setVisible] = useState(false);
