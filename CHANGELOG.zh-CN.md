@@ -9,6 +9,7 @@ timeline: true
 
 | 版本号 | 更新内容 | 时间 |
 | --- | --- | --- |
+| 4.18.3 | 同步 antd 4.18.3 版本的更新 | 2022-01-17 |
 | 4.18.2 | 同步 antd 4.18.2 版本的更新 | 2022-01-04 |
 | 4.16.16 | 1. 修复了 alert 多行文字时居中问题<br/>2. 修改了 button 按钮字重为 500 | 2021-12-24 |
 | 4.16.15 | 根据[feedback](https://docs.google.com/document/d/1xtUxcpfCuE9SnWs6q24ix78LO-lEexMwmwyztmtmArE/edit#heading=h.8ch5ybkzq0nl)对组件的样式进行符合 shopee 设计规范的修改 | 2021-10-26 |
