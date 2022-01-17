@@ -9,6 +9,7 @@ timeline: true
 
 | version | update content | time |
 | --- | --- | --- |
+| 4.18.3 | Synchronize the update of antd 4.18.3 version | 2022-01-17 |
 | 4.18.2 | Synchronize the update of antd 4.18.2 version | 2022-01-04 |
 | 4.16.16 | 1. Fixed the centering issue when alert multi-line text was centered<br/>2. Modified the button font weight to 500 | 2021-12-24 |
 | 4.16.15 | According to [feedback](https://docs.google.com/document/d/1xtUxcpfCuE9SnWs6q24ix78LO-lEexMwmwyztmtmArE/edit#heading=h.8ch5ybkzq0nl), modify the style of the component to meet the shopee design specifications | 2021-10-26 |
