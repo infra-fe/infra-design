@@ -7,12 +7,13 @@ timeline: true
 
 ### We (infrad) made styling modifications to the antd components according to the shopee design specifications. The functions of the original antd components have not been changed, the functions of the original antd components have not been changed, and the functions of the original antd components have not been changed. Important things are said Three times, the specific modifications are as follows:
 
-| version | update content | time |
-| --- | --- | --- |
-| 4.18.3 | Synchronize the update of antd 4.18.3 version | 2022-01-17 |
-| 4.18.2 | Synchronize the update of antd 4.18.2 version | 2022-01-04 |
-| 4.16.16 | 1. Fixed the centering issue when alert multi-line text was centered<br/>2. Modified the button font weight to 500 | 2021-12-24 |
-| 4.16.15 | According to [feedback](https://docs.google.com/document/d/1xtUxcpfCuE9SnWs6q24ix78LO-lEexMwmwyztmtmArE/edit#heading=h.8ch5ybkzq0nl), modify the style of the component to meet the shopee design specifications | 2021-10-26 |
+| infrad version | antd version | update content | time |
+| --- | --- | --- | --- |
+| 4.18.4 | 4.18.3 | fix error-color difference | 2022-01-17 |
+| 4.18.3 | 4.18.3 | Synchronize the update of antd 4.18.3 version | 2022-01-17 |
+| 4.18.2 | 4.18.2 | Synchronize the update of antd 4.18.2 version | 2022-01-04 |
+| 4.16.16 | 4.16.15 | 1. Fixed the centering issue when alert multi-line text was centered<br/>2. Modified the button font weight to 500 | 2021-12-24 |
+| 4.16.15 | 4.16.15 | According to [feedback](https://docs.google.com/document/d/1xtUxcpfCuE9SnWs6q24ix78LO-lEexMwmwyztmtmArE/edit#heading=h.8ch5ybkzq0nl), modify the style of the component to meet the shopee design specifications | 2021-10-26 |
 
 if you have some problem, welcome to connect `taofeng.yang@shopee.com` or `lay.zhang@shopee.com`
 
