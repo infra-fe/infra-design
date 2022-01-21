@@ -54,7 +54,6 @@
   &-input {
     position: relative;
     display: inline-flex;
-    flex-direction: row-reverse;
     align-items: center;
     width: 100%;
 
@@ -77,11 +76,6 @@
 
       &[disabled] {
         background: transparent;
-      }
-
-      &::placeholder {
-        color: @infra-gray-6;
-        font-weight: 400;
       }
     }
 
@@ -113,9 +107,8 @@
 
   &-suffix {
     align-self: center;
-    margin-right: (@padding-xs / 2);
-    color: @infra-gray-7;
-    font-size: 16px;
+    margin-left: (@padding-xs / 2);
+    color: @disabled-color;
     line-height: 1;
     pointer-events: none;
 

@@ -15,7 +15,7 @@ Add or remove form items dynamically. `add` function support config initial valu
 
 ```jsx
 import { Form, Input, Button } from 'infrad';
-import { PlusOutlined, ITrash } from 'infra-design-icons';
+import { MinusCircleOutlined, PlusOutlined } from 'infra-design-icons';
 
 const formItemLayout = {
   labelCol: {
@@ -77,11 +77,9 @@ const DynamicFieldSet = () => {
                   <Input placeholder="passenger name" style={{ width: '60%' }} />
                 </Form.Item>
                 {fields.length > 1 ? (
-                  <Button
-                    shape="circle"
-                    icon={<ITrash />}
+                  <MinusCircleOutlined
+                    className="dynamic-delete-button"
                     onClick={() => remove(field.name)}
-                    style={{ marginLeft: '10px' }}
                   />
                 ) : null}
               </Form.Item>

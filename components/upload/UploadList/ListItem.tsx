@@ -1,7 +1,7 @@
 import * as React from 'react';
 import CSSMotion from 'rc-motion';
 import classNames from 'classnames';
-import { IEdit, ITrash, DownloadOutlined } from 'infra-design-icons';
+import { IView, ITrash, DownloadOutlined } from 'infra-design-icons';
 import Tooltip from '../../tooltip';
 import Progress from '../../progress';
 import { ConfigContext } from '../../config-provider';
@@ -201,7 +201,7 @@ const ListItem = React.forwardRef(
       opacity: 0.5,
     };
     const editClass = classNames({
-      [`${prefixCls}-edit`]: true,
+      [`${prefixCls}-view`]: true,
     });
     const previewIcon = showPreviewIcon ? (
       <a
@@ -214,7 +214,7 @@ const ListItem = React.forwardRef(
       >
         {typeof customPreviewIcon === 'function'
           ? customPreviewIcon(file)
-          : customPreviewIcon || <IEdit className={editClass} />}
+          : customPreviewIcon || <IView className={editClass} />}
       </a>
     ) : null;
 

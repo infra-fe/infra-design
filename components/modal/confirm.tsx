@@ -1,10 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {
-  ISuccessFilled,
-  ICloseFullfiled,
-  INoticeCircleFilled,
   InfoCircleOutlined,
+  CheckCircleOutlined,
+  CloseCircleOutlined,
+  ExclamationCircleOutlined,
 } from 'infra-design-icons';
 import { getConfirmLocale } from './locale';
 import type { ModalFuncProps } from './Modal';
@@ -115,7 +115,7 @@ export default function confirm(config: ModalFuncProps) {
 
 export function withWarn(props: ModalFuncProps): ModalFuncProps {
   return {
-    icon: <INoticeCircleFilled />,
+    icon: <ExclamationCircleOutlined />,
     okCancel: false,
     ...props,
     type: 'warning',
@@ -133,7 +133,7 @@ export function withInfo(props: ModalFuncProps): ModalFuncProps {
 
 export function withSuccess(props: ModalFuncProps): ModalFuncProps {
   return {
-    icon: <ISuccessFilled />,
+    icon: <CheckCircleOutlined />,
     okCancel: false,
     ...props,
     type: 'success',
@@ -142,7 +142,7 @@ export function withSuccess(props: ModalFuncProps): ModalFuncProps {
 
 export function withError(props: ModalFuncProps): ModalFuncProps {
   return {
-    icon: <ICloseFullfiled />,
+    icon: <CloseCircleOutlined />,
     okCancel: false,
     ...props,
     type: 'error',
@@ -151,7 +151,7 @@ export function withError(props: ModalFuncProps): ModalFuncProps {
 
 export function withConfirm(props: ModalFuncProps): ModalFuncProps {
   return {
-    icon: <INoticeCircleFilled />,
+    icon: <ExclamationCircleOutlined />,
     okCancel: true,
     ...props,
     type: 'confirm',
