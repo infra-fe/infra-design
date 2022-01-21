@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Dialog from 'rc-dialog';
 import classNames from 'classnames';
-import { ISelectorClose } from 'infra-design-icons';
+import { CloseOutlined } from 'infra-design-icons';
 import { getConfirmLocale } from './locale';
 import Button from '../button';
 import { LegacyButtonType, ButtonProps, convertLegacyProps } from '../button/button';
@@ -188,7 +188,7 @@ const Modal: React.FC<ModalProps> = props => {
 
   const closeIconToRender = (
     <span className={`${prefixCls}-close-x`}>
-      {closeIcon || <ISelectorClose className={`${prefixCls}-close-icon`} />}
+      {closeIcon || <CloseOutlined className={`${prefixCls}-close-icon`} />}
     </span>
   );
 

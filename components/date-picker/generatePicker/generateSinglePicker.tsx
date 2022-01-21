@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { ICalendar, ClockCircleOutlined, CloseCircleFilled } from 'infra-design-icons';
+import { CalendarOutlined, ClockCircleOutlined, CloseCircleFilled } from 'infra-design-icons';
 import RCPicker from 'rc-picker';
 import { PickerMode } from 'rc-picker/lib/interface';
 import { GenerateConfig } from 'rc-picker/lib/generate/index';
@@ -100,7 +100,9 @@ export default function generatePicker<DateType>(generateConfig: GenerateConfig<
                 <RCPicker<DateType>
                   ref={this.pickerRef}
                   placeholder={getPlaceholder(mergedPicker, locale, placeholder)}
-                  suffixIcon={mergedPicker === 'time' ? <ClockCircleOutlined /> : <ICalendar />}
+                  suffixIcon={
+                    mergedPicker === 'time' ? <ClockCircleOutlined /> : <CalendarOutlined />
+                  }
                   clearIcon={<CloseCircleFilled />}
                   prevIcon={<span className={`${prefixCls}-prev-icon`} />}
                   nextIcon={<span className={`${prefixCls}-next-icon`} />}

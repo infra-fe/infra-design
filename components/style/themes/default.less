@@ -14,7 +14,7 @@
 
 // -------- Colors -----------
 // >>> Primary
-@primary-color: @blue-6;
+@primary-color: @blue-5;
 @primary-color-hover: color(~`colorPalette('@{primary-color}', 5) `);
 @primary-color-active: color(~`colorPalette('@{primary-color}', 7) `);
 @primary-color-outline: fade(@primary-color, @outline-fade);
@@ -27,7 +27,7 @@
 @info-color-deprecated-border: color(~`colorPalette('@{info-color}', 3) `);
 
 // >>> Success
-@success-color: @green-6;
+@success-color: @green-5;
 @success-color-hover: color(~`colorPalette('@{success-color}', 5) `);
 @success-color-active: color(~`colorPalette('@{success-color}', 7) `);
 @success-color-outline: fade(@success-color, @outline-fade);
@@ -35,7 +35,7 @@
 @success-color-deprecated-border: color(~`colorPalette('@{success-color}', 3) `);
 
 // >>> Warning
-@warning-color: @gold-6;
+@warning-color: @gold-5;
 @warning-color-hover: color(~`colorPalette('@{warning-color}', 5) `);
 @warning-color-active: color(~`colorPalette('@{warning-color}', 7) `);
 @warning-color-outline: fade(@warning-color, @outline-fade);
@@ -113,12 +113,11 @@
 @font-size-base: 14px;
 @font-size-lg: @font-size-base + 2px;
 @font-size-sm: 12px;
-@heading-1-size: 30px; // 600, height 32
-@heading-2-size: 26px; // 600, height 28
-@heading-3-size: 22px; // 500, height 24
-@heading-4-size: 28px; // 500, height 22
-@heading-5-size: 18px; // 500, height 20
-@heading-6-size: 16px; // 500, height 18
+@heading-1-size: ceil(@font-size-base * 2.71);
+@heading-2-size: ceil(@font-size-base * 2.14);
+@heading-3-size: ceil(@font-size-base * 1.71);
+@heading-4-size: ceil(@font-size-base * 1.42);
+@heading-5-size: ceil(@font-size-base * 1.14);
 // https://github.com/ant-design/ant-design/issues/20210
 @line-height-base: 1.5715;
 @border-radius-base: 2px;
@@ -312,7 +311,7 @@
 @radio-size: 16px;
 @radio-top: 0.2em;
 @radio-border-width: 1px;
-@radio-dot-size: @radio-size - 10px;
+@radio-dot-size: @radio-size - 8px;
 @radio-dot-bg: #fff;
 @radio-dot-color: @primary-color;
 @radio-dot-disabled-color: fade(@black, 20%);
@@ -562,9 +561,9 @@
 // --
 @modal-header-padding-vertical: @padding-md;
 @modal-header-padding-horizontal: @padding-lg;
-@modal-body-padding:0 @padding-lg;
+@modal-body-padding: @padding-lg;
 @modal-header-bg: @component-background;
-@modal-header-padding: @modal-header-padding-horizontal;
+@modal-header-padding: @modal-header-padding-vertical @modal-header-padding-horizontal;
 @modal-header-border-width: @border-width-base;
 @modal-header-border-style: @border-style-base;
 @modal-header-title-line-height: 22px;
@@ -869,9 +868,9 @@
 // PageHeader
 // ---
 @page-header-padding: @padding-lg;
-@page-header-padding-vertical: @padding-xs;
-@page-header-padding-breadcrumb: @padding-md;
-@page-header-content-padding-vertical: @padding-lg;
+@page-header-padding-vertical: @padding-md;
+@page-header-padding-breadcrumb: @padding-sm;
+@page-header-content-padding-vertical: @padding-sm;
 @page-header-back-color: #000;
 @page-header-ghost-bg: inherit;
 @page-header-heading-title: @heading-4-size;
@@ -984,14 +983,6 @@
   @alert-with-description-no-icon-padding-vertical @alert-with-description-icon-size;
 @alert-icon-top: 8px + @font-size-base * (@line-height-base / 2) - (@font-size-base / 2);
 @alert-with-description-icon-size: 24px;
-@alert-infra-success-bg-color: #f2fbf4;
-@alert-infra-info-bg-color: #ebf2fb;
-@alert-infra-warning-bg-color: #fff6e1;
-@alert-infra-error-bg-color: #fff1f0;
-@alert-infra-success-border-color: #7ed898;
-@alert-infra-info-border-color: #4eabf5;
-@alert-infra-warning-border-color: #ffce3d;
-@alert-infra-error-border-color: #ff736f;
 
 // List
 // ---

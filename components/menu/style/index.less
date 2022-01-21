@@ -146,7 +146,6 @@
 
   &-item-selected {
     color: @menu-highlight-color;
-    font-weight: 500;
 
     a,
     a:hover {
@@ -206,12 +205,6 @@
   &-horizontal &-item,
   &-horizontal &-submenu-title {
     transition: border-color @animation-duration-slow, background @animation-duration-slow;
-    .@{menu-prefix-cls}-item-icon,
-    .@{iconfont-css-prefix} {
-      + span {
-        margin-left: 4px;
-      }
-    }
   }
 
   &-item,
@@ -400,7 +393,7 @@
           color: @menu-highlight-color;
 
           &::after {
-            border-bottom: 3px solid @menu-highlight-color;
+            border-bottom: 2px solid @menu-highlight-color;
           }
         }
       }
@@ -415,10 +408,10 @@
 
       &::after {
         position: absolute;
-        right: 0;
+        right: @menu-item-padding-horizontal;
         bottom: 0;
-        left: 0;
-        border-bottom: 3px solid transparent;
+        left: @menu-item-padding-horizontal;
+        border-bottom: 2px solid transparent;
         transition: border-color @animation-duration-slow @ease-in-out;
         content: '';
       }

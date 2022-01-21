@@ -103,7 +103,7 @@
       align-items: center;
       max-width: 100%;
       height: @form-item-label-height;
-      color: @infra-gray-10;
+      color: @label-color;
       font-size: @form-item-label-font-size;
 
       > .@{iconfont-css-prefix} {
@@ -147,7 +147,7 @@
 
       &::after {
         & when (@form-item-trailing-colon=true) {
-          content: ' ';
+          content: ':';
         }
         & when not (@form-item-trailing-colon=true) {
           content: ' ';
@@ -155,7 +155,7 @@
 
         position: relative;
         top: -0.5px;
-        margin: 0 @form-item-label-colon-margin-right 0 @form-item-label-colon-margin-right;
+        margin: 0 @form-item-label-colon-margin-right 0 @form-item-label-colon-margin-left;
       }
 
       &.@{form-item-prefix-cls}-no-colon::after {
@@ -195,10 +195,9 @@
   &-explain,
   &-extra {
     clear: both;
-    margin-top: 4px;
     color: @text-color-secondary;
-    font-size: @font-size-sm;
-    line-height: 14px;
+    font-size: @font-size-base;
+    line-height: @line-height-base;
     transition: color 0.3s @ease-out; // sync input color transition
     .explainAndExtraDistance((@form-item-margin-bottom - @form-font-height) / 2);
   }

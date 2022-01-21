@@ -315,9 +315,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    wrapper.find('.anticon-edit').at(0).simulate('click');
+    wrapper.find('.anticon-view').at(0).simulate('click');
     expect(handlePreview).toHaveBeenCalledWith(fileList[0]);
-    wrapper.find('.anticon-edit').at(1).simulate('click');
+    wrapper.find('.anticon-view').at(1).simulate('click');
     expect(handlePreview).toHaveBeenCalledWith(fileList[1]);
 
     wrapper.unmount();

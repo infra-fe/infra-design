@@ -156,13 +156,13 @@ exports[`renders ./components/upload/demo/crop-image.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -170,7 +170,7 @@ exports[`renders ./components/upload/demo/crop-image.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -1226,13 +1226,13 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -1240,7 +1240,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -1342,13 +1342,13 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -1356,7 +1356,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -1460,13 +1460,13 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -1474,7 +1474,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -1578,13 +1578,13 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -1592,7 +1592,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -1688,13 +1688,13 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -1702,7 +1702,7 @@ exports[`renders ./components/upload/demo/file-type.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -2085,13 +2085,13 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -2099,7 +2099,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -2178,13 +2178,13 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -2192,7 +2192,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -2271,13 +2271,13 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -2285,7 +2285,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -2364,13 +2364,13 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -2378,7 +2378,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>
@@ -2512,13 +2512,13 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
             title="Preview file"
           >
             <span
-              aria-label="edit"
-              class="anticon anticon-edit ant-upload-edit"
+              aria-label="view"
+              class="anticon anticon-view ant-upload-view"
               role="img"
             >
               <svg
                 aria-hidden="true"
-                data-icon="edit"
+                data-icon="view"
                 fill="currentColor"
                 focusable="false"
                 height="1em"
@@ -2526,7 +2526,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
                 width="1em"
               >
                 <path
-                  d="M13.77 4.54L11.65 2.4 9.53 4.54l2.12 2.12 2.12-2.12zm-2.83 2.82L8.82 5.24l-6.1 6.11-.22 2.33 2.33-.2 6.11-6.12zm1.42-5.65l2.12 2.12a1 1 0 010 1.41l-8.94 8.94a1 1 0 01-.62.29l-2.33.21a1 1 0 01-1.09-1.09l.22-2.33a1 1 0 01.29-.62l8.93-8.93a1 1 0 011.42 0z"
+                  d="M8 3a9.1 9.1 0 017.86 4.5 1 1 0 010 1A9.1 9.1 0 018 13 9.1 9.1 0 01.14 8.5a1 1 0 010-1A9.09 9.09 0 018 3zm0 1C5 4 2.4 5.6 1 8c1.4 2.4 4 4 7 4s5.6-1.6 7-4c-1.4-2.4-4-4-7-4zm0 .5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"
                 />
               </svg>
             </span>

@@ -1,10 +1,14 @@
 import * as React from 'react';
 import {
-  ISuccessFilled,
-  INoticeCircleFilled,
-  ICloseFullfiled,
-  IInformationFilled,
-  IClose,
+  CloseOutlined,
+  CheckCircleOutlined,
+  ExclamationCircleOutlined,
+  InfoCircleOutlined,
+  CloseCircleOutlined,
+  CheckCircleFilled,
+  ExclamationCircleFilled,
+  InfoCircleFilled,
+  CloseCircleFilled,
 } from 'infra-design-icons';
 import CSSMotion from 'rc-motion';
 import classNames from 'classnames';
@@ -47,17 +51,17 @@ export interface AlertProps {
 }
 
 const iconMapFilled = {
-  success: ISuccessFilled,
-  info: INoticeCircleFilled,
-  error: ICloseFullfiled,
-  warning: IInformationFilled,
+  success: CheckCircleFilled,
+  info: InfoCircleFilled,
+  error: CloseCircleFilled,
+  warning: ExclamationCircleFilled,
 };
 
 const iconMapOutlined = {
-  success: ISuccessFilled,
-  info: INoticeCircleFilled,
-  error: ICloseFullfiled,
-  warning: IInformationFilled,
+  success: CheckCircleOutlined,
+  info: InfoCircleOutlined,
+  error: CloseCircleOutlined,
+  warning: ExclamationCircleOutlined,
 };
 
 interface AlertInterface extends React.FC<AlertProps> {
@@ -78,7 +82,7 @@ const Alert: AlertInterface = ({
   showIcon,
   closable,
   closeText,
-  closeIcon = <IClose />,
+  closeIcon = <CloseOutlined />,
   action,
   ...props
 }) => {

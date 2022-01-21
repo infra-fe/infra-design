@@ -1,10 +1,10 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import {
-  ISuccessFilled,
-  ICloseFullfiled,
-  INoticeCircleFilled,
   LoadingOutlined,
+  CloseCircleFilled,
+  CheckCircleFilled,
+  ExclamationCircleFilled,
 } from 'infra-design-icons';
 
 import Col, { ColProps } from '../grid/col';
@@ -41,9 +41,9 @@ export interface FormItemInputProps {
 }
 
 const iconMap: { [key: string]: any } = {
-  success: ISuccessFilled,
-  warning: INoticeCircleFilled,
-  error: ICloseFullfiled,
+  success: CheckCircleFilled,
+  warning: ExclamationCircleFilled,
+  error: CloseCircleFilled,
   validating: LoadingOutlined,
 };
 

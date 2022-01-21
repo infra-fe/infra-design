@@ -15,7 +15,7 @@ Nest dynamic field need extends `field`. Pass `field.name` to nest item.
 
 ```jsx
 import { Form, Input, Button, Space } from 'infrad';
-import { MinusCircleOutlined, PlusOutlined, ITrash } from 'infra-design-icons';
+import { MinusCircleOutlined, PlusOutlined } from 'infra-design-icons';
 
 const Demo = () => {
   const onFinish = values => {
@@ -43,7 +43,7 @@ const Demo = () => {
                 >
                   <Input placeholder="Last Name" />
                 </Form.Item>
-                <Button shape="circle" icon={<ITrash />} onClick={() => remove(name)} />
+                <MinusCircleOutlined onClick={() => remove(name)} />
               </Space>
             ))}
             <Form.Item>

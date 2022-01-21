@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import {
-  ICalendar,
+  CalendarOutlined,
   ClockCircleOutlined,
   CloseCircleFilled,
   SwapRightOutlined,
@@ -76,7 +76,7 @@ export default function generateRangePicker<DateType>(
                 }
                 ref={this.pickerRef}
                 placeholder={getRangePlaceholder(picker, locale, placeholder)}
-                suffixIcon={picker === 'time' ? <ClockCircleOutlined /> : <ICalendar />}
+                suffixIcon={picker === 'time' ? <ClockCircleOutlined /> : <CalendarOutlined />}
                 clearIcon={<CloseCircleFilled />}
                 prevIcon={<span className={`${prefixCls}-prev-icon`} />}
                 nextIcon={<span className={`${prefixCls}-next-icon`} />}
