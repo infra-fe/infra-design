@@ -1,10 +1,10 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import {
-  ICloseFullfiled,
-  INoticeCircleFilled,
-  INoticeTriangleFilled,
-  ISuccessFilled,
+  CheckCircleFilled,
+  CloseCircleFilled,
+  ExclamationCircleFilled,
+  WarningFilled,
 } from 'infra-design-icons';
 
 import { ConfigContext } from '../config-provider';
@@ -15,10 +15,10 @@ import serverError from './serverError';
 import unauthorized from './unauthorized';
 
 export const IconMap = {
-  success: ISuccessFilled,
-  error: ICloseFullfiled,
-  info: INoticeCircleFilled,
-  warning: INoticeTriangleFilled,
+  success: CheckCircleFilled,
+  error: CloseCircleFilled,
+  info: ExclamationCircleFilled,
+  warning: WarningFilled,
 };
 
 export const ExceptionMap = {

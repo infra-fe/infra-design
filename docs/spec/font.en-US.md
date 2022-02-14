@@ -18,7 +18,7 @@ Text is a major channel for users to understand application content and complete
 
 ## Font Family
 
-In order to implement a good font system, the first thing is to choose an appropriate font family. Infra Design prefers the system default font family and then also provides a set of alternative font libraries to maintain readability for screens on different platforms and browsers and to make sure it's always user friendly, stable and professional to end user.
+In order to implement a good font system, the first thing is to choose an appropriate font family. In the font family of Infra Design, the Chinese font uses the system default interface font, and the English font uses Roboto by default for screens on different platforms and browsers and to make sure it's always user friendly, stable and professional to end user.
 
 ```css
 @font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,

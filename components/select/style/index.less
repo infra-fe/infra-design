@@ -10,7 +10,6 @@
 
 .select-selector() {
   position: relative;
-  color: @infra-gray-10;
   font-weight: 400;
   background-color: @select-background;
   border: @border-width-base @border-style-base @select-border-color;
@@ -70,7 +69,6 @@
   .reset-component();
   position: relative;
   display: inline-block;
-  color: @infra-gray-6;
   font-weight: 400;
   cursor: pointer;
 
@@ -127,14 +125,13 @@
     width: @font-size-sm;
     height: @font-size-sm;
     margin-top: (-@font-size-sm / 2);
-    color: @infra-gray-7;
+    color: @disabled-color;
     font-size: @font-size-sm;
     line-height: 1;
     text-align: center;
     pointer-events: none;
 
     .@{iconfont-css-prefix} {
-      color: @infra-gray-7;
       vertical-align: top;
       transition: transform 0.3s;
 

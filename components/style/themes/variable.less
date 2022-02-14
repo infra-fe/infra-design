@@ -150,7 +150,7 @@ html {
 // Popover background color
 @popover-background: @component-background;
 @popover-customize-border-color: @border-color-split;
-@font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+@font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial,
   'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
   'Noto Color Emoji';
 @code-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
@@ -236,7 +236,7 @@ html {
 @ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
 
 // Border color
-@border-color-base: @infra-gray-5; // base border outline a component
+@border-color-base: hsv(0, 0, 85%); // base border outline a component
 @border-color-split: hsv(0, 0, 94%); // split border inside a component
 @border-color-inverse: @white;
 @border-width-base: 1px; // width of the border for a component
@@ -253,7 +253,7 @@ html {
 
 // Disabled states
 @disabled-color: #b7b7b7;
-@disabled-bg: @infra-gray-3;
+@disabled-bg: @background-color-base;
 @disabled-active-bg: tint(@black, 90%);
 @disabled-color-dark: fade(#fff, 35%);
 
@@ -287,7 +287,7 @@ html {
 
 @btn-default-color: @text-color;
 @btn-default-bg: @component-background;
-@btn-default-border: @infra-gray-5;
+@btn-default-border: @border-color-base;
 
 @btn-danger-color: #fff;
 @btn-danger-bg: @error-color;
@@ -534,20 +534,20 @@ html {
 
 // Select
 // ---
-@select-border-color: @infra-gray-5;
-@select-item-selected-color: @blue-base;
+@select-border-color: @border-color-base;
+@select-item-selected-color: @primary-color;
 @select-item-selected-font-weight: 500;
 @select-dropdown-bg: @component-background;
 @select-item-selected-bg: @primary-1;
-@select-item-active-bg: @infra-gray-2;
+@select-item-active-bg: @item-hover-bg;
 @select-dropdown-vertical-padding: @dropdown-vertical-padding;
 @select-dropdown-font-size: @dropdown-font-size;
 @select-dropdown-line-height: @dropdown-line-height;
 @select-dropdown-height: 32px;
 @select-background: @component-background;
 @select-clear-background: @select-background;
-@select-selection-item-bg: @infra-gray-2;
-@select-selection-item-border-color: @infra-gray-5;
+@select-selection-item-bg: @background-color-base;
+@select-selection-item-border-color: @border-color-split;
 @select-single-item-height-lg: 40px;
 @select-multiple-item-height: 24px; // Normal 24px
 @select-multiple-item-height-lg: 32px;
