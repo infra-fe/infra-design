@@ -9,6 +9,7 @@ timeline: true
 
 | infrad version | antd version | update content | time |
 | --- | --- | --- | --- |
+| 4.18.5 | 4.18.3 | Roll back some components, details can be [View](https://docs.google.com/spreadsheets/d/1TvmnH4gNNt52CCLTn1GCuPlPDfjIQVHfbtauUOX3hdw/edit#gid=0) | 2022-02-25 |
 | 4.18.4 | 4.18.3 | fix error-color difference | 2022-01-17 |
 | 4.18.3 | 4.18.3 | Synchronize the update of antd 4.18.3 version | 2022-01-17 |
 | 4.18.2 | 4.18.2 | Synchronize the update of antd 4.18.2 version | 2022-01-04 |
