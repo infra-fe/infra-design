@@ -9,6 +9,7 @@ timeline: true
 
 | infrad 版本号 | 对应 antd 版本号 | 更新内容 | 时间 |
 | --- | --- | --- | --- |
+| 4.18.5 | 4.18.3 | 回滚部分组件，详情可[查看](https://docs.google.com/spreadsheets/d/1TvmnH4gNNt52CCLTn1GCuPlPDfjIQVHfbtauUOX3hdw/edit#gid=0) | 2022-02-25 |
 | 4.18.4 | 4.18.3 | 修复 error-color 颜色差异问题 | 2022-01-18 |
 | 4.18.3 | 4.18.3 | 同步 antd 4.18.3 版本的更新 | 2022-01-17 |
 | 4.18.2 | 4.18.2 | 同步 antd 4.18.2 版本的更新 | 2022-01-04 |
