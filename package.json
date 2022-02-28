@@ -78,7 +78,7 @@
     "pre-publish": "npm run test-all -- --skip-build",
     "prettier": "prettier -c --write **/*",
     "pretty-quick": "pretty-quick",
-    "pub": "npm run version && antd-tools run pub",
+    "pub": "npm run version && antd-tools run pub && node scripts/notice-seaTalk.js",
     "prepublishOnly": "antd-tools run guard",
     "site:theme": "npm run site:theme-dark && npm run site:theme-compact",
     "site:theme-dark": "cross-env ESBUILD=1 ANT_THEME=dark bisheng build -c ./site/bisheng.config.js",
