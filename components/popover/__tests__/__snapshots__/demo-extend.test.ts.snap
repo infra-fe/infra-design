@@ -3,7 +3,7 @@
 exports[`renders ./components/popover/demo/arrow-point-at-center.md extend context correctly 1`] = `
 Array [
   <button
-    class="ant-btn"
+    class="ant-btn ant-btn-default"
     type="button"
   >
     <span>
@@ -49,7 +49,7 @@ Array [
     </div>
   </div>,
   <button
-    class="ant-btn"
+    class="ant-btn ant-btn-default"
     type="button"
   >
     <span>
@@ -201,7 +201,7 @@ Array [
 exports[`renders ./components/popover/demo/hover-with-click.md extend context correctly 1`] = `
 Array [
   <button
-    class="ant-btn"
+    class="ant-btn ant-btn-default"
     type="button"
   >
     <span>
@@ -431,7 +431,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     style="margin-left:70px;white-space:nowrap"
   >
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -481,7 +481,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -531,7 +531,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -585,7 +585,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     style="width:70px;float:left"
   >
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -635,7 +635,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -685,7 +685,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -739,7 +739,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     style="width:70px;margin-left:304px"
   >
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -789,7 +789,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -839,7 +839,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -893,7 +893,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     style="margin-left:70px;clear:both;white-space:nowrap"
   >
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -943,7 +943,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -993,7 +993,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
       </div>
     </div>
     <button
-      class="ant-btn"
+      class="ant-btn ant-btn-default"
       type="button"
     >
       <span>
@@ -1049,7 +1049,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
 exports[`renders ./components/popover/demo/triggerType.md extend context correctly 1`] = `
 <div>
   <button
-    class="ant-btn"
+    class="ant-btn ant-btn-default"
     type="button"
   >
     <span>
@@ -1097,7 +1097,7 @@ exports[`renders ./components/popover/demo/triggerType.md extend context correct
     </div>
   </div>
   <button
-    class="ant-btn"
+    class="ant-btn ant-btn-default"
     type="button"
   >
     <span>
@@ -1145,7 +1145,7 @@ exports[`renders ./components/popover/demo/triggerType.md extend context correct
     </div>
   </div>
   <button
-    class="ant-btn"
+    class="ant-btn ant-btn-default"
     type="button"
   >
     <span>

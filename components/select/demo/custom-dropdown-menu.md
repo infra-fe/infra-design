@@ -14,67 +14,51 @@ title:
 Customize the dropdown menu via `dropdownRender`.
 
 ```jsx
-import { Select, Input } from 'infrad';
+import React, { useState } from 'react';
+import { Select, Divider, Input, Typography, Space } from 'infrad';
 import { PlusOutlined } from 'infra-design-icons';
 
 const { Option } = Select;
 
 let index = 0;
 
-class App extends React.Component {
-  state = {
-    items: ['jack', 'lucy'],
-    name: '',
+const App = () => {
+  const [items, setItems] = useState(['jack', 'lucy']);
+  const [name, setName] = useState('');
+
+  const onNameChange = event => {
+    setName(event.target.value);
   };
 
-  onNameChange = event => {
-    this.setState({
-      name: event.target.value,
-    });
+  const addItem = e => {
+    e.preventDefault();
+    setItems([...items, name || `New item ${index++}`]);
+    setName('');
   };
 
-  addItem = () => {
-    console.log('addItem');
-    const { items, name } = this.state;
-    this.setState({
-      items: [...items, name || `New item ${index++}`],
-      name: '',
-    });
-  };
-
-  render() {
-    const { items, name } = this.state;
-    return (
-      <Select
-        style={{ width: 240 }}
-        placeholder="custom dropdown render"
-        dropdownRender={menu => (
-          <div>
-            {menu}
-            <div style={{ padding: 8 }}>
-              <Input
-                style={{ flex: 'auto', width: 120, display: 'inline-block' }}
-                size="small"
-                value={name}
-                onChange={this.onNameChange}
-              />
-              <a
-                style={{ padding: '8px', display: 'inline-block', cursor: 'pointer' }}
-                onClick={this.addItem}
-              >
-                <PlusOutlined /> Add item
-              </a>
-            </div>
-          </div>
-        )}
-      >
-        {items.map(item => (
-          <Option key={item}>{item}</Option>
-        ))}
-      </Select>
-    );
-  }
-}
+  return (
+    <Select
+      style={{ width: 300 }}
+      placeholder="custom dropdown render"
+      dropdownRender={menu => (
+        <>
+          {menu}
+          <Divider style={{ margin: '8px 0' }} />
+          <Space align="center" style={{ padding: '0 8px 4px' }}>
+            <Input placeholder="Please enter item" value={name} onChange={onNameChange} />
+            <Typography.Link onClick={addItem} style={{ whiteSpace: 'nowrap' }}>
+              <PlusOutlined /> Add item
+            </Typography.Link>
+          </Space>
+        </>
+      )}
+    >
+      {items.map(item => (
+        <Option key={item}>{item}</Option>
+      ))}
+    </Select>
+  );
+};
 
 ReactDOM.render(<App />, mountNode);
 ```

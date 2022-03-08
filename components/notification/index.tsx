@@ -12,7 +12,13 @@ import classNames from 'classnames';
 import createUseNotification from './hooks/useNotification';
 import ConfigProvider, { globalConfig } from '../config-provider';
 
-export type NotificationPlacement = 'topLeft' | 'topRight' | 'bottomLeft' | 'bottomRight';
+export type NotificationPlacement =
+  | 'top'
+  | 'topLeft'
+  | 'topRight'
+  | 'bottom'
+  | 'bottomLeft'
+  | 'bottomRight';
 
 export type IconType = 'success' | 'info' | 'error' | 'warning';
 
@@ -81,6 +87,14 @@ function getPlacementStyle(
 ) {
   let style;
   switch (placement) {
+    case 'top':
+      style = {
+        left: 0,
+        right: 0,
+        top,
+        bottom: 'auto',
+      };
+      break;
     case 'topLeft':
       style = {
         left: 0,
@@ -93,6 +107,14 @@ function getPlacementStyle(
         right: 0,
         top,
         bottom: 'auto',
+      };
+      break;
+    case 'bottom':
+      style = {
+        left: 0,
+        right: 0,
+        top: 'auto',
+        bottom,
       };
       break;
     case 'bottomLeft':

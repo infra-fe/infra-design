@@ -2,20 +2,24 @@ import * as React from 'react';
 import classNames from 'classnames';
 import RcCascader from 'rc-cascader';
 import type {
-  CascaderProps as RcCascaderProps,
+  SingleCascaderProps as RcSingleCascaderProps,
+  MultipleCascaderProps as RcMultipleCascaderProps,
   ShowSearchType,
   FieldNames,
   BaseOptionType,
   DefaultOptionType,
 } from 'rc-cascader';
 import omit from 'rc-util/lib/omit';
-import { RightOutlined, RedoOutlined, LeftOutlined } from 'infra-design-icons';
+import { RightOutlined, LoadingOutlined, LeftOutlined } from 'infra-design-icons';
+import { useContext } from 'react';
 import devWarning from '../_util/devWarning';
 import { ConfigContext } from '../config-provider';
 import type { SizeType } from '../config-provider/SizeContext';
 import SizeContext from '../config-provider/SizeContext';
 import getIcons from '../select/utils/iconUtil';
-import { getTransitionName } from '../_util/motion';
+import { getTransitionName, getTransitionDirection, SelectCommonPlacement } from '../_util/motion';
+import { FormItemStatusContext } from '../form/context';
+import { getMergedStatus, getStatusClassNames, InputStatus } from '../_util/statusUtils';
 
 // Align the design since we use `rc-select` in root. This help:
 // - List search content will show all content
@@ -78,15 +82,24 @@ const defaultSearchRender: ShowSearchType['render'] = (inputValue, path, prefixC
   return optionList;
 };
 
-export interface CascaderProps<DataNodeType>
-  extends Omit<RcCascaderProps, 'checkable' | 'options'> {
+type SingleCascaderProps = Omit<RcSingleCascaderProps, 'checkable' | 'options'> & {
+  multiple?: false;
+};
+type MultipleCascaderProps = Omit<RcMultipleCascaderProps, 'checkable' | 'options'> & {
+  multiple: true;
+};
+
+type UnionCascaderProps = SingleCascaderProps | MultipleCascaderProps;
+
+export type CascaderProps<DataNodeType> = UnionCascaderProps & {
   multiple?: boolean;
   size?: SizeType;
   bordered?: boolean;
-
+  placement?: SelectCommonPlacement;
   suffixIcon?: React.ReactNode;
   options?: DataNodeType[];
-}
+  status?: InputStatus;
+};
 
 export interface CascaderRef {
   focus: () => void;
@@ -105,11 +118,14 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
     popupClassName,
     dropdownClassName,
     expandIcon,
+    placement,
     showSearch,
     allowClear = true,
     notFoundContent,
     direction,
     getPopupContainer,
+    status: customStatus,
+    showArrow,
     ...rest
   } = props;
 
@@ -122,10 +138,14 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
     direction: rootDirection,
     // virtual,
     // dropdownMatchSelectWidth,
-  } = React.useContext(ConfigContext);
+  } = useContext(ConfigContext);
 
   const mergedDirection = direction || rootDirection;
   const isRtl = mergedDirection === 'rtl';
+
+  // =================== Status =====================
+  const { status: contextStatus, hasFeedback } = useContext(FormItemStatusContext);
+  const mergedStatus = getMergedStatus(contextStatus, customStatus);
 
   // =================== Warning =====================
   if (process.env.NODE_ENV !== 'production') {
@@ -191,7 +211,7 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
 
   const loadingIcon = (
     <span className={`${prefixCls}-menu-item-loading-icon`}>
-      <RedoOutlined spin />
+      <LoadingOutlined spin />
     </span>
   );
 
@@ -202,11 +222,25 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
   );
 
   // ===================== Icons =====================
+  const mergedShowArrow = showArrow !== undefined ? showArrow : props.loading || !multiple;
   const { suffixIcon, removeIcon, clearIcon } = getIcons({
     ...props,
+    status: mergedStatus,
+    hasFeedback,
+    showArrow: mergedShowArrow,
     multiple,
     prefixCls,
   });
+
+  // ===================== Placement =====================
+  const getPlacement = () => {
+    if (placement !== undefined) {
+      return placement;
+    }
+    return direction === 'rtl'
+      ? ('bottomRight' as SelectCommonPlacement)
+      : ('bottomLeft' as SelectCommonPlacement);
+  };
 
   // ==================== Render =====================
   return (
@@ -220,10 +254,12 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
           [`${prefixCls}-rtl`]: isRtl,
           [`${prefixCls}-borderless`]: !bordered,
         },
+        getStatusClassNames(prefixCls, mergedStatus, hasFeedback),
         className,
       )}
       {...(restProps as any)}
       direction={mergedDirection}
+      placement={getPlacement()}
       notFoundContent={mergedNotFoundContent}
       allowClear={allowClear}
       showSearch={mergedShowSearch}
@@ -236,9 +272,14 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
       dropdownClassName={mergedDropdownClassName}
       dropdownPrefixCls={customizePrefixCls || cascaderPrefixCls}
       choiceTransitionName={getTransitionName(rootPrefixCls, '', choiceTransitionName)}
-      transitionName={getTransitionName(rootPrefixCls, 'slide-up', transitionName)}
+      transitionName={getTransitionName(
+        rootPrefixCls,
+        getTransitionDirection(placement),
+        transitionName,
+      )}
       getPopupContainer={getPopupContainer || getContextPopupContainer}
       ref={ref}
+      showArrow={hasFeedback || showArrow}
     />
   );
 }) as (<OptionType extends BaseOptionType | DefaultOptionType = DefaultOptionType>(

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-dynamic-require, no-console */
 const path = require('path');
 const axios = require('axios');
 
@@ -16,6 +17,7 @@ function noticeSeaTalk() {
       },
     })
     .then(res => {
+      console.log(res);
       console.log('Successful notice in seatalk.');
     })
     .catch(e => {
