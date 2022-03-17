@@ -4,8 +4,8 @@ import omit from 'rc-util/lib/omit';
 import { EyeOutlined, EyeInvisibleOutlined } from 'infra-design-icons';
 
 import { useState } from 'react';
+import Input, { InputRef, InputProps } from './Input';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
-import Input, { InputProps } from './Input';
 
 export interface PasswordProps extends InputProps {
   readonly inputPrefixCls?: string;
@@ -19,7 +19,7 @@ const ActionMap: Record<string, string> = {
   hover: 'onMouseOver',
 };
 
-const Password = React.forwardRef<any, PasswordProps>((props, ref) => {
+const Password = React.forwardRef<InputRef, PasswordProps>((props, ref) => {
   const [visible, setVisible] = useState(false);
 
   const onVisibleChange = () => {

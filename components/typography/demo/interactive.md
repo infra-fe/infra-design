@@ -15,7 +15,7 @@ Provide additional interactive capacity of editable and copyable.
 
 ```jsx
 import React, { useState } from 'react';
-import { Checkbox, Radio, Typography } from 'infrad';
+import { Checkbox, Radio, Typography, Divider } from 'infrad';
 import { CheckOutlined, HighlightOutlined, SmileOutlined, SmileFilled } from 'infra-design-icons';
 
 const { Paragraph } = Typography;
@@ -119,6 +119,22 @@ const Demo = () => {
       >
         {lengthLimitedStr}
       </Paragraph>
+      <Typography.Title editable level={1} style={{ margin: 0 }}>
+        h1. Ant Design
+      </Typography.Title>
+      <Typography.Title editable level={2} style={{ margin: 0 }}>
+        h2. Ant Design
+      </Typography.Title>
+      <Typography.Title editable level={3} style={{ margin: 0 }}>
+        h3. Ant Design
+      </Typography.Title>
+      <Typography.Title editable level={4} style={{ margin: 0 }}>
+        h4. Ant Design
+      </Typography.Title>
+      <Typography.Title editable level={5} style={{ margin: 0 }}>
+        h5. Ant Design
+      </Typography.Title>
+      <Divider />
       <Paragraph copyable>This is a copyable text.</Paragraph>
       <Paragraph copyable={{ text: 'Hello, Infra Design!' }}>Replace copy text.</Paragraph>
       <Paragraph

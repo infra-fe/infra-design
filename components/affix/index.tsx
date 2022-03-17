@@ -286,4 +286,10 @@ class Affix extends React.Component<AffixProps, AffixState> {
   }
 }
 
-export default Affix;
+const AffixFC = React.forwardRef<Affix, AffixProps>((props, ref) => <Affix {...props} ref={ref} />);
+
+if (process.env.NODE_ENV !== 'production') {
+  AffixFC.displayName = 'Affix';
+}
+
+export default AffixFC;

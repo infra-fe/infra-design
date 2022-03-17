@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { ReactNode } from 'react';
 import {
   LoadingOutlined,
   SearchOutlined,
@@ -8,6 +9,8 @@ import {
   IClose,
   ICloseFullfiled,
 } from 'infra-design-icons';
+import { ValidateStatus } from '../../form/FormItem';
+import { getFeedbackIcon } from '../../_util/statusUtils';
 
 export default function getIcons({
   suffixIcon,
@@ -16,7 +19,10 @@ export default function getIcons({
   removeIcon,
   loading,
   multiple,
+  hasFeedback,
+  status,
   prefixCls,
+  showArrow,
 }: {
   suffixIcon?: React.ReactNode;
   clearIcon?: React.ReactNode;
@@ -24,7 +30,10 @@ export default function getIcons({
   removeIcon?: React.ReactNode;
   loading?: boolean;
   multiple?: boolean;
+  hasFeedback?: boolean;
+  status?: ValidateStatus;
   prefixCls: string;
+  showArrow?: boolean;
 }) {
   // Clear Icon
   let mergedClearIcon = clearIcon;
@@ -32,12 +41,20 @@ export default function getIcons({
     mergedClearIcon = <ICloseFullfiled />;
   }
 
+  // Validation Feedback Icon
+  const getSuffixIconNode = (arrowIcon?: ReactNode) => (
+    <>
+      {showArrow !== false && arrowIcon}
+      {hasFeedback && getFeedbackIcon(prefixCls, status)}
+    </>
+  );
+
   // Arrow item icon
   let mergedSuffixIcon = null;
   if (suffixIcon !== undefined) {
-    mergedSuffixIcon = suffixIcon;
+    mergedSuffixIcon = getSuffixIconNode(suffixIcon);
   } else if (loading) {
-    mergedSuffixIcon = <LoadingOutlined spin />;
+    mergedSuffixIcon = getSuffixIconNode(<LoadingOutlined spin />);
   } else {
     const iconCls = `${prefixCls}-suffix`;
     mergedSuffixIcon = ({ open, showSearch }: { open: boolean; showSearch: boolean }) => {
