@@ -21049,6 +21049,7 @@ exports[`ConfigProvider components Select configProvider 1`] = `
               >
                 <div
                   class="config-select-item config-select-item-group"
+                  title="grp"
                 >
                   grp
                 </div>
@@ -21176,6 +21177,7 @@ exports[`ConfigProvider components Select configProvider componentSize large 1`]
               >
                 <div
                   class="config-select-item config-select-item-group"
+                  title="grp"
                 >
                   grp
                 </div>
@@ -21303,6 +21305,7 @@ exports[`ConfigProvider components Select configProvider componentSize middle 1`
               >
                 <div
                   class="config-select-item config-select-item-group"
+                  title="grp"
                 >
                   grp
                 </div>
@@ -21430,6 +21433,7 @@ exports[`ConfigProvider components Select configProvider virtual and dropdownMat
               >
                 <div
                   class="ant-select-item ant-select-item-group"
+                  title="grp"
                 >
                   grp
                 </div>
@@ -21557,6 +21561,7 @@ exports[`ConfigProvider components Select normal 1`] = `
               >
                 <div
                   class="ant-select-item ant-select-item-group"
+                  title="grp"
                 >
                   grp
                 </div>
@@ -21684,6 +21689,7 @@ exports[`ConfigProvider components Select prefixCls 1`] = `
               >
                 <div
                   class="prefix-Select-item prefix-Select-item-group"
+                  title="grp"
                 >
                   grp
                 </div>
