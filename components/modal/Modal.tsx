@@ -2,6 +2,7 @@ import * as React from 'react';
 import Dialog from 'rc-dialog';
 import classNames from 'classnames';
 import { CloseOutlined } from 'infra-design-icons';
+
 import { getConfirmLocale } from './locale';
 import Button from '../button';
 import { LegacyButtonType, ButtonProps, convertLegacyProps } from '../button/button';

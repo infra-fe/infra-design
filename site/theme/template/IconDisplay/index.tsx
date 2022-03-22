@@ -62,7 +62,7 @@ class IconDisplay extends React.PureComponent<IconDisplayProps, IconDisplayState
     const { searchKey = '', theme } = this.state;
     const categoryList = theme === ThemeType.Shopee ? categoriesShopee : categories;
 
-    const categoriesResult = Object.keys(categoryList)
+    const categoriesResult = Object.keys(categories)
       .map((key: CategoriesKeys) => {
         let iconList = categoryList[key];
         if (searchKey) {

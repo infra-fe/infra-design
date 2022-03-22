@@ -136,7 +136,6 @@ exports[`renders ./components/auto-complete/demo/certain-category.md extend cont
                 aria-label="search"
                 class="anticon anticon-search"
                 role="img"
-                style="color:#999999"
               >
                 <svg
                   aria-hidden="true"
@@ -1475,7 +1474,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
                             aria-label="search"
                             class="anticon anticon-search"
                             role="img"
-                            style="color:#999999"
                           >
                             <svg
                               aria-hidden="true"
@@ -1717,7 +1715,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
                             aria-label="search"
                             class="anticon anticon-search"
                             role="img"
-                            style="color:#999999"
                           >
                             <svg
                               aria-hidden="true"
@@ -2111,7 +2108,6 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md extend co
                 aria-label="search"
                 class="anticon anticon-search"
                 role="img"
-                style="color:"
               >
                 <svg
                   aria-hidden="true"

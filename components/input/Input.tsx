@@ -11,7 +11,7 @@ import {
   InputStatus,
 } from '../_util/statusUtils';
 import { ConfigContext } from '../config-provider';
-import { FormItemStatusContext } from '../form/context';
+import { FormItemStatusContext, NoFormStatus } from '../form/context';
 import { hasPrefixSuffix } from './utils';
 import devWarning from '../_util/devWarning';
 
@@ -113,11 +113,12 @@ export function triggerFocus(
 export interface InputProps
   extends Omit<
     RcInputProps,
-    'wrapperClassName' | 'groupClassName' | 'inputClassName' | 'affixWrapperClassName' | 'clearIcon'
+    'wrapperClassName' | 'groupClassName' | 'inputClassName' | 'affixWrapperClassName'
   > {
   size?: SizeType;
   status?: InputStatus;
   bordered?: boolean;
+  [key: `data-${string}`]: string;
 }
 
 const Input = forwardRef<InputRef, InputProps>((props, ref) => {
@@ -130,6 +131,8 @@ const Input = forwardRef<InputRef, InputProps>((props, ref) => {
     onFocus,
     suffix,
     allowClear,
+    addonAfter,
+    addonBefore,
     ...rest
   } = props;
   const { getPrefixCls, direction, input } = React.useContext(ConfigContext);
@@ -137,7 +140,7 @@ const Input = forwardRef<InputRef, InputProps>((props, ref) => {
   const prefixCls = getPrefixCls('input', customizePrefixCls);
   const inputRef = useRef<InputRef>(null);
 
-  // ===================== Status =====================
+  // ===================== Size =====================
   const size = React.useContext(SizeContext);
   const mergedSize = customSize || size;
 
@@ -146,7 +149,7 @@ const Input = forwardRef<InputRef, InputProps>((props, ref) => {
   const mergedStatus = getMergedStatus(contextStatus, customStatus);
 
   // ===================== Focus warning =====================
-  const inputHasPrefixSuffix = hasPrefixSuffix(props);
+  const inputHasPrefixSuffix = hasPrefixSuffix(props) || !!hasFeedback;
   const prevHasPrefixSuffix = useRef<boolean>(inputHasPrefixSuffix);
   useEffect(() => {
     if (inputHasPrefixSuffix && !prevHasPrefixSuffix.current) {
@@ -197,32 +200,34 @@ const Input = forwardRef<InputRef, InputProps>((props, ref) => {
     </>
   );
 
-  const withPrefixSuffix = hasPrefixSuffix(props) || hasFeedback;
+  // Allow clear
+  let mergedAllowClear;
+  if (typeof allowClear === 'object' && allowClear?.clearIcon) {
+    mergedAllowClear = allowClear;
+  } else if (allowClear) {
+    mergedAllowClear = { clearIcon: <CloseCircleFilled /> };
+  }
 
   return (
     <RcInput
       ref={composeRef(ref, inputRef)}
       prefixCls={prefixCls}
       autoComplete={input?.autoComplete}
-      allowClear={
-        allowClear
-          ? {
-              clearIcon: <CloseCircleFilled />,
-            }
-          : false
-      }
       {...rest}
       onBlur={handleBlur}
       onFocus={handleFocus}
       suffix={suffixNode}
+      allowClear={mergedAllowClear}
+      addonAfter={addonAfter && <NoFormStatus>{addonAfter}</NoFormStatus>}
+      addonBefore={addonBefore && <NoFormStatus>{addonBefore}</NoFormStatus>}
       inputClassName={classNames(
-        !withPrefixSuffix && {
+        {
           [`${prefixCls}-sm`]: mergedSize === 'small',
           [`${prefixCls}-lg`]: mergedSize === 'large',
           [`${prefixCls}-rtl`]: direction === 'rtl',
           [`${prefixCls}-borderless`]: !bordered,
         },
-        !withPrefixSuffix && getStatusClassNames(prefixCls, mergedStatus),
+        !inputHasPrefixSuffix && getStatusClassNames(prefixCls, mergedStatus),
       )}
       affixWrapperClassName={classNames(
         {

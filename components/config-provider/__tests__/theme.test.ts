@@ -1,4 +1,4 @@
-// import { kebabCase } from 'lodash';
+import { kebabCase } from 'lodash';
 import canUseDom from 'rc-util/lib/Dom/canUseDom';
 import ConfigProvider from '..';
 import { resetWarned } from '../../_util/devWarning';
@@ -23,13 +23,13 @@ describe('ConfigProvider.Theme', () => {
         },
       });
 
-      // const styles: any[] = Array.from(document.querySelectorAll('style'));
-      // const themeStyle = styles.find(style =>
-      //   style.getAttribute('rc-util-key').includes('-dynamic-theme'),
-      // );
-      // expect(themeStyle).toBeTruthy();
+      const styles: any[] = Array.from(document.querySelectorAll('style'));
+      const themeStyle = styles.find(style =>
+        style.getAttribute('rc-util-key').includes('-dynamic-theme'),
+      );
+      expect(themeStyle).toBeTruthy();
 
-      // expect(themeStyle.innerHTML).toContain(`--bamboo-${kebabCase(colorName)}: rgb(0, 0, 255)`);
+      expect(themeStyle.innerHTML).toContain(`--bamboo-${kebabCase(colorName)}: rgb(0, 0, 255)`);
     });
   });
 

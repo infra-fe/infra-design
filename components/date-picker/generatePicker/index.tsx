@@ -18,8 +18,9 @@ import PickerTag from '../PickerTag';
 import { TimePickerLocale } from '../../time-picker';
 import generateSinglePicker from './generateSinglePicker';
 import generateRangePicker from './generateRangePicker';
-import { QuickPicker, IQuickDatePicker } from './QuickPicker';
 import { tuple } from '../../_util/type';
+import { QuickPicker, IQuickDatePicker } from './QuickPicker';
+import { InputStatus } from '../../_util/statusUtils';
 
 export const Components = { button: PickerButton, rangeItem: PickerTag };
 
@@ -83,6 +84,7 @@ type InjectDefaultProps<Props> = Omit<
   size?: SizeType;
   placement?: DataPickerPlacement;
   bordered?: boolean;
+  status?: InputStatus;
 };
 
 export type PickerLocale = {
