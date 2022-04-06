@@ -1,14 +1,15 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import useState from 'rc-util/lib/hooks/useState';
 import { ArrowLeftOutlined, ArrowRightOutlined } from 'infra-design-icons';
 import ResizeObserver from 'rc-resize-observer';
 import { ConfigConsumer, ConfigConsumerProps, DirectionType } from '../config-provider';
 import { TagType } from '../tag';
 import Breadcrumb, { BreadcrumbProps } from '../breadcrumb';
 import Avatar, { AvatarProps } from '../avatar';
+import Space from '../space';
 import TransButton from '../_util/transButton';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
-import useDestroyed from '../_util/hooks/useDestroyed';
 
 export interface PageHeaderProps {
   backIcon?: React.ReactNode;
@@ -103,7 +104,11 @@ const renderTitle = (
           {tags && <span className={`${headingPrefixCls}-tags`}>{tags}</span>}
         </div>
       )}
-      {extra && <span className={`${headingPrefixCls}-extra`}>{extra}</span>}
+      {extra && (
+        <span className={`${headingPrefixCls}-extra`}>
+          <Space>{extra}</Space>
+        </span>
+      )}
     </div>
   );
 };
@@ -120,12 +125,9 @@ const renderChildren = (prefixCls: string, children: React.ReactNode) => (
 );
 
 const PageHeader: React.FC<PageHeaderProps> = props => {
-  const [compact, updateCompact] = React.useState(false);
-  const isDestroyed = useDestroyed();
+  const [compact, updateCompact] = useState(false);
   const onResize = ({ width }: { width: number }) => {
-    if (!isDestroyed()) {
-      updateCompact(width < 768);
-    }
+    updateCompact(width < 768, true);
   };
   return (
     <ConfigConsumer>

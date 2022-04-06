@@ -13670,7 +13670,6 @@ exports[`ConfigProvider components Input configProvider 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -13766,7 +13765,6 @@ exports[`ConfigProvider components Input configProvider componentSize large 1`] 
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -13792,7 +13790,7 @@ exports[`ConfigProvider components Input configProvider componentSize large 1`] 
   >
     <input
       action="click"
-      class="config-input"
+      class="config-input config-input-lg"
       type="password"
       value=""
     />
@@ -13862,7 +13860,6 @@ exports[`ConfigProvider components Input configProvider componentSize middle 1`]
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -13958,7 +13955,6 @@ exports[`ConfigProvider components Input configProvider virtual and dropdownMatc
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -14054,7 +14050,6 @@ exports[`ConfigProvider components Input normal 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -14150,7 +14145,6 @@ exports[`ConfigProvider components Input prefixCls 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"

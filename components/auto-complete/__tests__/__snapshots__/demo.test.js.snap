@@ -108,7 +108,6 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
                 aria-label="search"
                 class="anticon anticon-search"
                 role="img"
-                style="color:#999999"
               >
                 <svg
                   aria-hidden="true"
@@ -759,7 +758,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md correctly 1`] = `
                             aria-label="search"
                             class="anticon anticon-search"
                             role="img"
-                            style="color:#999999"
                           >
                             <svg
                               aria-hidden="true"
@@ -909,7 +907,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md correctly 1`] = `
                             aria-label="search"
                             class="anticon anticon-search"
                             role="img"
-                            style="color:#999999"
                           >
                             <svg
                               aria-hidden="true"
@@ -1150,7 +1147,6 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md correctly
                 aria-label="search"
                 class="anticon anticon-search"
                 role="img"
-                style="color:"
               >
                 <svg
                   aria-hidden="true"

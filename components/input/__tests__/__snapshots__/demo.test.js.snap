@@ -1227,7 +1227,7 @@ exports[`renders ./components/input/demo/borderless-debug.md correctly 1`] = `
     class="ant-input-affix-wrapper ant-input-affix-wrapper-borderless"
   >
     <input
-      class="ant-input"
+      class="ant-input ant-input-borderless"
       placeholder="Unbordered"
       type="text"
       value=""
@@ -1271,7 +1271,7 @@ exports[`renders ./components/input/demo/borderless-debug.md correctly 1`] = `
       ￥
     </span>
     <input
-      class="ant-input"
+      class="ant-input ant-input-borderless"
       type="text"
       value=""
     />
@@ -1290,7 +1290,7 @@ exports[`renders ./components/input/demo/borderless-debug.md correctly 1`] = `
       ￥
     </span>
     <input
-      class="ant-input ant-input-disabled"
+      class="ant-input ant-input-disabled ant-input-borderless"
       disabled=""
       type="text"
       value=""
@@ -1644,7 +1644,6 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -1720,7 +1719,6 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -2684,7 +2682,6 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -2766,7 +2763,6 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -2853,7 +2849,6 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:#999999"
             >
               <svg
                 aria-hidden="true"
@@ -2901,7 +2896,6 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
               aria-label="search"
               class="anticon anticon-search"
               role="img"
-              style="color:"
             >
               <svg
                 aria-hidden="true"
@@ -2936,7 +2930,7 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
           class="ant-input-affix-wrapper ant-input-affix-wrapper-lg"
         >
           <input
-            class="ant-input"
+            class="ant-input ant-input-lg"
             placeholder="input search text"
             type="text"
             value=""
@@ -2999,7 +2993,7 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
           class="ant-input-affix-wrapper ant-input-affix-wrapper-lg"
         >
           <input
-            class="ant-input"
+            class="ant-input ant-input-lg"
             placeholder="input search text"
             type="text"
             value=""
@@ -3260,7 +3254,7 @@ Array [
       </span>
     </span>
     <input
-      class="ant-input"
+      class="ant-input ant-input-lg"
       placeholder="large size"
       type="text"
       value=""
@@ -3330,7 +3324,7 @@ Array [
       </span>
     </span>
     <input
-      class="ant-input"
+      class="ant-input ant-input-sm"
       placeholder="small size"
       type="text"
       value=""

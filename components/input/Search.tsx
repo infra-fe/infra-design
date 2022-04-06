@@ -68,10 +68,7 @@ const Search = React.forwardRef<InputRef, SearchProps>((props, ref) => {
   const prefixCls = getPrefixCls('input-search', customizePrefixCls);
   const inputPrefixCls = getPrefixCls('input', customizeInputPrefixCls);
 
-  const searchIcon =
-    typeof enterButton === 'boolean' ? (
-      <SearchOutlined style={{ color: enterButton ? '' : '#999999' }} />
-    ) : null;
+  const searchIcon = typeof enterButton === 'boolean' ? <SearchOutlined /> : null;
   const btnClassName = `${prefixCls}-button`;
 
   let button: React.ReactNode;

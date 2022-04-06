@@ -1,6 +1,6 @@
-import * as React from 'react';
-import classNames from 'classnames';
 import { CloseCircleFilled } from 'infra-design-icons';
+import classNames from 'classnames';
+import * as React from 'react';
 import { DirectionType } from '../config-provider';
 import { SizeType } from '../config-provider/SizeContext';
 import { FormItemStatusContext, FormItemStatusContextProps } from '../form/context';
@@ -30,7 +30,6 @@ interface BasicProps {
   focused?: boolean;
   readOnly?: boolean;
   bordered: boolean;
-  isError?: boolean;
   hidden?: boolean;
 }
 
@@ -82,7 +81,6 @@ class ClearableLabeledInput extends React.Component<ClearableInputProps> {
       bordered,
       hidden,
       status: customStatus,
-      isError,
     } = this.props;
 
     const { status: contextStatus, hasFeedback } = statusContext;
@@ -105,7 +103,6 @@ class ClearableLabeledInput extends React.Component<ClearableInputProps> {
         [`${prefixCls}-affix-wrapper-borderless`]: !bordered,
         // className will go to addon wrapper
         [`${className}`]: !hasAddon(this.props) && className,
-        [`${prefixCls}-affix-wrapper-error`]: isError,
       },
     );
     return (
