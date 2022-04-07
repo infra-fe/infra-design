@@ -16,5 +16,5 @@ Basic usage example.
 ```jsx
 import { Input } from 'infrad';
 
-ReactDOM.render(<Input placeholder="Basic usage" size="small" />, mountNode);
+export default () => <Input placeholder="Basic usage" />;
 ```

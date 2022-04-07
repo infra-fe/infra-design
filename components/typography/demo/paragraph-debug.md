@@ -19,7 +19,7 @@ import { Typography } from 'infrad';
 
 const { Title, Paragraph, Text } = Typography;
 
-ReactDOM.render(
+export default () => (
   <>
     <Title>Introduction</Title>
     <Paragraph>
@@ -110,7 +110,6 @@ ReactDOM.render(
         </li>
       </ol>
     </Paragraph>
-  </>,
-  mountNode,
+  </>
 );
 ```

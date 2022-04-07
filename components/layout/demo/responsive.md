@@ -23,7 +23,7 @@ import { UploadOutlined, UserOutlined, VideoCameraOutlined } from 'infra-design-
 
 const { Header, Content, Footer, Sider } = Layout;
 
-ReactDOM.render(
+export default () => (
   <Layout>
     <Sider
       breakpoint="lg"
@@ -60,8 +60,7 @@ ReactDOM.render(
       </Content>
       <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
     </Layout>
-  </Layout>,
-  mountNode,
+  </Layout>
 );
 ```
 

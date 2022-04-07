@@ -1,5 +1,4 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
 import {
   InfoCircleOutlined,
   CheckCircleOutlined,
@@ -11,6 +10,7 @@ import type { ModalFuncProps } from './Modal';
 import ConfirmDialog from './ConfirmDialog';
 import { globalConfig } from '../config-provider';
 import devWarning from '../_util/devWarning';
+import { reactRender, reactUnmount } from '../_util/compatible';
 import destroyFns from './destroyFns';
 
 let defaultRootPrefixCls = '';
@@ -34,7 +34,6 @@ export default function confirm(config: ModalFuncProps) {
   let currentConfig = { ...config, close, visible: true } as any;
 
   function destroy(...args: any[]) {
-    ReactDOM.unmountComponentAtNode(container);
     const triggerCancel = args.some(param => param && param.triggerCancel);
     if (config.onCancel && triggerCancel) {
       config.onCancel(...args);
@@ -47,6 +46,8 @@ export default function confirm(config: ModalFuncProps) {
         break;
       }
     }
+
+    reactUnmount(container);
   }
 
   function render({ okText, cancelText, prefixCls: customizePrefixCls, ...props }: any) {
@@ -63,7 +64,7 @@ export default function confirm(config: ModalFuncProps) {
       const prefixCls = customizePrefixCls || `${rootPrefixCls}-modal`;
       const iconPrefixCls = getIconPrefixCls();
 
-      ReactDOM.render(
+      reactRender(
         <ConfirmDialog
           {...props}
           prefixCls={prefixCls}
@@ -85,6 +86,7 @@ export default function confirm(config: ModalFuncProps) {
         if (typeof config.afterClose === 'function') {
           config.afterClose();
         }
+
         destroy.apply(this, args);
       },
     };

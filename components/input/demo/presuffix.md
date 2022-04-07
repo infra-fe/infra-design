@@ -17,7 +17,7 @@ Add a prefix or suffix icons inside input.
 import { Input, Tooltip } from 'infrad';
 import { InfoCircleOutlined, IUser } from 'infra-design-icons';
 
-ReactDOM.render(
+export default () => (
   <>
     <Input
       placeholder="Enter your username"
@@ -34,7 +34,6 @@ ReactDOM.render(
     <br />
     <br />
     <Input prefix="￥" suffix="RMB" disabled />
-  </>,
-  mountNode,
+  </>
 );
 ```

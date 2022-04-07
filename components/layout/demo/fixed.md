@@ -19,7 +19,7 @@ import { Layout, Menu, Breadcrumb } from 'infrad';
 
 const { Header, Content, Footer } = Layout;
 
-ReactDOM.render(
+export default () => (
   <Layout>
     <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
       <div className="logo" />
@@ -40,8 +40,7 @@ ReactDOM.render(
       </div>
     </Content>
     <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
-  </Layout>,
-  mountNode,
+  </Layout>
 );
 ```
 

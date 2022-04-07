@@ -158,7 +158,7 @@ class DrawerForm extends React.Component {
   }
 }
 
-ReactDOM.render(<DrawerForm />, mountNode);
+export default () => <DrawerForm />;
 ```
 
 ```css

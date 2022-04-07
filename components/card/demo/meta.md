@@ -19,7 +19,7 @@ import { EditOutlined, EllipsisOutlined, SettingOutlined } from 'infra-design-ic
 
 const { Meta } = Card;
 
-ReactDOM.render(
+export default () => (
   <Card
     style={{ width: 300 }}
     cover={
@@ -39,7 +39,6 @@ ReactDOM.render(
       title="Card title"
       description="This is the description"
     />
-  </Card>,
-  mountNode,
+  </Card>
 );
 ```

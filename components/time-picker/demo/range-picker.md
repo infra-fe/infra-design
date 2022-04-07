@@ -16,5 +16,5 @@ Use time range picker with `TimePicker.RangePicker`.
 ```jsx
 import { TimePicker } from 'infrad';
 
-ReactDOM.render(<TimePicker.RangePicker />, mountNode);
+export default () => <TimePicker.RangePicker />;
 ```

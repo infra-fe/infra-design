@@ -16,12 +16,11 @@ title:
 ```jsx
 import { Switch } from 'infrad';
 
-ReactDOM.render(
+export default () => (
   <>
     <Switch defaultChecked />
     <br />
     <Switch size="small" defaultChecked />
-  </>,
-  mountNode,
+  </>
 );
 ```

@@ -20,7 +20,7 @@ import { UserOutlined, LaptopOutlined, NotificationOutlined } from 'infra-design
 const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
 
-ReactDOM.render(
+export default () => (
   <Layout>
     <Header className="header">
       <div className="logo" />
@@ -68,8 +68,7 @@ ReactDOM.render(
       </Layout>
     </Content>
     <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
-  </Layout>,
-  mountNode,
+  </Layout>
 );
 ```
 

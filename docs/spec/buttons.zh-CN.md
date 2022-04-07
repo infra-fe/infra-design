@@ -123,7 +123,11 @@ title: 按钮
 
 <img class="preview-img no-padding" align="right" src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*KGGWQLCBfm0AAAAAAAAAAABkARQnAQ">
 
-为避免页脚工具栏滥用，我们不推荐使用页脚工具栏，仅建议以下两种场景使用：
+为避免页脚工具栏滥用，我们不推荐使用页脚工具栏，仅建议以下两种场景使用： <<<<<<< HEAD
+
+=======
+
+> > > > > > > a67c0d28d3f42166dadb0f946eadebda5ea83cf8
 
 - 1）对象详情页，「推进」对象的进展，例如审批流「通过」「驳回」。
 - 2）异常复杂的表单页，表单的内容复杂到需要切分为多张卡片。
@@ -159,6 +163,10 @@ title: 按钮
 - 视图控制：控制内容展示的形式。例如：全屏、表格密度、放大缩小、布局控制等；
 - 其他：刷新、分享、设置等；
 - 溢出：被折叠的操作，若进行响应式设计，从右往左折叠至溢出操作。
+
+# <<<<<<< HEAD
+
+> > > > > > > a67c0d28d3f42166dadb0f946eadebda5ea83cf8
 
 ### 按钮分组
 

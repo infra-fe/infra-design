@@ -32,10 +32,9 @@ const props = {
   },
 };
 
-ReactDOM.render(
+export default () => (
   <Upload {...props}>
     <Button icon={<IUpload />}>Upload</Button>
-  </Upload>,
-  mountNode,
+  </Upload>
 );
 ```

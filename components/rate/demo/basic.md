@@ -16,5 +16,5 @@ The simplest usage.
 ```jsx
 import { Rate } from 'infrad';
 
-ReactDOM.render(<Rate />, mountNode);
+export default () => <Rate />;
 ```
