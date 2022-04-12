@@ -518,10 +518,18 @@
   .ant-back-top {
     right: 60px;
   }
+  .ant-back-top-rtl {
+    right: auto;
+    left: 60px;
+  }
 }
 @media screen and (max-width: 480px) {
   .ant-back-top {
     right: 20px;
+  }
+  .ant-back-top-rtl {
+    right: auto;
+    left: 20px;
   }
 }
 
@@ -992,6 +1000,15 @@
   margin-right: 8px;
   margin-left: 0;
 }
+.ant-badge-rtl .ant-badge-zoom-appear,
+.ant-badge-rtl .ant-badge-zoom-enter {
+  -webkit-animation-name: antZoomBadgeInRtl;
+          animation-name: antZoomBadgeInRtl;
+}
+.ant-badge-rtl .ant-badge-zoom-leave {
+  -webkit-animation-name: antZoomBadgeOutRtl;
+          animation-name: antZoomBadgeOutRtl;
+}
 .ant-ribbon-rtl {
   direction: rtl;
 }
@@ -1022,6 +1039,42 @@
 }
 .ant-ribbon-rtl.ant-ribbon-placement-start .ant-ribbon-corner::after {
   border-color: currentcolor transparent transparent currentcolor;
+}
+@-webkit-keyframes antZoomBadgeInRtl {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+@keyframes antZoomBadgeInRtl {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+@-webkit-keyframes antZoomBadgeOutRtl {
+  0% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+@keyframes antZoomBadgeOutRtl {
+  0% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+  100% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
 }
 
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
@@ -3052,6 +3105,9 @@ a.ant-btn-sm {
   height: auto;
   padding: 0;
   line-height: 18px;
+}
+.ant-picker-calendar-mini .ant-picker-cell::before {
+  pointer-events: none;
 }
 .ant-picker-calendar-full .ant-picker-panel {
   display: block;
@@ -12610,7 +12666,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
   text-align: center;
 }
 .ant-image-preview.ant-zoom-enter,
-.ant-image-preview.antzoom-appear {
+.ant-image-preview.ant-zoom-appear {
   transform: none;
   opacity: 0;
   -webkit-animation-duration: 0.3s;
@@ -16425,7 +16481,7 @@ textarea.ant-mentions {
   padding-bottom: 24px;
 }
 .ant-modal.ant-zoom-enter,
-.ant-modal.antzoom-appear {
+.ant-modal.ant-zoom-appear {
   transform: none;
   opacity: 0;
   -webkit-animation-duration: 0.3s;
@@ -16861,29 +16917,6 @@ textarea.ant-mentions {
   z-index: 1010;
   margin-right: 24px;
 }
-.ant-notification-top,
-.ant-notification-bottom,
-.ant-notification-topLeft,
-.ant-notification-bottomLeft {
-  margin-right: 0;
-  margin-left: 24px;
-}
-.ant-notification-top .ant-notification-fade-enter.ant-notification-fade-enter-active,
-.ant-notification-bottom .ant-notification-fade-enter.ant-notification-fade-enter-active,
-.ant-notification-topLeft .ant-notification-fade-enter.ant-notification-fade-enter-active,
-.ant-notification-bottomLeft .ant-notification-fade-enter.ant-notification-fade-enter-active,
-.ant-notification-top .ant-notification-fade-appear.ant-notification-fade-appear-active,
-.ant-notification-bottom .ant-notification-fade-appear.ant-notification-fade-appear-active,
-.ant-notification-topLeft .ant-notification-fade-appear.ant-notification-fade-appear-active,
-.ant-notification-bottomLeft .ant-notification-fade-appear.ant-notification-fade-appear-active {
-  -webkit-animation-name: NotificationLeftFadeIn;
-          animation-name: NotificationLeftFadeIn;
-}
-.ant-notification-top,
-.ant-notification-bottom {
-  margin-right: auto;
-  margin-left: auto;
-}
 .ant-notification-close-icon {
   font-size: 14px;
   cursor: pointer;
@@ -17044,26 +17077,6 @@ textarea.ant-mentions {
     opacity: 1;
   }
 }
-@-webkit-keyframes NotificationLeftFadeIn {
-  0% {
-    right: 384px;
-    opacity: 0;
-  }
-  100% {
-    right: 0;
-    opacity: 1;
-  }
-}
-@keyframes NotificationLeftFadeIn {
-  0% {
-    right: 384px;
-    opacity: 0;
-  }
-  100% {
-    right: 0;
-    opacity: 1;
-  }
-}
 @-webkit-keyframes NotificationFadeOut {
   0% {
     max-height: 150px;
@@ -17117,6 +17130,93 @@ textarea.ant-mentions {
 }
 .ant-notification-rtl .ant-notification-notice-btn {
   float: left;
+}
+.ant-notification-top,
+.ant-notification-bottom {
+  margin-right: 0;
+  margin-left: 0;
+}
+.ant-notification-top .ant-notification-fade-enter.ant-notification-fade-enter-active,
+.ant-notification-top .ant-notification-fade-appear.ant-notification-fade-appear-active {
+  -webkit-animation-name: NotificationTopFadeIn;
+          animation-name: NotificationTopFadeIn;
+}
+.ant-notification-bottom .ant-notification-fade-enter.ant-notification-fade-enter-active,
+.ant-notification-bottom .ant-notification-fade-appear.ant-notification-fade-appear-active {
+  -webkit-animation-name: NotificationBottomFadeIn;
+          animation-name: NotificationBottomFadeIn;
+}
+.ant-notification-topLeft,
+.ant-notification-bottomLeft {
+  margin-right: 0;
+  margin-left: 24px;
+}
+.ant-notification-topLeft .ant-notification-fade-enter.ant-notification-fade-enter-active,
+.ant-notification-bottomLeft .ant-notification-fade-enter.ant-notification-fade-enter-active,
+.ant-notification-topLeft .ant-notification-fade-appear.ant-notification-fade-appear-active,
+.ant-notification-bottomLeft .ant-notification-fade-appear.ant-notification-fade-appear-active {
+  -webkit-animation-name: NotificationLeftFadeIn;
+          animation-name: NotificationLeftFadeIn;
+}
+@-webkit-keyframes NotificationTopFadeIn {
+  0% {
+    margin-top: -100%;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@keyframes NotificationTopFadeIn {
+  0% {
+    margin-top: -100%;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes NotificationBottomFadeIn {
+  0% {
+    margin-bottom: -100%;
+    opacity: 0;
+  }
+  100% {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
+@keyframes NotificationBottomFadeIn {
+  0% {
+    margin-bottom: -100%;
+    opacity: 0;
+  }
+  100% {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes NotificationLeftFadeIn {
+  0% {
+    right: 384px;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+@keyframes NotificationLeftFadeIn {
+  0% {
+    right: 384px;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
 }
 
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
@@ -20873,6 +20973,12 @@ span.ant-radio + * {
   left: -9px;
   margin: 0;
   padding: 22px 0 4px;
+}
+.ant-steps-vertical.ant-steps-dot.ant-steps-small .ant-steps-item-icon {
+  margin-top: 10px;
+}
+.ant-steps-vertical.ant-steps-dot.ant-steps-small .ant-steps-item > .ant-steps-item-container > .ant-steps-item-tail {
+  top: 3.5px;
 }
 .ant-steps-vertical.ant-steps-dot .ant-steps-item:first-child .ant-steps-icon-dot {
   left: 0;
