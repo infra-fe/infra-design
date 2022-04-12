@@ -18,7 +18,7 @@ import { Typography, Space } from 'infrad';
 
 const { Text, Link } = Typography;
 
-ReactDOM.render(
+export default () => (
   <Space direction="vertical">
     <Text>Infra Design (default)</Text>
     <Text type="secondary">Infra Design (secondary)</Text>
@@ -36,7 +36,6 @@ ReactDOM.render(
     <Link href="https://ant.design" target="_blank">
       Infra Design (Link)
     </Link>
-  </Space>,
-  mountNode,
+  </Space>
 );
 ```

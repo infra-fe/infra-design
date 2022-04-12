@@ -15,8 +15,6 @@ import {
 import createUseMessage from './hooks/useMessage';
 import ConfigProvider, { globalConfig } from '../config-provider';
 
-export type NoticeType = 'info' | 'success' | 'error' | 'warning' | 'loading';
-
 let messageInstance: RCNotificationInstance | null;
 let defaultDuration = 3;
 let defaultTop: number;
@@ -130,6 +128,11 @@ const typeToIcon = {
   warning: INoticeCircleFilled,
   loading: LoadingOutlined,
 };
+
+export type NoticeType = keyof typeof typeToIcon;
+
+export const typeList = Object.keys(typeToIcon) as NoticeType[];
+
 export interface ArgsProps {
   content: React.ReactNode;
   duration?: number;
@@ -249,9 +252,7 @@ export function attachTypeApi(originalApi: MessageApi, type: NoticeType) {
   };
 }
 
-(['success', 'info', 'warning', 'error', 'loading'] as NoticeType[]).forEach(type =>
-  attachTypeApi(api, type),
-);
+typeList.forEach(type => attachTypeApi(api, type));
 
 api.warn = api.warning;
 api.useMessage = createUseMessage(getRCNotificationInstance, getRCNoticeProps);

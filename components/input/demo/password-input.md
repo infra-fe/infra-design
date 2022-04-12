@@ -17,7 +17,7 @@ Input type of password.
 import { Input, Space } from 'infrad';
 import { IView, IInvisible } from 'infra-design-icons';
 
-ReactDOM.render(
+export default () => (
   <Space direction="vertical">
     <Input.Password
       placeholder="input password"
@@ -27,7 +27,6 @@ ReactDOM.render(
       placeholder="input password"
       iconRender={visible => (visible ? <IView /> : <IInvisible />)}
     />
-  </Space>,
-  mountNode,
+  </Space>
 );
 ```

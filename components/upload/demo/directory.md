@@ -17,10 +17,9 @@ You can select and upload a whole directory.
 import { Upload, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
 
-ReactDOM.render(
+export default () => (
   <Upload action="https://www.mocky.io/v2/5cc8019d300000980a055e76" directory>
     <Button icon={<IUpload />}>Upload Directory</Button>
-  </Upload>,
-  mountNode,
+  </Upload>
 );
 ```

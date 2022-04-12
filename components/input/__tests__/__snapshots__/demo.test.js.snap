@@ -1159,7 +1159,7 @@ Array [
 
 exports[`renders ./components/input/demo/basic.md correctly 1`] = `
 <input
-  class="ant-input ant-input-sm"
+  class="ant-input"
   placeholder="Basic usage"
   type="text"
   value=""

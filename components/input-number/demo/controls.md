@@ -18,8 +18,7 @@ When you need to use a custom `Icon`, you can set the `Icon` component as the pr
 import { InputNumber } from 'infrad';
 import { ArrowUpOutlined, ArrowDownOutlined } from 'infra-design-icons';
 
-ReactDOM.render(
-  <InputNumber controls={{ upIcon: <ArrowUpOutlined />, downIcon: <ArrowDownOutlined /> }} />,
-  mountNode,
+export default () => (
+  <InputNumber controls={{ upIcon: <ArrowUpOutlined />, downIcon: <ArrowDownOutlined /> }} />
 );
 ```

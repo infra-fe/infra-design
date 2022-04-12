@@ -21,7 +21,7 @@ If you want specific control over the positioning and placement of the `Icon`, t
 import { Button, Tooltip } from 'infrad';
 import { ISearch } from 'infra-design-icons';
 
-ReactDOM.render(
+export default () => (
   <>
     <Tooltip title="search">
       <Button type="primary" shape="circle" icon={<ISearch />} />
@@ -79,7 +79,6 @@ ReactDOM.render(
       Search
     </Button>
     <Button icon={<ISearch />} size="large" href="https://www.google.com" />
-  </>,
-  mountNode,
+  </>
 );
 ```

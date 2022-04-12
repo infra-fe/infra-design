@@ -17,12 +17,11 @@ You can set `twoToneColor` prop to specific primary color for two-tone icons.
 import { Space } from 'infrad';
 import { SmileTwoTone, HeartTwoTone, CheckCircleTwoTone } from 'infra-design-icons';
 
-ReactDOM.render(
+export default () => (
   <Space>
     <SmileTwoTone />
     <HeartTwoTone twoToneColor="#eb2f96" />
     <CheckCircleTwoTone twoToneColor="#52c41a" />
-  </Space>,
-  mountNode,
+  </Space>
 );
 ```

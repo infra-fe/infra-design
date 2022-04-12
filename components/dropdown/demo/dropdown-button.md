@@ -41,7 +41,7 @@ const menu = (
   </Menu>
 );
 
-ReactDOM.render(
+export default () => (
   <Space wrap>
     <Dropdown.Button onClick={handleButtonClick} overlay={menu}>
       Dropdown
@@ -69,7 +69,6 @@ ReactDOM.render(
         <IArrowDown />
       </Button>
     </Dropdown>
-  </Space>,
-  mountNode,
+  </Space>
 );
 ```

@@ -16,11 +16,10 @@ Spin in a container.
 ```jsx
 import { Spin } from 'infrad';
 
-ReactDOM.render(
+export default () => (
   <div className="example">
     <Spin />
-  </div>,
-  mountNode,
+  </div>
 );
 ```
 
