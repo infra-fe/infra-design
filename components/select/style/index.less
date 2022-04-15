@@ -149,6 +149,10 @@
     .@{select-prefix-cls}-disabled & {
       cursor: not-allowed;
     }
+
+    > *:not(:last-child) {
+      margin-inline-end: @padding-xs;
+    }
   }
 
   // ========================== Clear ==========================
@@ -318,6 +322,10 @@
     background-color: transparent !important;
     border-color: transparent !important;
     box-shadow: none !important;
+  }
+
+  &&-in-form-item {
+    width: 100%;
   }
 }
 

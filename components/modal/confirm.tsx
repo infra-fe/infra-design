@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { render as reactRender, unmount as reactUnmount } from 'rc-util/lib/React/render';
 import {
   InfoCircleOutlined,
   CheckCircleOutlined,
@@ -10,7 +11,6 @@ import type { ModalFuncProps } from './Modal';
 import ConfirmDialog from './ConfirmDialog';
 import { globalConfig } from '../config-provider';
 import devWarning from '../_util/devWarning';
-import { reactRender, reactUnmount } from '../_util/compatible';
 import destroyFns from './destroyFns';
 
 let defaultRootPrefixCls = '';

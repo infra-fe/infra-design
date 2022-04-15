@@ -18,12 +18,7 @@ To see if bordered style applied to other tables.
 import { Table, Badge, Menu, Dropdown, Switch, Form, Space } from 'infrad';
 import { DownOutlined } from 'infra-design-icons';
 
-const menu = (
-  <Menu>
-    <Menu.Item>Action 1</Menu.Item>
-    <Menu.Item>Action 2</Menu.Item>
-  </Menu>
-);
+const menu = <Menu items={[{ label: 'Action 1' }, { label: 'Action 2' }]} />;
 
 function NestedTable() {
   const createExpandedRowRender = bordered => () => {

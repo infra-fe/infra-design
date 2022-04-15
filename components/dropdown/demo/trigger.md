@@ -18,16 +18,25 @@ import { Menu, Dropdown } from 'infrad';
 import { IArrowDown } from 'infra-design-icons';
 
 const menu = (
-  <Menu>
-    <Menu.Item key="0">
-      <a href="https://www.antgroup.com">1st menu item</a>
-    </Menu.Item>
-    <Menu.Item key="1">
-      <a href="https://www.aliyun.com">2nd menu item</a>
-    </Menu.Item>
-    <Menu.Divider />
-    <Menu.Item key="3">3rd menu item</Menu.Item>
-  </Menu>
+  <Menu
+    items={[
+      {
+        label: <a href="https://www.antgroup.com">1st menu item</a>,
+        key: '0',
+      },
+      {
+        label: <a href="https://www.aliyun.com">2nd menu item</a>,
+        key: '1',
+      },
+      {
+        type: 'divider',
+      },
+      {
+        label: '3rd menu item',
+        key: '3',
+      },
+    ]}
+  />
 );
 
 export default () => (

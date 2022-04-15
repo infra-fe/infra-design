@@ -21,6 +21,7 @@ export interface SpinProps {
   delay?: number;
   wrapperClassName?: string;
   indicator?: SpinIndicator;
+  children?: React.ReactNode;
 }
 
 export interface SpinState {
@@ -155,7 +156,13 @@ class Spin extends React.Component<SpinProps, SpinState> {
     const divProps = omit(restProps, ['spinning', 'delay', 'indicator']);
 
     const spinElement = (
-      <div {...divProps} style={style} className={spinClassName}>
+      <div
+        {...divProps}
+        style={style}
+        className={spinClassName}
+        aria-live="polite"
+        aria-busy={spinning}
+      >
         {renderIndicator(prefixCls, this.props)}
         {tip ? <div className={`${prefixCls}-text`}>{tip}</div> : null}
       </div>
