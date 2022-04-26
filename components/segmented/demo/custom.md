@@ -17,7 +17,7 @@ Custom each Segmented Item by ReactNode.
 import { Avatar, Segmented } from 'infrad';
 import { UserOutlined } from 'infra-design-icons';
 
-ReactDOM.render(
+export default () => (
   <>
     <Segmented
       options={[
@@ -91,7 +91,6 @@ ReactDOM.render(
         },
       ]}
     />
-  </>,
-  mountNode,
+  </>
 );
 ```

@@ -18,8 +18,8 @@ This demo was created for debugging Menu styles inside Dropdown.
 
 [#19150](https://github.com/ant-design/ant-design/pull/19150)
 
-```jsx
-import { Menu, Dropdown, MenuProps } from 'infrad';
+```tsx
+import { Menu, Dropdown, MenuProps, Space } from 'infrad';
 import { MailOutlined, AppstoreOutlined, SettingOutlined, IArrowDown } from 'infra-design-icons';
 
 type MenuItem = Required<MenuProps>['items'][number];
@@ -71,9 +71,11 @@ const menu = <Menu selectedKeys={['1']} openKeys={['sub1']} items={items} />;
 
 export default () => (
   <Dropdown overlay={menu}>
-    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
-      Hover to check menu style
-      <IArrowDown />
+    <a onClick={e => e.preventDefault()}>
+      <Space>
+        Hover to check menu style
+        <IArrowDown />
+      </Space>
     </a>
   </Dropdown>
 );

@@ -16,7 +16,7 @@ Disabled Segmented.
 ```jsx
 import { Segmented } from 'infrad';
 
-ReactDOM.render(
+export default () => (
   <>
     <Segmented options={['Map', 'Transit', 'Satellite']} disabled />
     <br />
@@ -29,7 +29,6 @@ ReactDOM.render(
         'Yearly',
       ]}
     />
-  </>,
-  mountNode,
+  </>
 );
 ```

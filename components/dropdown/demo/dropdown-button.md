@@ -74,8 +74,10 @@ export default () => (
     </Dropdown.Button>
     <Dropdown overlay={menu}>
       <Button>
-        Button
-        <IArrowDown />
+        <Space>
+          Button
+          <IArrowDown />
+        </Space>
       </Button>
     </Dropdown>
   </Space>

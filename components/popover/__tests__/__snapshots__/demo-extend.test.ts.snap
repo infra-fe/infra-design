@@ -13,7 +13,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -59,7 +59,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -110,7 +110,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -163,7 +163,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -211,7 +211,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -251,7 +251,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -299,7 +299,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -349,7 +349,7 @@ Array [
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -441,7 +441,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -491,7 +491,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -541,7 +541,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -595,7 +595,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -645,7 +645,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -695,7 +695,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -749,7 +749,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -799,7 +799,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -849,7 +849,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -903,7 +903,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -953,7 +953,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -1003,7 +1003,7 @@ exports[`renders ./components/popover/demo/placement.md extend context correctly
     <div>
       <div
         class="ant-popover"
-        style="opacity:0;pointer-events:none"
+        style="opacity:0"
       >
         <div
           class="ant-popover-content"
@@ -1059,7 +1059,7 @@ exports[`renders ./components/popover/demo/triggerType.md extend context correct
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -1107,7 +1107,7 @@ exports[`renders ./components/popover/demo/triggerType.md extend context correct
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -1155,7 +1155,7 @@ exports[`renders ./components/popover/demo/triggerType.md extend context correct
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"

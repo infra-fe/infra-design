@@ -17,7 +17,7 @@ Set `icon` for Segmented Item.
 import { Segmented } from 'infrad';
 import { AppstoreOutlined, BarsOutlined } from 'infra-design-icons';
 
-ReactDOM.render(
+export default () => (
   <Segmented
     options={[
       {
@@ -31,7 +31,6 @@ ReactDOM.render(
         icon: <AppstoreOutlined />,
       },
     ]}
-  />,
-  mountNode,
+  />
 );
 ```

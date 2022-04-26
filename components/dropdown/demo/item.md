@@ -14,7 +14,7 @@ title:
 Divider and disabled menu item.
 
 ```jsx
-import { Menu, Dropdown } from 'infrad';
+import { Menu, Dropdown, Space } from 'infrad';
 import { IArrowDown } from 'infra-design-icons';
 
 const menu = (
@@ -50,9 +50,11 @@ const menu = (
 
 export default () => (
   <Dropdown overlay={menu}>
-    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
-      Hover me
-      <IArrowDown />
+    <a onClick={e => e.preventDefault()}>
+      <Space>
+        Hover me
+        <IArrowDown />
+      </Space>
     </a>
   </Dropdown>
 );

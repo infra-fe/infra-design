@@ -15582,12 +15582,12 @@ exports[`ConfigProvider components Modal configProvider 1`] = `
     />
     <div
       class="config-modal-wrap"
-      role="dialog"
       tabindex="-1"
     >
       <div
+        aria-modal="true"
         class="config-modal"
-        role="document"
+        role="dialog"
         style="width:520px"
       >
         <div
@@ -15674,12 +15674,12 @@ exports[`ConfigProvider components Modal configProvider componentSize large 1`] 
     />
     <div
       class="config-modal-wrap"
-      role="dialog"
       tabindex="-1"
     >
       <div
+        aria-modal="true"
         class="config-modal"
-        role="document"
+        role="dialog"
         style="width:520px"
       >
         <div
@@ -15766,12 +15766,12 @@ exports[`ConfigProvider components Modal configProvider componentSize middle 1`]
     />
     <div
       class="config-modal-wrap"
-      role="dialog"
       tabindex="-1"
     >
       <div
+        aria-modal="true"
         class="config-modal"
-        role="document"
+        role="dialog"
         style="width:520px"
       >
         <div
@@ -15858,12 +15858,12 @@ exports[`ConfigProvider components Modal configProvider virtual and dropdownMatc
     />
     <div
       class="ant-modal-wrap"
-      role="dialog"
       tabindex="-1"
     >
       <div
+        aria-modal="true"
         class="ant-modal"
-        role="document"
+        role="dialog"
         style="width:520px"
       >
         <div
@@ -15950,12 +15950,12 @@ exports[`ConfigProvider components Modal normal 1`] = `
     />
     <div
       class="ant-modal-wrap"
-      role="dialog"
       tabindex="-1"
     >
       <div
+        aria-modal="true"
         class="ant-modal"
-        role="document"
+        role="dialog"
         style="width:520px"
       >
         <div
@@ -16042,12 +16042,12 @@ exports[`ConfigProvider components Modal prefixCls 1`] = `
     />
     <div
       class="prefix-Modal-wrap"
-      role="dialog"
       tabindex="-1"
     >
       <div
+        aria-modal="true"
         class="prefix-Modal"
-        role="document"
+        role="dialog"
         style="width:520px"
       >
         <div
@@ -18054,7 +18054,7 @@ exports[`ConfigProvider components Popconfirm configProvider 1`] = `
   <div>
     <div
       class="config-popover config-popconfirm"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-popover-content"
@@ -18137,7 +18137,7 @@ exports[`ConfigProvider components Popconfirm configProvider componentSize large
   <div>
     <div
       class="config-popover config-popconfirm"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-popover-content"
@@ -18220,7 +18220,7 @@ exports[`ConfigProvider components Popconfirm configProvider componentSize middl
   <div>
     <div
       class="config-popover config-popconfirm"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-popover-content"
@@ -18303,7 +18303,7 @@ exports[`ConfigProvider components Popconfirm configProvider virtual and dropdow
   <div>
     <div
       class="ant-popover ant-popconfirm"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -18386,7 +18386,7 @@ exports[`ConfigProvider components Popconfirm normal 1`] = `
   <div>
     <div
       class="ant-popover ant-popconfirm"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -18469,7 +18469,7 @@ exports[`ConfigProvider components Popconfirm prefixCls 1`] = `
   <div>
     <div
       class="prefix-Popconfirm prefix-Popconfirm"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="prefix-Popconfirm-content"
@@ -18552,7 +18552,7 @@ exports[`ConfigProvider components Popover configProvider 1`] = `
   <div>
     <div
       class="config-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-popover-content"
@@ -18584,7 +18584,7 @@ exports[`ConfigProvider components Popover configProvider componentSize large 1`
   <div>
     <div
       class="config-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-popover-content"
@@ -18616,7 +18616,7 @@ exports[`ConfigProvider components Popover configProvider componentSize middle 1
   <div>
     <div
       class="config-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-popover-content"
@@ -18648,7 +18648,7 @@ exports[`ConfigProvider components Popover configProvider virtual and dropdownMa
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -18680,7 +18680,7 @@ exports[`ConfigProvider components Popover normal 1`] = `
   <div>
     <div
       class="ant-popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-popover-content"
@@ -18712,7 +18712,7 @@ exports[`ConfigProvider components Popover prefixCls 1`] = `
   <div>
     <div
       class="prefix-Popover"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="prefix-Popover-content"
@@ -21018,7 +21018,7 @@ exports[`ConfigProvider components Select configProvider 1`] = `
   <div>
     <div
       class="config-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div
@@ -21146,7 +21146,7 @@ exports[`ConfigProvider components Select configProvider componentSize large 1`]
   <div>
     <div
       class="config-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div
@@ -21274,7 +21274,7 @@ exports[`ConfigProvider components Select configProvider componentSize middle 1`
   <div>
     <div
       class="config-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div
@@ -21402,7 +21402,7 @@ exports[`ConfigProvider components Select configProvider virtual and dropdownMat
   <div>
     <div
       class="ant-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div
@@ -21530,7 +21530,7 @@ exports[`ConfigProvider components Select normal 1`] = `
   <div>
     <div
       class="ant-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div
@@ -21658,7 +21658,7 @@ exports[`ConfigProvider components Select prefixCls 1`] = `
   <div>
     <div
       class="prefix-Select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div
@@ -21947,7 +21947,7 @@ exports[`ConfigProvider components Slider configProvider 1`] = `
   <div>
     <div
       class="config-tooltip config-slider-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-tooltip-content"
@@ -21998,7 +21998,7 @@ exports[`ConfigProvider components Slider configProvider componentSize large 1`]
   <div>
     <div
       class="config-tooltip config-slider-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-tooltip-content"
@@ -22049,7 +22049,7 @@ exports[`ConfigProvider components Slider configProvider componentSize middle 1`
   <div>
     <div
       class="config-tooltip config-slider-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-tooltip-content"
@@ -22100,7 +22100,7 @@ exports[`ConfigProvider components Slider configProvider virtual and dropdownMat
   <div>
     <div
       class="ant-tooltip ant-slider-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-tooltip-content"
@@ -22151,7 +22151,7 @@ exports[`ConfigProvider components Slider normal 1`] = `
   <div>
     <div
       class="ant-tooltip ant-slider-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-tooltip-content"
@@ -22202,7 +22202,7 @@ exports[`ConfigProvider components Slider prefixCls 1`] = `
   <div>
     <div
       class="prefix-Slider-tooltip prefix-Slider-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="prefix-Slider-tooltip-content"
@@ -22976,7 +22976,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                       <div>
                         <div
                           class="config-dropdown"
-                          style="opacity:0;pointer-events:none"
+                          style="opacity:0"
                         >
                           <div
                             class="config-table-filter-dropdown"
@@ -23256,7 +23256,7 @@ exports[`ConfigProvider components Table configProvider componentSize large 1`] 
                       <div>
                         <div
                           class="config-dropdown"
-                          style="opacity:0;pointer-events:none"
+                          style="opacity:0"
                         >
                           <div
                             class="config-table-filter-dropdown"
@@ -23536,7 +23536,7 @@ exports[`ConfigProvider components Table configProvider componentSize middle 1`]
                       <div>
                         <div
                           class="config-dropdown"
-                          style="opacity:0;pointer-events:none"
+                          style="opacity:0"
                         >
                           <div
                             class="config-table-filter-dropdown"
@@ -23816,7 +23816,7 @@ exports[`ConfigProvider components Table configProvider virtual and dropdownMatc
                       <div>
                         <div
                           class="ant-dropdown"
-                          style="opacity:0;pointer-events:none"
+                          style="opacity:0"
                         >
                           <div
                             class="ant-table-filter-dropdown"
@@ -24096,7 +24096,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                       <div>
                         <div
                           class="ant-dropdown"
-                          style="opacity:0;pointer-events:none"
+                          style="opacity:0"
                         >
                           <div
                             class="ant-table-filter-dropdown"
@@ -24376,7 +24376,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                       <div>
                         <div
                           class="ant-dropdown"
-                          style="opacity:0;pointer-events:none"
+                          style="opacity:0"
                         >
                           <div
                             class="prefix-Table-filter-dropdown"
@@ -25183,7 +25183,7 @@ Array [
   <div>
     <div
       class="config-picker-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-picker-panel-container"
@@ -26594,7 +26594,7 @@ Array [
   <div>
     <div
       class="config-picker-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-picker-panel-container"
@@ -28005,7 +28005,7 @@ Array [
   <div>
     <div
       class="config-picker-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-picker-panel-container"
@@ -29416,7 +29416,7 @@ Array [
   <div>
     <div
       class="ant-picker-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-picker-panel-container"
@@ -30827,7 +30827,7 @@ Array [
   <div>
     <div
       class="ant-picker-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-picker-panel-container"
@@ -32238,7 +32238,7 @@ Array [
   <div>
     <div
       class="prefix-TimePicker-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="prefix-TimePicker-panel-container"
@@ -33744,7 +33744,7 @@ Array [
   <div>
     <div
       class="config-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-tooltip-content"
@@ -33778,7 +33778,7 @@ Array [
   <div>
     <div
       class="config-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-tooltip-content"
@@ -33812,7 +33812,7 @@ Array [
   <div>
     <div
       class="config-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="config-tooltip-content"
@@ -33846,7 +33846,7 @@ Array [
   <div>
     <div
       class="ant-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-tooltip-content"
@@ -33880,7 +33880,7 @@ Array [
   <div>
     <div
       class="ant-tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="ant-tooltip-content"
@@ -33914,7 +33914,7 @@ Array [
   <div>
     <div
       class="prefix-Tooltip"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div
         class="prefix-Tooltip-content"
@@ -36749,7 +36749,7 @@ exports[`ConfigProvider components TreeSelect configProvider 1`] = `
   <div>
     <div
       class="config-select-dropdown config-tree-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div>
@@ -36885,7 +36885,7 @@ exports[`ConfigProvider components TreeSelect configProvider componentSize large
   <div>
     <div
       class="config-select-dropdown config-tree-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div>
@@ -37021,7 +37021,7 @@ exports[`ConfigProvider components TreeSelect configProvider componentSize middl
   <div>
     <div
       class="config-select-dropdown config-tree-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div>
@@ -37157,7 +37157,7 @@ exports[`ConfigProvider components TreeSelect configProvider virtual and dropdow
   <div>
     <div
       class="ant-select-dropdown ant-tree-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div>
@@ -37293,7 +37293,7 @@ exports[`ConfigProvider components TreeSelect normal 1`] = `
   <div>
     <div
       class="ant-select-dropdown ant-tree-select-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div>
@@ -37429,7 +37429,7 @@ exports[`ConfigProvider components TreeSelect prefixCls 1`] = `
   <div>
     <div
       class="prefix-TreeSelect-dropdown prefix-TreeSelect-dropdown"
-      style="opacity:0;pointer-events:none"
+      style="opacity:0"
     >
       <div>
         <div>
