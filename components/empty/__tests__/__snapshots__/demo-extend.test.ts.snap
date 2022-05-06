@@ -135,7 +135,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
       <div>
         <div
           class="ant-select-dropdown ant-select-dropdown-empty"
-          style="opacity:0;pointer-events:none"
+          style="opacity:0"
         >
           <div>
             <div
@@ -273,7 +273,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
       <div>
         <div
           class="ant-select-dropdown ant-tree-select-dropdown ant-select-dropdown-empty"
-          style="opacity:0;pointer-events:none"
+          style="opacity:0"
         >
           <div>
             <div
@@ -407,7 +407,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
       <div>
         <div
           class="ant-select-dropdown ant-cascader-dropdown ant-select-dropdown-empty"
-          style="opacity:0;pointer-events:none"
+          style="opacity:0"
         >
           <div>
             <div
@@ -573,10 +573,11 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
           <div>
             <div
               class="ant-dropdown"
-              style="opacity:0;pointer-events:none"
+              style="opacity:0"
             >
               <ul
                 class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light"
+                data-dropdown-inject="true"
                 data-menu-list="true"
                 role="menu"
                 tabindex="0"
@@ -595,7 +596,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"
@@ -628,7 +629,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"
@@ -655,7 +656,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"
@@ -677,7 +678,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"
@@ -878,10 +879,11 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
           <div>
             <div
               class="ant-dropdown"
-              style="opacity:0;pointer-events:none"
+              style="opacity:0"
             >
               <ul
                 class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light"
+                data-dropdown-inject="true"
                 data-menu-list="true"
                 role="menu"
                 tabindex="0"
@@ -900,7 +902,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"
@@ -933,7 +935,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"
@@ -960,7 +962,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"
@@ -982,7 +984,7 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
                 <div>
                   <div
                     class="ant-tooltip ant-dropdown-menu-inline-collapsed-tooltip"
-                    style="opacity:0;pointer-events:none"
+                    style="opacity:0"
                   >
                     <div
                       class="ant-tooltip-content"

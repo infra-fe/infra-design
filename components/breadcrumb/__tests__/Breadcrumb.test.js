@@ -1,14 +1,15 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { render } from '@testing-library/react';
-import '@testing-library/jest-dom';
+import { render } from '../../../tests/utils';
 import Breadcrumb from '../index';
 import mountTest from '../../../tests/shared/mountTest';
 import rtlTest from '../../../tests/shared/rtlTest';
+import accessibilityTest from '../../../tests/shared/accessibilityTest';
 
 describe('Breadcrumb', () => {
   mountTest(Breadcrumb);
   rtlTest(Breadcrumb);
+  accessibilityTest(Breadcrumb);
 
   const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
 
@@ -28,8 +29,7 @@ describe('Breadcrumb', () => {
         <MyCom />
       </Breadcrumb>,
     );
-    expect(errorSpy.mock.calls).toHaveLength(1);
-    expect(errorSpy.mock.calls[0][0]).toMatch(
+    expect(errorSpy).toHaveBeenCalledWith(
       "Warning: [antd: Breadcrumb] Only accepts Breadcrumb.Item and Breadcrumb.Separator as it's children",
     );
   });

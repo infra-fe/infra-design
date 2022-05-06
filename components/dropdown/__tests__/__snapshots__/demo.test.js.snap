@@ -110,28 +110,41 @@ Array [
 
 exports[`renders ./components/dropdown/demo/basic.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ant-dropdown-trigger"
 >
-  Hover me
-  <span
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down"
-    role="img"
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
   >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
+    <div
+      class="ant-space-item"
+      style="margin-right:16px"
     >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-  </span>
+      Hover me
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <span
+        aria-label="arrow-down"
+        class="anticon anticon-arrow-down"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="arrow-down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
 </a>
 `;
 
@@ -327,9 +340,60 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
       class="ant-btn ant-btn-default ant-dropdown-trigger"
       type="button"
     >
-      <span>
-        Button
-      </span>
+      <div
+        class="ant-space ant-space-horizontal ant-space-align-center"
+      >
+        <div
+          class="ant-space-item"
+          style="margin-right:16px"
+        >
+          Button
+        </div>
+        <div
+          class="ant-space-item"
+        >
+          <span
+            aria-label="arrow-down"
+            class="anticon anticon-arrow-down"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="arrow-down"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 16 16"
+              width="1em"
+            >
+              <path
+                d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/dropdown/demo/event.md correctly 1`] = `
+<a
+  class="ant-dropdown-trigger"
+>
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
+  >
+    <div
+      class="ant-space-item"
+      style="margin-right:16px"
+    >
+      Hover me, Click menu item
+    </div>
+    <div
+      class="ant-space-item"
+    >
       <span
         aria-label="arrow-down"
         class="anticon anticon-arrow-down"
@@ -349,62 +413,48 @@ exports[`renders ./components/dropdown/demo/dropdown-button.md correctly 1`] = `
           />
         </svg>
       </span>
-    </button>
+    </div>
   </div>
-</div>
-`;
-
-exports[`renders ./components/dropdown/demo/event.md correctly 1`] = `
-<a
-  class="ant-dropdown-trigger ant-dropdown-link"
->
-  Hover me, Click menu item
-  <span
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down"
-    role="img"
-  >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
-    >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-  </span>
 </a>
 `;
 
 exports[`renders ./components/dropdown/demo/item.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ant-dropdown-trigger"
 >
-  Hover me
-  <span
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down"
-    role="img"
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
   >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
+    <div
+      class="ant-space-item"
+      style="margin-right:16px"
     >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-  </span>
+      Hover me
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <span
+        aria-label="arrow-down"
+        class="anticon anticon-arrow-down"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="arrow-down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
 </a>
 `;
 
@@ -484,7 +534,7 @@ exports[`renders ./components/dropdown/demo/loading.md correctly 1`] = `
       class="ant-btn-group ant-btn-group-sm ant-dropdown-button"
     >
       <button
-        class="ant-btn ant-btn-primary ant-btn-loading"
+        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-loading"
         type="button"
       >
         <span
@@ -515,7 +565,7 @@ exports[`renders ./components/dropdown/demo/loading.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn ant-btn-primary ant-btn-icon-only ant-dropdown-trigger"
+        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only ant-dropdown-trigger"
         type="button"
       >
         <span
@@ -626,55 +676,81 @@ exports[`renders ./components/dropdown/demo/loading.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/menu-full.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ant-dropdown-trigger"
 >
-  Hover to check menu style
-  <span
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down"
-    role="img"
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
   >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
+    <div
+      class="ant-space-item"
+      style="margin-right:16px"
     >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-  </span>
+      Hover to check menu style
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <span
+        aria-label="arrow-down"
+        class="anticon anticon-arrow-down"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="arrow-down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
 </a>
 `;
 
 exports[`renders ./components/dropdown/demo/overlay-visible.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ant-dropdown-trigger"
 >
-  Hover me
-  <span
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down"
-    role="img"
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
   >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
+    <div
+      class="ant-space-item"
+      style="margin-right:16px"
     >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-  </span>
+      Hover me
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <span
+        aria-label="arrow-down"
+        class="anticon anticon-arrow-down"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="arrow-down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
 </a>
 `;
 
@@ -784,54 +860,80 @@ exports[`renders ./components/dropdown/demo/placement.md correctly 1`] = `
 
 exports[`renders ./components/dropdown/demo/sub-menu.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ant-dropdown-trigger"
 >
-  Cascading menu
-  <span
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down"
-    role="img"
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
   >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
+    <div
+      class="ant-space-item"
+      style="margin-right:16px"
     >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-  </span>
+      Cascading menu
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <span
+        aria-label="arrow-down"
+        class="anticon anticon-arrow-down"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="arrow-down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
 </a>
 `;
 
 exports[`renders ./components/dropdown/demo/trigger.md correctly 1`] = `
 <a
-  class="ant-dropdown-trigger ant-dropdown-link"
+  class="ant-dropdown-trigger"
 >
-  Click me
-  <span
-    aria-label="arrow-down"
-    class="anticon anticon-arrow-down"
-    role="img"
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
   >
-    <svg
-      aria-hidden="true"
-      data-icon="arrow-down"
-      fill="currentColor"
-      focusable="false"
-      height="1em"
-      viewBox="0 0 16 16"
-      width="1em"
+    <div
+      class="ant-space-item"
+      style="margin-right:16px"
     >
-      <path
-        d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
-      />
-    </svg>
-  </span>
+      Click me
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <span
+        aria-label="arrow-down"
+        class="anticon anticon-arrow-down"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="arrow-down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
 </a>
 `;

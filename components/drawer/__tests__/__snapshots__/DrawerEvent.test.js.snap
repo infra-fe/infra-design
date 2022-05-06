@@ -1,73 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Drawer render correctly 1`] = `
-<div>
-  <button
-    class="ant-btn ant-btn-default"
-    type="button"
-  >
-    <span>
-      open
-    </span>
-  </button>
+<div
+  class=""
+>
   <div
-    class=""
+    class="ant-drawer ant-drawer-right"
+    tabindex="-1"
   >
     <div
-      class="ant-drawer ant-drawer-right ant-drawer-open"
-      tabindex="-1"
+      class="ant-drawer-mask"
+    />
+    <div
+      class="ant-drawer-content-wrapper"
+      style="width: 378px; transform: translateX(100%);"
     >
       <div
-        class="ant-drawer-mask"
-      />
-      <div
-        class="ant-drawer-content-wrapper"
-        style="width: 378px;"
+        class="ant-drawer-content"
       >
         <div
-          class="ant-drawer-content"
+          class="ant-drawer-wrapper-body"
         >
           <div
-            class="ant-drawer-wrapper-body"
+            class="ant-drawer-header ant-drawer-header-close-only"
           >
             <div
-              class="ant-drawer-header ant-drawer-header-close-only"
+              class="ant-drawer-header-title"
             >
-              <div
-                class="ant-drawer-header-title"
+              <button
+                aria-label="Close"
+                class="ant-drawer-close"
+                type="button"
               >
-                <button
-                  aria-label="Close"
-                  class="ant-drawer-close"
-                  type="button"
+                <span
+                  aria-label="close"
+                  class="anticon anticon-close"
+                  role="img"
                 >
-                  <span
-                    aria-label="close"
-                    class="anticon anticon-close"
-                    role="img"
+                  <svg
+                    aria-hidden="true"
+                    data-icon="close"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    width="1em"
                   >
-                    <svg
-                      aria-hidden="true"
-                      data-icon="close"
-                      fill="currentColor"
-                      focusable="false"
-                      height="1em"
-                      viewBox="0 0 16 16"
-                      width="1em"
-                    >
-                      <path
-                        d="M13.65 2.15a.5.5 0 11.7.7L9.21 8l5.46 5.46a.5.5 0 11-.71.7L8.5 8.72l-5.46 5.46a.5.5 0 01-.7-.71L7.78 8 2.65 2.85a.5.5 0 11.7-.7L8.5 7.29l5.15-5.14z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-              </div>
+                    <path
+                      d="M13.65 2.15a.5.5 0 11.7.7L9.21 8l5.46 5.46a.5.5 0 11-.71.7L8.5 8.72l-5.46 5.46a.5.5 0 01-.7-.71L7.78 8 2.65 2.85a.5.5 0 11.7-.7L8.5 7.29l5.15-5.14z"
+                    />
+                  </svg>
+                </span>
+              </button>
             </div>
-            <div
-              class="ant-drawer-body"
-            >
-              Here is content of Drawer
-            </div>
+          </div>
+          <div
+            class="ant-drawer-body"
+          >
+            Here is content of Drawer
           </div>
         </div>
       </div>

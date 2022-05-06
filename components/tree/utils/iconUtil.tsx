@@ -7,15 +7,17 @@ import {
   PlusSquareOutlined,
   CaretDownFilled,
 } from 'infra-design-icons';
-import { AntTreeNodeProps } from '../Tree';
+import { AntTreeNodeProps, SwitcherIcon } from '../Tree';
 import { isValidElement, cloneElement } from '../../_util/reactNode';
 
 export default function renderSwitcherIcon(
   prefixCls: string,
-  switcherIcon: React.ReactNode,
+  switcherIcon: SwitcherIcon,
   showLine: boolean | { showLeafIcon: boolean } | undefined,
-  { isLeaf, expanded, loading }: AntTreeNodeProps,
-) {
+  treeNodeProps: AntTreeNodeProps,
+): React.ReactNode {
+  const { isLeaf, expanded, loading } = treeNodeProps;
+
   if (loading) {
     return <LoadingOutlined className={`${prefixCls}-switcher-loading-icon`} />;
   }
@@ -32,15 +34,20 @@ export default function renderSwitcherIcon(
     }
     return null;
   }
+
   const switcherCls = `${prefixCls}-switcher-icon`;
-  if (isValidElement(switcherIcon)) {
-    return cloneElement(switcherIcon, {
-      className: classNames(switcherIcon.props.className || '', switcherCls),
+
+  const switcher =
+    typeof switcherIcon === 'function' ? switcherIcon({ expanded: !!expanded }) : switcherIcon;
+
+  if (isValidElement(switcher)) {
+    return cloneElement(switcher, {
+      className: classNames(switcher.props.className || '', switcherCls),
     });
   }
 
-  if (switcherIcon) {
-    return switcherIcon;
+  if (switcher) {
+    return switcher;
   }
 
   if (showLine) {

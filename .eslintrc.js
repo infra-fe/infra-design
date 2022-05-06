@@ -24,6 +24,12 @@ module.exports = {
       webpack: {
         infrad: 'components',
       },
+      alias: {
+        map: [
+          ['infrad/es', 'antd/es'],
+          ['infrad/lib', 'antd/lib'],
+        ],
+      },
     },
   },
   parser: '@typescript-eslint/parser',

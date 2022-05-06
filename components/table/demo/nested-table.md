@@ -17,12 +17,7 @@ Showing more detailed info of every row.
 import { Table, Badge, Menu, Dropdown, Space } from 'infrad';
 import { DownOutlined } from 'infra-design-icons';
 
-const menu = (
-  <Menu>
-    <Menu.Item>Action 1</Menu.Item>
-    <Menu.Item>Action 2</Menu.Item>
-  </Menu>
-);
+const menu = <Menu items={[{ label: 'Action 1' }, { label: 'Action 2' }]} />;
 
 function NestedTable() {
   const expandedRowRender = () => {

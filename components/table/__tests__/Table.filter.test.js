@@ -3,8 +3,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
-import { render, fireEvent } from '@testing-library/react';
-import '@testing-library/jest-dom';
+import { render, fireEvent } from '../../../tests/utils';
 import Table from '..';
 import Input from '../../input';
 import Tooltip from '../../tooltip';
@@ -2198,5 +2197,113 @@ describe('Table.filter', () => {
       expect(renderedNames(wrapper)).toEqual(res1);
       expect(wrapper.find('Dropdown').first().props().visible).toBe(res2);
     });
+  });
+
+  it('filterDropdown should support filterResetToDefaultFilteredValue', () => {
+    jest.useFakeTimers();
+    jest.spyOn(console, 'error').mockImplementation(() => undefined);
+
+    const columnFilter = {
+      ...column,
+      filterMode: 'tree',
+      filterSearch: true,
+      defaultFilteredValue: ['girl'],
+    };
+
+    let wrapper = mount(
+      createTable({
+        columns: [columnFilter],
+      }),
+    );
+    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    act(() => {
+      jest.runAllTimers();
+      wrapper.update();
+    });
+    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(1);
+    wrapper
+      .find(Checkbox)
+      .find('input')
+      .simulate('change', { target: { checked: true } });
+    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(5);
+    wrapper.find('button.ant-btn-link').simulate('click', nativeEvent);
+    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(0);
+
+    wrapper = mount(
+      createTable({
+        columns: [
+          {
+            ...columnFilter,
+            filterResetToDefaultFilteredValue: true,
+          },
+        ],
+      }),
+    );
+    wrapper.find('span.ant-dropdown-trigger').simulate('click', nativeEvent);
+    act(() => {
+      jest.runAllTimers();
+      wrapper.update();
+    });
+    wrapper
+      .find(Checkbox)
+      .find('input')
+      .simulate('change', { target: { checked: true } });
+    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(5);
+    wrapper.find('button.ant-btn-link').simulate('click', nativeEvent);
+    expect(wrapper.find('.ant-tree-checkbox-checked').length).toBe(1);
+    expect(wrapper.find('.ant-tree-checkbox-checked+span').text()).toBe('Girl');
+  });
+
+  it('filteredKeys should all be controlled or not controlled', () => {
+    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    errorSpy.mockReset();
+    const tableData = [
+      {
+        key: '1',
+        name: 'John Brown',
+        age: 32,
+      },
+    ];
+    const columns = [
+      {
+        title: 'name',
+        dataIndex: 'name',
+        key: 'name',
+        filters: [],
+      },
+      {
+        title: 'age',
+        dataIndex: 'age',
+        key: 'age',
+        filters: [],
+      },
+    ];
+    render(
+      createTable({
+        columns,
+        data: tableData,
+      }),
+    );
+    expect(errorSpy).not.toBeCalled();
+    errorSpy.mockReset();
+    columns[0].filteredValue = [];
+    render(
+      createTable({
+        columns,
+        data: tableData,
+      }),
+    );
+    expect(errorSpy).toBeCalledWith(
+      'Warning: [antd: Table] Columns should all contain `filteredValue` or not contain `filteredValue`.',
+    );
+    errorSpy.mockReset();
+    columns[1].filteredValue = [];
+    render(
+      createTable({
+        columns,
+        data: tableData,
+      }),
+    );
+    expect(errorSpy).not.toBeCalled();
   });
 });

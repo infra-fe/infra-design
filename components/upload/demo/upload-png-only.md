@@ -18,7 +18,7 @@ import React, { useState } from 'react';
 import { Upload, Button, message } from 'infrad';
 import { IUpload } from 'infra-design-icons';
 
-const Uploader = () => {
+const App = () => {
   const props = {
     beforeUpload: file => {
       const isPNG = file.type === 'image/png';
@@ -38,5 +38,5 @@ const Uploader = () => {
   );
 };
 
-export default () => <Uploader />;
+export default App;
 ```

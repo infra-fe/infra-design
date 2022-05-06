@@ -374,6 +374,49 @@ exports[`Upload List should be uploading when upload a file 2`] = `
             </span>
           </span>
         </div>
+        <div
+          class="ant-upload-list-item-progress ant-fade-leave ant-fade-leave-start ant-fade"
+        >
+          <div
+            class="ant-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-default"
+          >
+            <div
+              class="ant-progress-outer"
+            >
+              <div
+                class="ant-progress-inner"
+              >
+                <div
+                  class="ant-progress-bg"
+                  style="width: 100%; height: 2px;"
+                />
+              </div>
+            </div>
+            <span
+              class="ant-progress-text"
+            >
+              <span
+                aria-label="success-filled"
+                class="anticon anticon-success-filled"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="success-filled"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                >
+                  <path
+                    d="M8 1a7 7 0 110 14A7 7 0 018 1zm3.15 4.93L7.1 9.98 4.85 7.73a.5.5 0 10-.7.71l2.6 2.6c.19.2.5.2.7 0l4.4-4.4a.5.5 0 00-.7-.71z"
+                  />
+                </svg>
+              </span>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
