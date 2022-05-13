@@ -12,14 +12,16 @@ import type {
 import omit from 'rc-util/lib/omit';
 import { RightOutlined, LoadingOutlined, LeftOutlined } from 'infra-design-icons';
 import { useContext } from 'react';
-import devWarning from '../_util/devWarning';
+import warning from '../_util/warning';
 import { ConfigContext } from '../config-provider';
 import type { SizeType } from '../config-provider/SizeContext';
 import SizeContext from '../config-provider/SizeContext';
 import getIcons from '../select/utils/iconUtil';
-import { getTransitionName, getTransitionDirection, SelectCommonPlacement } from '../_util/motion';
+import type { SelectCommonPlacement } from '../_util/motion';
+import { getTransitionName, getTransitionDirection } from '../_util/motion';
 import { FormItemInputContext } from '../form/context';
-import { getMergedStatus, getStatusClassNames, InputStatus } from '../_util/statusUtils';
+import type { InputStatus } from '../_util/statusUtils';
+import { getMergedStatus, getStatusClassNames } from '../_util/statusUtils';
 
 // Align the design since we use `rc-select` in root. This help:
 // - List search content will show all content
@@ -155,19 +157,17 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
   const mergedStatus = getMergedStatus(contextStatus, customStatus);
 
   // =================== Warning =====================
-  if (process.env.NODE_ENV !== 'production') {
-    devWarning(
-      popupClassName === undefined,
-      'Cascader',
-      '`popupClassName` is deprecated. Please use `dropdownClassName` instead.',
-    );
+  warning(
+    popupClassName === undefined,
+    'Cascader',
+    '`popupClassName` is deprecated. Please use `dropdownClassName` instead.',
+  );
 
-    devWarning(
-      !multiple || !props.displayRender,
-      'Cascader',
-      '`displayRender` not work on `multiple`. Please use `tagRender` instead.',
-    );
-  }
+  warning(
+    !multiple || !props.displayRender,
+    'Cascader',
+    '`displayRender` not work on `multiple`. Please use `tagRender` instead.',
+  );
 
   // =================== No Found ====================
   const mergedNotFoundContent = notFoundContent || renderEmpty('Cascader');

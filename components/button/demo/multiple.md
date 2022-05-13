@@ -14,7 +14,8 @@ title:
 If you need several buttons, we recommend that you use 1 primary button + n secondary buttons, and if there are more than three operations, you can group some of them into [Dropdown.Button](/components/dropdown/#components-dropdown-demo-dropdown-button).
 
 ```tsx
-import { Button, Menu, Dropdown, MenuProps } from 'infrad';
+import type { MenuProps } from 'infrad';
+import { Button, Menu, Dropdown } from 'infrad';
 
 const onMenuClick: MenuProps['onClick'] = e => {
   console.log('click', e);

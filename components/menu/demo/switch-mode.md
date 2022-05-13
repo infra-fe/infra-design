@@ -13,8 +13,9 @@ title:
 
 Show the dynamic switching mode (between `inline` and `vertical`).
 
-```jsx
-import { Menu, Switch, Divider, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Menu, Switch, Divider } from 'infrad';
 import {
   MailOutlined,
   CalendarOutlined,

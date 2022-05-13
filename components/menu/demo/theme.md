@@ -13,8 +13,9 @@ title:
 
 There are two built-in themes: `light` and `dark`. The default value is `light`.
 
-```jsx
-import { Menu, Switch, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Menu, Switch } from 'infrad';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from 'infra-design-icons';
 
 type MenuItem = Required<MenuProps>['items'][number];

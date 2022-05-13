@@ -13,8 +13,9 @@ title:
 
 Click the menu and you will see that all the other menus gets collapsed to keep the entire menu compact.
 
-```jsx
-import { Menu, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Menu } from 'infrad';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
 
 type MenuItem = Required<MenuProps>['items'][number];

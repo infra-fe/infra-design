@@ -16,7 +16,8 @@ buggy!
 
 ```tsx
 import * as React from 'react';
-import { Menu, MenuProps, Switch } from 'infrad';
+import type { MenuProps } from 'infrad';
+import { Menu, Switch } from 'infrad';
 import { MailOutlined, AppstoreOutlined } from 'infra-design-icons';
 
 type MenuItem = Required<MenuProps>['items'][number];

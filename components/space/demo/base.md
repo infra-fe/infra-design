@@ -17,22 +17,20 @@ Crowded components horizontal spacing.
 import { Button, Space, Upload, Popconfirm } from 'infrad';
 import { UploadOutlined } from 'infra-design-icons';
 
-function SpaceDemo() {
-  return (
-    <Space>
-      Space
-      <Button type="primary">Button</Button>
-      <Upload>
-        <Button>
-          <UploadOutlined /> Click to Upload
-        </Button>
-      </Upload>
-      <Popconfirm title="Are you sure delete this task?" okText="Yes" cancelText="No">
-        <Button>Confirm</Button>
-      </Popconfirm>
-    </Space>
-  );
-}
+const App = () => (
+  <Space>
+    Space
+    <Button type="primary">Button</Button>
+    <Upload>
+      <Button>
+        <UploadOutlined /> Click to Upload
+      </Button>
+    </Upload>
+    <Popconfirm title="Are you sure delete this task?" okText="Yes" cancelText="No">
+      <Button>Confirm</Button>
+    </Popconfirm>
+  </Space>
+);
 
-export default () => <SpaceDemo />;
+export default App;
 ```

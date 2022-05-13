@@ -10,8 +10,9 @@ debug: true
 
 修改内容前，请尝试此 Demo 查看样式是否抖动。
 
-```jsx
-import { Layout, Menu, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Layout, Menu } from 'infrad';
 import {
   TeamOutlined,
   UserOutlined,

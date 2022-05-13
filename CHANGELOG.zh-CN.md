@@ -9,6 +9,7 @@ timeline: true
 
 | infrad 版本号 | 对应 antd 版本号 | 更新内容 | 时间 |
 | --- | --- | --- | --- |
+| 4.20.4 | 4.20.4 | 同步 antd 4.20.4 版本的更新 | 2022-05-13 |
 | 4.20.0 | 4.20.0 | 同步 antd 4.20.0 版本的更新 | 2022-04-26 |
 | 4.19.5 | 4.19.5 | 同步 antd 4.19.5 版本的更新 | 2022-04-07 |
 | 4.19.3 | 4.19.3 | 同步 antd 4.19.3 版本的更新 | 2022-03-22 |
@@ -31,6 +32,51 @@ timeline: true
 - 主版本号：含有破坏性更新和新特性，不在发布周期内。
 
 ---
+
+## 4.20.4
+
+`2022-05-11`
+
+- 🐞 修复 List.Item 类型错误。[#35455](https://github.com/ant-design/ant-design/pull/35455) [@rsmeral](https://github.com/rsmeral)
+- 🐞 修复 Tree 组件 RTL 模式下 Checkbox 的间距。[#35491](https://github.com/ant-design/ant-design/pull/35491) [@miracles1919](https://github.com/miracles1919)
+- 🗑 删除 Cascader `displayRender` 警告。[#35417](https://github.com/ant-design/ant-design/pull/35417) [@lalalazero](https://github.com/lalalazero)
+
+## 4.20.3
+
+`2022-05-08`
+
+- 🔥 增加 [官方国内镜像](https://ant-design.antgroup.com/index-cn)，享受飞一般的加载速度。
+- 🐞 修复 Row 里不必要的 `rowGap: 0` 样式属性。[#35409](https://github.com/ant-design/ant-design/pull/35409)
+- 🐞 修复 List.Item `ref` 不生效的问题。[#35321](https://github.com/ant-design/ant-design/pull/35321)
+- 💄 优化 Tooltip 箭头的样式。[#35401](https://github.com/ant-design/ant-design/pull/35401)
+- 🐞 修复 Table 筛选的重置功能不生效问题。[#35386](https://github.com/ant-design/ant-design/pull/35386) [@lalalazero](https://github.com/lalalazero)
+- 🌍 为 🇬🇧 en_GB 和 🇺🇦 uk_UA 添加缺失的本地化文案。[#35430](https://github.com/ant-design/ant-design/pull/35430) [@velykanov](https://github.com/velykanov)
+- TypeScript
+  - 🤖 修复 Notification 的 `maxCount` 属性缺失的问题。[#35369](https://github.com/ant-design/ant-design/pull/35369) [@cwveysey](https://github.com/cwveysey)
+
+## 4.20.2
+
+`2022-04-30`
+
+- Segmented
+  - 🐞 修复 Segmented 组件高度和其他控件不一致的问题。[#35281](https://github.com/ant-design/ant-design/pull/35281)
+  - 🐞 修复 React StrictMode 下 Segmented 动画丢失的问题。[#35281](https://github.com/ant-design/ant-design/pull/35281)
+  - 🆕 Segmented `options` 支持设置 `icon` 属性。[#35256](https://github.com/ant-design/ant-design/pull/35256)
+- Table
+  - ⌨️ 优化 Table 排序按钮的键盘可访问性。[#35269](https://github.com/ant-design/ant-design/pull/35269)
+  - 🇪🇸 补充 Table 西班牙语筛选文案。[#35309](https://github.com/ant-design/ant-design/pull/35309) [@agarciaguillo](https://github.com/agarciaguillo)
+- 🐞 修复 Switch 在暗黑主题下关闭时的颜色问题。[#35332](https://github.com/ant-design/ant-design/pull/35332)
+- 💄 微调 Breadcrumb 链接 hover 色为中性色。[#35324](https://github.com/ant-design/ant-design/pull/35324)
+- 🐞 修复 Space 在某些情况下抛出 `Encountered two children with the same key` 警告的问题。[#35311](https://github.com/ant-design/ant-design/pull/35311)
+- 🐞 修复 Select 多选标签移除图标位置偏下的问题。[#35336](https://github.com/ant-design/ant-design/pull/35336) [@walidcherhane](https://github.com/walidcherhane)
+
+## 4.20.1
+
+`2022-04-26`
+
+- 🐞 修复 Breadcrumb 多余的 `padding` 和 `margin` 样式。[#35235](https://github.com/ant-design/ant-design/pull/35235)
+- 🐞 修复 Input.Search 在中文输入法下回车键触发 `onSearch` 的行为不一致的问题。[#35164](https://github.com/ant-design/ant-design/pull/35164) [@qyzzzz](https://github.com/qyzzzz)
+- 🐞 修复 Upload 和 Upload.Dragger 之间循环依赖的问题。[#34379](https://github.com/ant-design/ant-design/pull/34379) [@kanweiwei](https://github.com/kanweiwei)
 
 ## 4.20.0
 

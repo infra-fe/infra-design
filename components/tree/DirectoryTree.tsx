@@ -1,14 +1,15 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import RcTree from 'rc-tree';
+import type RcTree from 'rc-tree';
 import debounce from 'lodash/debounce';
 import { conductExpandParent } from 'rc-tree/lib/util';
-import { EventDataNode, DataNode, Key } from 'rc-tree/lib/interface';
+import type { EventDataNode, DataNode, Key } from 'rc-tree/lib/interface';
 import { convertDataToEntities, convertTreeToData } from 'rc-tree/lib/utils/treeUtil';
 import { FileOutlined, FolderOpenOutlined, FolderOutlined } from 'infra-design-icons';
 import { ConfigContext } from '../config-provider';
 
-import Tree, { TreeProps, AntdTreeNodeAttribute } from './Tree';
+import type { TreeProps, AntdTreeNodeAttribute } from './Tree';
+import Tree from './Tree';
 import { calcRangeKeys, convertDirectoryKeysToNodes } from './utils/dictUtil';
 
 export type ExpandAction = false | 'click' | 'doubleClick';

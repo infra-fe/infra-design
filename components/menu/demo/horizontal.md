@@ -13,8 +13,9 @@ title:
 
 Horizontal top navigation menu.
 
-```jsx
-import { Menu, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Menu } from 'infrad';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from 'infra-design-icons';
 
 const items: MenuProps['items'] = [

@@ -14,8 +14,9 @@ title:
 
 When dealing with long content, a fixed sider can provide a better user experience.
 
-```jsx
-import { Layout, Menu, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Layout, Menu } from 'infrad';
 import {
   AppstoreOutlined,
   BarChartOutlined,

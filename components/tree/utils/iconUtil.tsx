@@ -7,7 +7,7 @@ import {
   PlusSquareOutlined,
   CaretDownFilled,
 } from 'infra-design-icons';
-import { AntTreeNodeProps, SwitcherIcon } from '../Tree';
+import type { AntTreeNodeProps, SwitcherIcon } from '../Tree';
 import { isValidElement, cloneElement } from '../../_util/reactNode';
 
 export default function renderSwitcherIcon(

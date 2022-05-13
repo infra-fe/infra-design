@@ -2,7 +2,8 @@ import * as React from 'react';
 import classNames from 'classnames';
 import { LoadingOutlined } from 'infra-design-icons';
 
-import TimelineItem, { TimelineItemProps } from './TimelineItem';
+import type { TimelineItemProps } from './TimelineItem';
+import TimelineItem from './TimelineItem';
 import { ConfigContext } from '../config-provider';
 import { cloneElement } from '../_util/reactNode';
 
