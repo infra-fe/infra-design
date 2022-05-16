@@ -1,9 +1,12 @@
 import React, { useEffect, useState, useRef, useContext } from 'react';
 import { findDOMNode } from 'react-dom';
 import { IArrowRight } from 'infra-design-icons';
-import moment, { Moment } from 'moment';
-import { getRelativeList, getQuickList, IQuickItem, SelectItemType } from './const';
-import DatePicker, { DatePickerProps } from '../index';
+import moment from 'moment';
+import type { Moment } from 'moment';
+import { getRelativeList, getQuickList, SelectItemType } from './const';
+import type { IQuickItem } from './const';
+import DatePicker from '../index';
+import type { DatePickerProps } from '../index';
 import { ConfigContext } from '../../config-provider';
 
 function SelectItem(props: {

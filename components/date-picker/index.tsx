@@ -1,12 +1,13 @@
-import { Moment } from 'moment';
+import type { Moment } from 'moment';
 import momentGenerateConfig from 'rc-picker/lib/generate/moment';
-import generatePicker, {
+import type {
   PickerProps,
   PickerDateProps,
   RangePickerProps as BaseRangePickerProps,
 } from './generatePicker';
-import { IQuickPickerProps } from './generatePicker/QuickPicker';
-import { IQuickItem } from './generatePicker/const';
+import type { IQuickPickerProps } from './generatePicker/QuickPicker';
+import type { IQuickItem } from './generatePicker/const';
+import generatePicker from './generatePicker';
 
 export type DatePickerProps = PickerProps<Moment>;
 export type MonthPickerProps = Omit<PickerDateProps<Moment>, 'picker'>;

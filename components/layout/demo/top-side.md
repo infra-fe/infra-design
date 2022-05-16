@@ -13,8 +13,9 @@ title:
 
 Both the top navigation and the sidebar, commonly used in documentation site.
 
-```jsx
-import { Layout, Menu, Breadcrumb, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Layout, Menu, Breadcrumb } from 'infrad';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from 'infra-design-icons';
 
 const { Header, Content, Footer, Sider } = Layout;

@@ -13,8 +13,9 @@ title:
 
 Vertical menu with inline submenus.
 
-```jsx
-import { Menu, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Menu } from 'infrad';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
 
 type MenuItem = Required<MenuProps>['items'][number];

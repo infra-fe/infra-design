@@ -3,7 +3,8 @@ import classNames from 'classnames';
 import omit from 'rc-util/lib/omit';
 import debounce from 'lodash/debounce';
 import { ILoading } from 'infra-design-icons';
-import { ConfigConsumer, ConfigConsumerProps, ConfigContext } from '../config-provider';
+import type { ConfigConsumerProps } from '../config-provider';
+import { ConfigConsumer, ConfigContext } from '../config-provider';
 import { tuple } from '../_util/type';
 import { isValidElement, cloneElement } from '../_util/reactNode';
 

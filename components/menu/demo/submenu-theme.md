@@ -13,8 +13,9 @@ title:
 
 You can config SubMenu theme with `theme` prop to enable different theme color effect. This sample is dark for root and light for SubMenu.
 
-```jsx
-import { Menu, Switch, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Menu, Switch } from 'infrad';
 import { MailOutlined } from 'infra-design-icons';
 
 type MenuItem = Required<MenuProps>['items'][number];

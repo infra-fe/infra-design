@@ -1,26 +1,32 @@
 import * as React from 'react';
+import type { MenuProps } from 'antd';
 import { Dropdown, Menu, Button } from 'antd';
 import { FormattedMessage } from 'react-intl';
 import { DownOutlined } from 'infra-design-icons';
-import { SharedProps } from './interface';
+import type { SharedProps } from './interface';
 
-export function getEcosystemGroup(): React.ReactNode {
+// const smallStyle = { fontSize: 12, color: '#777', marginLeft: '0.3em' };
+
+export function getEcosystemGroup(): Exclude<MenuProps['items'], undefined> {
   return [
-    <Menu.Item key="pro">
-      <a
-        href="https://infra-fe.github.io/infrad-pro-components/"
-        className="header-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FormattedMessage id="app.header.menu.pro.v4" />
-      </a>
-    </Menu.Item>,
+    {
+      label: (
+        <a
+          href="https://infra-fe.github.io/infrad-pro-components/"
+          className="header-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FormattedMessage id="app.header.menu.pro.components" />
+        </a>
+      ),
+      key: 'procomponents',
+    },
   ];
 }
 
 export default (props: SharedProps) => {
-  const menu = <Menu>{getEcosystemGroup()}</Menu>;
+  const menu = <Menu items={getEcosystemGroup()} />;
   const downstyle = props.isRTL ? '-1px 2px 0 0' : '-1px 0 0 2px';
   return (
     <Dropdown overlay={menu} placement="bottomRight">

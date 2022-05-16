@@ -9,7 +9,7 @@ import {
   CloseOutlined,
   LeftOutlined,
 } from 'infra-design-icons';
-import { GroupConsumerProps } from 'rc-image/lib/PreviewGroup';
+import type { GroupConsumerProps } from 'rc-image/lib/PreviewGroup';
 import { ConfigContext } from '../config-provider';
 import { getTransitionName } from '../_util/motion';
 

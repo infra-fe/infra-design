@@ -15,7 +15,7 @@ We recommend use `Form.useForm` to create data control. If you are using class c
 
 ```tsx
 import { Form, Input, Button, Select } from 'infrad';
-import { FormInstance } from 'infrad/es/form';
+import type { FormInstance } from 'infrad/es/form';
 
 const { Option } = Select;
 

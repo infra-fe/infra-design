@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { RightOutlined, LeftOutlined } from 'infra-design-icons';
 import Button from '../button';
-import { DirectionType } from '../config-provider';
+import type { DirectionType } from '../config-provider';
 
 export interface TransferOperationProps {
   className?: string;

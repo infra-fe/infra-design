@@ -17,8 +17,9 @@ Inline menu could be collapsed.
 
 Here is [a complete demo](/components/layout/#components-layout-demo-side) with sider layout.
 
-```jsx
-import { Menu, Button, MenuProps } from 'infrad';
+```tsx
+import type { MenuProps } from 'infrad';
+import { Menu, Button } from 'infrad';
 import {
   AppstoreOutlined,
   MenuUnfoldOutlined,

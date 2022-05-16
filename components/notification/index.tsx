@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Notification from 'rc-notification';
-import { NotificationInstance as RCNotificationInstance } from 'rc-notification/lib/Notification';
+import type { NotificationInstance as RCNotificationInstance } from 'rc-notification/lib/Notification';
 import {
   CloseOutlined,
   CheckCircleOutlined,
@@ -208,6 +208,7 @@ export interface ArgsProps {
   duration?: number | null;
   icon?: React.ReactNode;
   placement?: NotificationPlacement;
+  maxCount?: number;
   style?: React.CSSProperties;
   prefixCls?: string;
   className?: string;

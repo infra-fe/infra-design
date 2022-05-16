@@ -4,8 +4,10 @@ import omit from 'rc-util/lib/omit';
 import { EyeOutlined, EyeInvisibleOutlined } from 'infra-design-icons';
 
 import { useState } from 'react';
-import Input, { InputRef, InputProps } from './Input';
-import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
+import type { InputRef, InputProps } from './Input';
+import Input from './Input';
+import type { ConfigConsumerProps } from '../config-provider';
+import { ConfigConsumer } from '../config-provider';
 
 export interface PasswordProps extends InputProps {
   readonly inputPrefixCls?: string;

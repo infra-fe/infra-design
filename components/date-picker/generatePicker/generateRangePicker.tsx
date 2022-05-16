@@ -8,16 +8,18 @@ import {
   SwapRightOutlined,
 } from 'infra-design-icons';
 import { RangePicker as RCRangePicker } from 'rc-picker';
-import { GenerateConfig } from 'rc-picker/lib/generate/index';
+import type { GenerateConfig } from 'rc-picker/lib/generate/index';
 import enUS from '../locale/en_US';
-import { ConfigConsumerProps, ConfigContext } from '../../config-provider';
+import type { ConfigConsumerProps } from '../../config-provider';
+import { ConfigContext } from '../../config-provider';
 import SizeContext from '../../config-provider/SizeContext';
 import LocaleReceiver from '../../locale-provider/LocaleReceiver';
 import { getRangePlaceholder, transPlacement2DropdownAlign } from '../util';
-import { Components, getTimeProps, PickerLocale, RangePickerProps } from '.';
+import type { PickerLocale, RangePickerProps } from '.';
+import { Components, getTimeProps } from '.';
 import { FormItemInputContext } from '../../form/context';
 import { getMergedStatus, getStatusClassNames } from '../../_util/statusUtils';
-import { PickerComponentClass } from './interface';
+import type { PickerComponentClass } from './interface';
 
 export default function generateRangePicker<DateType>(
   generateConfig: GenerateConfig<DateType>,

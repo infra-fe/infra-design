@@ -4,7 +4,8 @@ import { ConfigContext } from '../config-provider';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import DefaultEmptyImg from './empty';
 import SimpleEmptyImg from './simple';
-import { ImageType, typeConfig } from './config';
+import { typeConfig } from './config';
+import type { ImageType } from './config';
 
 const defaultEmptyImg = <DefaultEmptyImg />;
 const simpleEmptyImg = <SimpleEmptyImg />;
