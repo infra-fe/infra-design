@@ -14,9 +14,10 @@ title:
 You can config SubMenu theme with `theme` prop to enable different theme color effect. This sample is dark for root and light for SubMenu.
 
 ```tsx
-import type { MenuProps } from 'infrad';
+import React, { useState } from 'react';
 import { Menu, Switch } from 'infrad';
 import { MailOutlined } from 'infra-design-icons';
+import type { MenuTheme, MenuProps } from 'infrad';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -36,10 +37,9 @@ function getItem(
   } as MenuItem;
 }
 
-const SubMenuTheme = () => {
-  // eslint-disable-next-line no-bitwise
-  const [theme, setTheme] = React.useState<'light' | 'dark'>('light');
-  const [current, setCurrent] = React.useState('1');
+const App: React.FC = () => {
+  const [theme, setTheme] = useState<MenuTheme>('light');
+  const [current, setCurrent] = useState('1');
 
   const changeTheme = (value: boolean) => {
     setTheme(value ? 'dark' : 'light');
@@ -84,5 +84,5 @@ const SubMenuTheme = () => {
   );
 };
 
-export default () => <SubMenuTheme />;
+export default App;
 ```

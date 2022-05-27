@@ -14,10 +14,11 @@ title:
 Avatar group display.
 
 ```tsx
+import React from 'react';
 import { Avatar, Divider, Tooltip } from 'infrad';
 import { UserOutlined, AntDesignOutlined } from 'infra-design-icons';
 
-const Demo = () => (
+const App: React.FC = () => (
   <>
     <Avatar.Group>
       <Avatar src="https://joeschmoe.io/api/v1/random" />
@@ -80,5 +81,5 @@ const Demo = () => (
   </>
 );
 
-export default Demo;
+export default App;
 ```

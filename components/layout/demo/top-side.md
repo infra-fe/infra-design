@@ -14,9 +14,10 @@ title:
 Both the top navigation and the sidebar, commonly used in documentation site.
 
 ```tsx
-import type { MenuProps } from 'infrad';
+import React from 'react';
 import { Layout, Menu, Breadcrumb } from 'infrad';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from 'infra-design-icons';
+import type { MenuProps } from 'infrad';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -45,7 +46,7 @@ const items2: MenuProps['items'] = [UserOutlined, LaptopOutlined, NotificationOu
   },
 );
 
-export default () => (
+const App: React.FC = () => (
   <Layout>
     <Header className="header">
       <div className="logo" />
@@ -73,6 +74,8 @@ export default () => (
     <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
   </Layout>
 );
+
+export default App;
 ```
 
 ```css

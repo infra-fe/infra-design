@@ -15,10 +15,10 @@ buggy!
 buggy!
 
 ```tsx
-import * as React from 'react';
-import type { MenuProps } from 'infrad';
+import React, { useState } from 'react';
 import { Menu, Switch } from 'infrad';
 import { MailOutlined, AppstoreOutlined } from 'infra-design-icons';
+import type { MenuTheme, MenuProps } from 'infrad';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -52,9 +52,9 @@ const items: MenuItem[] = [
   getItem('Option 12', '12'),
 ];
 
-const Demo = () => {
-  const [theme, setTheme] = React.useState<'dark' | 'light'>('dark');
-  const [current, setCurrent] = React.useState('1');
+const App: React.FC = () => {
+  const [theme, setTheme] = useState<MenuTheme>('dark');
+  const [current, setCurrent] = useState('1');
 
   const changeTheme = (value: boolean) => {
     setTheme(value ? 'dark' : 'light');
@@ -107,5 +107,5 @@ const Demo = () => {
   );
 };
 
-export default Demo;
+export default App;
 ```

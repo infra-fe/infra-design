@@ -13,11 +13,13 @@ title:
 
 Classic mode. File selection dialog pops up when upload button is clicked.
 
-```jsx
+```tsx
+import React from 'react';
 import { Upload, message, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
+import type { UploadProps } from 'infrad';
 
-const props = {
+const props: UploadProps = {
   name: 'file',
   action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
   headers: {
@@ -35,9 +37,11 @@ const props = {
   },
 };
 
-export default () => (
+const App: React.FC = () => (
   <Upload {...props}>
     <Button icon={<IUpload />}>Click to Upload</Button>
   </Upload>
 );
+
+export default App;
 ```

@@ -14,13 +14,16 @@ title:
 Spin in a container.
 
 ```tsx
+import React from 'react';
 import { Spin } from 'infrad';
 
-export default () => (
+const App: React.FC = () => (
   <div className="example">
     <Spin />
   </div>
 );
+
+export default App;
 ```
 
 ```css

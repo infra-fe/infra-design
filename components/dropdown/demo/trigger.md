@@ -14,6 +14,7 @@ title:
 The default trigger mode is `hover`, you can change it to `click`.
 
 ```tsx
+import React from 'react';
 import { Menu, Dropdown, Space } from 'infrad';
 import { IArrowDown } from 'infra-design-icons';
 
@@ -39,7 +40,7 @@ const menu = (
   />
 );
 
-export default () => (
+const App: React.FC = () => (
   <Dropdown overlay={menu} trigger={['click']}>
     <a onClick={e => e.preventDefault()}>
       <Space>
@@ -49,4 +50,6 @@ export default () => (
     </a>
   </Dropdown>
 );
+
+export default App;
 ```

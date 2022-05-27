@@ -13,14 +13,16 @@ title:
 
 Change `pageSize`.
 
-```jsx
+```tsx
+import React from 'react';
 import { Pagination } from 'infrad';
+import type { PaginationProps } from 'infrad';
 
-function onShowSizeChange(current, pageSize) {
+const onShowSizeChange: PaginationProps['onShowSizeChange'] = (current, pageSize) => {
   console.log(current, pageSize);
-}
+};
 
-export default () => (
+const App: React.FC = () => (
   <>
     <Pagination
       showSizeChanger
@@ -38,4 +40,6 @@ export default () => (
     />
   </>
 );
+
+export default App;
 ```

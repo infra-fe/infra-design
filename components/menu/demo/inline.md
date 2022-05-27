@@ -14,9 +14,10 @@ title:
 Vertical menu with inline submenus.
 
 ```tsx
-import type { MenuProps } from 'infrad';
+import React from 'react';
 import { Menu } from 'infrad';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
+import type { MenuProps } from 'infrad';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -56,7 +57,7 @@ const items: MenuProps['items'] = [
   ]),
 ];
 
-const Sider = () => {
+const App: React.FC = () => {
   const onClick: MenuProps['onClick'] = e => {
     console.log('click ', e);
   };
@@ -73,5 +74,5 @@ const Sider = () => {
   );
 };
 
-export default () => <Sider />;
+export default App;
 ```

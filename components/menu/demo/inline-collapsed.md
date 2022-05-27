@@ -18,7 +18,7 @@ Inline menu could be collapsed.
 Here is [a complete demo](/components/layout/#components-layout-demo-side) with sider layout.
 
 ```tsx
-import type { MenuProps } from 'infrad';
+import React, { useState } from 'react';
 import { Menu, Button } from 'infrad';
 import {
   AppstoreOutlined,
@@ -29,6 +29,7 @@ import {
   ContainerOutlined,
   MailOutlined,
 } from 'infra-design-icons';
+import type { MenuProps } from 'infrad';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -68,8 +69,8 @@ const items: MenuItem[] = [
   ]),
 ];
 
-const App = () => {
-  const [collapsed, setCollapsed] = React.useState(false);
+const App: React.FC = () => {
+  const [collapsed, setCollapsed] = useState(false);
 
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);

@@ -13,11 +13,13 @@ title:
 
 Use `showUploadList` for custom action icons of files.
 
-```jsx
+```tsx
+import React from 'react';
 import { Upload, Button } from 'infrad';
 import { StarOutlined, IUpload } from 'infra-design-icons';
+import type { UploadProps } from 'infrad';
 
-const props = {
+const props: UploadProps = {
   action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
   onChange({ file, fileList }) {
     if (file.status !== 'uploading') {
@@ -54,9 +56,11 @@ const props = {
   },
 };
 
-export default () => (
+const App: React.FC = () => (
   <Upload {...props}>
     <Button icon={<IUpload />}>Upload</Button>
   </Upload>
 );
+
+export default App;
 ```

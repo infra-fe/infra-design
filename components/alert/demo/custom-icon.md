@@ -15,12 +15,13 @@ title:
 A relevant icon makes information clearer and more friendly.
 
 ```tsx
+import React from 'react';
 import { Alert } from 'infrad';
 import { SmileOutlined } from 'infra-design-icons';
 
 const icon = <SmileOutlined />;
 
-export default () => (
+const App: React.FC = () => (
   <>
     <Alert icon={icon} message="showIcon = false" type="success" />
     <Alert icon={icon} message="Success Tips" type="success" showIcon />
@@ -57,4 +58,6 @@ export default () => (
     />
   </>
 );
+
+export default App;
 ```
