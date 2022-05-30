@@ -1297,7 +1297,7 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
       class="ant-layout-footer"
       style="text-align:center"
     >
-      Infra Design ©2018 Created by Ant UED
+      Ant Design ©2018 Created by Ant UED
     </footer>
   </section>
 </section>

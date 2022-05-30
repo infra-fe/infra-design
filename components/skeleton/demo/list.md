@@ -14,10 +14,10 @@ title:
 Use skeleton in list component.
 
 ```tsx
-import React, { useState } from 'react';
-import { Skeleton, Switch, List, Avatar } from 'infrad';
-import { StarOutlined, LikeOutlined, MessageOutlined } from 'infra-design-icons';
 import type Icon from 'infra-design-icons';
+import { LikeOutlined, MessageOutlined, StarOutlined } from 'infra-design-icons';
+import { Avatar, List, Skeleton, Switch } from 'infrad';
+import React, { useState } from 'react';
 
 interface IconTextProps {
   icon: typeof Icon;
@@ -45,7 +45,7 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   const onChange = (checked: boolean) => {
-    setLoading(checked);
+    setLoading(!checked);
   };
   return (
     <>

@@ -163,7 +163,8 @@ exports[`renders ./components/card/demo/flexible-content.md extend context corre
 
 exports[`renders ./components/card/demo/gray-card.md extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-gray"
+  class="ant-card ant-card-bordered"
+  mode="gray"
   style="width:300px"
 >
   <div
@@ -829,7 +830,8 @@ exports[`renders ./components/card/demo/meta.md extend context correctly 1`] = `
 
 exports[`renders ./components/card/demo/shadow-card.md extend context correctly 1`] = `
 <div
-  class="ant-card ant-card-bordered ant-card-shadow"
+  class="ant-card ant-card-bordered"
+  mode="shadow"
   style="width:300px"
 >
   <div
