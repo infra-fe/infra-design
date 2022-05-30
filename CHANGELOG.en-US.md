@@ -9,6 +9,7 @@ timeline: true
 
 | infrad version | antd version | update content | time |
 | --- | --- | --- | --- |
+| 4.20.6 | 4.20.6 | Synchronize the update of antd 4.20.6 version | 2022-05-30 |
 | 4.20.4 | 4.20.4 | Synchronize the update of antd 4.20.4 version | 2022-05-13 |
 | 4.20.0 | 4.20.0 | Synchronize the update of antd 4.20.0 version | 2022-04-26 |
 | 4.19.5 | 4.19.5 | Synchronize the update of antd 4.19.5 version | 2022-04-07 |
