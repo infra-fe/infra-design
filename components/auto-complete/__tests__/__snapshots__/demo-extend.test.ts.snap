@@ -522,11 +522,9 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
 >
   <div
     class="ant-row ant-form-item"
-    role="row"
   >
     <div
       class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8"
-      role="cell"
     >
       <label
         class=""
@@ -537,7 +535,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
     </div>
     <div
       class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16"
-      role="cell"
     >
       <div
         class="ant-form-item-control-input"
@@ -592,11 +589,9 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
   </div>
   <div
     class="ant-row ant-form-item"
-    role="row"
   >
     <div
       class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8"
-      role="cell"
     >
       <label
         class=""
@@ -607,7 +602,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
     </div>
     <div
       class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16"
-      role="cell"
     >
       <div
         class="ant-form-item-control-input"
@@ -754,11 +748,9 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
   </div>
   <div
     class="ant-row ant-form-item"
-    role="row"
   >
     <div
       class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8"
-      role="cell"
     >
       <label
         class=""
@@ -769,7 +761,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
     </div>
     <div
       class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16"
-      role="cell"
     >
       <div
         class="ant-form-item-control-input"
@@ -962,11 +953,9 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
   </div>
   <div
     class="ant-row ant-form-item"
-    role="row"
   >
     <div
       class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8"
-      role="cell"
     >
       <label
         class=""
@@ -977,7 +966,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
     </div>
     <div
       class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16"
-      role="cell"
     >
       <div
         class="ant-form-item-control-input"
@@ -1059,11 +1047,9 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
   </div>
   <div
     class="ant-row ant-form-item"
-    role="row"
   >
     <div
       class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8"
-      role="cell"
     >
       <label
         class=""
@@ -1074,7 +1060,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
     </div>
     <div
       class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16"
-      role="cell"
     >
       <div
         class="ant-form-item-control-input"
@@ -1294,11 +1279,9 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
   </div>
   <div
     class="ant-row ant-form-item"
-    role="row"
   >
     <div
       class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8"
-      role="cell"
     >
       <label
         class=""
@@ -1309,7 +1292,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
     </div>
     <div
       class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16"
-      role="cell"
     >
       <div
         class="ant-form-item-control-input"
@@ -1538,11 +1520,9 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
   </div>
   <div
     class="ant-row ant-form-item"
-    role="row"
   >
     <div
       class="ant-col ant-form-item-label ant-col-xs-24 ant-col-sm-8"
-      role="cell"
     >
       <label
         class=""
@@ -1553,7 +1533,6 @@ exports[`renders ./components/auto-complete/demo/form-debug.md extend context co
     </div>
     <div
       class="ant-col ant-form-item-control ant-col-xs-24 ant-col-sm-16"
-      role="cell"
     >
       <div
         class="ant-form-item-control-input"

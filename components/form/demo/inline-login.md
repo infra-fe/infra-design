@@ -18,7 +18,7 @@ import React, { useState, useEffect } from 'react';
 import { Form, Input, Button } from 'infrad';
 import { UserOutlined, LockOutlined } from 'infra-design-icons';
 
-const HorizontalLoginForm = () => {
+const App: React.FC = () => {
   const [form] = Form.useForm();
   const [, forceUpdate] = useState({});
 
@@ -67,5 +67,5 @@ const HorizontalLoginForm = () => {
   );
 };
 
-export default () => <HorizontalLoginForm />;
+export default App;
 ```

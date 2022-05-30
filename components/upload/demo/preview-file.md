@@ -13,11 +13,13 @@ title:
 
 Customize local preview. Can handle with non-image format files such as video.
 
-```jsx
+```tsx
+import React from 'react';
 import { Upload, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
+import type { UploadProps } from 'infrad';
 
-const props = {
+const props: UploadProps = {
   action: '//jsonplaceholder.typicode.com/posts/',
   listType: 'picture',
   previewFile(file) {
@@ -32,9 +34,11 @@ const props = {
   },
 };
 
-export default () => (
+const App: React.FC = () => (
   <Upload {...props}>
     <Button icon={<IUpload />}>Upload</Button>
   </Upload>
 );
+
+export default App;
 ```

@@ -14,12 +14,13 @@ title:
 
 Fixed Header is generally used to fix the top navigation to facilitate page switching.
 
-```jsx
+```tsx
+import React from 'react';
 import { Layout, Menu, Breadcrumb } from 'infrad';
 
 const { Header, Content, Footer } = Layout;
 
-export default () => (
+const App: React.FC = () => (
   <Layout>
     <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
       <div className="logo" />
@@ -46,6 +47,8 @@ export default () => (
     <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
   </Layout>
 );
+
+export default App;
 ```
 
 ```css

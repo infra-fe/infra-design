@@ -9,6 +9,7 @@ timeline: true
 
 | infrad 版本号 | 对应 antd 版本号 | 更新内容 | 时间 |
 | --- | --- | --- | --- |
+| 4.20.6 | 4.20.6 | 同步 antd 4.20.6 版本的更新 | 2022-05-30 |
 | 4.20.4 | 4.20.4 | 同步 antd 4.20.4 版本的更新 | 2022-05-13 |
 | 4.20.0 | 4.20.0 | 同步 antd 4.20.0 版本的更新 | 2022-04-26 |
 | 4.19.5 | 4.19.5 | 同步 antd 4.19.5 版本的更新 | 2022-04-07 |
@@ -32,6 +33,23 @@ timeline: true
 - 主版本号：含有破坏性更新和新特性，不在发布周期内。
 
 ---
+
+## 4.20.6
+
+`2022-05-22`
+
+- 🐞 修复 DatePicker 初次打开时 placeholder 闪烁的问题。[#35620](https://github.com/ant-design/ant-design/pull/35620) [@yykoypj](https://github.com/yykoypj)
+- 🛠 移除 Grid 默认 `role` 标签，以使其更好的适配 [aria-required-parent](https://accessibilityinsights.io/info-examples/web/aria-required-parent/) 要求。[#35616](https://github.com/ant-design/ant-design/pull/35616) [@bartpio](https://github.com/bartpio)
+- 🐞 修复 Anchor 在某些游览器下会被切割内容的问题。[#35612](https://github.com/ant-design/ant-design/pull/35612) [@josonho](https://github.com/josonho)
+- 🐞 修复 Table 存在表头分组和垂直滚动条时表头边框异常的问题。[#35591](https://github.com/ant-design/ant-design/pull/35591)
+- 🐞 修复 Drawer 内按钮关闭速度过快问题。[#35339](https://github.com/ant-design/ant-design/pull/35339)
+
+## 4.20.5
+
+`2022-05-15`
+
+- 🤖 在 TypeScript 定义中废弃 Table `rowSelection.onSelectNone` 和 `rowSelection.onSelectMultiple`。[#35545](https://github.com/ant-design/ant-design/pull/35545)
+- 🐞 InputNumber 当精度为负数时忽略小数部分。[#35520](https://github.com/ant-design/ant-design/pull/35520) [@ty888](https://github.com/ty888)`
 
 ## 4.20.4
 

@@ -15,7 +15,7 @@ title:
 When dealing with long content, a fixed sider can provide a better user experience.
 
 ```tsx
-import type { MenuProps } from 'infrad';
+import React from 'react';
 import { Layout, Menu } from 'infrad';
 import {
   AppstoreOutlined,
@@ -27,6 +27,7 @@ import {
   UploadOutlined,
   VideoCameraOutlined,
 } from 'infra-design-icons';
+import type { MenuProps } from 'infrad';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -45,7 +46,7 @@ const items: MenuProps['items'] = [
   label: `nav ${index + 1}`,
 }));
 
-export default () => (
+const App: React.FC = () => (
   <Layout hasSider>
     <Sider
       style={{
@@ -165,6 +166,8 @@ export default () => (
     </Layout>
   </Layout>
 );
+
+export default App;
 ```
 
 ```css

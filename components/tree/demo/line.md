@@ -17,8 +17,9 @@ Tree with connected line between nodes, turn on by `showLine`, customize the pre
 import React, { useState } from 'react';
 import { Tree, Switch } from 'infrad';
 import { CarryOutOutlined, FormOutlined } from 'infra-design-icons';
+import type { DataNode } from 'infrad/lib/tree';
 
-const treeData = [
+const treeData: DataNode[] = [
   {
     title: 'parent 1',
     key: '0-0',
@@ -83,7 +84,7 @@ const treeData = [
   },
 ];
 
-const Demo: React.FC<{}> = () => {
+const App: React.FC = () => {
   const [showLine, setShowLine] = useState<boolean | { showLeafIcon: boolean }>(true);
   const [showIcon, setShowIcon] = useState<boolean>(false);
   const [showLeafIcon, setShowLeafIcon] = useState<boolean>(true);
@@ -123,5 +124,5 @@ const Demo: React.FC<{}> = () => {
   );
 };
 
-export default Demo;
+export default App;
 ```

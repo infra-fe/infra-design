@@ -14,17 +14,25 @@ debug: true
 
 Customize selection group.
 
-```jsx
+```tsx
+import React from 'react';
 import { Table } from 'infrad';
+import type { TableRowSelection } from 'infrad/lib/table/interface';
+import type { ColumnsType } from 'infrad/lib/table';
 
-const columns = [
+interface DataType {
+  key: React.Key;
+  name: string;
+}
+
+const columns: ColumnsType<DataType> = [
   {
     title: 'Name',
     dataIndex: 'name',
   },
 ];
 
-const data = [];
+const data: DataType[] = [];
 for (let i = 0; i < 46; i++) {
   data.push({
     key: i,
@@ -32,9 +40,9 @@ for (let i = 0; i < 46; i++) {
   });
 }
 
-const App = () => {
-  const rowSelection = {
-    renderCell: (checked, record, index, node) => ({
+const App: React.FC = () => {
+  const rowSelection: TableRowSelection<DataType> = {
+    renderCell: (checked, _record, index, node) => ({
       props: { rowSpan: index % 2 === 0 ? 2 : 0 },
       children: (
         <>

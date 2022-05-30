@@ -9,6 +9,7 @@ timeline: true
 
 | infrad version | antd version | update content | time |
 | --- | --- | --- | --- |
+| 4.20.6 | 4.20.6 | Synchronize the update of antd 4.20.6 version | 2022-05-30 |
 | 4.20.4 | 4.20.4 | Synchronize the update of antd 4.20.4 version | 2022-05-13 |
 | 4.20.0 | 4.20.0 | Synchronize the update of antd 4.20.0 version | 2022-04-26 |
 | 4.19.5 | 4.19.5 | Synchronize the update of antd 4.19.5 version | 2022-04-07 |
@@ -32,6 +33,23 @@ if you have some problem, welcome to connect `taofeng.yang@shopee.com` or `lay.z
 - Major version release is not included in this schedule for breaking change and new features.
 
 ---
+
+## 4.20.6
+
+`2022-05-22`
+
+- 🐞 Fix DatePicker placeholder flush when open first time. [#35620](https://github.com/ant-design/ant-design/pull/35620) [@yykoypj](https://github.com/yykoypj)
+- 🛠 Remove Grid default `role` attr to fit [aria-required-parent](https://accessibilityinsights.io/info-examples/web/aria-required-parent/) requirement. [#35616](https://github.com/ant-design/ant-design/pull/35616) [@bartpio](https://github.com/bartpio)
+- 🐞 Fix Anchor cut content in some browser. [#35612](https://github.com/ant-design/ant-design/pull/35612) [@josonho](https://github.com/josonho)
+- 🐞 Fix Table header cell border when have `rowSpan` and `scroll.y`. [#35591](https://github.com/ant-design/ant-design/pull/35591)
+- 🐞 Fix Drawer that the button in it closes too fast issue. [#35339](https://github.com/ant-design/ant-design/pull/35339)
+
+## 4.20.5
+
+`2022-05-15`
+
+- 🤖 Deprecated Table `rowSelection.onSelectNone` and `rowSelection.onSelectMultiple` in TS type. [#35545](https://github.com/ant-design/ant-design/pull/35545)
+- 🐞 Ignore the decimal part in InputNumber when `precision` is negative. [#35520](https://github.com/ant-design/ant-design/pull/35520) [@ty888](https://github.com/ty888)
 
 ## 4.20.4
 

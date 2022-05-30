@@ -13,11 +13,12 @@ title:
 
 With text and icon.
 
-```jsx
+```tsx
+import React from 'react';
 import { Switch } from 'infrad';
 import { CloseOutlined, CheckOutlined } from 'infra-design-icons';
 
-export default () => (
+const App: React.FC = () => (
   <>
     <Switch checkedChildren="开启" unCheckedChildren="关闭" defaultChecked />
     <br />
@@ -30,4 +31,6 @@ export default () => (
     />
   </>
 );
+
+export default App;
 ```

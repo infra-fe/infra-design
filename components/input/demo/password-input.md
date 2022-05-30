@@ -13,11 +13,12 @@ title:
 
 Input type of password.
 
-```jsx
+```tsx
+import React from 'react';
 import { Input, Space } from 'infrad';
 import { IView, IInvisible } from 'infra-design-icons';
 
-export default () => (
+const App: React.FC = () => (
   <Space direction="vertical">
     <Input.Password
       placeholder="input password"
@@ -29,4 +30,6 @@ export default () => (
     />
   </Space>
 );
+
+export default App;
 ```

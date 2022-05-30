@@ -13,11 +13,12 @@ title:
 
 There are three sizes of an Input box: `large` (40px), `default` (32px) and `small` (24px).
 
-```jsx
+```tsx
+import React from 'react';
 import { Input } from 'infrad';
 import { IUser } from 'infra-design-icons';
 
-export default () => (
+const App: React.FC = () => (
   <>
     <Input size="large" placeholder="large size" prefix={<IUser />} />
     <br />
@@ -28,4 +29,6 @@ export default () => (
     <Input size="small" placeholder="small size" prefix={<IUser />} />
   </>
 );
+
+export default App;
 ```

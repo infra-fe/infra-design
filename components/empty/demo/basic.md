@@ -13,8 +13,10 @@ title:
 
 Simplest Usage.
 
-```jsx
+```tsx
 import { Empty } from 'infrad';
 
-export default () => <Empty />;
+const App: React.FC = () => <Empty />;
+
+export default App;
 ```

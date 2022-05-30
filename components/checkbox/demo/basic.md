@@ -13,12 +13,16 @@ title:
 
 Basic usage of checkbox.
 
-```jsx
+```tsx
+import React from 'react';
 import { Checkbox } from 'infrad';
+import type { CheckboxChangeEvent } from 'infrad/es/checkbox';
 
-function onChange(e) {
+const onChange = (e: CheckboxChangeEvent) => {
   console.log(`checked = ${e.target.checked}`);
-}
+};
 
-export default () => <Checkbox onChange={onChange}>Checkbox</Checkbox>;
+const App: React.FC = () => <Checkbox onChange={onChange}>Checkbox</Checkbox>;
+
+export default App;
 ```

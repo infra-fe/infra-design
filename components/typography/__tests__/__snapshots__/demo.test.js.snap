@@ -389,7 +389,7 @@ Array [
   <div
     class="ant-typography ant-typography-ellipsis ant-typography-single-line"
   >
-    Infra Design, a design language for background applications, is refined by Ant UED Team. This is a nest sample 
+    Ant Design, a design language for background applications, is refined by Ant UED Team. This is a nest sample 
     <span
       class="ant-typography"
     >
@@ -420,11 +420,11 @@ Array [
     </span>
   </div>,
   <span
-    aria-label="Ant Design is a design language for background applications, is refined by Ant UED Team."
+    aria-label="Infra Design is a design language for background applications, is refined by Ant UED Team."
     class="ant-typography ant-typography-ellipsis ant-typography-single-line"
     style="width:100px"
   >
-    Ant Design is a design language for background applications, is refined by Ant UED Team.
+    Infra Design is a design language for background applications, is refined by Ant UED Team.
     <div
       aria-label="Copy"
       class="ant-typography-copy"

@@ -13,20 +13,22 @@ title:
 
 Basic usage.
 
-```jsx
+```tsx
+import React from 'react';
 import { Mentions } from 'infrad';
+import type { OptionProps } from 'infrad/es/mentions';
 
 const { Option } = Mentions;
 
-function onChange(value) {
+const onChange = (value: string) => {
   console.log('Change:', value);
-}
+};
 
-function onSelect(option) {
+const onSelect = (option: OptionProps) => {
   console.log('select', option);
-}
+};
 
-export default () => (
+const App: React.FC = () => (
   <Mentions
     style={{ width: '100%' }}
     onChange={onChange}
@@ -38,4 +40,6 @@ export default () => (
     <Option value="yesmeck">yesmeck</Option>
   </Mentions>
 );
+
+export default App;
 ```

@@ -14,9 +14,10 @@ title:
 Submenus open as pop-ups.
 
 ```tsx
-import type { MenuProps } from 'infrad';
+import React from 'react';
 import { Menu } from 'infrad';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from 'infra-design-icons';
+import type { MenuProps } from 'infrad';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -60,7 +61,9 @@ const onClick: MenuProps['onClick'] = e => {
   console.log('click', e);
 };
 
-export default () => (
+const App: React.FC = () => (
   <Menu onClick={onClick} style={{ width: 256 }} mode="vertical" items={items} />
 );
+
+export default App;
 ```

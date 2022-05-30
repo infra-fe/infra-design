@@ -13,11 +13,13 @@ title:
 
 Use `progress` for customize progress bar.
 
-```jsx
+```tsx
+import React from 'react';
 import { Upload, message, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
+import type { UploadProps } from 'infrad';
 
-const props = {
+const props: UploadProps = {
   name: 'file',
   action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
   headers: {
@@ -39,13 +41,15 @@ const props = {
       '100%': '#87d068',
     },
     strokeWidth: 3,
-    format: percent => `${parseFloat(percent.toFixed(2))}%`,
+    format: percent => percent && `${parseFloat(percent.toFixed(2))}%`,
   },
 };
 
-export default () => (
+const App: React.FC = () => (
   <Upload {...props}>
     <Button icon={<IUpload />}>Click to Upload</Button>
   </Upload>
 );
+
+export default App;
 ```
