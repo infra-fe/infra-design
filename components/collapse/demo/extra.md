@@ -14,10 +14,9 @@ title:
 More than one panel can be expanded at a time, the first panel is initialized to be active in this case.
 
 ```tsx
-import React, { useState } from 'react';
-import { Collapse, Select } from 'infrad';
 import { SettingOutlined } from 'infra-design-icons';
-import type { ExpandIconPosition } from 'infrad/lib/collapse/Collapse';
+import { Collapse, Select } from 'infrad';
+import React, { useState } from 'react';
 
 const { Panel } = Collapse;
 const { Option } = Select;
@@ -28,8 +27,10 @@ const text = `
   it can be found as a welcome guest in many households across the world.
 `;
 
+type ExpandIconPosition = 'start' | 'end';
+
 const App: React.FC = () => {
-  const [expandIconPosition, setExpandIconPosition] = useState<ExpandIconPosition>('left');
+  const [expandIconPosition, setExpandIconPosition] = useState<ExpandIconPosition>('start');
 
   const onPositionChange = (newExpandIconPosition: ExpandIconPosition) => {
     setExpandIconPosition(newExpandIconPosition);
@@ -68,8 +69,8 @@ const App: React.FC = () => {
       <br />
       <span>Expand Icon Position: </span>
       <Select value={expandIconPosition} style={{ margin: '0 8px' }} onChange={onPositionChange}>
-        <Option value="left">left</Option>
-        <Option value="right">right</Option>
+        <Option value="start">start</Option>
+        <Option value="end">end</Option>
       </Select>
     </>
   );

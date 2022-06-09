@@ -14,8 +14,8 @@ title:
 Show warning style when `value` is out of range by control.
 
 ```tsx
+import { Button, InputNumber, Space } from 'infrad';
 import React, { useState } from 'react';
-import { InputNumber, Button, Space } from 'infrad';
 
 const App: React.FC = () => {
   const [value, setValue] = useState<string | number>('99');

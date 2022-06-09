@@ -16,8 +16,8 @@ title:
 By using `push` and `pull` class you can easily change column order.
 
 ```tsx
+import { Col, Row } from 'infrad';
 import React from 'react';
-import { Row, Col } from 'infrad';
 
 const App: React.FC = () => (
   <Row>

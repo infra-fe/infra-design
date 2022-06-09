@@ -14,8 +14,8 @@ title:
 Focus with additional option.
 
 ```tsx
-import React, { useState, useRef } from 'react';
-import { Input, Space, Button, Switch } from 'infrad';
+import { Button, Input, Space, Switch } from 'infrad';
+import React, { useRef, useState } from 'react';
 
 const App: React.FC = () => {
   const inputRef = useRef<any>(null);

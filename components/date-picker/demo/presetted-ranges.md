@@ -14,10 +14,10 @@ title:
 We can set preset ranges to RangePicker to improve user experience.
 
 ```tsx
-import React from 'react';
 import { DatePicker, Space } from 'infrad';
-import moment from 'moment';
 import type { RangePickerProps } from 'infrad/es/date-picker';
+import moment from 'moment';
+import React from 'react';
 
 const { RangePicker } = DatePicker;
 

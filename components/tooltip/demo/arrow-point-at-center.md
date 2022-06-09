@@ -14,8 +14,8 @@ title:
 By specifying `arrowPointAtCenter` prop, the arrow will point to the center of the target element.
 
 ```tsx
+import { Button, Tooltip } from 'infrad';
 import React from 'react';
-import { Tooltip, Button } from 'infrad';
 
 const App: React.FC = () => (
   <>

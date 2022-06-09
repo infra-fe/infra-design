@@ -14,8 +14,8 @@ title:
 Manually updating and destroying a modal from `Modal.method`.
 
 ```tsx
+import { Button, Modal } from 'infrad';
 import React from 'react';
-import { Modal, Button } from 'infrad';
 
 const countDown = () => {
   let secondsToGo = 5;

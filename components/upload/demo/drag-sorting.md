@@ -14,13 +14,13 @@ title:
 By using `itemRender`, we can integrate upload with react-dnd to implement drag sorting of uploadList.
 
 ```tsx
-import React, { useState, useCallback, useRef } from 'react';
-import { Upload, Button, Tooltip } from 'infrad';
-import { DndProvider, useDrag, useDrop } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
 import update from 'immutability-helper';
 import { IUpload } from 'infra-design-icons';
+import { Button, Tooltip, Upload } from 'infrad';
 import type { UploadFile, UploadProps } from 'infrad/es/upload/interface';
+import React, { useCallback, useRef, useState } from 'react';
+import { DndProvider, useDrag, useDrop } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
 
 const type = 'DragableUploadList';
 

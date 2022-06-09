@@ -14,9 +14,9 @@ title:
 Switch in different types of pickers by Select.
 
 ```tsx
+import type { DatePickerProps, TimePickerProps } from 'infrad';
+import { DatePicker, Select, Space, TimePicker } from 'infrad';
 import React, { useState } from 'react';
-import { DatePicker, TimePicker, Select, Space } from 'infrad';
-import type { TimePickerProps, DatePickerProps } from 'infrad';
 
 const { Option } = Select;
 

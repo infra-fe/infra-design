@@ -14,9 +14,9 @@ title:
 Basic usage.
 
 ```tsx
-import React from 'react';
 import { Mentions } from 'infrad';
 import type { OptionProps } from 'infrad/es/mentions';
+import React from 'react';
 
 const { Option } = Mentions;
 

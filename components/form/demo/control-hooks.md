@@ -18,8 +18,8 @@ Call form method with `Form.useForm`.
 > Note that `useForm` is a [React Hooks](https://reactjs.org/docs/hooks-intro.html) that only works in functional component.
 
 ```tsx
+import { Button, Form, Input, Select } from 'infrad';
 import React from 'react';
-import { Form, Input, Button, Select } from 'infrad';
 
 const { Option } = Select;
 

@@ -14,11 +14,11 @@ title:
 After users upload picture, the thumbnail will be shown in list. The upload button will disappear when count meets limitation.
 
 ```tsx
-import React, { useState } from 'react';
-import { Upload, Modal } from 'infrad';
 import { PlusOutlined } from 'infra-design-icons';
-import type { UploadFile } from 'infrad/es/upload/interface';
+import { Modal, Upload } from 'infrad';
 import type { RcFile, UploadProps } from 'infrad/es/upload';
+import type { UploadFile } from 'infrad/es/upload/interface';
+import React, { useState } from 'react';
 
 const getBase64 = (file: RcFile): Promise<string> =>
   new Promise((resolve, reject) => {

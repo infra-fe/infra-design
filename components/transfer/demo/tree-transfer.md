@@ -14,10 +14,10 @@ title:
 Customize render list with Tree component.
 
 ```tsx
-import React, { useState } from 'react';
 import { Transfer, Tree } from 'infrad';
 import type { TransferDirection, TransferItem } from 'infrad/es/transfer';
 import type { DataNode } from 'infrad/es/tree';
+import React, { useState } from 'react';
 
 interface TreeTransferProps {
   dataSource: DataNode[];

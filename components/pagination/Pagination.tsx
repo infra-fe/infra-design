@@ -1,18 +1,18 @@
-import * as React from 'react';
+import classNames from 'classnames';
+import {
+  DoubleLeftOutlined,
+  DoubleRightOutlined,
+  LeftOutlined,
+  RightOutlined,
+} from 'infra-design-icons';
 import type { PaginationProps as RcPaginationProps } from 'rc-pagination';
 import RcPagination, { PaginationLocale } from 'rc-pagination';
 import enUS from 'rc-pagination/lib/locale/en_US';
-import classNames from 'classnames';
-import {
-  RightOutlined,
-  LeftOutlined,
-  DoubleLeftOutlined,
-  DoubleRightOutlined,
-} from 'infra-design-icons';
-import { MiniSelect, MiddleSelect } from './Select';
-import LocaleReceiver from '../locale-provider/LocaleReceiver';
+import * as React from 'react';
 import { ConfigContext } from '../config-provider';
 import useBreakpoint from '../grid/hooks/useBreakpoint';
+import LocaleReceiver from '../locale-provider/LocaleReceiver';
+import { MiddleSelect, MiniSelect } from './Select';
 
 export interface PaginationProps extends RcPaginationProps {
   showQuickJumper?: boolean | { goButton?: React.ReactNode };
@@ -38,12 +38,15 @@ const Pagination: React.FC<PaginationProps> = ({
   locale: customLocale,
   selectComponentClass,
   responsive,
+  showSizeChanger,
   ...restProps
 }) => {
   const { xs } = useBreakpoint(responsive);
 
-  const { getPrefixCls, direction } = React.useContext(ConfigContext);
+  const { getPrefixCls, direction, pagination = {} } = React.useContext(ConfigContext);
   const prefixCls = getPrefixCls('pagination', customizePrefixCls);
+
+  const mergedShowSizeChanger = showSizeChanger ?? pagination.showSizeChanger;
 
   const getIconsProps = () => {
     const ellipsis = <span className={`${prefixCls}-item-ellipsis`}>•••</span>;
@@ -94,7 +97,7 @@ const Pagination: React.FC<PaginationProps> = ({
     const selectPrefixCls = getPrefixCls('select', customizeSelectPrefixCls);
     const extendedClassName = classNames(
       {
-        mini: isSmall,
+        [`${prefixCls}-mini`]: isSmall,
         [`${prefixCls}-rtl`]: direction === 'rtl',
       },
       className,
@@ -109,6 +112,7 @@ const Pagination: React.FC<PaginationProps> = ({
         className={extendedClassName}
         selectComponentClass={selectComponentClass || (isSmall ? MiniSelect : MiddleSelect)}
         locale={locale}
+        showSizeChanger={mergedShowSizeChanger}
       />
     );
   };

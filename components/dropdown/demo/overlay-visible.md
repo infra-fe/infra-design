@@ -14,10 +14,10 @@ title:
 The default is to close the menu when you click on menu items, this feature can be turned off.
 
 ```tsx
-import React, { useState } from 'react';
-import { Menu, Dropdown, Space } from 'infrad';
 import { IArrowDown } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Dropdown, Menu, Space } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

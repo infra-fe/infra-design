@@ -14,8 +14,8 @@ title:
 Display a global loading indicator, which is dismissed by itself asynchronously.
 
 ```tsx
+import { Button, message } from 'infrad';
 import React from 'react';
-import { message, Button } from 'infrad';
 
 const success = () => {
   const hide = message.loading('Action in progress..', 0);

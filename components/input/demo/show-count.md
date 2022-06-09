@@ -14,8 +14,8 @@ title:
 Show character counting.
 
 ```tsx
-import React from 'react';
 import { Input } from 'infrad';
+import React from 'react';
 
 const { TextArea } = Input;
 

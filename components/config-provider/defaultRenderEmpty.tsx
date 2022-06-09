@@ -1,9 +1,9 @@
 import * as React from 'react';
-import Empty from '../empty';
 import type { ConfigConsumerProps } from '.';
 import { ConfigConsumer } from '.';
+import Empty from '../empty';
 
-const renderEmpty = (componentName?: string): React.ReactNode => (
+const defaultRenderEmpty = (componentName?: string): React.ReactNode => (
   <ConfigConsumer>
     {({ getPrefixCls }: ConfigConsumerProps) => {
       const prefix = getPrefixCls('empty');
@@ -20,13 +20,16 @@ const renderEmpty = (componentName?: string): React.ReactNode => (
           return <Empty type="NO_DATA" className={`${prefix}-small`} />;
         case 'Mentions':
           return <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} className={`${prefix}-small`} />;
+
+        /* istanbul ignore next */
         default:
+          // Should never hit if we take all the component into consider.
           return <Empty />;
       }
     }}
   </ConfigConsumer>
 );
 
-export type RenderEmptyHandler = typeof renderEmpty;
+export type RenderEmptyHandler = typeof defaultRenderEmpty;
 
-export default renderEmpty;
+export default defaultRenderEmpty;

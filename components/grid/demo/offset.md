@@ -16,8 +16,8 @@ title:
 `offset` can set the column to the right side. For example, using `offset = {4}` can set the element shifted to the right four columns width.
 
 ```tsx
+import { Col, Row } from 'infrad';
 import React from 'react';
-import { Row, Col } from 'infrad';
 
 const App: React.FC = () => (
   <>

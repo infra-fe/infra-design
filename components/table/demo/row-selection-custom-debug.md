@@ -15,10 +15,10 @@ debug: true
 Customize selection group.
 
 ```tsx
-import React from 'react';
 import { Table } from 'infrad';
-import type { TableRowSelection } from 'infrad/lib/table/interface';
 import type { ColumnsType } from 'infrad/lib/table';
+import type { TableRowSelection } from 'infrad/lib/table/interface';
+import React from 'react';
 
 interface DataType {
   key: React.Key;

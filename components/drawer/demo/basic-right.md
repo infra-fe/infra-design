@@ -14,8 +14,8 @@ title:
 Basic drawer.
 
 ```tsx
+import { Button, Drawer } from 'infrad';
 import React, { useState } from 'react';
-import { Drawer, Button } from 'infrad';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

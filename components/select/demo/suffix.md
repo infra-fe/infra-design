@@ -15,9 +15,9 @@ title:
 Basic Usage.
 
 ```tsx
-import React from 'react';
+import { MehOutlined, SmileOutlined } from 'infra-design-icons';
 import { Select } from 'infrad';
-import { SmileOutlined, MehOutlined } from 'infra-design-icons';
+import React from 'react';
 
 const smileIcon = <SmileOutlined />;
 const mehIcon = <MehOutlined />;

@@ -14,16 +14,16 @@ title:
 Show the dynamic switching mode (between `inline` and `vertical`).
 
 ```tsx
-import React, { useState } from 'react';
-import { Menu, Switch, Divider } from 'infrad';
 import {
-  MailOutlined,
-  CalendarOutlined,
   AppstoreOutlined,
-  SettingOutlined,
+  CalendarOutlined,
   LinkOutlined,
+  MailOutlined,
+  SettingOutlined,
 } from 'infra-design-icons';
-import type { MenuTheme, MenuProps } from 'infrad/es/menu';
+import { Divider, Menu, Switch } from 'infrad';
+import type { MenuProps, MenuTheme } from 'infrad/es/menu';
+import React, { useState } from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

@@ -14,17 +14,17 @@ title:
 A notification box can appear from the `topRight`, `bottomRight`, `bottomLeft` or `topLeft` of the viewport via `placement`.
 
 ```tsx
-import React from 'react';
-import { Button, notification, Divider, Space } from 'infrad';
 import {
-  RadiusUpleftOutlined,
-  RadiusUprightOutlined,
+  BorderBottomOutlined,
+  BorderTopOutlined,
   RadiusBottomleftOutlined,
   RadiusBottomrightOutlined,
-  BorderTopOutlined,
-  BorderBottomOutlined,
+  RadiusUpleftOutlined,
+  RadiusUprightOutlined,
 } from 'infra-design-icons';
+import { Button, Divider, notification, Space } from 'infrad';
 import type { NotificationPlacement } from 'infrad/lib/notification';
+import React from 'react';
 
 const openNotification = (placement: NotificationPlacement) => {
   notification.info({

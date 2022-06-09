@@ -14,8 +14,8 @@ title:
 Mouse to click, focus and move in.
 
 ```tsx
+import { Button, Popover } from 'infrad';
 import React from 'react';
-import { Popover, Button } from 'infrad';
 
 const content = (
   <div>

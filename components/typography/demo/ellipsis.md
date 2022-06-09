@@ -14,8 +14,8 @@ title:
 Multiple line ellipsis support. You can use `tooltip` to config ellipsis tooltip. Recommend `expandable` when have lots of content.
 
 ```tsx
+import { Switch, Typography } from 'infrad';
 import React, { useState } from 'react';
-import { Typography, Switch } from 'infrad';
 
 const { Paragraph, Text } = Typography;
 

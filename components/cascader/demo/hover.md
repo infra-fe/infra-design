@@ -14,8 +14,8 @@ title:
 Hover to expand sub menu, click to select option.
 
 ```tsx
-import React from 'react';
 import { Cascader } from 'infrad';
+import React from 'react';
 
 interface Option {
   value: string;

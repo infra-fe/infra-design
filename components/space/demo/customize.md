@@ -14,8 +14,8 @@ title:
 Custom spacing size.
 
 ```tsx
+import { Button, Slider, Space } from 'infrad';
 import React, { useState } from 'react';
-import { Space, Slider, Button } from 'infrad';
 
 const App: React.FC = () => {
   const [size, setSize] = useState(8);

@@ -14,10 +14,10 @@ title:
 Table with editable cells. When work with `shouldCellUpdate`, please take care of [closure](https://github.com/ant-design/ant-design/issues/29243).
 
 ```tsx
-import React, { useContext, useState, useEffect, useRef } from 'react';
-import { Table, Input, Button, Popconfirm, Form } from 'infrad';
 import type { InputRef } from 'infrad';
+import { Button, Form, Input, Popconfirm, Table } from 'infrad';
 import type { FormInstance } from 'infrad/lib/form';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 
 const EditableContext = React.createContext<FormInstance<any> | null>(null);
 

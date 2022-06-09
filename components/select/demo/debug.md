@@ -15,8 +15,8 @@ debug: true
 Basic Usage.
 
 ```tsx
+import { Button, Input, Select } from 'infrad';
 import React from 'react';
-import { Select, Input, Button } from 'infrad';
 
 const { Option } = Select;
 

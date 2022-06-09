@@ -1,7 +1,6 @@
+import InternalCard from './Card';
 import Grid from './Grid';
 import Meta from './Meta';
-
-import InternalCard from './Card';
 
 export { CardProps, CardTabListType } from './Card';
 export { CardGridProps } from './Grid';

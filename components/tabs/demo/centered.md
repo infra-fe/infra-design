@@ -14,8 +14,8 @@ title:
 Centered tabs.
 
 ```tsx
-import React from 'react';
 import { Tabs } from 'infrad';
+import React from 'react';
 
 const { TabPane } = Tabs;
 

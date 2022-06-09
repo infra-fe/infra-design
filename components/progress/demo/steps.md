@@ -15,6 +15,8 @@ A progress bar with steps.
 
 ```tsx
 import React from 'react';
+
+import { green, red } from '@ant-design/colors';
 import { Progress } from 'infrad';
 
 const App: React.FC = () => (
@@ -23,7 +25,9 @@ const App: React.FC = () => (
     <br />
     <Progress percent={30} steps={5} />
     <br />
-    <Progress percent={100} steps={5} size="small" strokeColor="#52c41a" />
+    <Progress percent={100} steps={5} size="small" strokeColor={green[6]} />
+    <br />
+    <Progress percent={60} steps={5} strokeColor={[green[6], green[6], red[5]]} />
   </>
 );
 

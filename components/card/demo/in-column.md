@@ -14,8 +14,8 @@ title:
 Cards usually cooperate with grid column layout in overview page.
 
 ```tsx
-import React from 'react';
 import { Card, Col, Row } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <div className="site-card-wrapper">

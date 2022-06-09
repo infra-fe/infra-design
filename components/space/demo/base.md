@@ -14,9 +14,9 @@ title:
 Crowded components horizontal spacing.
 
 ```tsx
-import React from 'react';
-import { Button, Space, Upload, Popconfirm } from 'infrad';
 import { UploadOutlined } from 'infra-design-icons';
+import { Button, Popconfirm, Space, Upload } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Space>

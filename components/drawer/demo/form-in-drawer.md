@@ -14,9 +14,9 @@ title:
 Use a form in Drawer with a submit button.
 
 ```tsx
-import React, { useState } from 'react';
-import { Drawer, Form, Button, Col, Row, Input, Select, DatePicker, Space } from 'infrad';
 import { PlusOutlined } from 'infra-design-icons';
+import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'infrad';
+import React, { useState } from 'react';
 
 const { Option } = Select;
 

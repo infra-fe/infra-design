@@ -14,9 +14,9 @@ title:
 In order to fit in more tabs, they can slide left and right (or up and down).
 
 ```tsx
-import React, { useState } from 'react';
-import { Tabs, Radio } from 'infrad';
 import type { RadioChangeEvent } from 'infrad';
+import { Radio, Tabs } from 'infrad';
+import React, { useState } from 'react';
 
 const { TabPane } = Tabs;
 

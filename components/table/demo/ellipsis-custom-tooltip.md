@@ -14,9 +14,9 @@ title:
 Ellipsis cell content via setting `column.ellipsis.showTitle`, use `Tooltip` instead of the html title attribute.
 
 ```tsx
-import React from 'react';
 import { Table, Tooltip } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React from 'react';
 
 interface DataType {
   key: React.Key;

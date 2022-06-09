@@ -14,10 +14,10 @@ title:
 There are two built-in themes: `light` and `dark`. The default value is `light`.
 
 ```tsx
-import React, { useState } from 'react';
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
+import type { MenuProps, MenuTheme } from 'infrad';
 import { Menu, Switch } from 'infrad';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from 'infra-design-icons';
-import type { MenuTheme, MenuProps } from 'infrad';
+import React, { useState } from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

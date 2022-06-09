@@ -15,19 +15,19 @@ title:
 When dealing with long content, a fixed sider can provide a better user experience.
 
 ```tsx
-import React from 'react';
-import { Layout, Menu } from 'infrad';
 import {
   AppstoreOutlined,
   BarChartOutlined,
   CloudOutlined,
   ShopOutlined,
   TeamOutlined,
-  UserOutlined,
   UploadOutlined,
+  UserOutlined,
   VideoCameraOutlined,
 } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Layout, Menu } from 'infrad';
+import React from 'react';
 
 const { Header, Content, Footer, Sider } = Layout;
 

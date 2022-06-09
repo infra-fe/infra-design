@@ -14,8 +14,8 @@ title:
 The most basic step bar.
 
 ```tsx
-import React from 'react';
 import { Steps } from 'infrad';
+import React from 'react';
 
 const { Step } = Steps;
 

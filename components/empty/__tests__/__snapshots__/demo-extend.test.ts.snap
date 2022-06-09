@@ -577,7 +577,6 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
             >
               <ul
                 class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light"
-                data-dropdown-inject="true"
                 data-menu-list="true"
                 role="menu"
                 tabindex="0"
@@ -883,7 +882,6 @@ exports[`renders ./components/empty/demo/config-provider.md extend context corre
             >
               <ul
                 class="ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light"
-                data-dropdown-inject="true"
                 data-menu-list="true"
                 role="menu"
                 tabindex="0"

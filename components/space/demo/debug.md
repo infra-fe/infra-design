@@ -15,8 +15,8 @@ Debug usage
 Debug usage
 
 ```tsx
+import { Button, Popconfirm, Space } from 'infrad';
 import React from 'react';
-import { Space, Button, Popconfirm } from 'infrad';
 
 const App: React.FC = () => (
   <Space>

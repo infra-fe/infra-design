@@ -14,8 +14,8 @@ title:
 Height autoSize.
 
 ```tsx
-import React from 'react';
 import { Mentions } from 'infrad';
+import React from 'react';
 
 const { Option } = Mentions;
 

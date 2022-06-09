@@ -14,9 +14,9 @@ title:
 large count of items with pagination.
 
 ```tsx
-import React, { useState, useEffect } from 'react';
-import { Transfer, Switch } from 'infrad';
+import { Switch, Transfer } from 'infrad';
 import type { TransferDirection } from 'infrad/es/transfer';
+import React, { useEffect, useState } from 'react';
 
 interface RecordType {
   key: string;

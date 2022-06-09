@@ -14,10 +14,10 @@ title:
 Use `progress` for customize progress bar.
 
 ```tsx
-import React from 'react';
-import { Upload, message, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
 import type { UploadProps } from 'infrad';
+import { Button, message, Upload } from 'infrad';
+import React from 'react';
 
 const props: UploadProps = {
   name: 'file',

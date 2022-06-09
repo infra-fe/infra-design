@@ -14,9 +14,9 @@ title:
 A Card that supports `cover`, `avatar`, `title` and `description`.
 
 ```tsx
-import React from 'react';
-import { Card, Avatar } from 'infrad';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from 'infra-design-icons';
+import { Avatar, Card } from 'infrad';
+import React from 'react';
 
 const { Meta } = Card;
 

@@ -15,9 +15,9 @@ debug: true
 There are two compacted table sizes: `middle` and `small`. The `small` size is used in Modals only.
 
 ```tsx
-import React from 'react';
 import { Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React from 'react';
 
 interface DataType {
   key: React.Key;

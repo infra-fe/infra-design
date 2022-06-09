@@ -14,8 +14,8 @@ title:
 Descriptions with border and background color.
 
 ```tsx
+import { Badge, Descriptions } from 'infrad';
 import React from 'react';
-import { Descriptions, Badge } from 'infrad';
 
 const App: React.FC = () => (
   <Descriptions title="User Info" bordered>

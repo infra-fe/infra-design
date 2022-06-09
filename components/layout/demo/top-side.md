@@ -14,10 +14,10 @@ title:
 Both the top navigation and the sidebar, commonly used in documentation site.
 
 ```tsx
-import React from 'react';
-import { Layout, Menu, Breadcrumb } from 'infrad';
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from 'infra-design-icons';
+import { LaptopOutlined, NotificationOutlined, UserOutlined } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Breadcrumb, Layout, Menu } from 'infrad';
+import React from 'react';
 
 const { Header, Content, Footer, Sider } = Layout;
 

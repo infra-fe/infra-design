@@ -14,8 +14,8 @@ title:
 The style and className are available to customize Notification.
 
 ```tsx
-import React from 'react';
 import { Button, notification } from 'infrad';
+import React from 'react';
 
 const openNotification = () => {
   notification.open({

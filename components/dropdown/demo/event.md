@@ -14,10 +14,10 @@ title:
 An event will be triggered when you click menu items, in which you can make different operations according to item's key.
 
 ```tsx
-import React from 'react';
-import { Menu, Dropdown, message, Space } from 'infrad';
 import { IArrowDown } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Dropdown, Menu, message, Space } from 'infrad';
+import React from 'react';
 
 const onClick: MenuProps['onClick'] = ({ key }) => {
   message.info(`Click on item ${key}`);

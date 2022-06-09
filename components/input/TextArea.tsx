@@ -6,11 +6,12 @@ import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
 import { ConfigContext } from '../config-provider';
+import DisabledContext from '../config-provider/DisabledContext';
 import type { SizeType } from '../config-provider/SizeContext';
 import SizeContext from '../config-provider/SizeContext';
 import { FormItemInputContext } from '../form/context';
 import type { InputStatus } from '../_util/statusUtils';
-import { getStatusClassNames, getMergedStatus } from '../_util/statusUtils';
+import { getMergedStatus, getStatusClassNames } from '../_util/statusUtils';
 import ClearableLabeledInput from './ClearableLabeledInput';
 import type { InputFocusOptions } from './Input';
 import { fixControlledValue, resolveOnChange, triggerFocus } from './Input';
@@ -48,6 +49,7 @@ export interface TextAreaProps extends RcTextAreaProps {
   bordered?: boolean;
   showCount?: boolean | ShowCountProps;
   size?: SizeType;
+  disabled?: boolean;
   status?: InputStatus;
 }
 
@@ -67,6 +69,7 @@ const TextArea = React.forwardRef<TextAreaRef, TextAreaProps>(
       className,
       style,
       size: customizeSize,
+      disabled: customDisabled,
       onCompositionStart,
       onCompositionEnd,
       onChange,
@@ -77,6 +80,10 @@ const TextArea = React.forwardRef<TextAreaRef, TextAreaProps>(
   ) => {
     const { getPrefixCls, direction } = React.useContext(ConfigContext);
     const size = React.useContext(SizeContext);
+
+    // ===================== Disabled =====================
+    const disabled = React.useContext(DisabledContext);
+    const mergedDisabled = customDisabled || disabled;
 
     const {
       status: contextStatus,
@@ -177,6 +184,7 @@ const TextArea = React.forwardRef<TextAreaRef, TextAreaProps>(
     const textArea = (
       <RcTextArea
         {...omit(props, ['allowClear'])}
+        disabled={mergedDisabled}
         className={classNames(
           {
             [`${prefixCls}-borderless`]: !bordered,
@@ -205,6 +213,7 @@ const TextArea = React.forwardRef<TextAreaRef, TextAreaProps>(
     // TextArea
     const textareaNode = (
       <ClearableLabeledInput
+        disabled={mergedDisabled}
         {...props}
         prefixCls={prefixCls}
         direction={direction}

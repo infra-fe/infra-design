@@ -18,10 +18,10 @@ Infra Design supports a default button size as well as a large and small size.
 If a large or small button is desired, set the `size` property to either `large` or `small` respectively. Omit the `size` property for a button with the default size.
 
 ```tsx
-import React, { useState } from 'react';
-import { Button, Radio } from 'infrad';
 import { IDownload } from 'infra-design-icons';
+import { Button, Radio } from 'infrad';
 import type { SizeType } from 'infrad/es/config-provider/SizeContext';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [size, setSize] = useState<SizeType>('large');

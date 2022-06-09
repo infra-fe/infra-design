@@ -14,8 +14,8 @@ title:
 Provides multiple types of text and link.
 
 ```tsx
+import { Space, Typography } from 'infrad';
 import React from 'react';
-import { Typography, Space } from 'infrad';
 
 const { Text, Link } = Typography;
 

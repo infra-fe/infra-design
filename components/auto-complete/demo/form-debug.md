@@ -7,9 +7,9 @@ debug: true
 ---
 
 ```tsx
-import React from 'react';
-import { Input, AutoComplete, Form, TreeSelect, Button } from 'infrad';
 import { SearchOutlined } from 'infra-design-icons';
+import { AutoComplete, Button, Form, Input, TreeSelect } from 'infrad';
+import React from 'react';
 
 const formItemLayout = {
   labelCol: {

@@ -14,9 +14,9 @@ title:
 Provide additional interactive capacity of editable and copyable.
 
 ```tsx
+import { CheckOutlined, HighlightOutlined, SmileFilled, SmileOutlined } from 'infra-design-icons';
+import { Divider, Radio, Typography } from 'infrad';
 import React, { useState } from 'react';
-import { Radio, Typography, Divider } from 'infrad';
-import { CheckOutlined, HighlightOutlined, SmileOutlined, SmileFilled } from 'infra-design-icons';
 
 const { Paragraph } = Typography;
 

@@ -16,9 +16,9 @@ title:
 Normal login form which can contain more elements.
 
 ```tsx
+import { LockOutlined, UserOutlined } from 'infra-design-icons';
+import { Button, Checkbox, Form, Input } from 'infrad';
 import React from 'react';
-import { Form, Input, Button, Checkbox } from 'infrad';
-import { UserOutlined, LockOutlined } from 'infra-design-icons';
 
 const App: React.FC = () => {
   const onFinish = (values: any) => {

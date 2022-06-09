@@ -14,8 +14,8 @@ title:
 Control keyboard behavior by `keyboard`.
 
 ```tsx
+import { Checkbox, InputNumber, Space } from 'infrad';
 import React, { useState } from 'react';
-import { InputNumber, Checkbox, Space } from 'infrad';
 
 const App: React.FC = () => {
   const [keyboard, setKeyboard] = useState(true);

@@ -1,4 +1,3 @@
-import React from 'react';
 import { render } from 'enzyme';
 import moment from 'moment';
 import ConfigProvider from '..';
@@ -23,15 +22,15 @@ import Drawer from '../../drawer';
 import Dropdown from '../../dropdown';
 import Empty from '../../empty';
 import Form from '../../form';
-import { Row, Col } from '../../grid';
+import { Col, Row } from '../../grid';
 import Input from '../../input';
 import InputNumber from '../../input-number';
 import Layout from '../../layout';
 import List from '../../list';
 import Menu from '../../menu';
 import Modal from '../../modal';
-import Pagination from '../../pagination';
 import PageHeader from '../../page-header';
+import Pagination from '../../pagination';
 import Popconfirm from '../../popconfirm';
 import Popover from '../../popover';
 import Progress from '../../progress';
@@ -96,6 +95,16 @@ describe('ConfigProvider', () => {
           expect(
             render(
               <ConfigProvider componentSize="middle" prefixCls="config">
+                {renderComponent({})}
+              </ConfigProvider>,
+            ),
+          ).toMatchSnapshot();
+        });
+
+        it('configProvider componentDisabled', () => {
+          expect(
+            render(
+              <ConfigProvider componentDisabled prefixCls="config">
                 {renderComponent({})}
               </ConfigProvider>,
             ),

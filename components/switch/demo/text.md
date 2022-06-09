@@ -14,9 +14,9 @@ title:
 With text and icon.
 
 ```tsx
-import React from 'react';
+import { CheckOutlined, CloseOutlined } from 'infra-design-icons';
 import { Switch } from 'infrad';
-import { CloseOutlined, CheckOutlined } from 'infra-design-icons';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

@@ -1,19 +1,19 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import { SmileOutlined, LikeOutlined, HighlightOutlined, CheckOutlined } from 'infra-design-icons';
-import KeyCode from 'rc-util/lib/KeyCode';
-import { resetWarned } from 'rc-util/lib/warning';
-import { spyElementPrototype } from 'rc-util/lib/test/domHook';
 import copy from 'copy-to-clipboard';
-import Title from '../Title';
+import { mount } from 'enzyme';
+import { CheckOutlined, HighlightOutlined, LikeOutlined, SmileOutlined } from 'infra-design-icons';
+import KeyCode from 'rc-util/lib/KeyCode';
+import { spyElementPrototype } from 'rc-util/lib/test/domHook';
+import { resetWarned } from 'rc-util/lib/warning';
+import React from 'react';
+import mountTest from '../../../tests/shared/mountTest';
+import rtlTest from '../../../tests/shared/rtlTest';
+import { render, sleep } from '../../../tests/utils';
+import Base from '../Base';
 import Link from '../Link';
 import Paragraph from '../Paragraph';
 import Text from '../Text';
-import Base from '../Base';
-import mountTest from '../../../tests/shared/mountTest';
-import rtlTest from '../../../tests/shared/rtlTest';
+import Title from '../Title';
 import Typography from '../Typography';
-import { sleep, render } from '../../../tests/utils';
 
 jest.mock('copy-to-clipboard');
 
@@ -89,12 +89,12 @@ describe('Typography', () => {
 
   describe('Base', () => {
     describe('copyable', () => {
-      function copyTest(name, text, target, icon, tooltips) {
+      function copyTest(name, text, target, icon, tooltips, format) {
         it(name, async () => {
           jest.useFakeTimers();
           const onCopy = jest.fn();
           const wrapper = mount(
-            <Base component="p" copyable={{ text, onCopy, icon, tooltips }}>
+            <Base component="p" copyable={{ text, onCopy, icon, tooltips, format }}>
               test copy
             </Base>,
           );
@@ -132,6 +132,7 @@ describe('Typography', () => {
           }
 
           expect(copy.lastStr).toEqual(target);
+          expect(copy.lastOptions.format).toEqual(format);
           wrapper.update();
           expect(onCopy).toHaveBeenCalled();
 
@@ -173,6 +174,22 @@ describe('Typography', () => {
 
       copyTest('basic copy', undefined, 'test copy');
       copyTest('customize copy', 'bamboo', 'bamboo');
+      copyTest(
+        'costomize copy with plain text',
+        'bamboo',
+        'bamboo',
+        undefined,
+        undefined,
+        'text/plain',
+      );
+      copyTest(
+        'costomize copy with html text',
+        'bamboo',
+        'bamboo',
+        undefined,
+        undefined,
+        'text/html',
+      );
       copyTest('customize copy icon', 'bamboo', 'bamboo', <SmileOutlined />);
       copyTest('customize copy icon by pass array', 'bamboo', 'bamboo', [
         <SmileOutlined key="copy-icon" />,

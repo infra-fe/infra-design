@@ -14,9 +14,9 @@ title:
 Avatar group display.
 
 ```tsx
-import React from 'react';
+import { AntDesignOutlined, UserOutlined } from 'infra-design-icons';
 import { Avatar, Divider, Tooltip } from 'infrad';
-import { UserOutlined, AntDesignOutlined } from 'infra-design-icons';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

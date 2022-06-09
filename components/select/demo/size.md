@@ -14,10 +14,10 @@ title:
 The height of the input field for the select defaults to 32px. If size is set to large, the height will be 40px, and if set to small, 24px.
 
 ```tsx
-import React, { useState } from 'react';
-import { Select, Radio } from 'infrad';
-import type { SizeType } from 'infrad/es/config-provider/SizeContext';
 import type { RadioChangeEvent } from 'infrad';
+import { Radio, Select } from 'infrad';
+import type { SizeType } from 'infrad/es/config-provider/SizeContext';
+import React, { useState } from 'react';
 
 const { Option } = Select;
 

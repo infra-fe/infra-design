@@ -14,10 +14,10 @@ title:
 Tree with connected line between nodes, turn on by `showLine`, customize the preseted icon by `switcherIcon`.
 
 ```tsx
-import React, { useState } from 'react';
-import { Tree, Switch } from 'infrad';
 import { CarryOutOutlined, FormOutlined } from 'infra-design-icons';
+import { Switch, Tree } from 'infrad';
 import type { DataNode } from 'infrad/lib/tree';
+import React, { useState } from 'react';
 
 const treeData: DataNode[] = [
   {

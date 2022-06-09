@@ -14,8 +14,8 @@ title:
 Standalone badge with status.
 
 ```tsx
-import React from 'react';
 import { Badge } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

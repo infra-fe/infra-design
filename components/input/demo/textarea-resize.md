@@ -15,8 +15,8 @@ debug: true
 For multi-line input.
 
 ```tsx
+import { Button, Input } from 'infrad';
 import React, { useState } from 'react';
-import { Input, Button } from 'infrad';
 
 const { TextArea } = Input;
 

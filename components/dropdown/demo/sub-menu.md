@@ -14,9 +14,9 @@ title:
 The menu has multiple levels.
 
 ```tsx
-import React from 'react';
-import { Menu, Dropdown, Space } from 'infrad';
 import { IArrowDown } from 'infra-design-icons';
+import { Dropdown, Menu, Space } from 'infrad';
+import React from 'react';
 
 const menu = (
   <Menu

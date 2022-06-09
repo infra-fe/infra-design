@@ -14,8 +14,8 @@ title:
 The result of the warning.
 
 ```tsx
+import { Button, Result } from 'infrad';
 import React from 'react';
-import { Result, Button } from 'infrad';
 
 const App: React.FC = () => (
   <Result

@@ -14,8 +14,8 @@ title:
 Cascade selection box of different sizes.
 
 ```tsx
-import React from 'react';
 import { Cascader } from 'infrad';
+import React from 'react';
 
 interface Option {
   value: string;

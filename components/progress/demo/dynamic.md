@@ -14,9 +14,9 @@ title:
 A dynamic progress bar is better.
 
 ```tsx
-import React, { useState } from 'react';
-import { Progress, Button } from 'infrad';
 import { MinusOutlined, PlusOutlined } from 'infra-design-icons';
+import { Button, Progress } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [percent, setPercent] = useState(0);

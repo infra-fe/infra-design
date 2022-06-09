@@ -14,9 +14,9 @@ title:
 Add border, title and footer for table.
 
 ```tsx
-import React from 'react';
 import { Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React from 'react';
 
 interface DataType {
   key: string;

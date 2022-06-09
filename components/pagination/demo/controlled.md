@@ -14,9 +14,9 @@ title:
 Controlled page number.
 
 ```tsx
-import React, { useState } from 'react';
-import { Pagination } from 'infrad';
 import type { PaginationProps } from 'infrad';
+import { Pagination } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [current, setCurrent] = useState(3);

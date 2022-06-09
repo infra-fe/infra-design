@@ -14,9 +14,9 @@ title:
 Show all props provided by PageHeader.
 
 ```tsx
-import React from 'react';
-import { PageHeader, Menu, Dropdown, Button, Tag, Typography, Row } from 'infrad';
 import { MoreOutlined } from 'infra-design-icons';
+import { Button, Dropdown, Menu, PageHeader, Row, Tag, Typography } from 'infrad';
+import React from 'react';
 
 const { Paragraph } = Typography;
 

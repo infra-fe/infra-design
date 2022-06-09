@@ -14,8 +14,8 @@ title:
 Disabled a tab.
 
 ```tsx
-import React from 'react';
 import { Tabs } from 'infrad';
+import React from 'react';
 
 const { TabPane } = Tabs;
 

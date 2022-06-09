@@ -14,9 +14,9 @@ title:
 Add or remove form items dynamically. `add` function support config initial value.
 
 ```tsx
-import React from 'react';
-import { Form, Input, Button } from 'infrad';
 import { MinusCircleOutlined, PlusOutlined } from 'infra-design-icons';
+import { Button, Form, Input } from 'infrad';
+import React from 'react';
 
 const formItemLayout = {
   labelCol: {

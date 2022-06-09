@@ -14,9 +14,9 @@ title:
 You can customize the display for Steps with progress dot style.
 
 ```tsx
-import React from 'react';
-import { Steps, Popover } from 'infrad';
 import type { StepsProps } from 'infrad';
+import { Popover, Steps } from 'infrad';
+import React from 'react';
 
 const { Step } = Steps;
 

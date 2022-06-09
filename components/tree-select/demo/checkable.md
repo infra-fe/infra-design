@@ -14,8 +14,8 @@ title:
 Multiple and checkable.
 
 ```tsx
-import React, { useState } from 'react';
 import { TreeSelect } from 'infrad';
+import React, { useState } from 'react';
 
 const { SHOW_PARENT } = TreeSelect;
 

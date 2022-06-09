@@ -15,8 +15,8 @@ version: 4.18.0
 Turn on `labelWrap` to wrap label if text is long.
 
 ```tsx
+import { Button, Form, Input } from 'infrad';
 import React from 'react';
-import { Form, Input, Button } from 'infrad';
 
 const App: React.FC = () => (
   <Form

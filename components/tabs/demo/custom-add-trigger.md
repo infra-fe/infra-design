@@ -14,8 +14,8 @@ title:
 Hide default plus icon, and bind event for customized trigger.
 
 ```tsx
+import { Button, Tabs } from 'infrad';
 import React, { useRef, useState } from 'react';
-import { Tabs, Button } from 'infrad';
 
 const { TabPane } = Tabs;
 

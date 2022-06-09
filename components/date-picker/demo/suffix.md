@@ -15,10 +15,10 @@ title:
 Basic use case. Users can select or input a date in panel.
 
 ```tsx
-import React from 'react';
-import { DatePicker, Space } from 'infrad';
 import { SmileOutlined } from 'infra-design-icons';
+import { DatePicker, Space } from 'infrad';
 import type { Moment } from 'moment';
+import React from 'react';
 
 const smileIcon = <SmileOutlined />;
 const { RangePicker } = DatePicker;

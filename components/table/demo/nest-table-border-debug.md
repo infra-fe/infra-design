@@ -15,10 +15,10 @@ debug: true
 To see if bordered style applied to other tables.
 
 ```tsx
-import React, { useState } from 'react';
-import { Table, Badge, Menu, Dropdown, Switch, Form, Space } from 'infrad';
 import { DownOutlined } from 'infra-design-icons';
+import { Badge, Dropdown, Form, Menu, Space, Switch, Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React, { useState } from 'react';
 
 interface DataType {
   key: React.Key;

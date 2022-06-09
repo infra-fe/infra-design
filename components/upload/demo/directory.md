@@ -14,9 +14,9 @@ title:
 You can select and upload a whole directory.
 
 ```tsx
-import React from 'react';
-import { Upload, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
+import { Button, Upload } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Upload action="https://www.mocky.io/v2/5cc8019d300000980a055e76" directory>

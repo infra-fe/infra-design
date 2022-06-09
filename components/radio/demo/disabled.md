@@ -14,8 +14,8 @@ Radio 不可用。
 Radio unavailable.
 
 ```tsx
+import { Button, Radio } from 'infrad';
 import React, { useState } from 'react';
-import { Radio, Button } from 'infrad';
 
 const App: React.FC = () => {
   const [disabled, setDisabled] = useState(true);

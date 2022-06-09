@@ -15,10 +15,10 @@ buggy!
 buggy!
 
 ```tsx
-import React, { useState } from 'react';
+import { AppstoreOutlined, MailOutlined } from 'infra-design-icons';
+import type { MenuProps, MenuTheme } from 'infrad';
 import { Menu, Switch } from 'infrad';
-import { MailOutlined, AppstoreOutlined } from 'infra-design-icons';
-import type { MenuTheme, MenuProps } from 'infrad';
+import React, { useState } from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

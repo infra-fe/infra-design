@@ -14,8 +14,8 @@ title:
 Embedding content into `Spin` will set it into loading state.
 
 ```tsx
+import { Alert, Spin, Switch } from 'infrad';
 import React, { useState } from 'react';
-import { Spin, Switch, Alert } from 'infrad';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(false);

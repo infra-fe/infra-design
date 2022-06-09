@@ -14,10 +14,10 @@ title:
 Generating a set of Tags by array, you can add and remove dynamically.
 
 ```tsx
+import { PlusOutlined } from 'infra-design-icons';
+import type { InputRef } from 'infrad';
+import { Input, Tag, Tooltip } from 'infrad';
 import React, { useEffect, useRef, useState } from 'react';
-import { Tag, Input, Tooltip } from 'infrad';
-import { PlusOutlined } from '@ant-design/icons';
-import type { InputRef } from 'infra-design-icons';
 
 const App: React.FC = () => {
   const [tags, setTags] = useState<string[]>(['Unremovable', 'Tag 2', 'Tag 3']);

@@ -14,10 +14,10 @@ title:
 This component can be rendered by using `dateCellRender` and `monthCellRender` with the data you need.
 
 ```tsx
-import React from 'react';
-import { Calendar, Badge } from 'infrad';
 import type { BadgeProps } from 'infrad';
+import { Badge, Calendar } from 'infrad';
 import type { Moment } from 'moment';
+import React from 'react';
 
 const getListData = (value: Moment) => {
   let listData;

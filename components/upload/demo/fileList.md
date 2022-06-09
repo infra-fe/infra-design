@@ -22,11 +22,11 @@ You can gain full control over filelist by configuring `fileList`. You can accom
 2. read from response and show file link.
 
 ```tsx
-import React, { useState } from 'react';
-import { Upload, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
-import type { UploadFile } from 'infrad/es/upload/interface';
 import type { UploadProps } from 'infrad';
+import { Button, Upload } from 'infrad';
+import type { UploadFile } from 'infrad/es/upload/interface';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [fileList, setFileList] = useState<UploadFile[]>([

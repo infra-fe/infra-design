@@ -14,8 +14,8 @@ title:
 `size="small"` represents a small sized switch.
 
 ```tsx
-import React from 'react';
 import { Switch } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

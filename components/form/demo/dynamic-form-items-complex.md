@@ -14,9 +14,9 @@ title:
 This example demonstrates the case that a form contains multiple form controls.
 
 ```tsx
-import React from 'react';
-import { Form, Input, Button, Space, Select } from 'infrad';
 import { MinusCircleOutlined, PlusOutlined } from 'infra-design-icons';
+import { Button, Form, Input, Select, Space } from 'infrad';
+import React from 'react';
 
 const { Option } = Select;
 

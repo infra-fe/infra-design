@@ -14,8 +14,8 @@ title:
 A circular progress bar.
 
 ```tsx
-import React from 'react';
 import { Progress } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

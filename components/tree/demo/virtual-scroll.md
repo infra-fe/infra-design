@@ -14,9 +14,9 @@ title:
 Use virtual list through `height` prop.
 
 ```tsx
-import React from 'react';
 import { Tree } from 'infrad';
 import type { DataNode } from 'infrad/lib/tree';
+import React from 'react';
 
 const dig = (path = '0', level = 3) => {
   const list = [];

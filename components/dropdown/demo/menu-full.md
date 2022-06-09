@@ -19,10 +19,10 @@ This demo was created for debugging Menu styles inside Dropdown.
 [#19150](https://github.com/ant-design/ant-design/pull/19150)
 
 ```tsx
-import React from 'react';
-import { Menu, Dropdown, Space } from 'infrad';
-import { MailOutlined, AppstoreOutlined, SettingOutlined, IArrowDown } from 'infra-design-icons';
+import { AppstoreOutlined, IArrowDown, MailOutlined, SettingOutlined } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Dropdown, Menu, Space } from 'infrad';
+import React from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

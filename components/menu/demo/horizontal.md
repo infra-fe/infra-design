@@ -14,10 +14,10 @@ title:
 Horizontal top navigation menu.
 
 ```tsx
-import React, { useState } from 'react';
-import { Menu } from 'infrad';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from 'infra-design-icons';
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Menu } from 'infrad';
+import React, { useState } from 'react';
 
 const items: MenuProps['items'] = [
   {

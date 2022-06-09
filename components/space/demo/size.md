@@ -18,9 +18,9 @@ title:
 Set the size to `large` and `middle` by setting size to large and middle respectively. If `size` is not set, the spacing is `small`.
 
 ```tsx
-import React, { useState } from 'react';
-import { Space, Radio, Button } from 'infrad';
+import { Button, Radio, Space } from 'infrad';
 import type { SpaceSize } from 'infrad/es/space';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [size, setSize] = useState<SpaceSize | [SpaceSize, SpaceSize]>('small');

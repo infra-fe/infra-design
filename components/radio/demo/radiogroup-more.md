@@ -14,9 +14,9 @@ title:
 Vertical Radio.Group, with more radios.
 
 ```tsx
-import React, { useState } from 'react';
-import { Radio, Input, Space } from 'infrad';
 import type { RadioChangeEvent } from 'infrad';
+import { Input, Radio, Space } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [value, setValue] = useState(1);

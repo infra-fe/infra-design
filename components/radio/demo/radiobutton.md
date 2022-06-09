@@ -14,9 +14,9 @@ title:
 The combination of radio button style.
 
 ```tsx
-import React from 'react';
-import { Radio } from 'infrad';
 import type { RadioChangeEvent } from 'infrad';
+import { Radio } from 'infrad';
+import React from 'react';
 
 const onChange = (e: RadioChangeEvent) => {
   console.log(`radio checked:${e.target.value}`);

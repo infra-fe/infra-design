@@ -14,9 +14,9 @@ title:
 Transfer with a search box.
 
 ```tsx
-import React, { useState, useEffect } from 'react';
 import { Transfer } from 'infrad';
 import type { TransferDirection } from 'infrad/es/transfer';
+import React, { useEffect, useState } from 'react';
 
 interface RecordType {
   key: string;

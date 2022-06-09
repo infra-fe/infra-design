@@ -14,8 +14,8 @@ title:
 Set a `target` for 'Affix', which is listen to scroll event of target element (default is `window`).
 
 ```tsx
-import React, { useState } from 'react';
 import { Affix, Button } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [container, setContainer] = useState<HTMLDivElement | null>(null);
