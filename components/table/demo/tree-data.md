@@ -18,10 +18,10 @@ Display tree structure data in Table when there is field key `children` in dataS
 You can control the indent width by setting `indentSize`.
 
 ```tsx
-import React, { useState } from 'react';
-import { Table, Switch, Space } from 'infrad';
-import type { TableRowSelection } from 'infrad/lib/table/interface';
+import { Space, Switch, Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import type { TableRowSelection } from 'infrad/lib/table/interface';
+import React, { useState } from 'react';
 
 interface DataType {
   key: React.ReactNode;

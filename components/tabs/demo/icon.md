@@ -14,9 +14,9 @@ title:
 The Tab with Icon.
 
 ```tsx
-import React from 'react';
+import { AndroidOutlined, AppleOutlined } from 'infra-design-icons';
 import { Tabs } from 'infrad';
-import { AppleOutlined, AndroidOutlined } from 'infra-design-icons';
+import React from 'react';
 
 const { TabPane } = Tabs;
 

@@ -14,10 +14,10 @@ title:
 There are 4 position options available.
 
 ```tsx
-import React, { useState } from 'react';
-import { Carousel, Radio } from 'infrad';
 import type { RadioChangeEvent } from 'infrad';
+import { Carousel, Radio } from 'infrad';
 import type { DotPosition } from 'infrad/lib/carousel';
+import React, { useState } from 'react';
 
 const contentStyle: React.CSSProperties = {
   height: '160px',

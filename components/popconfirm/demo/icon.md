@@ -14,9 +14,9 @@ title:
 Set `icon` props to customize the icon.
 
 ```tsx
-import React from 'react';
-import { Popconfirm } from 'infrad';
 import { QuestionCircleOutlined } from 'infra-design-icons';
+import { Popconfirm } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Popconfirm title="Are you sure？" icon={<QuestionCircleOutlined style={{ color: 'red' }} />}>

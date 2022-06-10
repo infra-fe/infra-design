@@ -14,9 +14,9 @@ title:
 Shows a loading indicator while the contents of the card is being fetched.
 
 ```tsx
-import React, { useState } from 'react';
-import { Skeleton, Switch, Card, Avatar } from 'infrad';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from 'infra-design-icons';
+import { Avatar, Card, Skeleton, Switch } from 'infrad';
+import React, { useState } from 'react';
 
 const { Meta } = Card;
 

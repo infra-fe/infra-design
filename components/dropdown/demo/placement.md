@@ -14,8 +14,8 @@ title:
 Support 6 placements.
 
 ```tsx
+import { Button, Dropdown, Menu, Space } from 'infrad';
 import React from 'react';
-import { Menu, Dropdown, Button, Space } from 'infrad';
 
 const menu = (
   <Menu

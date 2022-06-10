@@ -14,11 +14,11 @@ title:
 Use `react-dnd@15+` to make tabs draggable.
 
 ```tsx
-import React, { useState, useRef } from 'react';
+import type { TabsProps } from 'infrad';
 import { Tabs } from 'infrad';
+import React, { useRef, useState } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
-import type { TabsProps } from 'infrad';
 
 const { TabPane } = Tabs;
 

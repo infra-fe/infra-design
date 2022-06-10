@@ -14,9 +14,9 @@ title:
 Use text link for prev and next button.
 
 ```tsx
-import React from 'react';
-import { Pagination } from 'infrad';
 import type { PaginationProps } from 'infrad';
+import { Pagination } from 'infrad';
+import React from 'react';
 
 const itemRender: PaginationProps['itemRender'] = (_, type, originalElement) => {
   if (type === 'prev') {

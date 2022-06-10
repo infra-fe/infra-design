@@ -14,22 +14,22 @@ title:
 Demonstration of validation configuration for form controls which are not shown in the demos above.
 
 ```tsx
-import React from 'react';
+import { InboxOutlined, UploadOutlined } from 'infra-design-icons';
 import {
-  Form,
-  Select,
-  InputNumber,
-  Switch,
-  Radio,
-  Slider,
   Button,
-  Upload,
-  Rate,
   Checkbox,
-  Row,
   Col,
+  Form,
+  InputNumber,
+  Radio,
+  Rate,
+  Row,
+  Select,
+  Slider,
+  Switch,
+  Upload,
 } from 'infrad';
-import { UploadOutlined, InboxOutlined } from 'infra-design-icons';
+import React from 'react';
 
 const { Option } = Select;
 

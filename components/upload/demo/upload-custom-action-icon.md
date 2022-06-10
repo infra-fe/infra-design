@@ -14,10 +14,10 @@ title:
 Use `showUploadList` for custom action icons of files.
 
 ```tsx
-import React from 'react';
-import { Upload, Button } from 'infrad';
-import { StarOutlined, IUpload } from 'infra-design-icons';
+import { IUpload, StarOutlined } from 'infra-design-icons';
 import type { UploadProps } from 'infrad';
+import { Button, Upload } from 'infrad';
+import React from 'react';
 
 const props: UploadProps = {
   action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',

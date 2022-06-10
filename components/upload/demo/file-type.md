@@ -15,18 +15,18 @@ title:
 Displays the corresponding by default by type icon
 
 ```tsx
-import React, { useState } from 'react';
-import { Upload, Modal } from 'infrad';
 import {
+  FileExcelTwoTone,
+  FilePdfTwoTone,
+  FileWordTwoTone,
   LoadingOutlined,
   PaperClipOutlined,
   PictureTwoTone,
-  FilePdfTwoTone,
-  FileWordTwoTone,
-  FileExcelTwoTone,
   PlusOutlined,
 } from 'infra-design-icons';
+import { Modal, Upload } from 'infrad';
 import type { RcFile, UploadFile, UploadProps } from 'infrad/es/upload/interface';
+import React, { useState } from 'react';
 
 const getBase64 = (file: RcFile): Promise<string> =>
   new Promise((resolve, reject) => {

@@ -14,9 +14,9 @@ title:
 Use custom loading indicator.
 
 ```tsx
-import React from 'react';
-import { Spin } from 'infrad';
 import { LoadingOutlined } from 'infra-design-icons';
+import { Spin } from 'infrad';
+import React from 'react';
 
 const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 

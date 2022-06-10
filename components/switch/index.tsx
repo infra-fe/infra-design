@@ -1,12 +1,13 @@
-import * as React from 'react';
-import RcSwitch from 'rc-switch';
 import classNames from 'classnames';
 import { LoadingOutlined } from 'infra-design-icons';
+import RcSwitch from 'rc-switch';
+import * as React from 'react';
 
-import Wave from '../_util/wave';
 import { ConfigContext } from '../config-provider';
+import DisabledContext from '../config-provider/DisabledContext';
 import SizeContext from '../config-provider/SizeContext';
 import warning from '../_util/warning';
+import Wave from '../_util/wave';
 
 export type SwitchSize = 'small' | 'default';
 export type SwitchChangeEventHandler = (checked: boolean, event: MouseEvent) => void;
@@ -41,9 +42,9 @@ const Switch = React.forwardRef<unknown, SwitchProps>(
     {
       prefixCls: customizePrefixCls,
       size: customizeSize,
+      disabled: customDisabled,
       loading,
       className = '',
-      disabled,
       ...props
     },
     ref,
@@ -56,6 +57,11 @@ const Switch = React.forwardRef<unknown, SwitchProps>(
 
     const { getPrefixCls, direction } = React.useContext(ConfigContext);
     const size = React.useContext(SizeContext);
+
+    // ===================== Disabled =====================
+    const disabled = React.useContext(DisabledContext);
+    const mergedDisabled = customDisabled || disabled || loading;
+
     const prefixCls = getPrefixCls('switch', customizePrefixCls);
     const loadingIcon = (
       <div className={`${prefixCls}-handle`}>
@@ -78,7 +84,7 @@ const Switch = React.forwardRef<unknown, SwitchProps>(
           {...props}
           prefixCls={prefixCls}
           className={classes}
-          disabled={disabled || loading}
+          disabled={mergedDisabled}
           ref={ref}
           loadingIcon={loadingIcon}
         />

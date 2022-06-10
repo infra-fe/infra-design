@@ -14,9 +14,9 @@ title:
 Custom sizes to fit in a variety of containers.
 
 ```tsx
-import React, { useState } from 'react';
-import { Descriptions, Radio, Button } from 'infrad';
 import type { RadioChangeEvent } from 'infrad';
+import { Button, Descriptions, Radio } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [size, setSize] = useState<'default' | 'middle' | 'small'>('default');

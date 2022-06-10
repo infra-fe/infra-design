@@ -14,8 +14,8 @@ title:
 Divider is `horizontal` by default. You can add text within Divider.
 
 ```tsx
-import React from 'react';
 import { Divider } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

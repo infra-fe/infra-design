@@ -14,9 +14,9 @@ title:
 Communicated with other components.
 
 ```tsx
-import React, { useState } from 'react';
-import { Checkbox, Button } from 'infrad';
+import { Button, Checkbox } from 'infrad';
 import type { CheckboxChangeEvent } from 'infrad/es/checkbox';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [checked, setChecked] = useState(true);

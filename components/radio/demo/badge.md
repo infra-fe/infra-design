@@ -15,8 +15,8 @@ title:
 Test Badge style.
 
 ```tsx
+import { Badge, Radio } from 'infrad';
 import React from 'react';
-import { Radio, Badge } from 'infrad';
 
 const App: React.FC = () => (
   <Radio.Group buttonStyle="solid">

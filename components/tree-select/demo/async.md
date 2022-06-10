@@ -14,10 +14,10 @@ title:
 Asynchronous loading tree node.
 
 ```tsx
-import React, { useState } from 'react';
+import type { TreeSelectProps } from 'infrad';
 import { TreeSelect } from 'infrad';
 import type { DefaultOptionType } from 'infrad/es/select';
-import type { TreeSelectProps } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [value, setValue] = useState<string>();

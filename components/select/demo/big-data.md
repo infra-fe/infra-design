@@ -14,9 +14,9 @@ Select 使用了[虚拟滚动](https://github.com/react-component/virtual-list)�
 Select use [virtual scroll](https://github.com/react-component/virtual-list) which get better performance [than 3.0](https://codesandbox.io/s/beautiful-banzai-m72lv).
 
 ```tsx
-import React from 'react';
-import { Select, Typography, Divider } from 'infrad';
 import type { SelectProps } from 'infrad';
+import { Divider, Select, Typography } from 'infrad';
+import React from 'react';
 
 const { Title } = Typography;
 

@@ -18,18 +18,18 @@ Inline menu could be collapsed.
 Here is [a complete demo](/components/layout/#components-layout-demo-side) with sider layout.
 
 ```tsx
-import React, { useState } from 'react';
-import { Menu, Button } from 'infrad';
 import {
   AppstoreOutlined,
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
-  PieChartOutlined,
-  DesktopOutlined,
   ContainerOutlined,
+  DesktopOutlined,
   MailOutlined,
+  MenuFoldOutlined,
+  MenuUnfoldOutlined,
+  PieChartOutlined,
 } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Button, Menu } from 'infrad';
+import React, { useState } from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

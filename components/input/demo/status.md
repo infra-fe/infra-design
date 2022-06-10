@@ -15,9 +15,9 @@ title:
 Add status to Input with `status`, which could be `error` or `warning`.
 
 ```tsx
-import React from 'react';
-import { Input, Space } from 'infrad';
 import { ClockCircleOutlined } from 'infra-design-icons';
+import { Input, Space } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Space direction="vertical" style={{ width: '100%' }}>

@@ -14,10 +14,10 @@ title:
 Vertical menu with inline submenus.
 
 ```tsx
-import React from 'react';
-import { Menu } from 'infrad';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Menu } from 'infrad';
+import React from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 

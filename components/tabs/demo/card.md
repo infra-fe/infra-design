@@ -14,8 +14,8 @@ title:
 Another type of Tabs, which doesn't support vertical mode.
 
 ```tsx
-import React from 'react';
 import { Tabs } from 'infrad';
+import React from 'react';
 
 const { TabPane } = Tabs;
 

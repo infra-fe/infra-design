@@ -14,9 +14,9 @@ title:
 Add a prefix inside input.
 
 ```tsx
-import React from 'react';
-import { InputNumber } from 'infrad';
 import { UserOutlined } from 'infra-design-icons';
+import { InputNumber } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

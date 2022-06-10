@@ -123,11 +123,7 @@ title: 按钮
 
 <img class="preview-img no-padding" align="right" src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*KGGWQLCBfm0AAAAAAAAAAABkARQnAQ">
 
-为避免页脚工具栏滥用，我们不推荐使用页脚工具栏，仅建议以下两种场景使用： <<<<<<< HEAD
-
-=======
-
-> > > > > > > a67c0d28d3f42166dadb0f946eadebda5ea83cf8
+为避免页脚工具栏滥用，我们不推荐使用页脚工具栏，仅建议以下两种场景使用：
 
 - 1）对象详情页，「推进」对象的进展，例如审批流「通过」「驳回」。
 - 2）异常复杂的表单页，表单的内容复杂到需要切分为多张卡片。

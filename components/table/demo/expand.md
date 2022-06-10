@@ -14,9 +14,9 @@ title:
 When there's too much information to show and the table can't display all at once.
 
 ```tsx
-import React from 'react';
 import { Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React from 'react';
 
 interface DataType {
   key: React.Key;

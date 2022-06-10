@@ -14,10 +14,10 @@ title:
 Use react-sticky.
 
 ```tsx
-import React from 'react';
-import { Tabs } from 'infrad';
-import { StickyContainer, Sticky } from 'react-sticky';
 import type { TabsProps } from 'infrad';
+import { Tabs } from 'infrad';
+import React from 'react';
+import { Sticky, StickyContainer } from 'react-sticky';
 
 const { TabPane } = Tabs;
 

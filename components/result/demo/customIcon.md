@@ -14,9 +14,9 @@ title:
 Custom icon.
 
 ```tsx
-import React from 'react';
-import { Result, Button } from 'infrad';
 import { SmileOutlined } from 'infra-design-icons';
+import { Button, Result } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Result

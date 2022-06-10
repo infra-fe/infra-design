@@ -15,10 +15,10 @@ Debug usage
 Debug usage
 
 ```tsx
-import React from 'react';
-import { Button, Tooltip } from 'infrad';
 import { DownloadOutlined } from 'infra-design-icons';
+import { Button, Tooltip } from 'infrad';
 import type { ButtonGroupProps } from 'infrad/es/button';
+import React from 'react';
 
 const getGroup = (props?: ButtonGroupProps) => (
   <div>

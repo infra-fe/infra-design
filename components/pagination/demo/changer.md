@@ -14,9 +14,9 @@ title:
 Change `pageSize`.
 
 ```tsx
-import React from 'react';
-import { Pagination } from 'infrad';
 import type { PaginationProps } from 'infrad';
+import { Pagination } from 'infrad';
+import React from 'react';
 
 const onShowSizeChange: PaginationProps['onShowSizeChange'] = (current, pageSize) => {
   console.log(current, pageSize);

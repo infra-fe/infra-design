@@ -14,15 +14,15 @@ title:
 Import icons from `infra-design-icons`, component name of icons with different theme is the icon name suffixed by the theme name. Specify the `spin` property to show spinning animation.
 
 ```tsx
-import React from 'react';
-import { Space } from 'infrad';
 import {
   HomeOutlined,
+  LoadingOutlined,
   SettingFilled,
   SmileOutlined,
   SyncOutlined,
-  LoadingOutlined,
 } from 'infra-design-icons';
+import { Space } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Space>

@@ -14,9 +14,9 @@ title:
 Customize the background, border, margin styles and icon for each panel.
 
 ```tsx
-import React from 'react';
-import { Collapse } from 'infrad';
 import { CaretRightOutlined } from 'infra-design-icons';
+import { Collapse } from 'infrad';
+import React from 'react';
 
 const { Panel } = Collapse;
 

@@ -14,8 +14,8 @@ title:
 By using the `visible` prop, you can control the close state of Tag.
 
 ```tsx
+import { Button, Tag } from 'infrad';
 import React, { useState } from 'react';
-import { Tag, Button } from 'infrad';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(true);

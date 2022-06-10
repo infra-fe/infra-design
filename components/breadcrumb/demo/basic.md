@@ -14,8 +14,8 @@ title:
 The simplest use.
 
 ```tsx
-import React from 'react';
 import { Breadcrumb } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Breadcrumb>

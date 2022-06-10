@@ -12,8 +12,8 @@ title: useBreakpoint Hook
 Use `useBreakpoint` Hook provide personalized layout.
 
 ```tsx
-import React from 'react';
 import { Grid, Tag } from 'infrad';
+import React from 'react';
 
 const { useBreakpoint } = Grid;
 

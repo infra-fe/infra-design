@@ -14,13 +14,13 @@ title:
 Select different settings to see the result.
 
 ```tsx
-import React, { useState } from 'react';
-import { Table, Switch, Radio, Form, Space } from 'infrad';
 import { DownOutlined } from 'infra-design-icons';
-import type { SizeType } from 'infrad/lib/config-provider/SizeContext';
-import type { ExpandableConfig, TableRowSelection } from 'infrad/lib/table/interface';
 import type { RadioChangeEvent } from 'infrad';
+import { Form, Radio, Space, Switch, Table } from 'infrad';
+import type { SizeType } from 'infrad/lib/config-provider/SizeContext';
 import type { ColumnsType, TableProps } from 'infrad/lib/table';
+import type { ExpandableConfig, TableRowSelection } from 'infrad/lib/table/interface';
+import React, { useState } from 'react';
 
 interface DataType {
   key: number;

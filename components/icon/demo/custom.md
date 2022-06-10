@@ -14,10 +14,10 @@ title:
 Create a reusable React component by using `<Icon component={...} />`. The property `component` takes a React component that renders to `svg` element.
 
 ```tsx
-import React from 'react';
-import { Space } from 'infrad';
 import Icon, { HomeOutlined } from 'infra-design-icons';
 import type { CustomIconComponentProps } from 'infra-design-icons/lib/components/Icon';
+import { Space } from 'infrad';
+import React from 'react';
 
 const HeartSvg = () => (
   <svg width="1em" height="1em" fill="currentColor" viewBox="0 0 1024 1024">

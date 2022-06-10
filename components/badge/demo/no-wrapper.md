@@ -16,9 +16,9 @@ title:
 Used in standalone when children is empty.
 
 ```tsx
-import React, { useState } from 'react';
-import { Badge, Space, Switch } from 'infrad';
 import { ClockCircleOutlined } from 'infra-design-icons';
+import { Badge, Space, Switch } from 'infrad';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [show, setShow] = useState(true);

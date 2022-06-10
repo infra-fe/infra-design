@@ -14,9 +14,9 @@ title:
 To perform operations and clear selections after selecting some rows, use `rowSelection.selectedRowKeys` to control selected rows.
 
 ```tsx
-import React, { useState } from 'react';
-import { Table, Button } from 'infrad';
+import { Button, Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React, { useState } from 'react';
 
 interface DataType {
   key: React.Key;

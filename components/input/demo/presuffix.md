@@ -14,9 +14,9 @@ title:
 Add a prefix or suffix icons inside input.
 
 ```tsx
-import React from 'react';
-import { Input, Tooltip } from 'infrad';
 import { InfoCircleOutlined, IUser } from 'infra-design-icons';
+import { Input, Tooltip } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

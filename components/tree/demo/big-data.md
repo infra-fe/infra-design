@@ -15,9 +15,9 @@ debug: true
 Plenty of tree nodes.
 
 ```tsx
-import React from 'react';
 import { Tree } from 'infrad';
 import type { DataNode } from 'infrad/lib/tree';
+import React from 'react';
 
 const treeData: DataNode[] = [];
 

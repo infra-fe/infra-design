@@ -14,8 +14,8 @@ title:
 Auto wrap line.
 
 ```tsx
+import { Button, Space } from 'infrad';
 import React from 'react';
-import { Space, Button } from 'infrad';
 
 const App: React.FC = () => (
   <Space size={[8, 16]} wrap>

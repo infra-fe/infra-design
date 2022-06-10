@@ -14,8 +14,8 @@ title:
 Passing `okButtonProps` and `cancelButtonProps` will customize the OK button and cancel button props.
 
 ```tsx
+import { Button, Modal } from 'infrad';
 import React, { useState } from 'react';
-import { Modal, Button } from 'infrad';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

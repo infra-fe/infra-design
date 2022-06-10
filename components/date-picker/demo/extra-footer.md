@@ -14,8 +14,8 @@ title:
 Render extra footer in panel for customized requirements.
 
 ```tsx
-import React from 'react';
 import { DatePicker, Space } from 'infrad';
+import React from 'react';
 
 const { RangePicker } = DatePicker;
 

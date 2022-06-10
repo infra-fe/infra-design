@@ -14,8 +14,8 @@ title:
 Specifies default value by an array.
 
 ```tsx
-import React from 'react';
 import { Cascader } from 'infrad';
+import React from 'react';
 
 interface Option {
   value: string;

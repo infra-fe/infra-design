@@ -14,8 +14,8 @@ title:
 There are 12 `placement` options available. Use `arrowPointAtCenter` if you want the arrow to point at the center of target.
 
 ```tsx
+import { Button, message, Popconfirm } from 'infrad';
 import React from 'react';
-import { Popconfirm, message, Button } from 'infrad';
 
 const text = 'Are you sure to delete this task?';
 

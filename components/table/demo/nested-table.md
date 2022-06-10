@@ -14,10 +14,10 @@ title:
 Showing more detailed info of every row.
 
 ```tsx
-import React from 'react';
-import { Table, Badge, Menu, Dropdown, Space } from 'infrad';
 import { DownOutlined } from 'infra-design-icons';
+import { Badge, Dropdown, Menu, Space, Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React from 'react';
 
 interface DataType {
   key: React.Key;

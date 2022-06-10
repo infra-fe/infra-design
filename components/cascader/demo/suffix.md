@@ -15,9 +15,9 @@ title:
 Use `suffixIcon` to customize the selection box suffix icon, and use `expandIcon` to customize the current item expand icon.
 
 ```tsx
-import React from 'react';
-import { Cascader } from 'infrad';
 import { SmileOutlined } from 'infra-design-icons';
+import { Cascader } from 'infrad';
+import React from 'react';
 
 interface Option {
   value: string;

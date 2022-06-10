@@ -14,9 +14,9 @@ title:
 Example of creating a search box by grouping a standard input with a search button.
 
 ```tsx
-import React from 'react';
-import { Input, Space } from 'infrad';
 import { AudioOutlined } from 'infra-design-icons';
+import { Input, Space } from 'infrad';
+import React from 'react';
 
 const { Search } = Input;
 

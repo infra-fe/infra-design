@@ -14,9 +14,9 @@ title:
 Mini size pagination.
 
 ```tsx
-import React from 'react';
-import { Pagination } from 'infrad';
 import type { PaginationProps } from 'infrad';
+import { Pagination } from 'infrad';
+import React from 'react';
 
 const showTotal: PaginationProps['showTotal'] = total => `Total ${total} items`;
 

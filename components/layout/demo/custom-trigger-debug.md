@@ -11,18 +11,18 @@ debug: true
 修改内容前，请尝试此 Demo 查看样式是否抖动。
 
 ```tsx
-import React, { useState } from 'react';
-import { Layout, Menu } from 'infrad';
 import {
+  DesktopOutlined,
+  FileOutlined,
+  MenuFoldOutlined,
+  MenuUnfoldOutlined,
+  PieChartOutlined,
   TeamOutlined,
   UserOutlined,
-  FileOutlined,
-  DesktopOutlined,
-  PieChartOutlined,
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
 } from 'infra-design-icons';
 import type { MenuProps } from 'infrad';
+import { Layout, Menu } from 'infrad';
+import React, { useState } from 'react';
 
 const { Header, Sider, Content } = Layout;
 

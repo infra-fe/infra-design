@@ -14,11 +14,11 @@ title:
 Use Aliyun OSS upload example.
 
 ```tsx
-import React, { useState, useEffect } from 'react';
-import { Form, Upload, message, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
 import type { UploadProps } from 'infrad';
+import { Button, Form, message, Upload } from 'infrad';
 import type { UploadFile } from 'infrad/es/upload/interface';
+import React, { useEffect, useState } from 'react';
 
 interface OSSDataType {
   dir: string;

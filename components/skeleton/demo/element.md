@@ -14,9 +14,9 @@ title:
 Skeleton Button, Avatar, Input and Image.
 
 ```tsx
-import React, { useState } from 'react';
-import { Skeleton, Space, Divider, Switch, Form, Radio } from 'infrad';
 import type { RadioChangeEvent } from 'infrad';
+import { Divider, Form, Radio, Skeleton, Space, Switch } from 'infrad';
+import React, { useState } from 'react';
 
 type SizeType = 'default' | 'small' | 'large';
 type ButtonShapeType = 'circle' | 'square' | 'round';

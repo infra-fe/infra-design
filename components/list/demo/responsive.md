@@ -14,8 +14,8 @@ title:
 Responsive grid list. The size property the is as same as [Layout Grid](/components/grid/#Col).
 
 ```tsx
+import { Card, List } from 'infrad';
 import React from 'react';
-import { List, Card } from 'infrad';
 
 const data = [
   {

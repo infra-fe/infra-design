@@ -14,9 +14,9 @@ title:
 Generate a group of checkboxes from an array.
 
 ```tsx
-import React from 'react';
 import { Checkbox } from 'infrad';
 import type { CheckboxValueType } from 'infrad/es/checkbox/Group';
+import React from 'react';
 
 const onChange = (checkedValues: CheckboxValueType[]) => {
   console.log('checked = ', checkedValues);

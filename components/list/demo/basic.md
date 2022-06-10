@@ -14,8 +14,8 @@ title:
 Basic list.
 
 ```tsx
+import { Avatar, List } from 'infrad';
 import React from 'react';
-import { List, Avatar } from 'infrad';
 
 const data = [
   {

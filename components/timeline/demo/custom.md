@@ -14,9 +14,9 @@ title:
 Set a node as an icon or other custom element.
 
 ```tsx
-import React from 'react';
-import { Timeline } from 'infrad';
 import { ITimeOutlined } from 'infra-design-icons';
+import { Timeline } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Timeline>

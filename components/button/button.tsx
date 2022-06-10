@@ -1,17 +1,18 @@
 /* eslint-disable react/button-has-type */
-import * as React from 'react';
 import classNames from 'classnames';
 import omit from 'rc-util/lib/omit';
+import * as React from 'react';
 
-import Group, { GroupSizeContext } from './button-group';
 import { ConfigContext } from '../config-provider';
-import Wave from '../_util/wave';
-import { tuple } from '../_util/type';
-import warning from '../_util/warning';
+import DisabledContext from '../config-provider/DisabledContext';
 import type { SizeType } from '../config-provider/SizeContext';
 import SizeContext from '../config-provider/SizeContext';
-import LoadingIcon from './LoadingIcon';
 import { cloneElement } from '../_util/reactNode';
+import { tuple } from '../_util/type';
+import warning from '../_util/warning';
+import Wave from '../_util/wave';
+import Group, { GroupSizeContext } from './button-group';
+import LoadingIcon from './LoadingIcon';
 
 const rxTwoCNChar = /^[\u4e00-\u9fa5]{2}$/;
 const isTwoCNChar = rxTwoCNChar.test.bind(rxTwoCNChar);
@@ -102,6 +103,7 @@ export interface BaseButtonProps {
    */
   shape?: ButtonShape;
   size?: SizeType;
+  disabled?: boolean;
   loading?: boolean | { delay?: number };
   prefixCls?: string;
   className?: string;
@@ -145,6 +147,7 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
     danger,
     shape = 'default',
     size: customizeSize,
+    disabled: customDisabled,
     className,
     children,
     icon,
@@ -157,6 +160,10 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
   } = props;
 
   const size = React.useContext(SizeContext);
+  // ===================== Disabled =====================
+  const disabled = React.useContext(DisabledContext);
+  const mergedDisabled = customDisabled || disabled;
+
   const groupSize = React.useContext(GroupSizeContext);
   const [innerLoading, setLoading] = React.useState<Loading>(!!loading);
   const [hasTwoCNChar, setHasTwoCNChar] = React.useState(false);
@@ -210,9 +217,9 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
   React.useEffect(fixTwoCNChar, [buttonRef]);
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement, MouseEvent>) => {
-    const { onClick, disabled } = props;
+    const { onClick } = props;
     // https://github.com/ant-design/ant-design/issues/30207
-    if (innerLoading || disabled) {
+    if (innerLoading || mergedDisabled) {
       e.preventDefault();
       return;
     }
@@ -285,6 +292,7 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
       type={htmlType}
       className={classes}
       onClick={handleClick}
+      disabled={mergedDisabled}
       ref={buttonRef}
     >
       {iconNode}

@@ -14,9 +14,9 @@ title:
 Simple table with actions.
 
 ```tsx
-import React from 'react';
-import { Table, Tag, Space } from 'infrad';
+import { Space, Table, Tag } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import React from 'react';
 
 interface DataType {
   key: string;

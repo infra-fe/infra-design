@@ -14,9 +14,9 @@ title:
 Add unit through `prefix` and `suffix`.
 
 ```tsx
-import React from 'react';
-import { Statistic, Row, Col } from 'infrad';
 import { LikeOutlined } from 'infra-design-icons';
+import { Col, Row, Statistic } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <Row gutter={16}>

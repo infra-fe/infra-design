@@ -15,9 +15,9 @@ debug: true
 Use `ref` first!
 
 ```tsx
-import React from 'react';
-import { Button, Form, Input } from 'infrad';
 import type { InputRef } from 'infrad';
+import { Button, Form, Input } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => {
   const [form] = Form.useForm();

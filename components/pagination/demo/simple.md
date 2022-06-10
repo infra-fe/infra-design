@@ -14,8 +14,8 @@ title:
 Simple mode.
 
 ```tsx
-import React from 'react';
 import { Pagination } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

@@ -14,10 +14,10 @@ title:
 Extra actions should be placed at corner of drawer in Ant Design, you can using `extra` prop for that.
 
 ```tsx
-import React, { useState } from 'react';
-import { Drawer, Button, Space, Radio } from 'infrad';
+import { Button, Drawer, Radio, Space } from 'infrad';
 import type { DrawerProps } from 'infrad/es/drawer';
 import type { RadioChangeEvent } from 'infrad/es/radio';
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

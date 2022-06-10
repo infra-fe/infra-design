@@ -14,9 +14,9 @@ title:
 The count will be animated as it changes.
 
 ```tsx
-import React, { useState } from 'react';
-import { Badge, Button, Switch, Divider, Avatar } from 'infrad';
 import { MinusOutlined, PlusOutlined, QuestionOutlined } from 'infra-design-icons';
+import { Avatar, Badge, Button, Divider, Switch } from 'infrad';
+import React, { useState } from 'react';
 
 const ButtonGroup = Button.Group;
 

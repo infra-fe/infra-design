@@ -15,9 +15,9 @@ title:
 Test style of Steps inside Steps.
 
 ```tsx
-import React, { useState } from 'react';
-import { Steps, Radio, Card } from 'infrad';
 import type { StepsProps } from 'infrad';
+import { Card, Radio, Steps } from 'infrad';
+import React, { useState } from 'react';
 
 const { Step } = Steps;
 

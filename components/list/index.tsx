@@ -1,18 +1,19 @@
-import * as React from 'react';
 import classNames from 'classnames';
-import type { SpinProps } from '../spin';
-import Spin from '../spin';
-import useBreakpoint from '../grid/hooks/useBreakpoint';
-import type { Breakpoint } from '../_util/responsiveObserve';
-import { responsiveArray } from '../_util/responsiveObserve';
+import * as React from 'react';
 import type { RenderEmptyHandler } from '../config-provider';
 import { ConfigContext } from '../config-provider';
+import defaultRenderEmpty from '../config-provider/defaultRenderEmpty';
+import { Row } from '../grid';
+import useBreakpoint from '../grid/hooks/useBreakpoint';
 import type { PaginationConfig } from '../pagination';
 import Pagination from '../pagination';
-import { Row } from '../grid';
+import type { SpinProps } from '../spin';
+import Spin from '../spin';
+import type { Breakpoint } from '../_util/responsiveObserve';
+import { responsiveArray } from '../_util/responsiveObserve';
 import Item from './Item';
 
-export { ListItemProps, ListItemMetaProps } from './Item';
+export { ListItemMetaProps, ListItemProps } from './Item';
 
 export type ColumnCount = number;
 
@@ -259,7 +260,7 @@ function List<T>({
       <ul className={`${prefixCls}-items`}>{items}</ul>
     );
   } else if (!children && !isLoading) {
-    childrenContent = renderEmptyFunc(prefixCls, renderEmpty);
+    childrenContent = renderEmptyFunc(prefixCls, renderEmpty || defaultRenderEmpty);
   }
 
   const paginationPosition = paginationProps.position || 'bottom';

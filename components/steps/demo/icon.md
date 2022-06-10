@@ -14,9 +14,9 @@ title:
 You can use your own custom icons by setting the property `icon` for `Steps.Step`.
 
 ```tsx
-import React from 'react';
+import { LoadingOutlined, SmileOutlined, SolutionOutlined, UserOutlined } from 'infra-design-icons';
 import { Steps } from 'infrad';
-import { UserOutlined, SolutionOutlined, LoadingOutlined, SmileOutlined } from 'infra-design-icons';
+import React from 'react';
 
 const { Step } = Steps;
 

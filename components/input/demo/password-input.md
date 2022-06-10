@@ -14,9 +14,9 @@ title:
 Input type of password.
 
 ```tsx
-import React from 'react';
+import { IInvisible, IView } from 'infra-design-icons';
 import { Input, Space } from 'infrad';
-import { IView, IInvisible } from 'infra-design-icons';
+import React from 'react';
 
 const App: React.FC = () => (
   <Space direction="vertical">

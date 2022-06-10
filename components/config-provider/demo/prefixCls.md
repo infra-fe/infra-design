@@ -15,9 +15,9 @@ debug: true
 Config component and icon prefixCls.
 
 ```tsx
-import React, { useState } from 'react';
-import { ConfigProvider, Select, Button } from 'infrad';
 import { SmileOutlined } from 'infra-design-icons';
+import { Button, ConfigProvider, Select } from 'infrad';
+import React, { useState } from 'react';
 
 // Infra Design site use `es` module for view
 // but do not replace related lib `lib` with `es`

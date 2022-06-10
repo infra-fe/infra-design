@@ -14,9 +14,9 @@ title:
 Display statistic data in Card.
 
 ```tsx
+import { ArrowDownOutlined, ArrowUpOutlined } from 'infra-design-icons';
+import { Card, Col, Row, Statistic } from 'infrad';
 import React from 'react';
-import { Statistic, Card, Row, Col } from 'infrad';
-import { ArrowUpOutlined, ArrowDownOutlined } from 'infra-design-icons';
 
 const App: React.FC = () => (
   <div className="site-statistic-demo-card">

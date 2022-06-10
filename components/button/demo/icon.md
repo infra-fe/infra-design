@@ -18,9 +18,9 @@ title:
 If you want specific control over the positioning and placement of the `Icon`, then that should be done by placing the `Icon` component within the `Button` rather than using the `icon` property.
 
 ```tsx
-import React from 'react';
-import { Button, Tooltip } from 'infrad';
 import { ISearch } from 'infra-design-icons';
+import { Button, Tooltip } from 'infrad';
+import React from 'react';
 
 const App: React.FC = () => (
   <>

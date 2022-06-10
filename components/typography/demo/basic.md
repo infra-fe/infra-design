@@ -14,8 +14,8 @@ title:
 Display the document sample.
 
 ```tsx
+import { Divider, Typography } from 'infrad';
 import React from 'react';
-import { Typography, Divider } from 'infrad';
 
 const { Title, Paragraph, Text, Link } = Typography;
 

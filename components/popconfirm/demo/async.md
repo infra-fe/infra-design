@@ -14,8 +14,8 @@ title:
 Asynchronously close a popconfirm when a the OK button is pressed. For example, you can use this pattern when you submit a form.
 
 ```tsx
+import { Button, Popconfirm } from 'infrad';
 import React, { useState } from 'react';
-import { Popconfirm, Button } from 'infrad';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(false);

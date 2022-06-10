@@ -14,8 +14,8 @@ title:
 Synchronize with [InputNumber](/components/input-number/) component.
 
 ```tsx
+import { Col, InputNumber, Row, Slider } from 'infrad';
 import React, { useState } from 'react';
-import { Slider, InputNumber, Row, Col } from 'infrad';
 
 const IntegerStep = () => {
   const [inputValue, setInputValue] = useState(1);

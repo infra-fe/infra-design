@@ -14,10 +14,10 @@ title:
 Classic mode. File selection dialog pops up when upload button is clicked.
 
 ```tsx
-import React from 'react';
-import { Upload, message, Button } from 'infrad';
 import { IUpload } from 'infra-design-icons';
 import type { UploadProps } from 'infrad';
+import { Button, message, Upload } from 'infrad';
+import React from 'react';
 
 const props: UploadProps = {
   name: 'file',

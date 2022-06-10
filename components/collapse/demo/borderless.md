@@ -14,8 +14,8 @@ title:
 A borderless style of Collapse.
 
 ```tsx
-import React from 'react';
 import { Collapse } from 'infrad';
+import React from 'react';
 
 const { Panel } = Collapse;
 

@@ -14,16 +14,16 @@ title:
 You can customize icons for different nodes.
 
 ```tsx
-import React from 'react';
-import { Tree } from 'infrad';
 import {
   DownOutlined,
-  FrownOutlined,
-  SmileOutlined,
-  MehOutlined,
   FrownFilled,
+  FrownOutlined,
+  MehOutlined,
+  SmileOutlined,
 } from 'infra-design-icons';
+import { Tree } from 'infrad';
 import type { DataNode } from 'infrad/lib/tree';
+import React from 'react';
 
 const treeData: DataNode[] = [
   {

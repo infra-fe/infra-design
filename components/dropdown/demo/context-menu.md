@@ -14,8 +14,8 @@ title:
 The default trigger mode is `hover`, you can change it to `contextMenu`.
 
 ```tsx
+import { Dropdown, Menu } from 'infrad';
 import React from 'react';
-import { Menu, Dropdown } from 'infrad';
 
 const menu = (
   <Menu

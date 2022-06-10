@@ -14,15 +14,15 @@ title:
 If you want to use a customized trigger, you can hide the default one by setting `trigger={null}`.
 
 ```tsx
-import React, { useState } from 'react';
-import { Layout, Menu } from 'infrad';
 import {
-  MenuUnfoldOutlined,
   MenuFoldOutlined,
+  MenuUnfoldOutlined,
+  UploadOutlined,
   UserOutlined,
   VideoCameraOutlined,
-  UploadOutlined,
 } from 'infra-design-icons';
+import { Layout, Menu } from 'infrad';
+import React, { useState } from 'react';
 
 const { Header, Sider, Content } = Layout;
 

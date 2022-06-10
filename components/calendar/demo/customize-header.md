@@ -14,10 +14,10 @@ title:
 Customize Calendar header content.
 
 ```tsx
-import React from 'react';
-import { Calendar, Select, Radio, Col, Row, Typography } from 'infrad';
+import { Calendar, Col, Radio, Row, Select, Typography } from 'infrad';
 import type { CalendarMode } from 'infrad/lib/calendar/generateCalendar';
 import type { Moment } from 'moment';
+import React from 'react';
 
 const App: React.FC = () => {
   const onPanelChange = (value: Moment, mode: CalendarMode) => {

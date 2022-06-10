@@ -14,8 +14,8 @@ title:
 Controlled mode, for example, to work with `Form`.
 
 ```tsx
+import { Button, Form, Mentions } from 'infrad';
 import React from 'react';
-import { Mentions, Form, Button } from 'infrad';
 
 const { Option, getMentions } = Mentions;
 
