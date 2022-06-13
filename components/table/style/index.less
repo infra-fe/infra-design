@@ -30,8 +30,7 @@
   table {
     width: 100%;
     text-align: left;
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-radius: @table-border-radius-base;
+    border-radius: @table-border-radius-base @table-border-radius-base 0 0;
     border-collapse: separate;
     border-spacing: 0;
   }
@@ -42,7 +41,7 @@
   tfoot > tr > th,
   tfoot > tr > td {
     position: relative;
-    padding: @table-padding-vertical-sm @table-padding-horizontal;
+    padding: @table-padding-vertical @table-padding-horizontal;
     overflow-wrap: break-word;
   }
 
@@ -90,7 +89,6 @@
         position: relative;
         color: @table-header-color;
         font-weight: 500;
-        font-size: 12px;
         text-align: left;
         background: @table-header-bg;
         border-bottom: @border-width-base @border-style-base @table-border-color;
@@ -261,12 +259,14 @@
   &-column-title {
     position: relative;
     z-index: 1;
+    flex: 1;
   }
 
   &-column-sorters {
     display: flex;
     flex: auto;
     align-items: center;
+    justify-content: space-between;
 
     &::after {
       position: absolute;
@@ -281,12 +281,11 @@
   }
 
   &-column-sorter {
-    display: flex;
-    align-items: center;
     margin-left: 4px;
     color: @table-header-icon-color;
-    font-size: 14px;
+    font-size: 0;
     transition: color 0.3s;
+
     &-inner {
       display: inline-flex;
       flex-direction: column;
@@ -295,7 +294,7 @@
 
     &-up,
     &-down {
-      font-size: 14px;
+      font-size: 11px;
 
       &.active {
         color: @primary-color;
@@ -314,6 +313,7 @@
   // ============================ Filter ============================
   &-filter-column {
     display: flex;
+    justify-content: space-between;
   }
 
   &-filter-trigger {
@@ -323,7 +323,7 @@
     margin: -4px (-@table-padding-horizontal / 2) -4px 4px;
     padding: 0 4px;
     color: @table-header-icon-color;
-    font-size: @font-size-base;
+    font-size: @font-size-sm;
     border-radius: @border-radius-base;
     cursor: pointer;
     transition: all 0.3s;
