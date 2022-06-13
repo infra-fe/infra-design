@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { act } from 'react-dom/test-utils';
 import { fireEvent, render } from '../../../tests/utils';
 import Button from '../button';

@@ -1,4 +1,5 @@
 /* eslint-disable react/no-multi-comp */
+import React from 'react';
 import Table from '..';
 import { fireEvent, render } from '../../../tests/utils';
 

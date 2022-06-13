@@ -1,5 +1,6 @@
 import { render } from 'enzyme';
 import moment from 'moment';
+import React from 'react';
 import ConfigProvider from '..';
 import Alert from '../../alert';
 import Anchor from '../../anchor';
