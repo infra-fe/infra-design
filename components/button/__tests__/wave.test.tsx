@@ -1,3 +1,4 @@
+import React from 'react';
 import Button from '..';
 import { fireEvent, render, sleep } from '../../../tests/utils';
 

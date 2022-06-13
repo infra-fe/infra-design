@@ -1,3 +1,4 @@
+import React from 'react';
 import List from '..';
 import { fireEvent, render } from '../../../tests/utils';
 import { noop } from '../../_util/warning';

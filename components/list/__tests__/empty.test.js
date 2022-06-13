@@ -1,3 +1,4 @@
+import React from 'react';
 import List from '..';
 import { render } from '../../../tests/utils';
 

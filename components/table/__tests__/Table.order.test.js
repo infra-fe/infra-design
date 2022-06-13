@@ -1,3 +1,4 @@
+import React from 'react';
 import Table from '..';
 import { render } from '../../../tests/utils';
 import { resetWarned } from '../../_util/warning';
