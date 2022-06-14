@@ -1,0 +1,14 @@
+default:
+  image: harbor.shopeemobile.com/shopee-fe-sr/nodejs:v12
+
+pages:
+  stage: deploy
+  script:
+    - yarn --ignore-engines
+    - yarn site
+    - mv _site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
