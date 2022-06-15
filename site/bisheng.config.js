@@ -8,7 +8,7 @@ const themeConfig = require('./themeConfig');
 const { webpack } = getWebpackConfig;
 
 const isDev = process.env.NODE_ENV === 'development';
-const { ANT_THEME, DEV_THEME } = process.env;
+const { ANT_THEME, DEV_THEME, GIT_PAGE } = process.env;
 
 function alertBabelConfig(rules) {
   rules.forEach(rule => {
@@ -202,4 +202,6 @@ module.exports = {
   htmlTemplateExtraData: {
     isDev,
   },
+
+  root: GIT_PAGE === 'true' ? '/InfraFe/infrad/' : '',
 };
