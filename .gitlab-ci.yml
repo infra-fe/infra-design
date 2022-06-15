@@ -1,5 +1,5 @@
 default:
-  image: harbor.shopeemobile.com/undefined/nodejs:rap-server-1
+  image: harbor.shopeemobile.com/undefined/deploy-nodejs:v16
 
 pages:
   stage: deploy
