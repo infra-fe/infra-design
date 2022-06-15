@@ -101,7 +101,7 @@
     "install-react-16": "npm i --no-save --legacy-peer-deps react@16 react-dom@16 enzyme-adapter-react-16",
     "install-react-17": "npm i --no-save --legacy-peer-deps react@17 react-dom@17",
     "install-react-18": "npm i --no-save --legacy-peer-deps react@18 react-dom@18 @testing-library/react@13",
-    "site-gitpage": "npm run site:theme && cross-env GIT_PAGE=true NODE_ICU_DATA=node_modules/full-icu ESBUILD=1 bisheng build --ssr -c ./site/bisheng.config.js"
+    "site:deploy-gitpage": "npm run site:theme && cross-env GIT_PAGE=true NODE_ICU_DATA=node_modules/full-icu ESBUILD=1 bisheng build --ssr -c ./site/bisheng.config.js"
   },
   "browserslist": [
     "> 0.5%",

@@ -5,7 +5,7 @@ pages:
   stage: deploy
   script:
     - yarn --ignore-engines
-    - yarn site-gitpage
+    - yarn site:deploy-gitpage
     - mv _site public
   artifacts:
     paths:
