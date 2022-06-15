@@ -1,4 +1,3 @@
-import type { Moment } from 'moment';
 import type { GenerateConfig } from 'rc-picker/lib/generate/index';
 import type { Locale as RcPickerLocale, PickerMode } from 'rc-picker/lib/interface';
 import type { SharedTimeProps } from 'rc-picker/lib/panels/TimePanel';
@@ -20,7 +19,6 @@ import PickerButton from '../PickerButton';
 import PickerTag from '../PickerTag';
 import generateRangePicker from './generateRangePicker';
 import generateSinglePicker from './generateSinglePicker';
-import type { IQuickDatePicker } from './QuickPicker';
 
 export const Components = { button: PickerButton, rangeItem: PickerTag };
 
@@ -132,7 +130,6 @@ export type RangePickerProps<DateType> =
   | RangePickerDateProps<DateType>
   | RangePickerTimeProps<DateType>;
 
-export type QuickPickerProps = IQuickDatePicker & PickerProps<Moment>;
 function generatePicker<DateType>(generateConfig: GenerateConfig<DateType>) {
   // =========================== Picker ===========================
   const { DatePicker, WeekPicker, MonthPicker, YearPicker, TimePicker, QuarterPicker } =
@@ -149,7 +146,6 @@ function generatePicker<DateType>(generateConfig: GenerateConfig<DateType>) {
     RangePicker: typeof RangePicker;
     TimePicker: typeof TimePicker;
     QuarterPicker: typeof QuarterPicker;
-    // QuickPicker: typeof QuickPicker;
   };
 
   const MergedDatePicker = DatePicker as MergedDatePickerType;
@@ -159,7 +155,6 @@ function generatePicker<DateType>(generateConfig: GenerateConfig<DateType>) {
   MergedDatePicker.RangePicker = RangePicker;
   MergedDatePicker.TimePicker = TimePicker;
   MergedDatePicker.QuarterPicker = QuarterPicker;
-  // MergedDatePicker.QuickPicker = QuickPicker;
 
   return MergedDatePicker;
 }
