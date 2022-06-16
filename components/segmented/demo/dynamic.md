@@ -15,7 +15,8 @@ Load `options` dynamically.
 
 ```tsx
 import React, { useState } from 'react';
-import { Segmented, Button } from 'infrad';
+
+import { Button, Segmented } from 'infrad';
 
 const defaultOptions = ['Daily', 'Weekly', 'Monthly'];
 

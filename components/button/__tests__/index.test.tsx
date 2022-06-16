@@ -1,5 +1,5 @@
+import { SearchOutlined } from '@ant-design/icons';
 import { mount } from 'enzyme';
-import { SearchOutlined } from 'infra-design-icons';
 import { resetWarned } from 'rc-util/lib/warning';
 import React, { Component } from 'react';
 import { act } from 'react-dom/test-utils';

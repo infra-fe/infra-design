@@ -8,6 +8,7 @@ debug: true
 
 ```jsx
 import React from 'react';
+
 import { Tree, Switch } from 'infrad';
 import { CarryOutOutlined } from 'infra-design-icons';
 

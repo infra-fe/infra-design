@@ -18,7 +18,6 @@ Used together with `react-router@6+`.
 ```tsx
 import { Alert, Breadcrumb } from 'infrad';
 import React from 'react';
-
 import { HashRouter, Link, Route, Routes, useLocation } from 'react-router-dom';
 
 const Apps = () => (

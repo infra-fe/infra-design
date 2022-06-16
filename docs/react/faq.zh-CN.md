@@ -27,11 +27,11 @@ title: FAQ
 
 相关 issue：[#3487](https://github.com/ant-design/ant-design/issues/3487) [#3438](https://github.com/ant-design/ant-design/issues/3438)
 
-### 如何修改 Infra Design 的默认主题？
+## 如何修改 Ant Design 的默认主题？
 
 可以参考[定制主题](/docs/react/customize-theme)。
 
-### 如何修改 Infra Design 组件的默认样式？
+## 如何修改 Ant Design 组件的默认样式？
 
 你可以覆盖它们的样式，但是我们不推荐这么做。antd 是一系列 React 组件，但同样是一套设计规范。
 

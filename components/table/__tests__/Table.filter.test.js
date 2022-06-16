@@ -1958,6 +1958,45 @@ describe('Table.filter', () => {
                   value: '456',
                 },
               ],
+              filterSearch: true,
+            },
+          ],
+        }),
+      );
+
+      fireEvent.click(container.querySelector('span.ant-dropdown-trigger'), nativeEvent);
+      act(() => {
+        jest.runAllTimers();
+      });
+      expect(container.querySelectorAll('.ant-table-filter-dropdown-search').length).toBe(1);
+      expect(container.querySelectorAll('.ant-input').length).toBe(1);
+      expect(container.querySelectorAll('li.ant-dropdown-menu-item').length).toBe(3);
+      fireEvent.change(container.querySelector('.ant-input'), { target: { value: '123' } });
+      expect(container.querySelectorAll('li.ant-dropdown-menu-item').length).toBe(2);
+    });
+
+    it('should supports filterSearch has type of function', () => {
+      jest.useFakeTimers();
+      jest.spyOn(console, 'error').mockImplementation(() => undefined);
+      const { container } = render(
+        createTable({
+          columns: [
+            {
+              ...column,
+              filters: [
+                {
+                  text: '123',
+                  value: '123',
+                },
+                {
+                  text: 123456,
+                  value: '456',
+                },
+                {
+                  text: <span>123</span>,
+                  value: '456',
+                },
+              ],
               filterSearch: (input, record) => record.value.indexOf(input) > -1,
             },
           ],
