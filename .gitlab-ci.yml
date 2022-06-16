@@ -4,11 +4,9 @@ default:
 pages:
   stage: deploy
   script:
-    - yarn --ignore-engines
-    - yarn site:deploy-gitpage
     - mv _site public
   artifacts:
     paths:
       - public
   only:
-    - master
+    - deploy/git-page
