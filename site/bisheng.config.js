@@ -202,6 +202,4 @@ module.exports = {
   htmlTemplateExtraData: {
     isDev,
   },
-
-  root: GIT_PAGE === 'true' ? './' : '/',
 };
