@@ -27,7 +27,7 @@ And make sure that parentElement is `position: relative` or `position: absolute`
 
 Related issue: [#3487](https://github.com/ant-design/ant-design/issues/3487) [#3438](https://github.com/ant-design/ant-design/issues/3438)
 
-### How do I modify the default theme of Infra Design?
+## How do I modify the default theme of Ant Design?
 
 See: https://ant.design/docs/react/customize-theme .
 

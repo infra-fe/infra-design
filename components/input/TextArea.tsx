@@ -165,9 +165,8 @@ const TextArea = React.forwardRef<TextAreaRef, TextAreaProps>(
 
     // ============================== Reset ===============================
     const handleReset = (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
-      handleSetValue('', () => {
-        innerRef.current?.focus();
-      });
+      handleSetValue('');
+      innerRef.current?.focus();
       resolveOnChange(innerRef.current?.resizableTextArea?.textArea!, e, onChange);
     };
 

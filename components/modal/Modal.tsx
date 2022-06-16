@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import { CloseOutlined } from 'infra-design-icons';
 import Dialog from 'rc-dialog';
 import * as React from 'react';
+
 import Button from '../button';
 import type { ButtonProps, LegacyButtonType } from '../button/button';
 import { convertLegacyProps } from '../button/button';

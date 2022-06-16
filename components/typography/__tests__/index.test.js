@@ -1,5 +1,5 @@
-import { CheckOutlined, HighlightOutlined, LikeOutlined, SmileOutlined } from '@ant-design/icons';
 import copy from 'copy-to-clipboard';
+import { CheckOutlined, HighlightOutlined, LikeOutlined, SmileOutlined } from 'infra-design-icons';
 import KeyCode from 'rc-util/lib/KeyCode';
 import { resetWarned } from 'rc-util/lib/warning';
 import React from 'react';

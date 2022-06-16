@@ -8700,46 +8700,6 @@ exports[`renders ./components/input/demo/password-input.md extend context correc
 >
   <div
     class="ant-space-item"
-    style="margin-bottom:16px"
-  >
-    <span
-      class="ant-input-affix-wrapper ant-input-password"
-    >
-      <input
-        action="click"
-        class="ant-input"
-        placeholder="input password"
-        type="password"
-        value=""
-      />
-      <span
-        class="ant-input-suffix"
-      >
-        <span
-          aria-label="invisible"
-          class="anticon anticon-invisible ant-input-password-icon"
-          role="img"
-          tabindex="-1"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="invisible"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="0 0 16 16"
-            width="1em"
-          >
-            <path
-              d="M15.26 5.57a.5.5 0 01.17.69 8.9 8.9 0 01-3 3l1.02 2.02a.5.5 0 11-.9.44l-1-2c-.95.44-1.98.7-3.05.77V12a.5.5 0 01-1 .09v-1.6a8.53 8.53 0 01-3.05-.76l-1 2a.5.5 0 01-.93-.37l.03-.08 1.01-2.02a8.87 8.87 0 01-2.99-3 .5.5 0 11.86-.52A7.7 7.7 0 008 9.5a7.7 7.7 0 006.57-3.76.5.5 0 01.69-.17z"
-            />
-          </svg>
-        </span>
-      </span>
-    </span>
-  </div>
-  <div
-    class="ant-space-item"
   >
     <span
       class="ant-input-affix-wrapper ant-input-password"

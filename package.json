@@ -1,6 +1,6 @@
 {
   "name": "infrad",
-  "version": "4.21.0",
+  "version": "4.21.1",
   "description": "based on AntD",
   "title": "Infra Design",
   "keywords": [
@@ -260,7 +260,7 @@
     "rc-scroll-anim": "^2.5.8",
     "rc-tween-one": "^3.0.3",
     "rc-virtual-list": "^3.4.2",
-    "react": "^17.0.1",
+    "react": "^17.0.0",
     "react-color": "^2.17.3",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dnd": "^15.0.0",
