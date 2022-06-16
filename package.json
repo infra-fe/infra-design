@@ -308,7 +308,7 @@
     "cheerio": "1.0.0-rc.10"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.shopee.io/"
   },
   "bundlesize": [
     {
