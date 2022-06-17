@@ -1,5 +1,6 @@
 import { mount } from 'enzyme';
 import moment from 'moment';
+import React from 'react';
 import TimePicker from '..';
 import focusTest from '../../../tests/shared/focusTest';
 import mountTest from '../../../tests/shared/mountTest';

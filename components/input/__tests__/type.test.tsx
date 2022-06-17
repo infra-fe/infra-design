@@ -1,3 +1,4 @@
+import React from 'react';
 import Input from '..';
 import { render } from '../../../tests/utils';
 import type { InputProps } from '../Input';

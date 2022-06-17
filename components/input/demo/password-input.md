@@ -24,10 +24,6 @@ const App: React.FC = () => (
       placeholder="input password"
       iconRender={visible => (visible ? <IView /> : <IInvisible />)}
     />
-    <Input.Password
-      placeholder="input password"
-      iconRender={visible => (visible ? <IView /> : <IInvisible />)}
-    />
   </Space>
 );
 

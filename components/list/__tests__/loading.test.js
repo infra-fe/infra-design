@@ -1,4 +1,5 @@
 import { LoadingOutlined } from 'infra-design-icons';
+import React from 'react';
 import { render } from '../../../tests/utils';
 
 import List from '..';

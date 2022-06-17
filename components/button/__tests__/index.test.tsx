@@ -1,5 +1,5 @@
+import { SearchOutlined } from '@ant-design/icons';
 import { mount } from 'enzyme';
-import { SearchOutlined } from 'infra-design-icons';
 import { resetWarned } from 'rc-util/lib/warning';
 import React, { Component } from 'react';
 import { act } from 'react-dom/test-utils';
@@ -326,6 +326,15 @@ describe('Button', () => {
     );
     fireEvent.click(container.firstChild!);
     expect(onClick).not.toHaveBeenCalled();
+  });
+
+  it('should match class .ant-btn-disabled when button is disabled and href is not undefined', () => {
+    const wrapper = render(
+      <Button href="https://ant.design" disabled>
+        click me
+      </Button>,
+    );
+    expect(wrapper.container.querySelector('.ant-btn')).toHaveClass('ant-btn-disabled');
   });
 
   // https://github.com/ant-design/ant-design/issues/30953

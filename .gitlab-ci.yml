@@ -1,0 +1,12 @@
+default:
+  image: harbor.shopeemobile.com/undefined/deploy-nodejs:v16
+
+pages:
+  stage: deploy
+  script:
+    - mv _site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - deploy/git-page
