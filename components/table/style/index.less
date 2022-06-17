@@ -30,7 +30,6 @@
   table {
     width: 100%;
     text-align: left;
-    border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: @table-border-radius-base;
     border-collapse: separate;
     border-spacing: 0;
@@ -123,11 +122,6 @@
 
   // ============================= Body =============================
   &-tbody {
-    > tr:last-child {
-      > td {
-        border-bottom: none;
-      }
-    }
     > tr {
       > td {
         border-bottom: @border-width-base @border-style-base @table-border-color;
