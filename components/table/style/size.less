@@ -15,6 +15,10 @@
       padding: @padding-vertical @padding-horizontal;
     }
 
+    .@{table-prefix-cls}-tbody > tr > td {
+      padding: @padding-horizontal;
+    }
+
     .@{table-prefix-cls}-filter-trigger {
       margin-right: -(@padding-horizontal / 2);
     }
@@ -43,7 +47,7 @@
 // ================================================================
 // =                            Middle                            =
 // ================================================================
-.table-size(~'middle', @table-padding-vertical-md, @table-padding-horizontal-md, @table-font-size-md);
+.table-size(~'middle', @table-padding-vertical-sm, @table-padding-vertical-md, @table-font-size-md);
 
 // ================================================================
 // =                            Small                             =
