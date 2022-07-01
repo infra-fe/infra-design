@@ -21522,20 +21522,23 @@ span.ant-radio + * {
 .ant-table.ant-table-middle .ant-table-tbody > tr > td,
 .ant-table.ant-table-middle tfoot > tr > th,
 .ant-table.ant-table-middle tfoot > tr > td {
-  padding: 12px 8px;
+  padding: 8px 12px;
+}
+.ant-table.ant-table-middle .ant-table-tbody > tr > td {
+  padding: 12px;
 }
 .ant-table.ant-table-middle .ant-table-filter-trigger {
-  margin-right: -4px;
+  margin-right: -6px;
 }
 .ant-table.ant-table-middle .ant-table-expanded-row-fixed {
-  margin: -12px -8px;
+  margin: -8px -12px;
 }
 .ant-table.ant-table-middle .ant-table-tbody .ant-table-wrapper:only-child .ant-table {
-  margin: -12px -8px -12px 25px;
+  margin: -8px -12px -8px 29px;
 }
 .ant-table.ant-table-middle .ant-table-selection-column {
-  -webkit-padding-start: 2px;
-          padding-inline-start: 2px;
+  -webkit-padding-start: 3px;
+          padding-inline-start: 3px;
 }
 .ant-table.ant-table-small {
   font-size: 14px;
@@ -21547,6 +21550,9 @@ span.ant-radio + * {
 .ant-table.ant-table-small tfoot > tr > th,
 .ant-table.ant-table-small tfoot > tr > td {
   padding: 8px 8px;
+}
+.ant-table.ant-table-small .ant-table-tbody > tr > td {
+  padding: 8px;
 }
 .ant-table.ant-table-small .ant-table-filter-trigger {
   margin-right: -4px;
@@ -21697,6 +21703,9 @@ span.ant-radio + * {
   padding: 8px 16px;
   overflow-wrap: break-word;
 }
+.ant-table-tbody > tr > td {
+  padding: 16px;
+}
 .ant-table-cell-ellipsis {
   overflow: hidden;
   white-space: nowrap;
@@ -21729,7 +21738,7 @@ span.ant-radio + * {
 .ant-table-thead > tr > th {
   position: relative;
   color: rgba(0, 0, 0, 0.45);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 12px;
   text-align: left;
   background: #1d1d1d;
@@ -21895,7 +21904,6 @@ td.ant-table-column-sort {
   display: flex;
   align-items: center;
   margin: -4px -8px -4px 4px;
-  padding: 0 4px;
   color: #bfbfbf;
   font-size: 14px;
   border-radius: 2px;
@@ -23500,12 +23508,12 @@ tr.ant-table-expanded-row .ant-descriptions-view table {
 .ant-tooltip-inner {
   min-width: 30px;
   min-height: 32px;
-  padding: 4px 2px;
+  padding: 6px 8px;
   color: #fff;
   text-align: left;
   text-decoration: none;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #434343;
   border-radius: 2px;
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
 }
