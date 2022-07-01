@@ -203,5 +203,5 @@ module.exports = {
     isDev,
   },
 
-  root: GIT_PAGE === 'true' ? '/InfraFe/infrad/' : '',
+  root: GIT_PAGE === 'true' ? '/InfraFe/infrad/' : '/',
 };
