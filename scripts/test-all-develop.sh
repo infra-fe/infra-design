@@ -3,21 +3,21 @@
 # echo "[TEST ALL] test changlog"
 # node ./scripts/check-version-md.js
 
-# echo "[TEST ALL] lint"
-# npm run lint
+echo "[TEST ALL] lint"
+npm run lint
 
-# if [ "$1" != "--skip-build" ]; then
-#   echo "[TEST ALL] dist"
-#   npm run dist
+if [ "$1" != "--skip-build" ]; then
+  echo "[TEST ALL] dist"
+  npm run dist
 
-#   echo "[TEST ALL] compile"
-#   npm run compile
-# else
-#   echo "Skip build..."	
-# fi
+  echo "[TEST ALL] compile"
+  npm run compile
+else
+  echo "Skip build..."	
+fi
 
-# echo "[TEST ALL] dekko dist"
-# node ./tests/dekko/dist.test.js
+echo "[TEST ALL] dekko dist"
+node ./tests/dekko/dist.test.js
 
 echo "[TEST ALL] dist test"
 LIB_DIR=dist npm test
