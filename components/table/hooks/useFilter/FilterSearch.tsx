@@ -1,7 +1,7 @@
-import * as React from 'react';
 import { SearchOutlined } from 'infra-design-icons';
+import * as React from 'react';
 import Input from '../../../input';
-import type { TableLocale, FilterSearchType } from '../../interface';
+import type { FilterSearchType, TableLocale } from '../../interface';
 
 interface FilterSearchProps {
   value: string;

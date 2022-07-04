@@ -1,12 +1,12 @@
-import * as React from 'react';
-import { useContext, useRef, useState, useEffect } from 'react';
 import classNames from 'classnames';
+import { BarsOutlined, LeftOutlined, RightOutlined } from 'infra-design-icons';
 import omit from 'rc-util/lib/omit';
-import { RightOutlined, BarsOutlined, LeftOutlined } from 'infra-design-icons';
+import * as React from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
 
-import { LayoutContext } from './layout';
 import { ConfigContext } from '../config-provider';
 import isNumeric from '../_util/isNumeric';
+import { LayoutContext } from './layout';
 
 const dimensionMaxMap = {
   xs: '479.98px',
@@ -223,6 +223,8 @@ const Sider = React.forwardRef<HTMLDivElement, SiderProps>(
   },
 );
 
-Sider.displayName = 'Sider';
+if (process.env.NODE_ENV !== 'production') {
+  Sider.displayName = 'Sider';
+}
 
 export default Sider;

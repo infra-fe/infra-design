@@ -1,10 +1,10 @@
-import * as React from 'react';
-import CSSMotion from 'rc-motion';
 import classNames from 'classnames';
-import { IView, ITrash, DownloadOutlined } from 'infra-design-icons';
-import Tooltip from '../../tooltip';
-import Progress from '../../progress';
+import { DownloadOutlined, ITrash, IView } from 'infra-design-icons';
+import CSSMotion from 'rc-motion';
+import * as React from 'react';
 import { ConfigContext } from '../../config-provider';
+import Progress from '../../progress';
+import Tooltip from '../../tooltip';
 
 import type {
   ItemRender,

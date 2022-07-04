@@ -1,11 +1,11 @@
-import * as React from 'react';
 import classNames from 'classnames';
 import { LoadingOutlined } from 'infra-design-icons';
+import * as React from 'react';
 
-import type { TimelineItemProps } from './TimelineItem';
-import TimelineItem from './TimelineItem';
 import { ConfigContext } from '../config-provider';
 import { cloneElement } from '../_util/reactNode';
+import type { TimelineItemProps } from './TimelineItem';
+import TimelineItem from './TimelineItem';
 
 export interface TimelineProps {
   prefixCls?: string;

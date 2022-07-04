@@ -308,8 +308,9 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
   SHOW_PARENT: typeof SHOW_PARENT;
   SHOW_CHILD: typeof SHOW_CHILD;
 };
-
-Cascader.displayName = 'Cascader';
+if (process.env.NODE_ENV !== 'production') {
+  Cascader.displayName = 'Cascader';
+}
 Cascader.SHOW_PARENT = SHOW_PARENT;
 Cascader.SHOW_CHILD = SHOW_CHILD;
 

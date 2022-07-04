@@ -10,7 +10,10 @@ import warning from '../_util/warning';
 import Wave from '../_util/wave';
 
 export type SwitchSize = 'small' | 'default';
-export type SwitchChangeEventHandler = (checked: boolean, event: MouseEvent) => void;
+export type SwitchChangeEventHandler = (
+  checked: boolean,
+  event: React.MouseEvent<HTMLButtonElement>,
+) => void;
 export type SwitchClickEventHandler = SwitchChangeEventHandler;
 
 export interface SwitchProps {
@@ -37,7 +40,7 @@ interface CompoundedComponent
   __ANT_SWITCH: boolean;
 }
 
-const Switch = React.forwardRef<unknown, SwitchProps>(
+const Switch = React.forwardRef<HTMLButtonElement, SwitchProps>(
   (
     {
       prefixCls: customizePrefixCls,
@@ -94,6 +97,8 @@ const Switch = React.forwardRef<unknown, SwitchProps>(
 ) as CompoundedComponent;
 
 Switch.__ANT_SWITCH = true;
-Switch.displayName = 'Switch';
+if (process.env.NODE_ENV !== 'production') {
+  Switch.displayName = 'Switch';
+}
 
 export default Switch;

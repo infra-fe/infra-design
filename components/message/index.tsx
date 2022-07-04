@@ -1,19 +1,19 @@
-import * as React from 'react';
 import classNames from 'classnames';
-import RCNotification from 'rc-notification';
-import type {
-  NotificationInstance as RCNotificationInstance,
-  NoticeContent,
-} from 'rc-notification/lib/Notification';
 import {
-  ISuccessFilled,
-  IInformationFilled,
   ICloseFullfiled,
+  IInformationFilled,
   INoticeCircleFilled,
+  ISuccessFilled,
   LoadingOutlined,
 } from 'infra-design-icons';
-import createUseMessage from './hooks/useMessage';
+import RCNotification from 'rc-notification';
+import type {
+  NoticeContent,
+  NotificationInstance as RCNotificationInstance,
+} from 'rc-notification/lib/Notification';
+import * as React from 'react';
 import ConfigProvider, { globalConfig } from '../config-provider';
+import createUseMessage from './hooks/useMessage';
 
 let messageInstance: RCNotificationInstance | null;
 let defaultDuration = 3;

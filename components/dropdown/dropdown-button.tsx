@@ -1,6 +1,6 @@
-import * as React from 'react';
 import classNames from 'classnames';
 import { EllipsisOutlined } from 'infra-design-icons';
+import * as React from 'react';
 import type { ButtonProps } from '../button';
 import Button from '../button';
 import type { ButtonHTMLType } from '../button/button';

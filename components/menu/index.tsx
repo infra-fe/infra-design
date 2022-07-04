@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import { EllipsisOutlined } from 'infra-design-icons';
 import type { MenuProps as RcMenuProps, MenuRef } from 'rc-menu';
 import RcMenu, { ItemGroup } from 'rc-menu';
+import useEvent from 'rc-util/lib/hooks/useEvent';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
 import { forwardRef } from 'react';
@@ -46,6 +47,7 @@ type InternalMenuProps = MenuProps &
 
 const InternalMenu = forwardRef<MenuRef, InternalMenuProps>((props, ref) => {
   const override = React.useContext(OverrideContext) || {};
+
   const { getPrefixCls, getPopupContainer, direction } = React.useContext(ConfigContext);
 
   const rootPrefixCls = getPrefixCls();
@@ -62,6 +64,7 @@ const InternalMenu = forwardRef<MenuRef, InternalMenuProps>((props, ref) => {
     children,
     mode,
     selectable,
+    onClick,
     ...restProps
   } = props;
 
@@ -84,12 +87,19 @@ const InternalMenu = forwardRef<MenuRef, InternalMenuProps>((props, ref) => {
   );
 
   warning(
-    !!items && !children,
+    'items' in props && !children,
     'Menu',
     '`children` will be removed in next major version. Please use `items` instead.',
   );
 
   override.validator?.({ mode });
+
+  // ========================== Click ==========================
+  // Tell dropdown that item clicked
+  const onItemClick = useEvent<Required<MenuProps>['onClick']>((...args) => {
+    onClick?.(...args);
+    override?.onClick?.();
+  });
 
   // ========================== Mode ===========================
   const mergedMode = override.mode || mode;
@@ -148,6 +158,7 @@ const InternalMenu = forwardRef<MenuRef, InternalMenuProps>((props, ref) => {
           overflowedIndicatorPopupClassName={`${prefixCls}-${theme}`}
           mode={mergedMode}
           selectable={mergedSelectable}
+          onClick={onItemClick}
           {...passedProps}
           inlineCollapsed={mergedInlineCollapsed}
           className={menuClassName}

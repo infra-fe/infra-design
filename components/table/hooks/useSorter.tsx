@@ -1,21 +1,21 @@
-import * as React from 'react';
 import classNames from 'classnames';
 import { CaretDownOutlined, CaretUpOutlined } from 'infra-design-icons';
 import KeyCode from 'rc-util/lib/KeyCode';
-import type {
-  TransformColumns,
-  ColumnsType,
-  Key,
-  ColumnType,
-  SortOrder,
-  CompareFn,
-  ColumnTitleProps,
-  SorterResult,
-  ColumnGroupType,
-  TableLocale,
-} from '../interface';
+import * as React from 'react';
 import type { TooltipProps } from '../../tooltip';
 import Tooltip from '../../tooltip';
+import type {
+  ColumnGroupType,
+  ColumnsType,
+  ColumnTitleProps,
+  ColumnType,
+  CompareFn,
+  Key,
+  SorterResult,
+  SortOrder,
+  TableLocale,
+  TransformColumns,
+} from '../interface';
 import { getColumnKey, getColumnPos, renderColumnTitle } from '../util';
 
 const ASCEND = 'ascend';

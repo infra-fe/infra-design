@@ -40,12 +40,6 @@ declare module 'rc-dialog';
 
 declare module 'rc-rate';
 
-declare module 'rc-queue-anim';
-
-declare module 'rc-steps';
-
-declare module 'rc-switch';
-
 declare module '*.json' {
   const value: any;
   export const version: string;
