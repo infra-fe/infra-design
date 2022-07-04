@@ -35,8 +35,11 @@ export const triggerResize = (target: Element) => {
   const originGetBoundingClientRect = target.getBoundingClientRect;
 
   target.getBoundingClientRect = () => ({ width: 510, height: 903 } as DOMRect);
-  onLibResize([{ target } as ResizeObserverEntry]);
-  onEsResize([{ target } as ResizeObserverEntry]);
+
+  act(() => {
+    onLibResize([{ target } as ResizeObserverEntry]);
+    onEsResize([{ target } as ResizeObserverEntry]);
+  });
 
   target.getBoundingClientRect = originGetBoundingClientRect;
 };

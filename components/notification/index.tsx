@@ -1,16 +1,16 @@
-import * as React from 'react';
-import Notification from 'rc-notification';
-import type { NotificationInstance as RCNotificationInstance } from 'rc-notification/lib/Notification';
+import classNames from 'classnames';
 import {
-  CloseOutlined,
   CheckCircleOutlined,
   CloseCircleOutlined,
+  CloseOutlined,
   ExclamationCircleOutlined,
   InfoCircleOutlined,
 } from 'infra-design-icons';
-import classNames from 'classnames';
-import createUseNotification from './hooks/useNotification';
+import Notification from 'rc-notification';
+import type { NotificationInstance as RCNotificationInstance } from 'rc-notification/lib/Notification';
+import * as React from 'react';
 import ConfigProvider, { globalConfig } from '../config-provider';
+import createUseNotification from './hooks/useNotification';
 
 export type NotificationPlacement =
   | 'top'

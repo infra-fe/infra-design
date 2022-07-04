@@ -30,7 +30,7 @@ function isReactFragment(node: React.ReactNode) {
 // Insert one space between two chinese characters automatically.
 function insertSpace(child: React.ReactChild, needInserted: boolean) {
   // Check the child if is undefined or null.
-  if (child == null) {
+  if (child === null || child === undefined) {
     return;
   }
   const SPACE = needInserted ? ' ' : '';
@@ -188,8 +188,7 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
   };
 
   // =============== Update Loading ===============
-  const loadingOrDelay: Loading =
-    typeof loading === 'object' && loading.delay ? loading.delay || true : !!loading;
+  const loadingOrDelay: Loading = typeof loading === 'boolean' ? loading : loading?.delay || true;
 
   React.useEffect(() => {
     let delayTimer: number | null = null;
@@ -257,7 +256,7 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
       [`${prefixCls}-icon-only`]: !children && children !== 0 && !!iconType,
       [`${prefixCls}-background-ghost`]: ghost && !isUnBorderedButtonType(type),
       [`${prefixCls}-loading`]: innerLoading,
-      [`${prefixCls}-two-chinese-chars`]: hasTwoCNChar && autoInsertSpace,
+      [`${prefixCls}-two-chinese-chars`]: hasTwoCNChar && autoInsertSpace && !innerLoading,
       [`${prefixCls}-block`]: block,
       [`${prefixCls}-dangerous`]: !!danger,
       [`${prefixCls}-rtl`]: direction === 'rtl',
@@ -309,8 +308,9 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
 };
 
 const Button = React.forwardRef<unknown, ButtonProps>(InternalButton) as CompoundedComponent;
-
-Button.displayName = 'Button';
+if (process.env.NODE_ENV !== 'production') {
+  Button.displayName = 'Button';
+}
 
 Button.Group = Group;
 Button.__ANT_BUTTON = true;

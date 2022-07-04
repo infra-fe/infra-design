@@ -1,14 +1,14 @@
-import * as React from 'react';
+import classNames from 'classnames';
+import { CloseOutlined, EllipsisOutlined, PlusOutlined } from 'infra-design-icons';
 import type { TabsProps as RcTabsProps } from 'rc-tabs';
 import RcTabs, { TabPane, TabPaneProps } from 'rc-tabs';
 import type { EditableConfig } from 'rc-tabs/lib/interface';
-import classNames from 'classnames';
-import { PlusOutlined, EllipsisOutlined, CloseOutlined } from 'infra-design-icons';
+import * as React from 'react';
 
-import warning from '../_util/warning';
 import { ConfigContext } from '../config-provider';
 import type { SizeType } from '../config-provider/SizeContext';
 import SizeContext from '../config-provider/SizeContext';
+import warning from '../_util/warning';
 
 export type TabsType = 'line' | 'card' | 'editable-card';
 export type TabsPosition = 'top' | 'right' | 'bottom' | 'left';

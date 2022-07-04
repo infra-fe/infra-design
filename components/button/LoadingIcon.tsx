@@ -1,6 +1,6 @@
-import React from 'react';
-import CSSMotion from 'rc-motion';
 import { LoadingOutlined } from 'infra-design-icons';
+import CSSMotion from 'rc-motion';
+import React from 'react';
 
 export interface LoadingIconProps {
   prefixCls: string;

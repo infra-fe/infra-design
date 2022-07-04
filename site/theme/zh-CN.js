@@ -9,6 +9,7 @@ module.exports = {
     'app.header.menu.components': '组件',
     'app.header.menu.spec': '设计',
     'app.header.menu.resource': '资源',
+    'app.header.menu.pro': '业务组件',
     'app.header.menu.more': '更多',
     'app.header.menu.mobile': '移动版',
     'app.header.menu.pro.v4': 'Infra Design Pro',

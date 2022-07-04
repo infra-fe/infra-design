@@ -1,13 +1,13 @@
-import * as React from 'react';
-import classNames from 'classnames';
-import { FormattedMessage } from 'react-intl';
-import { Link } from 'bisheng/router';
 import type { MenuProps } from 'antd';
-import { MenuOutlined } from 'infra-design-icons';
 import { Menu } from 'antd';
-import { getEcosystemGroup } from './More';
+import { Link } from 'bisheng/router';
+import classNames from 'classnames';
+import { MenuOutlined } from 'infra-design-icons';
+import * as React from 'react';
+import { FormattedMessage } from 'react-intl';
 import * as utils from '../../utils';
 import type { SharedProps } from './interface';
+import { getEcosystemGroup } from './More';
 
 import './Navigation.less';
 
@@ -108,6 +108,14 @@ export default ({
         </Link>
       ),
       key: 'components',
+    },
+    {
+      label: (
+        <Link href={'https://shopee.git-pages.garena.com/InfraFe/infrad-pro/'}>
+          <FormattedMessage id="app.header.menu.pro" />
+        </Link>
+      ),
+      key: 'ProComponents',
     },
     {
       label: (

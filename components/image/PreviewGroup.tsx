@@ -1,15 +1,15 @@
-import * as React from 'react';
-import RcImage from 'rc-image';
 import {
+  CloseOutlined,
+  LeftOutlined,
   RightOutlined,
   RotateLeftOutlined,
   RotateRightOutlined,
   ZoomInOutlined,
   ZoomOutOutlined,
-  CloseOutlined,
-  LeftOutlined,
 } from 'infra-design-icons';
+import RcImage from 'rc-image';
 import type { GroupConsumerProps } from 'rc-image/lib/PreviewGroup';
+import * as React from 'react';
 import { ConfigContext } from '../config-provider';
 import { getTransitionName } from '../_util/motion';
 

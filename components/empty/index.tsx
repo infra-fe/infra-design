@@ -1,11 +1,11 @@
-import * as React from 'react';
 import classNames from 'classnames';
+import * as React from 'react';
 import { ConfigContext } from '../config-provider';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
+import type { ImageType } from './config';
+import { typeConfig } from './config';
 import DefaultEmptyImg from './empty';
 import SimpleEmptyImg from './simple';
-import { typeConfig } from './config';
-import type { ImageType } from './config';
 
 const defaultEmptyImg = <DefaultEmptyImg />;
 const simpleEmptyImg = <SimpleEmptyImg />;

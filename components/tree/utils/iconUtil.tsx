@@ -1,14 +1,14 @@
-import * as React from 'react';
 import classNames from 'classnames';
 import {
-  LoadingOutlined,
+  CaretDownFilled,
   FileOutlined,
+  LoadingOutlined,
   MinusSquareOutlined,
   PlusSquareOutlined,
-  CaretDownFilled,
 } from 'infra-design-icons';
+import * as React from 'react';
+import { cloneElement, isValidElement } from '../../_util/reactNode';
 import type { AntTreeNodeProps, SwitcherIcon } from '../Tree';
-import { isValidElement, cloneElement } from '../../_util/reactNode';
 
 export default function renderSwitcherIcon(
   prefixCls: string,
