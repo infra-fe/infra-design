@@ -46,10 +46,6 @@
     overflow-wrap: break-word;
   }
 
-  &-tbody > tr > td {
-    padding: @table-padding-horizontal;
-  }
-
   &-cell-ellipsis {
     overflow: hidden;
     white-space: nowrap;
@@ -129,6 +125,7 @@
   &-tbody {
     > tr {
       > td {
+        padding: @table-padding-horizontal;
         border-bottom: @border-width-base @border-style-base @table-border-color;
         transition: background 0.3s;
 
@@ -288,6 +285,7 @@
     color: @table-header-icon-color;
     font-size: 14px;
     transition: color 0.3s;
+
     &-inner {
       display: inline-flex;
       flex-direction: column;

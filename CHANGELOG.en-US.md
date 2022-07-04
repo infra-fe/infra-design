@@ -9,7 +9,7 @@ timeline: true
 
 | infrad version | antd version | update content | time |
 | --- | --- | --- | --- |
-| 4.21.3 | 4.21.4 | Synchronize the update of antd 4.21.4 version | 2022-07-04 |
+| 4.21.3 | 4.21.4 | 1.Synchronize the update of antd 4.21.4 version<br/>2.Modified some styles of the table component<br/>3.The tooltip component has been rolled back to keep it consistent with antd | 2022-07-04 |
 | 4.21.1 | 4.21.2 | 1.Synchronize the update of antd 4.20.2 version<br/> 2.Temporarily removed QuickPicker | 2022-06-16 |
 | 4.21.0 | 4.21.0 | Synchronize the update of antd 4.21.0 version | 2022-06-09 |
 | 4.20.4 | 4.20.4 | Synchronize the update of antd 4.20.4 version | 2022-05-13 |
