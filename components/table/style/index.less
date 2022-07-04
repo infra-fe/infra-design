@@ -281,6 +281,8 @@
   &-column-sorter {
     display: flex;
     align-items: center;
+    width: 14px;
+    height: 14px;
     margin-left: 4px;
     color: @table-header-icon-color;
     font-size: 14px;
@@ -289,11 +291,17 @@
       display: inline-flex;
       flex-direction: column;
       align-items: center;
+      width: 14px;
+      height: 14px;
+    }
+
+    &-up {
+      margin-top: -2px;
     }
 
     &-up,
     &-down {
-      font-size: 14px;
+      font-size: 10px;
 
       &.active {
         color: @primary-color;
@@ -301,7 +309,7 @@
     }
 
     &-up + &-down {
-      margin-top: -0.3em;
+      margin-top: -2px;
     }
   }
 
@@ -312,12 +320,15 @@
   // ============================ Filter ============================
   &-filter-column {
     display: flex;
+    align-items: center;
   }
 
   &-filter-trigger {
     position: relative;
     display: flex;
     align-items: center;
+    width: 14px;
+    height: 14px;
     margin: -4px (-@table-padding-horizontal / 2) -4px 4px;
     // padding: 0 4px;
     color: @table-header-icon-color;
