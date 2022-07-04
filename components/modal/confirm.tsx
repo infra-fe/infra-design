@@ -1,17 +1,17 @@
-import * as React from 'react';
-import { render as reactRender, unmount as reactUnmount } from 'rc-util/lib/React/render';
 import {
-  InfoCircleOutlined,
   CheckCircleOutlined,
   CloseCircleOutlined,
   ExclamationCircleOutlined,
+  InfoCircleOutlined,
 } from 'infra-design-icons';
-import { getConfirmLocale } from './locale';
-import type { ModalFuncProps } from './Modal';
-import ConfirmDialog from './ConfirmDialog';
+import { render as reactRender, unmount as reactUnmount } from 'rc-util/lib/React/render';
+import * as React from 'react';
 import { globalConfig } from '../config-provider';
 import warning from '../_util/warning';
+import ConfirmDialog from './ConfirmDialog';
 import destroyFns from './destroyFns';
+import { getConfirmLocale } from './locale';
+import type { ModalFuncProps } from './Modal';
 
 let defaultRootPrefixCls = '';
 

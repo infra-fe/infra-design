@@ -8,6 +8,13 @@ cover: https://gw.alipayobjects.com/zos/alicdn/f-SbcX2Lx/Table.svg
 
 A table displays rows of data.
 
+## ProTable
+
+Link: https://shopee.git-pages.garena.com/InfraFe/infrad-pro/pro-component/pro-table
+
+- Quickly build a table with a search area and tablebar
+- Includes（ProTable、ProFormilyTable）
+
 ## When To Use
 
 - To display a collection of structured data.
@@ -236,7 +243,7 @@ Properties for row selection.
 
 ```tsx
 import { Table } from 'infrad';
-import { ColumnsType } from 'infrad/es/table';
+import type { ColumnsType } from 'infrad/es/table';
 
 interface User {
   key: number;

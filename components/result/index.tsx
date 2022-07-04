@@ -1,4 +1,3 @@
-import * as React from 'react';
 import classNames from 'classnames';
 import {
   CheckCircleFilled,
@@ -6,6 +5,7 @@ import {
   ExclamationCircleFilled,
   WarningFilled,
 } from 'infra-design-icons';
+import * as React from 'react';
 
 import { ConfigContext } from '../config-provider';
 import warning from '../_util/warning';
@@ -51,7 +51,14 @@ const ExceptionStatus = Object.keys(ExceptionMap);
  * @param prefixCls
  * @param {status, icon}
  */
-const renderIcon = (prefixCls: string, { status, icon }: ResultProps) => {
+
+interface IconProps {
+  prefixCls: string;
+  icon: React.ReactNode;
+  status: ResultStatusType;
+}
+
+const Icon: React.FC<IconProps> = ({ prefixCls, icon, status }) => {
   const className = classNames(`${prefixCls}-icon`);
 
   warning(
@@ -75,8 +82,17 @@ const renderIcon = (prefixCls: string, { status, icon }: ResultProps) => {
   return <div className={className}>{icon || iconNode}</div>;
 };
 
-const renderExtra = (prefixCls: string, { extra }: ResultProps) =>
-  extra && <div className={`${prefixCls}-extra`}>{extra}</div>;
+interface ExtraProps {
+  prefixCls: string;
+  extra: React.ReactNode;
+}
+
+const Extra: React.FC<ExtraProps> = ({ prefixCls, extra }) => {
+  if (!extra) {
+    return null;
+  }
+  return <div className={`${prefixCls}-extra`}>{extra}</div>;
+};
 
 export interface ResultType extends React.FC<ResultProps> {
   PRESENTED_IMAGE_404: React.FC;
@@ -103,10 +119,10 @@ const Result: ResultType = ({
   });
   return (
     <div className={className} style={style}>
-      {renderIcon(prefixCls, { status, icon })}
+      <Icon prefixCls={prefixCls} status={status} icon={icon} />
       <div className={`${prefixCls}-title`}>{title}</div>
       {subTitle && <div className={`${prefixCls}-subtitle`}>{subTitle}</div>}
-      {renderExtra(prefixCls, { extra })}
+      <Extra prefixCls={prefixCls} extra={extra} />
       {children && <div className={`${prefixCls}-content`}>{children}</div>}
     </div>
   );

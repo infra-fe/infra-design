@@ -164,7 +164,9 @@ const InternalMentions: React.ForwardRefRenderFunction<unknown, MentionProps> = 
 };
 
 const Mentions = React.forwardRef<unknown, MentionProps>(InternalMentions) as CompoundedComponent;
-Mentions.displayName = 'Mentions';
+if (process.env.NODE_ENV !== 'production') {
+  Mentions.displayName = 'Mentions';
+}
 Mentions.Option = Option;
 
 Mentions.getMentions = (value: string = '', config: MentionsConfig = {}): MentionsEntity[] => {

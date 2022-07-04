@@ -9,6 +9,13 @@ cover: https://gw.alipayobjects.com/zos/alicdn/f-SbcX2Lx/Table.svg
 
 展示行列数据。
 
+## ProTable
+
+Link: https://shopee.git-pages.garena.com/InfraFe/infrad-pro/pro-component/pro-table
+
+- 快速搭建包含搜索区以及 tablebar 的表格
+- 包含（ProTable、ProFormilyTable）
+
 ## 何时使用
 
 - 当有大量结构化的数据需要展现时；
@@ -238,7 +245,7 @@ const columns = [
 
 ```tsx
 import { Table } from 'infrad';
-import { ColumnsType } from 'infrad/es/table';
+import type { ColumnsType } from 'infrad/es/table';
 
 interface User {
   key: number;

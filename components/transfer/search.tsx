@@ -1,5 +1,5 @@
-import * as React from 'react';
 import { ISearch } from 'infra-design-icons';
+import * as React from 'react';
 
 import Input from '../input';
 

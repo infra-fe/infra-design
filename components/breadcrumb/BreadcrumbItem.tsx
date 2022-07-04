@@ -1,9 +1,9 @@
-import * as React from 'react';
 import { DownOutlined } from 'infra-design-icons';
+import * as React from 'react';
 
+import { ConfigContext } from '../config-provider';
 import type { DropdownProps } from '../dropdown/dropdown';
 import Dropdown from '../dropdown/dropdown';
-import { ConfigContext } from '../config-provider';
 
 export interface BreadcrumbItemProps {
   prefixCls?: string;

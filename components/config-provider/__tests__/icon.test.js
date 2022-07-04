@@ -1,7 +1,7 @@
-import React from 'react';
 import { mount } from 'enzyme';
 import { SmileOutlined } from 'infra-design-icons';
 import IconContext from 'infra-design-icons/lib/components/Context';
+import React from 'react';
 import ConfigProvider from '..';
 
 describe('ConfigProvider.Icon', () => {

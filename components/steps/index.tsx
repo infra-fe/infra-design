@@ -1,11 +1,11 @@
-import * as React from 'react';
+import classNames from 'classnames';
+import { CloseOutlined, ISelector } from 'infra-design-icons';
 import RcSteps from 'rc-steps';
 import type { ProgressDotRender } from 'rc-steps/lib/Steps';
-import { ISelector, CloseOutlined } from 'infra-design-icons';
-import classNames from 'classnames';
+import * as React from 'react';
 import { ConfigContext } from '../config-provider';
-import Progress from '../progress';
 import useBreakpoint from '../grid/hooks/useBreakpoint';
+import Progress from '../progress';
 
 export interface StepsProps {
   type?: 'default' | 'navigation';
