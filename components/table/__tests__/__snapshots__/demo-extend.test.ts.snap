@@ -430,7 +430,7 @@ exports[`renders ./components/table/demo/basic.md extend context correctly 1`] =
       class="ant-spin-container"
     >
       <div
-        class="ant-table ant-table-small"
+        class="ant-table"
       >
         <div
           class="ant-table-container"
@@ -654,7 +654,7 @@ exports[`renders ./components/table/demo/basic.md extend context correctly 1`] =
         </div>
       </div>
       <ul
-        class="ant-pagination ant-pagination-mini ant-table-pagination ant-table-pagination-right"
+        class="ant-pagination ant-table-pagination ant-table-pagination-right"
         unselectable="unselectable"
       >
         <li

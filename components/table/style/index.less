@@ -89,8 +89,8 @@
       > th {
         position: relative;
         color: @table-header-color;
-        font-weight: 400;
-        font-size: 12px;
+        font-weight: @table-header-font-weight;
+        font-size: @table-header-font-size;
         text-align: left;
         background: @table-header-bg;
         border-bottom: @border-width-base @border-style-base @table-border-color;
@@ -283,7 +283,7 @@
     height: 14px;
     margin-left: 4px;
     color: @table-header-icon-color;
-    font-size: 14px;
+    font-size: @table-font-size;
     transition: color 0.3s;
 
     &-inner {
