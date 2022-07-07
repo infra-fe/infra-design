@@ -31,7 +31,7 @@
   table {
     width: 100%;
     text-align: left;
-    border-radius: @table-border-radius-base @table-border-radius-base 0 0;
+    border-radius: @table-border-radius-base;
     border-collapse: separate;
     border-spacing: 0;
   }
@@ -42,7 +42,7 @@
   tfoot > tr > th,
   tfoot > tr > td {
     position: relative;
-    padding: @table-padding-vertical @table-padding-horizontal;
+    padding: @table-padding-vertical-sm @table-padding-horizontal;
     overflow-wrap: break-word;
   }
 
@@ -89,7 +89,8 @@
       > th {
         position: relative;
         color: @table-header-color;
-        font-weight: 500;
+        font-weight: @table-header-font-weight;
+        font-size: @table-header-font-size;
         text-align: left;
         background: @table-header-bg;
         border-bottom: @border-width-base @border-style-base @table-border-color;
@@ -124,6 +125,7 @@
   &-tbody {
     > tr {
       > td {
+        padding: @table-padding-horizontal;
         border-bottom: @border-width-base @border-style-base @table-border-color;
         transition: background 0.3s;
 
@@ -255,14 +257,12 @@
   &-column-title {
     position: relative;
     z-index: 1;
-    flex: 1;
   }
 
   &-column-sorters {
     display: flex;
     flex: auto;
     align-items: center;
-    justify-content: space-between;
 
     &::after {
       position: absolute;
@@ -277,20 +277,30 @@
   }
 
   &-column-sorter {
+    display: flex;
+    align-items: center;
+    width: 14px;
+    height: 14px;
     margin-left: 4px;
     color: @table-header-icon-color;
-    font-size: 0;
+    font-size: @table-font-size;
     transition: color 0.3s;
 
     &-inner {
       display: inline-flex;
       flex-direction: column;
       align-items: center;
+      width: 14px;
+      height: 14px;
+    }
+
+    &-up {
+      margin-top: -2px;
     }
 
     &-up,
     &-down {
-      font-size: 11px;
+      font-size: 10px;
 
       &.active {
         color: @primary-color;
@@ -298,7 +308,7 @@
     }
 
     &-up + &-down {
-      margin-top: -0.3em;
+      margin-top: -2px;
     }
   }
 
@@ -309,17 +319,19 @@
   // ============================ Filter ============================
   &-filter-column {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
 
   &-filter-trigger {
     position: relative;
     display: flex;
     align-items: center;
+    width: 14px;
+    height: 14px;
     margin: -4px (-@table-padding-horizontal / 2) -4px 4px;
-    padding: 0 4px;
+    // padding: 0 4px;
     color: @table-header-icon-color;
-    font-size: @font-size-sm;
+    font-size: @font-size-base;
     border-radius: @border-radius-base;
     cursor: pointer;
     transition: all 0.3s;
