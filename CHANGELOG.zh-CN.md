@@ -42,6 +42,7 @@ timeline: true
 `2022-06-27`
 
 - Table
+  - 🐞 修复排序单元格中 enter 事件的穿透问题。 [#36176](https://github.com/ant-design/ant-design/issues/36176)
   - 🐞 修复 Table 展开图标未居中的问题。[#36215](https://github.com/ant-design/ant-design/pull/36215)
   - 💄 修复 Table 内嵌 Table 时的边距问题。[#36209](https://github.com/ant-design/ant-design/pull/36209)
   - 🐞 Table 取消选择或批量操作时重置上一次选择的 key。[#34705](https://github.com/ant-design/ant-design/pull/34705) [@Dunqing](https://github.com/Dunqing)
