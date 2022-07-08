@@ -127,11 +127,11 @@ describe('Table.sorter', () => {
     const { container } = render(createTable());
 
     // ascend
-    fireEvent.keyDown(container.querySelector('.ant-table-column-sorters'), { keyCode: 13 });
+    fireEvent.keyDown(container.querySelector('.ant-table-column-has-sorters'), { keyCode: 13 });
     expect(renderedNames(container)).toEqual(['Jack', 'Jerry', 'Lucy', 'Tom']);
 
     // descend
-    fireEvent.keyDown(container.querySelector('.ant-table-column-sorters'), { keyCode: 13 });
+    fireEvent.keyDown(container.querySelector('.ant-table-column-has-sorters'), { keyCode: 13 });
     expect(renderedNames(container)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
   });
 
