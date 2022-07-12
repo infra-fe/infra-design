@@ -1,6 +1,6 @@
 {
   "project_dir_depth": 2,
-  "project_name": "isfe",
+  "project_name": "webinfra",
   "module_name": "infrad",
   "build": {
     "docker_image": {
