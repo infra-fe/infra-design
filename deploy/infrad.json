@@ -4,7 +4,7 @@
   "module_name": "infrad",
   "build": {
     "docker_image": {
-      "base_image": "harbor.shopeemobile.com/shopee/nodejs-base:14"
+      "base_image": "harbor.shopeemobile.com/undefined/deploy-nodejs:v16"
     },
     "commands": ["yarn", "yarn site"],
     "upload_static": {
