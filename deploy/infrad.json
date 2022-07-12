@@ -6,7 +6,7 @@
     "docker_image": {
       "base_image": "harbor.shopeemobile.com/shopee/nodejs-base:14"
     },
-    "commands": ["yarn --ignore-engines", "yarn site"],
+    "commands": ["yarn", "yarn site"],
     "upload_static": {
       "static_dir": "_site",
       "enable_cdn": true,
