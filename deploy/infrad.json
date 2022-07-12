@@ -1,0 +1,17 @@
+{
+  "project_dir_depth": 2,
+  "project_name": "isfe",
+  "module_name": "infrad",
+  "build": {
+    "docker_image": {
+      "base_image": "harbor.shopeemobile.com/shopee/nodejs-base:14"
+    },
+    "commands": ["yarn --ignore-engines", "yarn site"],
+    "upload_static": {
+      "static_dir": "_site",
+      "enable_cdn": true,
+      "cdn_envs": ["test"]
+    },
+    "timeout": 1200
+  }
+}
