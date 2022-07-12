@@ -9,7 +9,7 @@
     "commands": ["yarn", "yarn site"],
     "upload_static": {
       "static_dir": "_site",
-      "enable_cdn": true,
+      "enable_cdn": false,
       "cdn_envs": ["test"]
     },
     "timeout": 1200
