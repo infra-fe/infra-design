@@ -1,0 +1,17 @@
+{
+  "project_dir_depth": 2,
+  "project_name": "webinfra",
+  "module_name": "infrad",
+  "build": {
+    "docker_image": {
+      "base_image": "harbor.shopeemobile.com/undefined/deploy-nodejs:v16"
+    },
+    "commands": ["yarn", "yarn site"],
+    "upload_static": {
+      "static_dir": "_site",
+      "enable_cdn": false,
+      "cdn_envs": ["test"]
+    },
+    "timeout": 1200
+  }
+}

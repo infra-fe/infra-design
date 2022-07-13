@@ -12226,6 +12226,7 @@ exports[`ConfigProvider components Collapse configProvider 1`] = `
     class="config-collapse-item"
   >
     <div
+      aria-disabled="false"
       aria-expanded="false"
       class="config-collapse-header"
       role="button"
@@ -12272,6 +12273,7 @@ exports[`ConfigProvider components Collapse configProvider componentDisabled 1`]
     class="config-collapse-item"
   >
     <div
+      aria-disabled="false"
       aria-expanded="false"
       class="config-collapse-header"
       role="button"
@@ -12318,6 +12320,7 @@ exports[`ConfigProvider components Collapse configProvider componentSize large 1
     class="config-collapse-item"
   >
     <div
+      aria-disabled="false"
       aria-expanded="false"
       class="config-collapse-header"
       role="button"
@@ -12364,6 +12367,7 @@ exports[`ConfigProvider components Collapse configProvider componentSize middle 
     class="config-collapse-item"
   >
     <div
+      aria-disabled="false"
       aria-expanded="false"
       class="config-collapse-header"
       role="button"
@@ -12410,6 +12414,7 @@ exports[`ConfigProvider components Collapse configProvider virtual and dropdownM
     class="ant-collapse-item"
   >
     <div
+      aria-disabled="false"
       aria-expanded="false"
       class="ant-collapse-header"
       role="button"
@@ -12456,6 +12461,7 @@ exports[`ConfigProvider components Collapse normal 1`] = `
     class="ant-collapse-item"
   >
     <div
+      aria-disabled="false"
       aria-expanded="false"
       class="ant-collapse-header"
       role="button"
@@ -12502,6 +12508,7 @@ exports[`ConfigProvider components Collapse prefixCls 1`] = `
     class="prefix-Collapse-item"
   >
     <div
+      aria-disabled="false"
       aria-expanded="false"
       class="prefix-Collapse-header"
       role="button"
@@ -26793,7 +26800,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                             width="1em"
                           >
                             <path
-                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
                             />
                           </svg>
                         </span>
@@ -27094,7 +27101,7 @@ exports[`ConfigProvider components Table configProvider componentDisabled 1`] = 
                             width="1em"
                           >
                             <path
-                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
                             />
                           </svg>
                         </span>
@@ -27396,7 +27403,7 @@ exports[`ConfigProvider components Table configProvider componentSize large 1`] 
                             width="1em"
                           >
                             <path
-                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
                             />
                           </svg>
                         </span>
@@ -27697,7 +27704,7 @@ exports[`ConfigProvider components Table configProvider componentSize middle 1`]
                             width="1em"
                           >
                             <path
-                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
                             />
                           </svg>
                         </span>
@@ -27998,7 +28005,7 @@ exports[`ConfigProvider components Table configProvider virtual and dropdownMatc
                             width="1em"
                           >
                             <path
-                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
                             />
                           </svg>
                         </span>
@@ -28299,7 +28306,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                             width="1em"
                           >
                             <path
-                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
                             />
                           </svg>
                         </span>
@@ -28600,7 +28607,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                             width="1em"
                           >
                             <path
-                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
                             />
                           </svg>
                         </span>

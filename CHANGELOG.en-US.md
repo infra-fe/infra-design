@@ -9,7 +9,7 @@ timeline: true
 
 | infrad version | antd version | update content | time |
 | --- | --- | --- | --- |
-| 4.21.3 | 4.21.4 | Synchronize the update of antd 4.21.4 version | 2022-07-04 |
+| 4.21.4 | 4.21.4 | 1.Synchronize the update of antd 4.21.4 version<br/>2.Modified some styles of the table component<br/>3.The tooltip component has been rolled back to keep it consistent with antd<br/>4.Fix the style problem in the small state of the progress component<br/>5.Fixed the enter event penetration problem of the sorting cell of the table component | 2022-07-04 |
 | 4.21.1 | 4.21.2 | 1.Synchronize the update of antd 4.20.2 version<br/> 2.Temporarily removed QuickPicker | 2022-06-16 |
 | 4.21.0 | 4.21.0 | Synchronize the update of antd 4.21.0 version | 2022-06-09 |
 | 4.20.4 | 4.20.4 | Synchronize the update of antd 4.20.4 version | 2022-05-13 |
@@ -41,6 +41,7 @@ if you have some problem, welcome to connect `taofeng.yang@shopee.com` or `lay.z
 `2022-06-27`
 
 - Table
+  - 🐞 Fix penetration of enter event in sorted cells. [#36176](https://github.com/ant-design/ant-design/issues/36176)
   - 🐞 Fix Table expand icon not align center. [#36215](https://github.com/ant-design/ant-design/pull/36215)
   - 💄 Fix nested Table margin style. [#36209](https://github.com/ant-design/ant-design/pull/36209)
   - 🐞 Fix Table filter dropdown with multiple subMenu may not closed. [#36132](https://github.com/ant-design/ant-design/pull/36132)
