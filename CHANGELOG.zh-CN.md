@@ -9,6 +9,7 @@ timeline: true
 
 | infrad 版本号 | 对应 antd 版本号 | 更新内容 | 时间 |
 | --- | --- | --- | --- |
+| 4.21.6 | 4.21.6 | 同步 antd 4.21.6 版本的更新 | 2022-07-15 |
 | 4.21.4 | 4.21.4 | 1.同步 antd 4.21.4 版本的更新<br/>2.修改了 table 组件的部分样式<br/>3.回退 tooltip 组件保持与 Antd 一致<br/>4.修复 progress 组件在 small 状态下的样式问题<br/>5.修复了 table 组件排序单元格 enter 事件穿透问题 | 2022-07-04 |
 | 4.21.1 | 4.21.2 | 1.同步 antd 4.21.2 版本的更新<br/>2.暂时移除了 QuickPicker 组件 | 2022-06-16 |
 | 4.21.0 | 4.21.0 | 同步 antd 4.21.0 版本的更新 | 2022-06-09 |
@@ -36,6 +37,33 @@ timeline: true
 - 主版本号：含有破坏性更新和新特性，不在发布周期内。
 
 ---
+
+## 4.21.6
+
+`2022-07-11`
+
+- 🐞 修复 Skeleton 在 Safari 下开启 active 时圆角丢失的问题。[#36445](https://github.com/ant-design/ant-design/pull/36445)
+- 🐞 修复 Breadcrumb 作为 List 最后一个元素时，分割线丢失的问题。[#36448](https://github.com/ant-design/ant-design/pull/36448) [@LeonKattendick](https://github.com/LeonKattendick)
+- 🐞 修复 Upload 移除文件时状态色会变化的问题。[#36439](https://github.com/ant-design/ant-design/pull/36439)
+- 🐞 修复 DatePicker 配置 `status` 时的样式问题。[#35685](https://github.com/ant-design/ant-design/pull/35685) [@simplejason](https://github.com/simplejason)
+- Table
+  - 🐞 修复 Table 横向滚动的阴影样式问题。[#36420](https://github.com/ant-design/ant-design/pull/36420) [@shunyue1320](https://github.com/shunyue1320)
+  - 🐞 修复 Table 鼠标悬浮时的性能问题。[#36383](https://github.com/ant-design/ant-design/pull/36383)
+- 💄 微调 Modal 标题上关闭按钮尺寸。[#36309](https://github.com/ant-design/ant-design/pull/36309) [@cw1997](https://github.com/cw1997)
+- 🐞 修复 Form.ErrorList 在校验状态很快的时候视觉抖动问题。[#36358](https://github.com/ant-design/ant-design/pull/36358)
+- 💄 修复 Radio 聚焦时的阴影样式在非白底背景下的问题。[#36335](https://github.com/ant-design/ant-design/pull/36335)
+- 🐞 修复 Table 配置有 `title` 时的圆角样式。[#36384](https://github.com/ant-design/ant-design/pull/36384) [@Unuuuuu](https://github.com/Unuuuuu)
+
+## 4.21.5
+
+`2022-07-03`
+
+- 🐞 修复 Checkbox 不会被 Form `disabled` 属性禁用的问题。[#36345](https://github.com/ant-design/ant-design/pull/36345)
+- 🐞 修复 Button `loading` 属性传入 `null` 时错误问题。[#36288](https://github.com/ant-design/ant-design/pull/36288) [@kejianfeng](https://github.com/kejianfeng)
+- 🐞 修复弹出框箭头在某些浏览器上的兼容性问题。[#36266](https://github.com/ant-design/ant-design/pull/36266)
+- 🐞 修复 Table 滚动阴影在内嵌表格内出现的问题。[#36277](https://github.com/ant-design/ant-design/pull/36277)
+- 🐞 修复 Divider 部分类名无法自定义的问题。[#36271](https://github.com/ant-design/ant-design/pull/36271) [@alanhaledc](https://github.com/alanhaledc)
+- 🇧🇾 调整白俄罗斯国际化语言。[#36265](https://github.com/ant-design/ant-design/pull/36265)
 
 ## 4.21.4
 

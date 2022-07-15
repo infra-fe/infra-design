@@ -111,7 +111,7 @@ export default ({
     },
     {
       label: (
-        <Link href={'https://shopee.git-pages.garena.com/InfraFe/infrad-pro/'}>
+        <Link href={'https://shopee.git-pages.garena.com/InfraFe/infrad-pro/'} target="__blank">
           <FormattedMessage id="app.header.menu.pro" />
         </Link>
       ),
@@ -135,41 +135,41 @@ export default ({
           key: 'tech-ui',
         }
       : null,
-    isZhCN &&
-    typeof window !== 'undefined' &&
-    window.location.host !== 'ant-design.antgroup.com' &&
-    window.location.host !== 'ant-design.gitee.io'
-      ? {
-          label: '国内镜像',
-          key: 'mirror',
-          children: [
-            {
-              label: <a href="https://ant-design.antgroup.com">官方镜像</a>,
-              icon: (
-                <img
-                  alt="logo"
-                  src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
-                  width={16}
-                  style={{ verticalAlign: 'text-bottom' }}
-                />
-              ),
-              key: 'antgroup',
-            },
-            {
-              label: <a href="https://ant-design.gitee.io">Gitee 镜像</a>,
-              icon: (
-                <img
-                  alt="gitee"
-                  src="https://gw.alipayobjects.com/zos/bmw-prod/9e91e124-9bab-4113-b500-301412f6b370.svg"
-                  width={16}
-                  style={{ verticalAlign: 'text-bottom' }}
-                />
-              ),
-              key: 'gitee',
-            },
-          ],
-        }
-      : null,
+    // isZhCN &&
+    // typeof window !== 'undefined' &&
+    // window.location.host !== 'ant-design.antgroup.com' &&
+    // window.location.host !== 'ant-design.gitee.io'
+    //   ? {
+    //       label: '国内镜像',
+    //       key: 'mirror',
+    //       children: [
+    //         {
+    //           label: <a href="https://ant-design.antgroup.com">官方镜像</a>,
+    //           icon: (
+    //             <img
+    //               alt="logo"
+    //               src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+    //               width={16}
+    //               style={{ verticalAlign: 'text-bottom' }}
+    //             />
+    //           ),
+    //           key: 'antgroup',
+    //         },
+    //         {
+    //           label: <a href="https://ant-design.gitee.io">Gitee 镜像</a>,
+    //           icon: (
+    //             <img
+    //               alt="gitee"
+    //               src="https://gw.alipayobjects.com/zos/bmw-prod/9e91e124-9bab-4113-b500-301412f6b370.svg"
+    //               width={16}
+    //               style={{ verticalAlign: 'text-bottom' }}
+    //             />
+    //           ),
+    //           key: 'gitee',
+    //         },
+    //       ],
+    //     }
+    //   : null,
     ...(additional ?? []),
   ];
 
