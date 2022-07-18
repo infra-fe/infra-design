@@ -14,9 +14,9 @@ title:
 By using `components`, we can integrate table with [react-dnd](https://github.com/react-dnd/react-dnd) to implement drag sorting function.
 
 ```tsx
-import update from 'immutability-helper';
 import { Table } from 'infrad';
 import type { ColumnsType } from 'infrad/lib/table';
+import update from 'immutability-helper';
 import React, { useCallback, useRef, useState } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
