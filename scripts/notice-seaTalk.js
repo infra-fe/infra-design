@@ -12,7 +12,7 @@ function noticeSeaTalk() {
     .post(seatalkUrl, {
       tag: 'text',
       text: {
-        content: `Hello, everyone! Infrad has released version ${version}, Please check the update details from https://bolifestudio.com/changelog-cn`,
+        content: `Hello, everyone! Infrad has released version ${version}, Please check the update details from https://infrad.shopee.io/changelog-cn`,
         at_all: true,
       },
     })

@@ -14,6 +14,8 @@ title:
 Set component disabled, only works for antd components.
 
 ```tsx
+import React, { useState } from 'react';
+import { PlusOutlined } from 'infra-design-icons';
 import {
   Button,
   Cascader,
@@ -26,8 +28,8 @@ import {
   Select,
   Switch,
   TreeSelect,
+  Upload,
 } from 'infrad';
-import React, { useState } from 'react';
 
 const { RangePicker } = DatePicker;
 const { TextArea } = Input;
@@ -101,6 +103,14 @@ const FormDisabledDemo = () => {
       </Form.Item>
       <Form.Item label="Switch" valuePropName="checked">
         <Switch />
+      </Form.Item>
+      <Form.Item label="Upload" valuePropName="fileList">
+        <Upload action="/upload.do" listType="picture-card">
+          <div>
+            <PlusOutlined />
+            <div style={{ marginTop: 8 }}>Upload</div>
+          </div>
+        </Upload>
       </Form.Item>
       <Form.Item label="Button">
         <Button>Button</Button>
