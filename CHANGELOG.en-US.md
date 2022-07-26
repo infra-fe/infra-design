@@ -9,6 +9,7 @@ timeline: true
 
 | infrad version | antd version | update content | time |
 | --- | --- | --- | --- |
+| 4.21.7 | 4.21.7 | Synchronize the update of antd 4.21.7 version | 2022-07-25 |
 | 4.21.6 | 4.21.6 | Synchronize the update of antd 4.21.6 version | 2022-07-15 |
 | 4.21.4 | 4.21.4 | 1.Synchronize the update of antd 4.21.4 version<br/>2.Modified some styles of the table component<br/>3.The tooltip component has been rolled back to keep it consistent with antd<br/>4.Fix the style problem in the small state of the progress component<br/>5.Fixed the enter event penetration problem of the sorting cell of the table component | 2022-07-04 |
 | 4.21.1 | 4.21.2 | 1.Synchronize the update of antd 4.20.2 version<br/> 2.Temporarily removed QuickPicker | 2022-06-16 |
@@ -36,6 +37,20 @@ if you have some problem, welcome to connect `taofeng.yang@shopee.com` or `lay.z
 - Major version release is not included in this schedule for breaking change and new features.
 
 ---
+
+## 4.21.7
+
+`2022-07-18`
+
+- 🆕 Add Skeleton.Node sub-component, allow user customize content of Skeleton. [#36441](https://github.com/ant-design/ant-design/pull/36441) [@DawnLck](https://github.com/DawnLck)
+- Form
+  - 🐞 Fix Form with percentage width Select may leaves unexpected height. [#36484](https://github.com/ant-design/ant-design/pull/36484)
+  - 🐞 Fix Form disabled but Upload component still uploadable in it. [#36573](https://github.com/ant-design/ant-design/pull/36573) [@cwjTerrace](https://github.com/cwjTerrace)
+- 🐞 Fix Tree non-draggable element still render the draggable icon. [#36511](https://github.com/ant-design/ant-design/pull/36511) [@Wxh16144](https://github.com/Wxh16144)
+- 🐞 Fix Upload preview error on SVG with `<foreignObject>` and cross-origin links. [#36402](https://github.com/ant-design/ant-design/pull/36402) [@jonioni](https://github.com/jonioni)
+- 🐞 Fix that Tooltip cannot close automaticly on disabled Radio. [#36483](https://github.com/ant-design/ant-design/pull/36483)
+- 💄 Add Modal Less variable `@modal-border-radius`. [#36527](https://github.com/ant-design/ant-design/pull/36527) [@kkkisme](https://github.com/kkkisme)
+- 💄 Fix Table expand icon wrap style when column is fixed and ellipsis. [#36496](https://github.com/ant-design/ant-design/pull/36496)
 
 ## 4.21.6
 
