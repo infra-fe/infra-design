@@ -1,4 +1,4 @@
-import { SearchOutlined } from '@ant-design/icons';
+import { SearchOutlined } from 'infra-design-icons';
 import { mount } from 'enzyme';
 import { resetWarned } from 'rc-util/lib/warning';
 import React, { Component } from 'react';

@@ -15,8 +15,8 @@ https://github.com/ant-design/ant-design/issues/36583
 https://github.com/ant-design/ant-design/issues/36583
 
 ```tsx
-import { Space, Switch, Table } from 'antd';
-import type { ColumnsType } from 'antd/es/table';
+import { Space, Switch, Table } from 'infrad';
+import type { ColumnsType } from 'infrad/es/table';
 import React, { useState } from 'react';
 
 interface DataType {

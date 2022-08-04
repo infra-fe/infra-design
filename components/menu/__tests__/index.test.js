@@ -4,7 +4,7 @@ import {
   MailOutlined,
   PieChartOutlined,
   UserOutlined,
-} from '@ant-design/icons';
+} from 'infra-design-icons';
 import { mount } from 'enzyme';
 import React, { useState } from 'react';
 import { act } from 'react-dom/test-utils';

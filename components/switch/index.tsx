@@ -1,4 +1,4 @@
-import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
+import { LoadingOutlined } from 'infra-design-icons';
 import classNames from 'classnames';
 import RcSwitch from 'rc-switch';
 import * as React from 'react';
