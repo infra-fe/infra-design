@@ -3780,77 +3780,81 @@ exports[`renders ./components/upload/demo/upload-with-aliyun-oss.md extend conte
   class="ant-form ant-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="ant-form-item"
   >
     <div
-      class="ant-col ant-col-4 ant-form-item-label"
-    >
-      <label
-        class=""
-        for="photos"
-        title="Photos"
-      >
-        Photos
-      </label>
-    </div>
-    <div
-      class="ant-col ant-form-item-control"
+      class="ant-row ant-form-item-row"
     >
       <div
-        class="ant-form-item-control-input"
+        class="ant-col ant-col-4 ant-form-item-label"
+      >
+        <label
+          class=""
+          for="photos"
+          title="Photos"
+        >
+          Photos
+        </label>
+      </div>
+      <div
+        class="ant-col ant-form-item-control"
       >
         <div
-          class="ant-form-item-control-input-content"
+          class="ant-form-item-control-input"
         >
-          <span
-            class=""
+          <div
+            class="ant-form-item-control-input-content"
           >
-            <div
-              class="ant-upload ant-upload-select ant-upload-select-text"
+            <span
+              class=""
             >
-              <span
-                class="ant-upload"
-                role="button"
-                tabindex="0"
+              <div
+                class="ant-upload ant-upload-select ant-upload-select-text"
               >
-                <input
-                  accept=""
-                  style="display:none"
-                  type="file"
-                />
-                <button
-                  class="ant-btn ant-btn-default"
-                  type="button"
+                <span
+                  class="ant-upload"
+                  role="button"
+                  tabindex="0"
                 >
-                  <span
-                    aria-label="upload"
-                    class="anticon anticon-upload"
-                    role="img"
+                  <input
+                    accept=""
+                    style="display:none"
+                    type="file"
+                  />
+                  <button
+                    class="ant-btn ant-btn-default"
+                    type="button"
                   >
-                    <svg
-                      aria-hidden="true"
-                      data-icon="upload"
-                      fill="currentColor"
-                      focusable="false"
-                      height="1em"
-                      viewBox="0 0 16 16"
-                      width="1em"
+                    <span
+                      aria-label="upload"
+                      class="anticon anticon-upload"
+                      role="img"
                     >
-                      <path
-                        d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
-                      />
-                    </svg>
-                  </span>
-                  <span>
-                    Click to Upload
-                  </span>
-                </button>
-              </span>
-            </div>
-            <div
-              class="ant-upload-list ant-upload-list-text"
-            />
-          </span>
+                      <svg
+                        aria-hidden="true"
+                        data-icon="upload"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="0 0 16 16"
+                        width="1em"
+                      >
+                        <path
+                          d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+                        />
+                      </svg>
+                    </span>
+                    <span>
+                      Click to Upload
+                    </span>
+                  </button>
+                </span>
+              </div>
+              <div
+                class="ant-upload-list ant-upload-list-text"
+              />
+            </span>
+          </div>
         </div>
       </div>
     </div>

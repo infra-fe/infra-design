@@ -1,6 +1,4 @@
-import LeftOutlined from '@ant-design/icons/LeftOutlined';
-import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
-import RightOutlined from '@ant-design/icons/RightOutlined';
+import { LeftOutlined, LoadingOutlined, RightOutlined } from 'infra-design-icons';
 import classNames from 'classnames';
 import type {
   BaseOptionType,

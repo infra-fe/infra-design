@@ -1,4 +1,4 @@
-import { AppstoreOutlined, BarsOutlined } from '@ant-design/icons';
+import { AppstoreOutlined, BarsOutlined } from 'infra-design-icons';
 import React from 'react';
 
 import mountTest from '../../../tests/shared/mountTest';
