@@ -38,6 +38,7 @@ module.exports = {
     'app.demo.riddle': '在 Riddle 中打开',
     'app.home.introduce': '企业级产品设计体系，创造高效愉悦的工作体验',
     'app.home.recommend': '精彩推荐',
+    'app.home.Installation': '安装',
     'app.home.popularize': '推广',
     'app.home.design-and-framework': '设计语言与研发框架',
     'app.home.design-values': '设计价值观',

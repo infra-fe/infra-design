@@ -66,6 +66,15 @@ const Home = (props: { location: any }) => {
       <style dangerouslySetInnerHTML={{ __html: getStyle() }} />
       <Banner location={location} />
       <div style={{ maxWidth: 1256, margin: '0 auto' }}>
+        <BlockContent title={<FormattedMessage id="app.home.Installation" />}>
+          <div
+            style={{ padding: 16, backgroundColor: '#f7f7f7', color: '#333333', marginBottom: -40 }}
+          >
+            $ yarn add infrad <br />
+            import &apos;infrad/dist/antd.css&apos;
+          </div>
+        </BlockContent>
+
         <BlockContent title={<FormattedMessage id="app.home.recommend" />}>
           <RecommendPage />
         </BlockContent>

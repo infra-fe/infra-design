@@ -128,9 +128,14 @@
         }
 
         &-remove {
-          .operation-unit();
           position: relative;
           color: @border-color-base;
+          cursor: pointer;
+          transition: all 0.3s;
+
+          &:hover {
+            color: @link-hover-color;
+          }
 
           &::after {
             position: absolute;
@@ -139,10 +144,6 @@
             bottom: -@transfer-item-padding-vertical;
             left: -50%;
             content: '';
-          }
-
-          &:hover {
-            color: @link-hover-color;
           }
         }
       }
