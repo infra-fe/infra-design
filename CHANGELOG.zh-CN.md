@@ -9,6 +9,7 @@ timeline: true
 
 | infrad 版本号 | 对应 antd 版本号 | 更新内容 | 时间 |
 | --- | --- | --- | --- |
+| 4.22.6 | 4.22.6 | 同步 antd 4.22.6 版本的更新 | 2022-08-18 |
 | 4.22.3 | 4.22.3 | 1.同步 antd 4.22.3 版本的更新<br/>2.修改了 PageHeader 组件的 title 字重与字体大小 | 2022-08-04 |
 | 4.21.7 | 4.21.7 | 同步 antd 4.21.7 版本的更新 | 2022-07-25 |
 | 4.21.6 | 4.21.6 | 同步 antd 4.21.6 版本的更新 | 2022-07-15 |
@@ -39,6 +40,38 @@ timeline: true
 - 主版本号：含有破坏性更新和新特性，不在发布周期内。
 
 ---
+
+## 4.22.6
+
+`2022-08-17`
+
+- 🐞 回滚 [#36710](https://github.com/ant-design/ant-design/pull/36710) 以修复 Table 多列排序时 `onChange` 中 `sorter` 参数错误的问题。
+- 🐞 修复 Drawer 的 `maskStyle` 配置 `opacity` 样式时无法关闭的问题。[#37100](https://github.com/ant-design/ant-design/pull/37100)
+
+## 4.22.5
+
+`2022-08-15`
+
+- 🇭🇺 Form `defaultValidateMessages.i18n` 增加匈牙利语。[#36967](https://github.com/ant-design/ant-design/pull/36967) [@YMiemie-cy](https://github.com/YMiemie-cy)
+- 💄 移除 Popover 中无效的 `box-shadow` 样式。[#37030](https://github.com/ant-design/ant-design/pull/37030) [@jerrykingxyz](https://github.com/jerrykingxyz)
+- 🐞 修复 Steps `labelPlacement="vertical"` 时连接线位置偏上的问题。[#36996](https://github.com/ant-design/ant-design/pull/36996)
+- 💄 去掉 Pagination 的异常错误边框。[#36972](https://github.com/ant-design/ant-design/pull/36972) [@hydraZty](https://github.com/hydraZty)
+- 🐞 修复 Upload 在 React 18 下同时上传多份文件会出现上传状态不正确的问题。[#36968](https://github.com/ant-design/ant-design/pull/36968)
+- TypeScript
+  - 🤖 修复 useWatch 的类型错误。[#37013](https://github.com/ant-design/ant-design/pull/37013) [@LiZhiHao97](https://github.com/LiZhiHao97)
+
+## 4.22.4
+
+`2022-08-08`
+
+- 🐞 修复 Drawer `zIndex` 属性失效的问题。[#36958](https://github.com/ant-design/ant-design/pull/36958)
+- 💄 修复 PageHeader 返回按钮点击后依然有聚焦样式的问题。[#36902](https://github.com/ant-design/ant-design/pull/36902)
+- 💄 修复抽屉 Drawer 组件嵌套时，子抽屉的样式被父抽屉影响的问题。[#36845](https://github.com/ant-design/ant-design/pull/36845) [@yanm1ng](https://github.com/yanm1ng)
+- 🐞 修复 Mentions 内有滚动条时弹出层偏移的问题。[#36898](https://github.com/ant-design/ant-design/pull/36898) [@JarvisArt](https://github.com/JarvisArt)
+- TypeScript
+  - 🤖 修复 Avatar `onClick` 属性定义丢失的问题。[#36940](https://github.com/ant-design/ant-design/pull/36940) [@kungege](https://github.com/kungege)
+  - 🤖 修复 Table `onChange` 参数 `sorter` 类型报错的问题。[#36710](https://github.com/ant-design/ant-design/pull/36710) [@kungege](https://github.com/kungege)
+  - 🤖 Input `data-*` 属性将不再是必传参数。[#36858](https://github.com/ant-design/ant-design/pull/36858) [@yifanwww](https://github.com/yifanwww)
 
 ## 4.22.3
 

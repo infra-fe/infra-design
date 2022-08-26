@@ -31,7 +31,7 @@ export interface HeaderProps {
   intl: { locale: string };
   location: { pathname: string; query: any };
   router: any;
-  themeConfig: { docVersions: Record<string, string> };
+  themeConfig?: { docVersions: Record<string, string> };
   changeDirection: (direction: DirectionType) => void;
 }
 
@@ -186,7 +186,7 @@ const Header: React.FC<HeaderProps & WrappedComponentProps<'intl'>> = props => {
       );
   }, [location]);
 
-  const getNextDirectionText = useMemo<string>(
+  const nextDirectionText = useMemo<string>(
     () => (direction !== 'rtl' ? 'RTL' : 'LTR'),
     [direction],
   );
@@ -202,7 +202,7 @@ const Header: React.FC<HeaderProps & WrappedComponentProps<'intl'>> = props => {
         const { menuVisible, windowWidth, searching, showTechUIButton } = headerState;
         const docVersions: Record<string, string> = {
           [antdVersion]: antdVersion,
-          ...themeConfig.docVersions,
+          ...themeConfig?.docVersions,
         };
         const versionOptions = Object.keys(docVersions).map(version => (
           <Option value={docVersions[version]} key={version}>
@@ -242,7 +242,7 @@ const Header: React.FC<HeaderProps & WrappedComponentProps<'intl'>> = props => {
             isMobile={isMobile}
             showTechUIButton={showTechUIButton}
             pathname={pathname}
-            directionText={getNextDirectionText}
+            directionText={nextDirectionText}
             onLangChange={onLangChange}
             onDirectionChange={onDirectionChange}
           />
@@ -275,7 +275,7 @@ const Header: React.FC<HeaderProps & WrappedComponentProps<'intl'>> = props => {
             className="header-button header-direction-button"
             key="direction-button"
           >
-            {getNextDirectionText}
+            {nextDirectionText}
           </Button>,
           <More key="more" {...sharedProps} />,
           <Github key="github" responsive={responsive} />,

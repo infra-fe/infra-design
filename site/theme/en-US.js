@@ -39,6 +39,7 @@ module.exports = {
     'app.home.introduce':
       'A design system for enterprise-level products. Create an efficient and enjoyable work experience.',
     'app.home.recommend': 'Recommended',
+    'app.home.Installation': 'Installation',
     'app.home.popularize': 'Popular',
     'app.home.design-and-framework': 'Design language and framework',
     'app.home.design-values': 'Design values',

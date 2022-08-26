@@ -1,8 +1,7 @@
-import { act } from '@testing-library/react';
-import * as copyObj from 'copy-to-clipboard';
 import { LikeOutlined, SmileOutlined } from 'infra-design-icons';
+import * as copyObj from 'copy-to-clipboard';
 import React from 'react';
-import { fireEvent, render, waitFor } from '../../../tests/utils';
+import { fireEvent, render, waitFor, act } from '../../../tests/utils';
 
 import Base from '../Base';
 
@@ -90,7 +89,9 @@ describe('Typography copy', () => {
 
           jest.useFakeTimers();
           fireEvent.click(wrapper.querySelectorAll('.ant-typography-copy')[0]);
-          jest.runAllTimers();
+          act(() => {
+            jest.runAllTimers();
+          });
 
           unmount();
           jest.useRealTimers();
