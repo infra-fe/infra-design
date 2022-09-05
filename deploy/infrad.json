@@ -6,7 +6,7 @@
     "docker_image": {
       "base_image": "harbor.shopeemobile.com/undefined/deploy-nodejs:v16"
     },
-    "commands": ["yarn", "yarn site"],
+    "commands": ["npm config set registry https://npm.shopee.io/", "yarn", "yarn site"],
     "upload_static": {
       "static_dir": "_site",
       "enable_cdn": false,
