@@ -174,6 +174,7 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/issues/2528#issuecomment-689369395
     'no-undef': 0,
     'react/jsx-curly-brace-presence': 0,
+    'react/no-unknown-property': 0,
   },
   globals: {
     gtag: true,
