@@ -108,6 +108,7 @@ const explain = [
   'IVideo',
   'IView',
   'IWallet',
+  'ICommit',
 ];
 const status = [
   'ILoading',
