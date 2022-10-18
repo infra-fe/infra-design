@@ -14,9 +14,9 @@ title:
 If uploaded file is a picture, the thumbnail can be shown. `IE8/9` do not support local thumbnail show. Please use `thumbUrl` instead.
 
 ```tsx
-import { IUpload } from 'infra-design-icons';
-import { Button, Upload } from 'infrad';
-import type { UploadFile } from 'infrad/es/upload/interface';
+import { UploadOutlined } from '@ant-design/icons';
+import { Button, Upload } from 'antd';
+import type { UploadFile } from 'antd/es/upload/interface';
 import React from 'react';
 
 const fileList: UploadFile[] = [
@@ -41,7 +41,7 @@ const App: React.FC = () => (
       listType="picture"
       defaultFileList={[...fileList]}
     >
-      <Button icon={<IUpload />}>Upload</Button>
+      <Button icon={<UploadOutlined />}>Upload</Button>
     </Upload>
     <br />
     <br />
@@ -51,7 +51,7 @@ const App: React.FC = () => (
       defaultFileList={[...fileList]}
       className="upload-list-inline"
     >
-      <Button icon={<IUpload />}>Upload</Button>
+      <Button icon={<UploadOutlined />}>Upload</Button>
     </Upload>
   </>
 );

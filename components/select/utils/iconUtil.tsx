@@ -46,14 +46,6 @@ export default function getIcons({
     </>
   );
 
-  // Validation Feedback Icon
-  const getSuffixIconNode = (arrowIcon?: ReactNode) => (
-    <>
-      {showArrow !== false && arrowIcon}
-      {hasFeedback && feedbackIcon}
-    </>
-  );
-
   // Arrow item icon
   let mergedSuffixIcon = null;
   if (suffixIcon !== undefined) {

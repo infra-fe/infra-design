@@ -14,8 +14,8 @@ title:
 The most basic usage of `Transfer` involves providing the source data and target keys arrays, plus the rendering and some callback functions.
 
 ```tsx
-import { Transfer } from 'infrad';
-import type { TransferDirection } from 'infrad/es/transfer';
+import { Transfer } from 'antd';
+import type { TransferDirection } from 'antd/es/transfer';
 import React, { useState } from 'react';
 
 interface RecordType {

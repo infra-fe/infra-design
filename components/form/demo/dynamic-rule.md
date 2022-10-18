@@ -14,7 +14,7 @@ title:
 Perform different check rules according to different situations.
 
 ```tsx
-import { Button, Checkbox, Form, Input } from 'infrad';
+import { Button, Checkbox, Form, Input } from 'antd';
 import React, { useEffect, useState } from 'react';
 
 const formItemLayout = {

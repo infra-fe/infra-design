@@ -14,7 +14,7 @@ title:
 Steps with progress dot style.
 
 ```tsx
-import { Divider, Steps } from 'infrad';
+import { Divider, Steps } from 'antd';
 import React from 'react';
 
 const { Step } = Steps;

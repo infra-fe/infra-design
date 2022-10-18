@@ -14,7 +14,7 @@ title:
 The basic example.
 
 ```tsx
-import { message, Popconfirm } from 'infrad';
+import { message, Popconfirm } from 'antd';
 import React from 'react';
 
 const confirm = (e: React.MouseEvent<HTMLElement>) => {

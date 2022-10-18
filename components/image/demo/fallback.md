@@ -14,7 +14,7 @@ title:
 Load failed to display image placeholder.
 
 ```tsx
-import { Image } from 'infrad';
+import { Image } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

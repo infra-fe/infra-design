@@ -15,9 +15,8 @@ A progress bar with steps.
 
 ```tsx
 import React from 'react';
-
-import { green, red } from '@ant-design/colors';
-import { Progress } from 'infrad';
+import { Progress } from 'antd';
+import { red, green } from '@ant-design/colors';
 
 const App: React.FC = () => (
   <>

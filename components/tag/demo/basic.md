@@ -14,7 +14,7 @@ title:
 Usage of basic Tag, and it could be closable by set `closable` property. Closable Tag supports `onClose` events.
 
 ```tsx
-import { Tag } from 'infrad';
+import { Tag } from 'antd';
 import React from 'react';
 
 const log = (e: React.MouseEvent<HTMLElement>) => {

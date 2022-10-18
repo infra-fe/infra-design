@@ -14,8 +14,8 @@ title:
 The vertical Slider.
 
 ```tsx
-import { Slider } from 'infrad';
-import type { SliderMarks } from 'infrad/lib/slider';
+import { Slider } from 'antd';
+import type { SliderMarks } from 'antd/es/slider';
 import React from 'react';
 
 const style: React.CSSProperties = {

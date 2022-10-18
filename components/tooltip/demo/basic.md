@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```tsx
-import { Tooltip } from 'infrad';
+import { Tooltip } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

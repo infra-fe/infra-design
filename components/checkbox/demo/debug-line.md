@@ -15,7 +15,7 @@ debug: true
 Same line
 
 ```tsx
-import { Checkbox, Radio, Space } from 'infrad';
+import { Checkbox, Radio, Space } from 'antd';
 import React from 'react';
 
 const sharedStyle: React.CSSProperties = {

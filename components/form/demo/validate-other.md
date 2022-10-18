@@ -14,7 +14,7 @@ title:
 Demonstration of validation configuration for form controls which are not shown in the demos above.
 
 ```tsx
-import { InboxOutlined, UploadOutlined } from 'infra-design-icons';
+import { InboxOutlined, UploadOutlined } from '@ant-design/icons';
 import {
   Button,
   Checkbox,
@@ -28,7 +28,7 @@ import {
   Slider,
   Switch,
   Upload,
-} from 'infrad';
+} from 'antd';
 import React from 'react';
 
 const { Option } = Select;

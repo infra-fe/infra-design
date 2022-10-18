@@ -14,8 +14,8 @@ title:
 Add status to Mentions with `status`, which could be `error` or `warning`。
 
 ```tsx
-import { Mentions, Space } from 'infrad';
-import type { OptionProps } from 'infrad/es/mentions';
+import { Mentions, Space } from 'antd';
+import type { OptionProps } from 'antd/es/mentions';
 import React from 'react';
 
 const { Option } = Mentions;

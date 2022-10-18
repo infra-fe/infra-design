@@ -14,9 +14,9 @@ title:
 Use `rowSelection.selections` custom selections, default no select dropdown, show default selections via setting to `true`.
 
 ```tsx
-import { Table } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
-import type { TableRowSelection } from 'infrad/lib/table/interface';
+import { Table } from 'antd';
+import type { ColumnsType } from 'antd/es/table';
+import type { TableRowSelection } from 'antd/es/table/interface';
 import React, { useState } from 'react';
 
 interface DataType {
@@ -55,7 +55,7 @@ const App: React.FC = () => {
   const [selectedRowKeys, setSelectedRowKeys] = useState<React.Key[]>([]);
 
   const onSelectChange = (newSelectedRowKeys: React.Key[]) => {
-    console.log('selectedRowKeys changed: ', selectedRowKeys);
+    console.log('selectedRowKeys changed: ', newSelectedRowKeys);
     setSelectedRowKeys(newSelectedRowKeys);
   };
 

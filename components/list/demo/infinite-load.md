@@ -14,7 +14,7 @@ title:
 The example of infinite load with [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component).
 
 ```tsx
-import { Avatar, Divider, List, Skeleton } from 'infrad';
+import { Avatar, Divider, List, Skeleton } from 'antd';
 import React, { useEffect, useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 

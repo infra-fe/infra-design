@@ -14,8 +14,8 @@ title:
 You can add an icon beside the slider to make it meaningful.
 
 ```tsx
-import { FrownOutlined, SmileOutlined } from 'infra-design-icons';
-import { Slider } from 'infrad';
+import { FrownOutlined, SmileOutlined } from '@ant-design/icons';
+import { Slider } from 'antd';
 import React, { useState } from 'react';
 
 interface IconSliderProps {

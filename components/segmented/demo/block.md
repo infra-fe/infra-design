@@ -14,7 +14,7 @@ title:
 `block` property will make the `Segmented` fit to its parent width.
 
 ```jsx
-import { Segmented } from 'infrad';
+import { Segmented } from 'antd';
 
 export default () => (
   <Segmented block options={[123, 456, 'longtext-longtext-longtext-longtext']} />

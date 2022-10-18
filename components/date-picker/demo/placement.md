@@ -1,8 +1,8 @@
 ---
 order: 28
 title:
-  zh-CN: 基本
-  en-US: Basic
+  zh-CN: 弹出位置
+  en-US: Placement
 ---
 
 ## zh-CN
@@ -14,8 +14,8 @@ title:
 You can manually specify the position of the popup via `placement`.
 
 ```tsx
-import type { DatePickerProps, RadioChangeEvent } from 'infrad';
-import { DatePicker, Radio } from 'infrad';
+import type { DatePickerProps, RadioChangeEvent } from 'antd';
+import { DatePicker, Radio } from 'antd';
 import React, { useState } from 'react';
 
 const { RangePicker } = DatePicker;

@@ -14,7 +14,7 @@ Switch 失效状态。
 Disabled state of `Switch`.
 
 ```tsx
-import { Button, Switch } from 'infrad';
+import { Button, Switch } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

@@ -14,7 +14,7 @@ title:
 `autoSize` prop for a `textarea` type of `Input` makes the height to automatically adjust based on the content. An option object can be provided to `autoSize` to specify the minimum and maximum number of lines the textarea will automatically adjust.
 
 ```tsx
-import { Input } from 'infrad';
+import { Input } from 'antd';
 import React, { useState } from 'react';
 
 const { TextArea } = Input;

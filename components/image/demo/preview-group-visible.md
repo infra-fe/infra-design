@@ -14,7 +14,7 @@ title:
 Preview a collection from one image.
 
 ```tsx
-import { Image } from 'infrad';
+import { Image } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

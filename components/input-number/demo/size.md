@@ -14,7 +14,7 @@ title:
 There are three sizes available to a numeric input box. By default, the size is `32px`. The two additional sizes are `large` and `small` which means `40px` and `24px`, respectively.
 
 ```tsx
-import { InputNumber, Space } from 'infrad';
+import { InputNumber, Space } from 'antd';
 import React from 'react';
 
 const onChange = (value: number) => {

@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 2
 title:
   zh-CN: 简洁卡片
   en-US: Simple card
@@ -14,7 +14,7 @@ title:
 A simple card only containing a content area.
 
 ```tsx
-import { Card } from 'infrad';
+import { Card } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

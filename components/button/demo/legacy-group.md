@@ -15,9 +15,9 @@ Debug usage
 Debug usage
 
 ```tsx
-import { DownloadOutlined } from 'infra-design-icons';
-import { Button, Tooltip } from 'infrad';
-import type { ButtonGroupProps } from 'infrad/es/button';
+import { DownloadOutlined } from '@ant-design/icons';
+import { Button, Tooltip } from 'antd';
+import type { ButtonGroupProps } from 'antd/es/button';
 import React from 'react';
 
 const getGroup = (props?: ButtonGroupProps) => (

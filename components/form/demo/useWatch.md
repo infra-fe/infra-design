@@ -16,8 +16,7 @@ title:
 
 ```tsx
 import React from 'react';
-
-import { Form, Input, InputNumber, Typography } from 'infrad';
+import { Form, Input, InputNumber, Typography } from 'antd';
 
 const Demo = () => {
   const [form] = Form.useForm<{ name: string; age: number }>();

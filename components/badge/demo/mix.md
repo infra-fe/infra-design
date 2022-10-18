@@ -15,7 +15,7 @@ debug: true
 Using `count/dot` with custom `stauts/color`.
 
 ```tsx
-import { Avatar, Badge } from 'infrad';
+import { Avatar, Badge } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -14,8 +14,8 @@ title:
 large count of items with pagination.
 
 ```tsx
-import { Switch, Transfer } from 'infrad';
-import type { TransferDirection } from 'infrad/es/transfer';
+import { Switch, Transfer } from 'antd';
+import type { TransferDirection } from 'antd/es/transfer';
 import React, { useEffect, useState } from 'react';
 
 interface RecordType {
@@ -38,7 +38,7 @@ const App: React.FC = () => {
         key: i.toString(),
         title: `content${i + 1}`,
         description: `description of content${i + 1}`,
-        chosen: Math.random() * 2 > 1,
+        chosen: i % 2 === 0,
       };
       if (data.chosen) {
         newTargetKeys.push(data.key);

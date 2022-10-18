@@ -14,7 +14,7 @@ title:
 async
 
 ```tsx
-import { Mentions } from 'infrad';
+import { Mentions } from 'antd';
 import debounce from 'lodash/debounce';
 import React, { useCallback, useRef, useState } from 'react';
 

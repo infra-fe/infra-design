@@ -1,5 +1,5 @@
 ---
-order: 11
+order: 4
 title:
   zh-CN: 无描述
   en-US: No description
@@ -14,7 +14,7 @@ title:
 Simplest Usage with no description.
 
 ```tsx
-import { Empty } from 'infrad';
+import { Empty } from 'antd';
 
 const App: React.FC = () => <Empty description={false} />;
 

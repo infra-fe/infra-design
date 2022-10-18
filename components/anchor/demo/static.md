@@ -14,7 +14,7 @@ title:
 Do not change state when page is scrolling.
 
 ```tsx
-import { Anchor } from 'infrad';
+import { Anchor } from 'antd';
 import React from 'react';
 
 const { Link } = Anchor;

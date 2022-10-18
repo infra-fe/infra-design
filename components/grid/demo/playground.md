@@ -14,7 +14,7 @@ title:
 A simple playground for column count and gutter.
 
 ```tsx
-import { Col, Row, Slider } from 'infrad';
+import { Col, Row, Slider } from 'antd';
 import React, { useState } from 'react';
 
 const gutters: Record<string, number> = {};
@@ -59,7 +59,7 @@ const App: React.FC = () => {
           onChange={setGutterKey}
           marks={gutters}
           step={null}
-          tipFormatter={value => value && gutters[value]}
+          tooltip={{ formatter: value => value && gutters[value] }}
         />
       </div>
       <span>Vertical Gutter (px): </span>
@@ -71,7 +71,7 @@ const App: React.FC = () => {
           onChange={setVgutterKey}
           marks={vgutters}
           step={null}
-          tipFormatter={value => value && vgutters[value]}
+          tooltip={{ formatter: value => value && vgutters[value] }}
         />
       </div>
       <span>Column Count:</span>
@@ -83,7 +83,7 @@ const App: React.FC = () => {
           onChange={setColCountKey}
           marks={colCounts}
           step={null}
-          tipFormatter={value => value && colCounts[value]}
+          tooltip={{ formatter: value => value && colCounts[value] }}
         />
       </div>
       <Row gutter={[gutters[gutterKey], vgutters[vgutterKey]]}>

@@ -15,7 +15,7 @@ title:
 Setting `destroyTooltipOnHide` to control whether destroy dom node of tooltip when hidden.
 
 ```tsx
-import { Tooltip } from 'infrad';
+import { Tooltip } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

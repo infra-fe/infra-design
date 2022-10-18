@@ -14,7 +14,7 @@ title:
 Spin in a container.
 
 ```tsx
-import { Spin } from 'infrad';
+import { Spin } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

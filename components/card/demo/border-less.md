@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 1
 title:
   zh-CN: 无边框
   en-US: No border
@@ -14,7 +14,7 @@ title:
 A borderless card on a gray background.
 
 ```tsx
-import { Card } from 'infrad';
+import { Card } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

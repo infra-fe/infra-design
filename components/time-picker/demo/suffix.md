@@ -15,8 +15,8 @@ title:
 Click `TimePicker`, and then we could select or input a time in panel.
 
 ```tsx
-import { SmileOutlined } from 'infra-design-icons';
-import { TimePicker } from 'infrad';
+import { SmileOutlined } from '@ant-design/icons';
+import { TimePicker } from 'antd';
 import type { Moment } from 'moment';
 import moment from 'moment';
 import React from 'react';

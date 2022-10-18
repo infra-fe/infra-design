@@ -14,7 +14,7 @@ title:
 You can make preview controlled.
 
 ```tsx
-import { Button, Image } from 'infrad';
+import { Button, Image } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

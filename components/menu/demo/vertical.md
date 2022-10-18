@@ -14,9 +14,9 @@ title:
 Submenus open as pop-ups.
 
 ```tsx
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
-import type { MenuProps } from 'infrad';
-import { Menu } from 'infrad';
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Menu } from 'antd';
 import React from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];

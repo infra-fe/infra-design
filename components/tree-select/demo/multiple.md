@@ -14,7 +14,7 @@ title:
 Multiple selection usage.
 
 ```tsx
-import { TreeSelect } from 'infrad';
+import { TreeSelect } from 'antd';
 import React, { useState } from 'react';
 
 const { TreeNode } = TreeSelect;

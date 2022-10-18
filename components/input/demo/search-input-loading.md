@@ -14,7 +14,7 @@ title:
 Search loading when onSearch.
 
 ```tsx
-import { Input } from 'infrad';
+import { Input } from 'antd';
 import React from 'react';
 
 const { Search } = Input;

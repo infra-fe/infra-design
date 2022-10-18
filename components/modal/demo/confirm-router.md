@@ -14,8 +14,8 @@ title:
 `Modal.destroyAll()` will destroy all confirmation modal dialogs. Usually, you can use it in router change event to destroy confirm modal dialog automatically.
 
 ```tsx
-import { ExclamationCircleOutlined } from 'infra-design-icons';
-import { Button, Modal } from 'infrad';
+import { ExclamationCircleOutlined } from '@ant-design/icons';
+import { Button, Modal } from 'antd';
 import React from 'react';
 
 const { confirm } = Modal;

@@ -15,7 +15,7 @@ title:
 Asynchronously close a popconfirm when the OK button is pressed. For example, you can use this pattern when you submit a form.
 
 ```tsx
-import { Button, Popconfirm } from 'infrad';
+import { Button, Popconfirm } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => {
@@ -25,11 +25,7 @@ const App: React.FC = () => {
     });
 
   return (
-    <Popconfirm
-      title="Title"
-      onConfirm={confirm}
-      onVisibleChange={() => console.log('visible change')}
-    >
+    <Popconfirm title="Title" onConfirm={confirm} onOpenChange={() => console.log('open change')}>
       <Button type="primary">Open Popconfirm with Promise</Button>
     </Popconfirm>
   );

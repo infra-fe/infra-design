@@ -14,7 +14,7 @@ title:
 You can hide the arrow icon by passing `showArrow={false}` to `CollapsePanel` component.
 
 ```tsx
-import { Collapse } from 'infrad';
+import { Collapse } from 'antd';
 import React from 'react';
 
 const { Panel } = Collapse;

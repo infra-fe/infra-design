@@ -14,7 +14,7 @@ title:
 Simplest Usage.
 
 ```tsx
-import { Button, Col, Row, Statistic } from 'infrad';
+import { Button, Col, Row, Statistic } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

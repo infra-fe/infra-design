@@ -18,9 +18,9 @@ You can drag files to a specific area, to upload. Alternatively, you can also up
 We can upload serveral files at once in modern browsers by giving the input the `multiple` attribute.
 
 ```tsx
-import { IUploadCloud } from 'infra-design-icons';
-import type { UploadProps } from 'infrad';
-import { message, Upload } from 'infrad';
+import { InboxOutlined } from '@ant-design/icons';
+import type { UploadProps } from 'antd';
+import { message, Upload } from 'antd';
 import React from 'react';
 
 const { Dragger } = Upload;
@@ -48,7 +48,7 @@ const props: UploadProps = {
 const App: React.FC = () => (
   <Dragger {...props}>
     <p className="ant-upload-drag-icon">
-      <IUploadCloud />
+      <InboxOutlined />
     </p>
     <p className="ant-upload-text">Click or drag file to this area to upload</p>
     <p className="ant-upload-hint">

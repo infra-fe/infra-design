@@ -14,8 +14,8 @@ title:
 Controlled mode lets parent nodes reflect the status of child nodes more intelligently.
 
 ```tsx
-import { Tree } from 'infrad';
-import type { DataNode } from 'infrad/lib/tree';
+import { Tree } from 'antd';
+import type { DataNode } from 'antd/es/tree';
 import React, { useState } from 'react';
 
 const treeData: DataNode[] = [

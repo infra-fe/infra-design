@@ -7,14 +7,14 @@ title:
 
 ## zh-CN
 
-此处列出 Infra Design 中需要国际化支持的组件，你可以在演示里切换语言。
+此处列出 Ant Design 中需要国际化支持的组件，你可以在演示里切换语言。
 
 ## en-US
 
 Components which need localization support are listed here, you can toggle the language in the demo.
 
 ```tsx
-import type { RadioChangeEvent } from 'infrad';
+import type { RadioChangeEvent } from 'antd';
 import {
   Button,
   Calendar,
@@ -28,9 +28,9 @@ import {
   Table,
   TimePicker,
   Transfer,
-} from 'infrad';
-import enUS from 'infrad/lib/locale/en_US';
-import zhCN from 'infrad/lib/locale/zh_CN';
+} from 'antd';
+import enUS from 'antd/es/locale/en_US';
+import zhCN from 'antd/es/locale/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 import React, { useState } from 'react';
@@ -58,14 +58,14 @@ const columns = [
 ];
 
 const Page = () => {
-  const [visible, setVisible] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const showModal = () => {
-    setVisible(true);
+    setOpen(true);
   };
 
   const hideModal = () => {
-    setVisible(false);
+    setOpen(false);
   };
 
   const info = () => {
@@ -115,7 +115,7 @@ const Page = () => {
       <div className="example">
         <Table dataSource={[]} columns={columns} />
       </div>
-      <Modal title="Locale Modal" visible={visible} onCancel={hideModal}>
+      <Modal title="Locale Modal" open={open} onCancel={hideModal}>
         <p>Locale Modal</p>
       </Modal>
     </div>

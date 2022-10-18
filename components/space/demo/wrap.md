@@ -14,7 +14,7 @@ title:
 Auto wrap line.
 
 ```tsx
-import { Button, Space } from 'infrad';
+import { Button, Space } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

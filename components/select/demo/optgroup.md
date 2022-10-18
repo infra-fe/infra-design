@@ -14,7 +14,7 @@ title:
 Using `OptGroup` to group the options.
 
 ```tsx
-import { Select } from 'infrad';
+import { Select } from 'antd';
 import React from 'react';
 
 const { Option, OptGroup } = Select;

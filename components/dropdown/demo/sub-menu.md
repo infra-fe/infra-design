@@ -14,8 +14,8 @@ title:
 The menu has multiple levels.
 
 ```tsx
-import { IArrowDown } from 'infra-design-icons';
-import { Dropdown, Menu, Space } from 'infrad';
+import { DownOutlined } from '@ant-design/icons';
+import { Dropdown, Menu, Space } from 'antd';
 import React from 'react';
 
 const menu = (
@@ -74,7 +74,7 @@ const App: React.FC = () => (
     <a onClick={e => e.preventDefault()}>
       <Space>
         Cascading menu
-        <IArrowDown />
+        <DownOutlined />
       </Space>
     </a>
   </Dropdown>

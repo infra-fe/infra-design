@@ -14,7 +14,7 @@ title:
 Load more list with `loadMore` property.
 
 ```tsx
-import { Avatar, Button, List, Skeleton } from 'infrad';
+import { Avatar, Button, List, Skeleton } from 'antd';
 import React, { useEffect, useState } from 'react';
 
 interface DataType {
@@ -101,7 +101,7 @@ const App: React.FC = () => {
             <List.Item.Meta
               avatar={<Avatar src={item.picture.large} />}
               title={<a href="https://ant.design">{item.name?.last}</a>}
-              description="Infra Design, a design language for background applications, is refined by Ant UED Team"
+              description="Ant Design, a design language for background applications, is refined by Ant UED Team"
             />
             <div>content</div>
           </Skeleton>

@@ -14,9 +14,9 @@ title:
 Both the top navigation and the sidebar, commonly used in application site.
 
 ```tsx
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from 'infra-design-icons';
-import type { MenuProps } from 'infrad';
-import { Breadcrumb, Layout, Menu } from 'infrad';
+import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Breadcrumb, Layout, Menu } from 'antd';
 import React from 'react';
 
 const { Header, Content, Sider } = Layout;
@@ -62,7 +62,7 @@ const App: React.FC = () => (
           items={items2}
         />
       </Sider>
-      <Layout style={{ padding: '0 32px 32px' }}>
+      <Layout style={{ padding: '0 24px 24px' }}>
         <Breadcrumb style={{ margin: '16px 0' }}>
           <Breadcrumb.Item>Home</Breadcrumb.Item>
           <Breadcrumb.Item>List</Breadcrumb.Item>

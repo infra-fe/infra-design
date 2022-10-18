@@ -19,9 +19,9 @@ import {
   PieChartOutlined,
   TeamOutlined,
   UserOutlined,
-} from 'infra-design-icons';
-import type { MenuProps } from 'infrad';
-import { Layout, Menu } from 'infrad';
+} from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Layout, Menu } from 'antd';
 import React, { useState } from 'react';
 
 const { Header, Sider, Content } = Layout;
@@ -127,6 +127,6 @@ export default App;
 }
 
 #components-layout-demo-custom-trigger .trigger:hover {
-  color: #2673dd;
+  color: #1890ff;
 }
 ```

@@ -15,7 +15,7 @@ debug: true
 Adjust placement automatically when tooltip is invisible.
 
 ```tsx
-import { Button, Tooltip } from 'infrad';
+import { Button, Tooltip } from 'antd';
 import React from 'react';
 
 const wrapStyles: React.CSSProperties = {

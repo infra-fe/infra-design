@@ -14,7 +14,7 @@ title:
 Skeleton contains sub component.
 
 ```tsx
-import { Button, Skeleton } from 'infrad';
+import { Button, Skeleton } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {
@@ -32,7 +32,7 @@ const App: React.FC = () => {
     <div className="article">
       <Skeleton loading={loading}>
         <div>
-          <h4>Infra Design, a design language</h4>
+          <h4>Ant Design, a design language</h4>
           <p>
             We supply a series of design principles, practical patterns and high quality design
             resources (Sketch and Axure), to help people create their product prototypes beautifully

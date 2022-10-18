@@ -21,9 +21,9 @@ import {
   RadiusBottomrightOutlined,
   RadiusUpleftOutlined,
   RadiusUprightOutlined,
-} from 'infra-design-icons';
-import { Button, Divider, notification, Space } from 'infrad';
-import type { NotificationPlacement } from 'infrad/lib/notification';
+} from '@ant-design/icons';
+import { Button, Divider, notification, Space } from 'antd';
+import type { NotificationPlacement } from 'antd/es/notification';
 import React from 'react';
 
 const openNotification = (placement: NotificationPlacement) => {

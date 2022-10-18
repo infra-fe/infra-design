@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Upload, Tooltip, Popover, Modal, Progress, message, Spin, Result } from 'antd';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import { injectIntl } from 'react-intl';
-import * as AntdIcons from '@ant-design/icons';
+import * as AntdIcons from 'infra-design-icons';
 
 const allIcons: { [key: string]: any } = AntdIcons;
 

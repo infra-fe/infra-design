@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```tsx
-import { Affix, Button } from 'infrad';
+import { Affix, Button } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

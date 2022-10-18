@@ -14,8 +14,8 @@ title:
 This component can be rendered by using `dateCellRender` and `monthCellRender` with the data you need.
 
 ```tsx
-import type { BadgeProps } from 'infrad';
-import { Badge, Calendar } from 'infrad';
+import type { BadgeProps } from 'antd';
+import { Badge, Calendar } from 'antd';
 import type { Moment } from 'moment';
 import React from 'react';
 

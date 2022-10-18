@@ -14,9 +14,9 @@ title:
 You can manually specify the position of the popup via `placement`.
 
 ```tsx
-import type { RadioChangeEvent } from 'infrad';
-import { Radio, TreeSelect } from 'infrad';
-import type { SelectCommonPlacement } from 'infrad/es/_util/motion';
+import type { RadioChangeEvent } from 'antd';
+import { Radio, TreeSelect } from 'antd';
+import type { SelectCommonPlacement } from 'antd/es/_util/motion';
 import React, { useState } from 'react';
 
 const { TreeNode } = TreeSelect;

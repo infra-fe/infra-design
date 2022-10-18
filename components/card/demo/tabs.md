@@ -1,5 +1,5 @@
 ---
-order: 10
+order: 8
 title:
   zh-CN: 带页签的卡片
   en-US: With tabs
@@ -14,7 +14,7 @@ title:
 More content can be hosted.
 
 ```tsx
-import { Card } from 'infrad';
+import { Card } from 'antd';
 import React, { useState } from 'react';
 
 const tabList = [

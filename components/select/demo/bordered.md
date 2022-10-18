@@ -14,7 +14,7 @@ title:
 Bordered-less style component.
 
 ```tsx
-import { Select } from 'infrad';
+import { Select } from 'antd';
 import React from 'react';
 
 const { Option } = Select;

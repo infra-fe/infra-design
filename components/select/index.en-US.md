@@ -33,7 +33,7 @@ Select component to select value from options.
 | defaultOpen | Initial open state of dropdown | boolean | - |  |
 | defaultValue | Initial selected option | string \| string\[]<br />number \| number\[]<br />LabeledValue \| LabeledValue\[] | - |  |
 | disabled | Whether disabled select | boolean | false |  |
-| dropdownClassName | The className of dropdown menu | string | - |  |
+| popupClassName | The className of dropdown menu | string | - | 4.23.0 |
 | dropdownMatchSelectWidth | Determine whether the dropdown menu and the select input are the same width. Default set `min-width` same as input. Will ignore when value less than select width. `false` will disable virtual scroll | boolean \| number | true |  |
 | dropdownRender | Customize dropdown content | (originNode: ReactNode) => ReactNode | - |  |
 | dropdownStyle | The style of dropdown menu | CSSProperties | - |  |
@@ -114,6 +114,25 @@ It's caused by option with different `label` and `value`. You can use `optionFil
 ### When I click elements in dropdownRender, the select dropdown will not be closed?
 
 You can control it by `open` prop: [codesandbox](https://codesandbox.io/s/ji-ben-shi-yong-antd-4-21-7-forked-gnp4cy?file=/demo.js).
+
+### I don't want dropdown close when click inside `dropdownRender`?
+
+Select will close when it lose focus. You can prevent event to handle this:
+
+```jsx
+<Select
+  dropdownRender={() => (
+    <div
+      onMouseDown={e => {
+        e.preventDefault();
+        e.stopPropagation();
+      }}
+    >
+      Some Content
+    </div>
+  )}
+/>
+```
 
 ### Why sometime customize Option cause scroll break?
 

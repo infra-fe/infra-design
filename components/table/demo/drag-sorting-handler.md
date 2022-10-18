@@ -14,9 +14,9 @@ title:
 Alternatively you can implement drag sorting with handler using [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc).
 
 ```tsx
-import { MenuOutlined } from 'infra-design-icons';
-import { Table } from 'infrad';
-import type { ColumnsType } from 'infrad/es/table';
+import { MenuOutlined } from '@ant-design/icons';
+import { Table } from 'antd';
+import type { ColumnsType } from 'antd/es/table';
 import { arrayMoveImmutable } from 'array-move';
 import React, { useState } from 'react';
 import type { SortableContainerProps, SortEnd } from 'react-sortable-hoc';

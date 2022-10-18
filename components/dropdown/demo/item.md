@@ -14,8 +14,8 @@ title:
 Divider and disabled menu item.
 
 ```tsx
-import { IArrowDown } from 'infra-design-icons';
-import { Dropdown, Menu, Space } from 'infrad';
+import { DownOutlined } from '@ant-design/icons';
+import { Dropdown, Menu, Space } from 'antd';
 import React from 'react';
 
 const menu = (
@@ -54,7 +54,7 @@ const App: React.FC = () => (
     <a onClick={e => e.preventDefault()}>
       <Space>
         Hover me
-        <IArrowDown />
+        <DownOutlined />
       </Space>
     </a>
   </Dropdown>

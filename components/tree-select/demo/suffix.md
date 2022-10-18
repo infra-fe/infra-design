@@ -15,8 +15,8 @@ title:
 The most basic usage.
 
 ```tsx
-import { SmileOutlined } from 'infra-design-icons';
-import { TreeSelect } from 'infrad';
+import { SmileOutlined } from '@ant-design/icons';
+import { TreeSelect } from 'antd';
 import React, { useState } from 'react';
 
 const { TreeNode } = TreeSelect;

@@ -14,7 +14,7 @@ title:
 `message` provides a promise interface for `onClose`. The above example will display a new message when the old message is about to close.
 
 ```tsx
-import { Button, message } from 'infrad';
+import { Button, message } from 'antd';
 import React from 'react';
 
 const success = () => {

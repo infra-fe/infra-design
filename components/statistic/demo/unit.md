@@ -14,8 +14,8 @@ title:
 Add unit through `prefix` and `suffix`.
 
 ```tsx
-import { LikeOutlined } from 'infra-design-icons';
-import { Col, Row, Statistic } from 'infrad';
+import { LikeOutlined } from '@ant-design/icons';
+import { Col, Row, Statistic } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

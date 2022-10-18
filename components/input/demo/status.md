@@ -15,8 +15,8 @@ title:
 Add status to Input with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { ClockCircleOutlined } from 'infra-design-icons';
-import { Input, Space } from 'infrad';
+import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
+import { Input, Space } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

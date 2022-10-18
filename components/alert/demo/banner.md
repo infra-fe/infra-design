@@ -15,7 +15,7 @@ title:
 Display Alert as a banner at top of page.
 
 ```tsx
-import { Alert } from 'infrad';
+import { Alert } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

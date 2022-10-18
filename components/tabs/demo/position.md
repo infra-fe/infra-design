@@ -14,11 +14,9 @@ title:
 Tab's position: left, right, top or bottom. Will auto switch to `top` in mobile.
 
 ```tsx
-import type { RadioChangeEvent } from 'infrad';
-import { Radio, Space, Tabs } from 'infrad';
+import type { RadioChangeEvent } from 'antd';
+import { Radio, Space, Tabs } from 'antd';
 import React, { useState } from 'react';
-
-const { TabPane } = Tabs;
 
 type TabPosition = 'left' | 'right' | 'top' | 'bottom';
 
@@ -40,17 +38,17 @@ const App: React.FC = () => {
           <Radio.Button value="right">right</Radio.Button>
         </Radio.Group>
       </Space>
-      <Tabs tabPosition={tabPosition}>
-        <TabPane tab="Tab 1" key="1">
-          Content of Tab 1
-        </TabPane>
-        <TabPane tab="Tab 2" key="2">
-          Content of Tab 2
-        </TabPane>
-        <TabPane tab="Tab 3" key="3">
-          Content of Tab 3
-        </TabPane>
-      </Tabs>
+      <Tabs
+        tabPosition={tabPosition}
+        items={new Array(3).fill(null).map((_, i) => {
+          const id = String(i + 1);
+          return {
+            label: `Tab ${id}`,
+            key: id,
+            children: `Content of Tab ${id}`,
+          };
+        })}
+      />
     </>
   );
 };

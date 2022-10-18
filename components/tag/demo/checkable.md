@@ -18,7 +18,7 @@ title:
 > it is an absolute controlled component and has no uncontrolled mode.
 
 ```tsx
-import { Tag } from 'infrad';
+import { Tag } from 'antd';
 import React, { useState } from 'react';
 
 const { CheckableTag } = Tag;

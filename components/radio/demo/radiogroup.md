@@ -14,8 +14,8 @@ title:
 A group of radio components.
 
 ```tsx
-import type { RadioChangeEvent } from 'infrad';
-import { Radio } from 'infrad';
+import type { RadioChangeEvent } from 'antd';
+import { Radio } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

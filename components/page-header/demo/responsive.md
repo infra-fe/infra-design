@@ -15,7 +15,7 @@ title:
 Under different screen sizes, there should be different performance
 
 ```tsx
-import { Button, Descriptions, PageHeader, Statistic, Tabs } from 'infrad';
+import { Button, Descriptions, PageHeader, Statistic, Tabs } from 'antd';
 import React from 'react';
 
 const { TabPane } = Tabs;

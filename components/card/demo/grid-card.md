@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 6
 title:
   zh-CN: 网格型内嵌卡片
   en-US: Grid card
@@ -14,7 +14,7 @@ title:
 Grid style card content.
 
 ```tsx
-import { Card } from 'infrad';
+import { Card } from 'antd';
 import React from 'react';
 
 const gridStyle: React.CSSProperties = {

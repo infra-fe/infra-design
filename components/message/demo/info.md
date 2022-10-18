@@ -14,7 +14,7 @@ title:
 Normal message for information.
 
 ```tsx
-import { Button, message } from 'infrad';
+import { Button, message } from 'antd';
 import React from 'react';
 
 const info = () => {

@@ -14,7 +14,7 @@ title:
 Customize Trigger Token by `prefix` props. Default to `@`, `Array<string>` also supported.
 
 ```tsx
-import { Mentions } from 'infrad';
+import { Mentions } from 'antd';
 import React, { useState } from 'react';
 
 const { Option } = Mentions;

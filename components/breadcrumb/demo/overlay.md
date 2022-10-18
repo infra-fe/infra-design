@@ -14,7 +14,7 @@ title:
 Breadcrumbs support drop down menu.
 
 ```tsx
-import { Breadcrumb, Menu } from 'infrad';
+import { Breadcrumb, Menu } from 'antd';
 import React from 'react';
 
 const menu = (
@@ -50,7 +50,7 @@ const menu = (
 
 const App: React.FC = () => (
   <Breadcrumb>
-    <Breadcrumb.Item>Infra Design</Breadcrumb.Item>
+    <Breadcrumb.Item>Ant Design</Breadcrumb.Item>
     <Breadcrumb.Item>
       <a href="">Component</a>
     </Breadcrumb.Item>

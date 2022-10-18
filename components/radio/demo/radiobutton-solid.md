@@ -14,7 +14,7 @@ title:
 Solid radio button style.
 
 ```tsx
-import { Radio } from 'infrad';
+import { Radio } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

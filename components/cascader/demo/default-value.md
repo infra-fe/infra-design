@@ -14,7 +14,7 @@ title:
 Specifies default value by an array.
 
 ```tsx
-import { Cascader } from 'infrad';
+import { Cascader } from 'antd';
 import React from 'react';
 
 interface Option {

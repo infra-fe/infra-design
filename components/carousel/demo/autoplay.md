@@ -14,7 +14,7 @@ title:
 Timing of scrolling to the next card/picture.
 
 ```tsx
-import { Carousel } from 'infrad';
+import { Carousel } from 'antd';
 import React from 'react';
 
 const contentStyle: React.CSSProperties = {

@@ -14,8 +14,8 @@ title:
 Countdown component.
 
 ```tsx
-import { Col, Row, Statistic } from 'infrad';
-import type { countdownValueType } from 'infrad/lib/statistic/utils';
+import { Col, Row, Statistic } from 'antd';
+import type { countdownValueType } from 'antd/es/statistic/utils';
 import React from 'react';
 
 const { Countdown } = Statistic;

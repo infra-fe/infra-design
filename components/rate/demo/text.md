@@ -14,7 +14,7 @@ title:
 Add copywriting in rate components.
 
 ```tsx
-import { Rate } from 'infrad';
+import { Rate } from 'antd';
 import React, { useState } from 'react';
 
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];

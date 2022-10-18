@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 6
 iframe: 360
 title:
   zh-CN: 固定头部
@@ -15,7 +15,7 @@ title:
 Fixed Header is generally used to fix the top navigation to facilitate page switching.
 
 ```tsx
-import { Breadcrumb, Layout, Menu } from 'infrad';
+import { Breadcrumb, Layout, Menu } from 'antd';
 import React from 'react';
 
 const { Header, Content, Footer } = Layout;
@@ -44,7 +44,7 @@ const App: React.FC = () => (
         Content
       </div>
     </Content>
-    <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
+    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
   </Layout>
 );
 

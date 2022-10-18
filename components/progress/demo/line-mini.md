@@ -14,7 +14,7 @@ title:
 Appropriate for a narrow area.
 
 ```tsx
-import { Progress } from 'infrad';
+import { Progress } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

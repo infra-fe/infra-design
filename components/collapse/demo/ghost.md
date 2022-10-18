@@ -14,7 +14,7 @@ title:
 Making collapse's background to transparent.
 
 ```tsx
-import { Collapse } from 'infrad';
+import { Collapse } from 'antd';
 import React from 'react';
 
 const { Panel } = Collapse;

@@ -14,7 +14,7 @@ title:
 `ghost` property will make button's background transparent, it is commonly used in colored background.
 
 ```tsx
-import { Button } from 'infrad';
+import { Button } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

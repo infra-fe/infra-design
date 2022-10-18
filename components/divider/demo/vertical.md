@@ -14,7 +14,7 @@ title:
 Use `type="vertical"` make it vertical.
 
 ```tsx
-import { Divider } from 'infrad';
+import { Divider } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

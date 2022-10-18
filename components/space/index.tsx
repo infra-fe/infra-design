@@ -41,7 +41,7 @@ const Space: React.FC<SpaceProps> = props => {
   const { getPrefixCls, space, direction: directionConfig } = React.useContext(ConfigContext);
 
   const {
-    size = space?.size || 'middle',
+    size = space?.size || 'small',
     align,
     className,
     children,

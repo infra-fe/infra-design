@@ -16,8 +16,8 @@ Advanced Usage of Transfer.
 You can customize the labels of the transfer buttons, the width and height of the columns, and what should be displayed in the footer.
 
 ```tsx
-import { Button, Transfer } from 'infrad';
-import type { TransferDirection, TransferListProps } from 'infrad/es/transfer';
+import { Button, Transfer } from 'antd';
+import type { TransferDirection, TransferListProps } from 'antd/es/transfer';
 import React, { useEffect, useState } from 'react';
 
 interface RecordType {
@@ -39,7 +39,7 @@ const App: React.FC = () => {
         key: i.toString(),
         title: `content${i + 1}`,
         description: `description of content${i + 1}`,
-        chosen: Math.random() * 2 > 1,
+        chosen: i % 2 === 0,
       };
       if (data.chosen) {
         tempTargetKeys.push(data.key);

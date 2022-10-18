@@ -14,7 +14,7 @@ title:
 A non-case-sensitive AutoComplete
 
 ```tsx
-import { AutoComplete } from 'infrad';
+import { AutoComplete } from 'antd';
 import React from 'react';
 
 const options = [

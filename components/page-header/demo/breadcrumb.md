@@ -14,7 +14,7 @@ title:
 With breadcrumbs, it is suitable for deeper pages, allowing users to navigate quickly.
 
 ```tsx
-import { PageHeader } from 'infrad';
+import { PageHeader } from 'antd';
 import React from 'react';
 
 const routes = [

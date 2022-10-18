@@ -14,8 +14,8 @@ title:
 Example of creating a search box by grouping a standard input with a search button.
 
 ```tsx
-import { AudioOutlined } from 'infra-design-icons';
-import { Input, Space } from 'infrad';
+import { AudioOutlined } from '@ant-design/icons';
+import { Input, Space } from 'antd';
 import React from 'react';
 
 const { Search } = Input;
@@ -24,7 +24,7 @@ const suffix = (
   <AudioOutlined
     style={{
       fontSize: 16,
-      color: '#2673dd',
+      color: '#1890ff',
     }}
   />
 );

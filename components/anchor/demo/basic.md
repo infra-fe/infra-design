@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```tsx
-import { Anchor } from 'infrad';
+import { Anchor } from 'antd';
 import React from 'react';
 
 const { Link } = Anchor;

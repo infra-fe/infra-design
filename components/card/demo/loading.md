@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 5
 title:
   zh-CN: 预加载的卡片
   en-US: Loading card
@@ -14,8 +14,8 @@ title:
 Shows a loading indicator while the contents of the card is being fetched.
 
 ```tsx
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from 'infra-design-icons';
-import { Avatar, Card, Skeleton, Switch } from 'infrad';
+import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import { Avatar, Card, Skeleton, Switch } from 'antd';
 import React, { useState } from 'react';
 
 const { Meta } = Card;

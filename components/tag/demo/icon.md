@@ -23,8 +23,8 @@ import {
   LinkedinOutlined,
   TwitterOutlined,
   YoutubeOutlined,
-} from 'infra-design-icons';
-import { Tag } from 'infrad';
+} from '@ant-design/icons';
+import { Tag } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -15,7 +15,7 @@ title:
 Add status to TimePicker with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { Space, TimePicker } from 'infrad';
+import { Space, TimePicker } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

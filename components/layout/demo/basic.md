@@ -14,7 +14,7 @@ title:
 Classic page layouts.
 
 ```tsx
-import { Layout } from 'infrad';
+import { Layout } from 'antd';
 import React from 'react';
 
 const { Header, Footer, Sider, Content } = Layout;

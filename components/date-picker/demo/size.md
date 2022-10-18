@@ -14,9 +14,9 @@ title:
 The input box comes in three sizes. `middle` will be used if `size` is omitted.
 
 ```tsx
-import type { RadioChangeEvent } from 'infrad';
-import { DatePicker, Radio, Space } from 'infrad';
-import type { SizeType } from 'infrad/es/config-provider/SizeContext';
+import type { RadioChangeEvent } from 'antd';
+import { DatePicker, Radio, Space } from 'antd';
+import type { SizeType } from 'antd/es/config-provider/SizeContext';
 import React, { useState } from 'react';
 
 const { RangePicker } = DatePicker;

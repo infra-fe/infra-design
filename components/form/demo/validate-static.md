@@ -22,7 +22,7 @@ We provide properties like `validateStatus` `help` `hasFeedback` to customize yo
 3. `help`: display validate message.
 
 ```tsx
-import { SmileOutlined } from 'infra-design-icons';
+import { SmileOutlined } from '@ant-design/icons';
 import {
   Cascader,
   DatePicker,
@@ -33,7 +33,7 @@ import {
   Select,
   TimePicker,
   TreeSelect,
-} from 'infrad';
+} from 'antd';
 import React from 'react';
 
 const { Option } = Select;

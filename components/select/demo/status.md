@@ -15,7 +15,7 @@ title:
 Add status to Select with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { Select, Space } from 'infrad';
+import { Select, Space } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

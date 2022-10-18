@@ -14,9 +14,9 @@ title:
 Use `progress` for customize progress bar.
 
 ```tsx
-import { IUpload } from 'infra-design-icons';
-import type { UploadProps } from 'infrad';
-import { Button, message, Upload } from 'infrad';
+import { UploadOutlined } from '@ant-design/icons';
+import type { UploadProps } from 'antd';
+import { Button, message, Upload } from 'antd';
 import React from 'react';
 
 const props: UploadProps = {
@@ -47,7 +47,7 @@ const props: UploadProps = {
 
 const App: React.FC = () => (
   <Upload {...props}>
-    <Button icon={<IUpload />}>Click to Upload</Button>
+    <Button icon={<UploadOutlined />}>Click to Upload</Button>
   </Upload>
 );
 

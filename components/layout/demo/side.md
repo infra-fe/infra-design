@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 3
 iframe: 360
 title:
   zh-CN: 侧边布局
@@ -29,9 +29,9 @@ import {
   PieChartOutlined,
   TeamOutlined,
   UserOutlined,
-} from 'infra-design-icons';
-import type { MenuProps } from 'infrad';
-import { Breadcrumb, Layout, Menu } from 'infrad';
+} from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Breadcrumb, Layout, Menu } from 'antd';
 import React, { useState } from 'react';
 
 const { Header, Content, Footer, Sider } = Layout;

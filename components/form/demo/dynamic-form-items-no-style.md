@@ -15,8 +15,8 @@ debug: true
 Nest with `noStyle` field dynamic form.
 
 ```tsx
-import { MinusCircleOutlined, PlusOutlined } from 'infra-design-icons';
-import { Button, Form, Input, Space } from 'infrad';
+import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
+import { Button, Form, Input, Space } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => {

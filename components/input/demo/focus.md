@@ -14,9 +14,9 @@ title:
 Focus with additional option.
 
 ```tsx
-import type { InputRef } from 'infrad';
+import type { InputRef } from 'antd';
 
-import { Button, Input, Space, Switch } from 'infrad';
+import { Button, Input, Space, Switch } from 'antd';
 import React, { useRef, useState } from 'react';
 
 const App: React.FC = () => {
@@ -25,7 +25,7 @@ const App: React.FC = () => {
 
   const sharedProps = {
     style: { width: '100%' },
-    defaultValue: 'Infra Design love you!',
+    defaultValue: 'Ant Design love you!',
     ref: inputRef,
   };
 

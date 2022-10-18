@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 3
 title:
   zh-CN: 更灵活的内容展示
   en-US: Customized content
@@ -14,7 +14,7 @@ title:
 You can use `Card.Meta` to support more flexible content.
 
 ```tsx
-import { Card } from 'infrad';
+import { Card } from 'antd';
 import React from 'react';
 
 const { Meta } = Card;

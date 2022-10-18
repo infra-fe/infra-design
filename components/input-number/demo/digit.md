@@ -14,7 +14,7 @@ title:
 Use `stringMode` to support high precision decimals support. `onChange` will return string value instead. You need polyfill of BigInt if browser not support.
 
 ```tsx
-import { InputNumber } from 'infrad';
+import { InputNumber } from 'antd';
 import React from 'react';
 
 const onChange = (value: string) => {

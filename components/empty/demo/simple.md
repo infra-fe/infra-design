@@ -14,7 +14,7 @@ title:
 You can choose another style of `image` by setting image to `Empty.PRESENTED_IMAGE_SIMPLE`.
 
 ```tsx
-import { Empty } from 'infrad';
+import { Empty } from 'antd';
 
 const App: React.FC = () => <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />;
 

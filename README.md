@@ -1,8 +1,5 @@
 ### Infra Design
 
-<<<<<<< HEAD
-Based on [Ant Design](https://github.com/ant-design/ant-design)
-=======
 <h1 align="center">Ant Design</h1>
 
 <div align="center">
@@ -158,4 +155,3 @@ If you are a collaborator, please follow our [Pull Request principle](https://gi
 [![](https://opencollective.com/ant-design/tiers/sponsors.svg?avatarHeight=36)](https://opencollective.com/ant-design#support)
 
 [![](https://opencollective.com/ant-design/tiers/backers.svg?avatarHeight=36)](https://opencollective.com/ant-design#support)
->>>>>>> upstream/master

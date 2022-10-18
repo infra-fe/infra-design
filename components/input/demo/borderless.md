@@ -14,7 +14,7 @@ title:
 No border.
 
 ```tsx
-import { Input } from 'infrad';
+import { Input } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => <Input placeholder="Borderless" bordered={false} />;

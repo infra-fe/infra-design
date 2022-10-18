@@ -14,7 +14,7 @@ title:
 To customize the style or font of the close button.
 
 ```tsx
-import { Button, notification } from 'infrad';
+import { Button, notification } from 'antd';
 import React from 'react';
 
 const close = () => {

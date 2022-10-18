@@ -14,7 +14,7 @@ title:
 To load data asynchronously when click to expand a treeNode.
 
 ```tsx
-import { Tree } from 'infrad';
+import { Tree } from 'antd';
 import React, { useState } from 'react';
 
 interface DataNode {

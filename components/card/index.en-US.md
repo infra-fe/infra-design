@@ -22,7 +22,6 @@ A card can be used to display content related to a single subject. The content c
 
 | Property | Description | Type | Default | Version |
 | --- | --- | --- | --- | --- |
-| mode | Set card model with 'normal' or 'gray' or 'shadow' | `normal` \| `gray` \| `shadow` | `normal` |  |
 | actions | The action list, shows at the bottom of the Card | Array&lt;ReactNode> | - |  |
 | activeTabKey | Current TabPane's key | string | - |  |
 | bodyStyle | Inline style to apply to the card content | CSSProperties | - |  |

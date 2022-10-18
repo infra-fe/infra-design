@@ -14,8 +14,8 @@ title:
 If you are using [iconfont.cn](http://iconfont.cn/), you can use the icons in your project gracefully.
 
 ```tsx
-import { createFromIconfontCN } from 'infra-design-icons';
-import { Space } from 'infrad';
+import { createFromIconfontCN } from '@ant-design/icons';
+import { Space } from 'antd';
 import React from 'react';
 
 const IconFont = createFromIconfontCN({

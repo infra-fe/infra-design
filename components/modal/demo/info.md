@@ -14,7 +14,7 @@ title:
 In the various types of information modal dialog, only one button to close dialog is provided.
 
 ```tsx
-import { Button, Modal, Space } from 'infrad';
+import { Button, Modal, Space } from 'antd';
 import React from 'react';
 
 const info = () => {

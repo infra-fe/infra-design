@@ -14,20 +14,20 @@ title:
 The Drawer can appear from any edge of the screen.
 
 ```tsx
-import type { DrawerProps, RadioChangeEvent } from 'infrad';
-import { Button, Drawer, Radio, Space } from 'infrad';
+import type { DrawerProps, RadioChangeEvent } from 'antd';
+import { Button, Drawer, Radio, Space } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {
-  const [visible, setVisible] = useState(false);
+  const [open, setOpen] = useState(false);
   const [placement, setPlacement] = useState<DrawerProps['placement']>('left');
 
   const showDrawer = () => {
-    setVisible(true);
+    setOpen(true);
   };
 
   const onClose = () => {
-    setVisible(false);
+    setOpen(false);
   };
 
   const onChange = (e: RadioChangeEvent) => {
@@ -52,7 +52,7 @@ const App: React.FC = () => {
         placement={placement}
         closable={false}
         onClose={onClose}
-        visible={visible}
+        open={open}
         key={placement}
       >
         <p>Some contents...</p>

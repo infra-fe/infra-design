@@ -18,27 +18,27 @@ A more complex example which define a customized footer button bar. The dialog w
 You could set `footer` to `null` if you don't need default footer buttons.
 
 ```tsx
-import { Button, Modal } from 'infrad';
+import { Button, Modal } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(false);
-  const [visible, setVisible] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const showModal = () => {
-    setVisible(true);
+    setOpen(true);
   };
 
   const handleOk = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      setVisible(false);
+      setOpen(false);
     }, 3000);
   };
 
   const handleCancel = () => {
-    setVisible(false);
+    setOpen(false);
   };
 
   return (
@@ -47,7 +47,7 @@ const App: React.FC = () => {
         Open Modal with customized footer
       </Button>
       <Modal
-        visible={visible}
+        open={open}
         title="Title"
         onOk={handleOk}
         onCancel={handleCancel}

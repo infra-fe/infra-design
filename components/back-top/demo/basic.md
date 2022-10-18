@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ```tsx
-import { BackTop } from 'infrad';
+import { BackTop } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

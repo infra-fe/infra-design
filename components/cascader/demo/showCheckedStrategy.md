@@ -15,7 +15,7 @@ title:
 The way show selected item in box using `ShowCheckedStrategy`.
 
 ```tsx
-import { Cascader } from 'infrad';
+import { Cascader } from 'antd';
 
 const { SHOW_CHILD } = Cascader;
 

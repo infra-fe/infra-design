@@ -14,7 +14,7 @@ title:
 A notification box with a icon at the left side.
 
 ```tsx
-import { Button, notification, Space } from 'infrad';
+import { Button, notification, Space } from 'antd';
 import React from 'react';
 
 type NotificationType = 'success' | 'info' | 'warning' | 'error';

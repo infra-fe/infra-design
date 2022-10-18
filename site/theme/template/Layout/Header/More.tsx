@@ -6,7 +6,7 @@ import { FormattedMessage } from 'react-intl';
 import { DownOutlined } from '@ant-design/icons';
 import type { SharedProps } from './interface';
 
-// const smallStyle = { fontSize: 12, color: '#777', marginLeft: '0.3em' };
+const smallStyle = { fontSize: 12, color: '#777', marginLeft: '0.3em' };
 
 export function getEcosystemGroup(): Exclude<MenuProps['items'], undefined> {
   return [

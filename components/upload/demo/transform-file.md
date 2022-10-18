@@ -14,9 +14,9 @@ title:
 Use `beforeUpload` for transform file before request such as add a watermark.
 
 ```tsx
-import { IUpload } from 'infra-design-icons';
-import type { UploadProps } from 'infrad';
-import { Button, Upload } from 'infrad';
+import { UploadOutlined } from '@ant-design/icons';
+import type { UploadProps } from 'antd';
+import { Button, Upload } from 'antd';
 import React from 'react';
 
 const props: UploadProps = {
@@ -38,7 +38,7 @@ const props: UploadProps = {
           ctx.fillStyle = 'red';
           ctx.textBaseline = 'middle';
           ctx.font = '33px Arial';
-          ctx.fillText('Infra Design', 20, 20);
+          ctx.fillText('Ant Design', 20, 20);
           canvas.toBlob(result => resolve(result as any));
         };
       };
@@ -48,7 +48,7 @@ const props: UploadProps = {
 
 const App: React.FC = () => (
   <Upload {...props}>
-    <Button icon={<IUpload />}>Upload</Button>
+    <Button icon={<UploadOutlined />}>Upload</Button>
   </Upload>
 );
 

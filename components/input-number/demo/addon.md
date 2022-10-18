@@ -14,8 +14,8 @@ title:
 Using pre & post tabs example.
 
 ```tsx
-import { SettingOutlined } from 'infra-design-icons';
-import { Cascader, InputNumber, Select, Space } from 'infrad';
+import { SettingOutlined } from '@ant-design/icons';
+import { Cascader, InputNumber, Select, Space } from 'antd';
 import React from 'react';
 
 const { Option } = Select;

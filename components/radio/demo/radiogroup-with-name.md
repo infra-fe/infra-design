@@ -14,7 +14,7 @@ title:
 Passing the `name` property to all `input[type="radio"]` that are in the same Radio.Group. It is usually used to let the browser see your Radio.Group as a real "group" and keep the default behavior. For example, using left/right keyboard arrow to change your selection that in the same Radio.Group.
 
 ```tsx
-import { Radio } from 'infrad';
+import { Radio } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

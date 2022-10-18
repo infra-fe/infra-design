@@ -1,5 +1,5 @@
 ---
-order: 9
+order: 7
 title:
   zh-CN: 内部卡片
   en-US: Inner card
@@ -14,7 +14,7 @@ title:
 It can be placed inside the ordinary card to display the information of the multilevel structure.
 
 ```tsx
-import { Card } from 'infrad';
+import { Card } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

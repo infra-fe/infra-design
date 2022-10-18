@@ -14,7 +14,7 @@ title:
 Comment can be used as an editor, so the user can customize the contents of the component.
 
 ```tsx
-import { Avatar, Button, Comment, Form, Input, List } from 'infrad';
+import { Avatar, Button, Comment, Form, Input, List } from 'antd';
 import moment from 'moment';
 import React, { useState } from 'react';
 
@@ -75,7 +75,7 @@ const App: React.FC = () => {
           author: 'Han Solo',
           avatar: 'https://joeschmoe.io/api/v1/random',
           content: <p>{value}</p>,
-          datetime: moment().fromNow(),
+          datetime: moment('2016-11-22').fromNow(),
         },
       ]);
     }, 1000);

@@ -14,9 +14,9 @@ title:
 An event will be triggered when you click menu items, in which you can make different operations according to item's key.
 
 ```tsx
-import { IArrowDown } from 'infra-design-icons';
-import type { MenuProps } from 'infrad';
-import { Dropdown, Menu, message, Space } from 'infrad';
+import { DownOutlined } from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Dropdown, Menu, message, Space } from 'antd';
 import React from 'react';
 
 const onClick: MenuProps['onClick'] = ({ key }) => {
@@ -48,7 +48,7 @@ const App: React.FC = () => (
     <a onClick={e => e.preventDefault()}>
       <Space>
         Hover me, Click menu item
-        <IArrowDown />
+        <DownOutlined />
       </Space>
     </a>
   </Dropdown>

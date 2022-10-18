@@ -15,7 +15,7 @@ title:
 Add status to DatePicker with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { DatePicker, Space } from 'infrad';
+import { DatePicker, Space } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

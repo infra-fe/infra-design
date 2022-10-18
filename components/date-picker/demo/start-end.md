@@ -21,7 +21,7 @@ When `RangePicker` does not satisfied your requirements, try to implement simila
 > - Improve user experience with `open` and `onOpenChange`.
 
 ```tsx
-import { DatePicker, Space } from 'infrad';
+import { DatePicker, Space } from 'antd';
 import type { Moment } from 'moment';
 import React, { useState } from 'react';
 

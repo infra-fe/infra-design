@@ -14,7 +14,7 @@ title:
 Disable option by specifying the `disabled` property in `options`.
 
 ```tsx
-import { Cascader } from 'infrad';
+import { Cascader } from 'antd';
 import React from 'react';
 
 interface Option {

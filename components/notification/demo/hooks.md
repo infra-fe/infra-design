@@ -19,9 +19,9 @@ import {
   RadiusBottomrightOutlined,
   RadiusUpleftOutlined,
   RadiusUprightOutlined,
-} from 'infra-design-icons';
-import { Button, Divider, notification, Space } from 'infrad';
-import type { NotificationPlacement } from 'infrad/lib/notification';
+} from '@ant-design/icons';
+import { Button, Divider, notification, Space } from 'antd';
+import type { NotificationPlacement } from 'antd/es/notification';
 import React from 'react';
 
 const Context = React.createContext({ name: 'Default' });
@@ -38,7 +38,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <Context.Provider value={{ name: 'Infra Design' }}>
+    <Context.Provider value={{ name: 'Ant Design' }}>
       {contextHolder}
       <Space>
         <Button type="primary" onClick={() => openNotification('topLeft')}>

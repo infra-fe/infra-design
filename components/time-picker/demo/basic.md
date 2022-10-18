@@ -14,7 +14,7 @@ title:
 Click `TimePicker`, and then we could select or input a time in panel.
 
 ```tsx
-import { TimePicker } from 'infrad';
+import { TimePicker } from 'antd';
 import type { Moment } from 'moment';
 import moment from 'moment';
 import React from 'react';

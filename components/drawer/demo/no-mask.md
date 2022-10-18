@@ -15,18 +15,18 @@ debug: true
 Remove mask.
 
 ```tsx
-import { Button, Drawer } from 'infrad';
+import { Button, Drawer } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {
-  const [visible, setVisible] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const showDrawer = () => {
-    setVisible(true);
+    setOpen(true);
   };
 
   const onClose = () => {
-    setVisible(false);
+    setOpen(false);
   };
 
   return (
@@ -39,7 +39,7 @@ const App: React.FC = () => {
         placement="right"
         mask={false}
         onClose={onClose}
-        visible={visible}
+        open={open}
         contentWrapperStyle={{
           width: 333,
           background: 'red',

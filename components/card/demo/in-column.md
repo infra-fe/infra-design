@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 4
 title:
   zh-CN: 栅格卡片
   en-US: Card in column
@@ -14,7 +14,7 @@ title:
 Cards usually cooperate with grid column layout in overview page.
 
 ```tsx
-import { Card, Col, Row } from 'infrad';
+import { Card, Col, Row } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

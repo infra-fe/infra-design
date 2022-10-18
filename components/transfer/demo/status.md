@@ -15,7 +15,7 @@ title:
 Add status to Transfer with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { Space, Transfer } from 'infrad';
+import { Space, Transfer } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

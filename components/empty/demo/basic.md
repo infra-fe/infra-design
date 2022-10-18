@@ -14,7 +14,7 @@ title:
 Simplest Usage.
 
 ```tsx
-import { Empty } from 'infrad';
+import { Empty } from 'antd';
 
 const App: React.FC = () => <Empty />;
 

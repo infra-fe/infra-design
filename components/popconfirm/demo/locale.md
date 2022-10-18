@@ -14,7 +14,7 @@ title:
 Set `okText` and `cancelText` props to customize the button's labels.
 
 ```tsx
-import { Popconfirm } from 'infrad';
+import { Popconfirm } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

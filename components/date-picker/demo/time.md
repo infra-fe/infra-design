@@ -14,8 +14,8 @@ title:
 This property provide an additional time selection. When `showTime` is an Object, its properties will be passed on to built-in `TimePicker`.
 
 ```tsx
-import { DatePicker, Space } from 'infrad';
-import type { DatePickerProps, RangePickerProps } from 'infrad/es/date-picker';
+import { DatePicker, Space } from 'antd';
+import type { DatePickerProps, RangePickerProps } from 'antd/es/date-picker';
 import React from 'react';
 
 const { RangePicker } = DatePicker;

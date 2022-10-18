@@ -14,8 +14,8 @@ title:
 Jump to a page directly.
 
 ```tsx
-import type { PaginationProps } from 'infrad';
-import { Pagination } from 'infrad';
+import type { PaginationProps } from 'antd';
+import { Pagination } from 'antd';
 import React from 'react';
 
 const onChange: PaginationProps['onChange'] = pageNumber => {

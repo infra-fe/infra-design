@@ -14,7 +14,7 @@ Segmented 不可用。
 Disabled Segmented.
 
 ```jsx
-import { Segmented } from 'infrad';
+import { Segmented } from 'antd';
 
 export default () => (
   <>

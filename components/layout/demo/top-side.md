@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 2
 title:
   zh-CN: 顶部-侧边布局
   en-US: Header-Sider
@@ -14,9 +14,9 @@ title:
 Both the top navigation and the sidebar, commonly used in documentation site.
 
 ```tsx
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from 'infra-design-icons';
-import type { MenuProps } from 'infrad';
-import { Breadcrumb, Layout, Menu } from 'infrad';
+import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Breadcrumb, Layout, Menu } from 'antd';
 import React from 'react';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -71,7 +71,7 @@ const App: React.FC = () => (
         <Content style={{ padding: '0 24px', minHeight: 280 }}>Content</Content>
       </Layout>
     </Content>
-    <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
+    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
   </Layout>
 );
 

@@ -22,8 +22,8 @@ import {
   RightOutlined,
   SearchOutlined as SearchIcon,
   SmileOutlined,
-} from 'infra-design-icons';
-import type { RadioChangeEvent } from 'infrad';
+} from '@ant-design/icons';
+import type { RadioChangeEvent } from 'antd';
 import {
   Badge,
   Button,
@@ -43,8 +43,8 @@ import {
   Switch,
   Tree,
   TreeSelect,
-} from 'infrad';
-import type { DirectionType } from 'infrad/lib/config-provider';
+} from 'antd';
+import type { DirectionType } from 'antd/es/config-provider';
 import React, { useState } from 'react';
 
 const InputGroup = Input.Group;
@@ -108,7 +108,7 @@ type Placement = 'bottomLeft' | 'bottomRight' | 'topLeft' | 'topRight';
 
 const Page: React.FC<{ popupPlacement: Placement }> = ({ popupPlacement }) => {
   const [currentStep, setCurrentStep] = useState(0);
-  const [modalVisible, setModalVisible] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
   const [badgeCount, setBadgeCount] = useState(5);
   const [showBadge, setShowBadge] = useState(true);
 
@@ -139,17 +139,17 @@ const Page: React.FC<{ popupPlacement: Placement }> = ({ popupPlacement }) => {
 
   // ==== Modal ====
   const showModal = () => {
-    setModalVisible(true);
+    setModalOpen(true);
   };
 
   const handleOk = (e: React.MouseEvent<HTMLElement>) => {
     console.log(e);
-    setModalVisible(false);
+    setModalOpen(false);
   };
 
   const handleCancel = (e: React.MouseEvent<HTMLElement>) => {
     console.log(e);
-    setModalVisible(false);
+    setModalOpen(false);
   };
 
   // ==== End Modal ====
@@ -273,7 +273,7 @@ const Page: React.FC<{ popupPlacement: Placement }> = ({ popupPlacement }) => {
                 <TreeNode title="leaf" key="0-0-0-1" />
               </TreeNode>
               <TreeNode title="parent 1-1" key="0-0-1">
-                <TreeNode title={<span style={{ color: '#2673dd' }}>sss</span>} key="0-0-1-0" />
+                <TreeNode title={<span style={{ color: '#1890ff' }}>sss</span>} key="0-0-1-0" />
               </TreeNode>
             </TreeNode>
           </Tree>
@@ -378,12 +378,7 @@ const Page: React.FC<{ popupPlacement: Placement }> = ({ popupPlacement }) => {
                 <Button type="primary" onClick={showModal}>
                   Open Modal
                 </Button>
-                <Modal
-                  title="پنچره ساده"
-                  visible={modalVisible}
-                  onOk={handleOk}
-                  onCancel={handleCancel}
-                >
+                <Modal title="پنچره ساده" open={modalOpen} onOk={handleOk} onCancel={handleCancel}>
                   <p>نگاشته‌های خود را اینجا قراردهید</p>
                   <p>نگاشته‌های خود را اینجا قراردهید</p>
                   <p>نگاشته‌های خود را اینجا قراردهید</p>

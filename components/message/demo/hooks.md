@@ -14,7 +14,7 @@ title:
 Use `message.useMessage` to get `contextHolder` with context accessible issue.
 
 ```tsx
-import { Button, message } from 'infrad';
+import { Button, message } from 'antd';
 import React from 'react';
 
 const Context = React.createContext({ name: 'Default' });
@@ -31,7 +31,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <Context.Provider value={{ name: 'Infra Design' }}>
+    <Context.Provider value={{ name: 'Ant Design' }}>
       {contextHolder}
       <Button type="primary" onClick={info}>
         Display normal message

@@ -14,7 +14,7 @@ title:
 `danger` is a property of button after antd 4.0.
 
 ```tsx
-import { Button } from 'infrad';
+import { Button } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

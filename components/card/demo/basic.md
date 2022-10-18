@@ -14,7 +14,7 @@ title:
 A basic card containing a title, content and an extra corner content. Supports two sizes: `default` and `small`.
 
 ```tsx
-import { Card } from 'infrad';
+import { Card } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

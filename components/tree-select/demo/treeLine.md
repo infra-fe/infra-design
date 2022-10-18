@@ -14,7 +14,7 @@ title:
 Use `treeLine` to show the line style.
 
 ```tsx
-import { Space, Switch, TreeSelect } from 'infrad';
+import { Space, Switch, TreeSelect } from 'antd';
 import React, { useState } from 'react';
 
 const { TreeNode } = TreeSelect;

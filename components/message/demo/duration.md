@@ -14,7 +14,7 @@ title:
 Customize message display duration from default `3s` to `10s`.
 
 ```tsx
-import { Button, message } from 'infrad';
+import { Button, message } from 'antd';
 import React from 'react';
 
 const success = () => {

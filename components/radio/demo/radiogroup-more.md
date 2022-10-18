@@ -14,8 +14,8 @@ title:
 Vertical Radio.Group, with more radios.
 
 ```tsx
-import type { RadioChangeEvent } from 'infrad';
-import { Input, Radio, Space } from 'infrad';
+import type { RadioChangeEvent } from 'antd';
+import { Input, Radio, Space } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

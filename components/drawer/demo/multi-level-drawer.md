@@ -14,19 +14,19 @@ title:
 Open a new drawer on top of an existing drawer to handle multi branch tasks.
 
 ```tsx
-import { Button, Drawer } from 'infrad';
+import { Button, Drawer } from 'antd';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {
-  const [visible, setVisible] = useState(false);
+  const [open, setOpen] = useState(false);
   const [childrenDrawer, setChildrenDrawer] = useState(false);
 
   const showDrawer = () => {
-    setVisible(true);
+    setOpen(true);
   };
 
   const onClose = () => {
-    setVisible(false);
+    setOpen(false);
   };
 
   const showChildrenDrawer = () => {
@@ -42,13 +42,7 @@ const App: React.FC = () => {
       <Button type="primary" onClick={showDrawer}>
         Open drawer
       </Button>
-      <Drawer
-        title="Multi-level drawer"
-        width={520}
-        closable={false}
-        onClose={onClose}
-        visible={visible}
-      >
+      <Drawer title="Multi-level drawer" width={520} closable={false} onClose={onClose} open={open}>
         <Button type="primary" onClick={showChildrenDrawer}>
           Two-level drawer
         </Button>
@@ -57,7 +51,7 @@ const App: React.FC = () => {
           width={320}
           closable={false}
           onClose={onChildrenDrawerClose}
-          visible={childrenDrawer}
+          open={childrenDrawer}
         >
           This is two-level drawer
         </Drawer>

@@ -14,7 +14,7 @@ title:
 ErrorBoundary Component for making error handling easier in [React](https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html).
 
 ```tsx
-import { Alert, Button } from 'infrad';
+import { Alert, Button } from 'antd';
 import React, { useState } from 'react';
 
 const { ErrorBoundary } = Alert;

@@ -14,7 +14,7 @@ title:
 Additional description for alert message.
 
 ```tsx
-import { Alert } from 'infrad';
+import { Alert } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

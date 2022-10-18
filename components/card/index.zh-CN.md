@@ -23,7 +23,6 @@ cover: https://gw.alipayobjects.com/zos/antfincdn/NqXt8DJhky/Card.svg
 
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
-| mode | 设置卡片是普通模式还是灰色模式还是阴影模式 | `normal` \| `gray` \| `shadow` | `normal` |  |
 | actions | 卡片操作组，位置在卡片底部 | Array&lt;ReactNode> | - |  |
 | activeTabKey | 当前激活页签的 key | string | - |  |
 | bodyStyle | 内容区域自定义样式 | CSSProperties | - |  |

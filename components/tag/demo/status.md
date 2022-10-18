@@ -21,8 +21,8 @@ import {
   ExclamationCircleOutlined,
   MinusCircleOutlined,
   SyncOutlined,
-} from 'infra-design-icons';
-import { Divider, Tag } from 'infrad';
+} from '@ant-design/icons';
+import { Divider, Tag } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -14,7 +14,7 @@ title:
 Slides use fade for transition.
 
 ```tsx
-import { Carousel } from 'infrad';
+import { Carousel } from 'antd';
 import React from 'react';
 
 const contentStyle: React.CSSProperties = {

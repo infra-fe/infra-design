@@ -25,7 +25,7 @@ import {
   InputNumber,
   Row,
   Select,
-} from 'infrad';
+} from 'antd';
 import React, { useState } from 'react';
 
 const { Option } = Select;

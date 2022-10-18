@@ -14,9 +14,9 @@ title:
 Customize the dropdown menu via `dropdownRender`. If you want to close the dropdown after clicking the custom content, you need to control `open` prop, here is an [codesandbox](https://codesandbox.io/s/ji-ben-shi-yong-antd-4-21-7-forked-gnp4cy?file=/demo.js).
 
 ```tsx
-import { PlusOutlined } from 'infra-design-icons';
-import { Divider, Input, Select, Space, Button } from 'infrad';
-import type { InputRef } from 'infrad';
+import { PlusOutlined } from '@ant-design/icons';
+import { Divider, Input, Select, Space, Button } from 'antd';
+import type { InputRef } from 'antd';
 import React, { useState, useRef } from 'react';
 
 const { Option } = Select;

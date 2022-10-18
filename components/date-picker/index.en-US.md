@@ -30,7 +30,7 @@ If there are special needs (only modifying single component language), Please us
 
 ```jsx
 import 'moment/locale/zh-cn';
-import locale from 'infrad/es/date-picker/locale/zh_CN';
+import locale from 'antd/es/date-picker/locale/zh_CN';
 
 <DatePicker locale={locale} />;
 ```
@@ -39,7 +39,7 @@ import locale from 'infrad/es/date-picker/locale/zh_CN';
 // The default locale is en-US, if you want to use other locale, just set locale in entry file globally.
 import moment from 'moment';
 import 'moment/locale/zh-cn';
-import locale from 'infrad/lib/locale/zh_CN';
+import locale from 'antd/es/locale/zh_CN';
 
 <ConfigProvider locale={locale}>
   <DatePicker defaultValue={moment('2015-01-01', 'YYYY-MM-DD')} />
@@ -59,7 +59,7 @@ The following APIs are shared by DatePicker, RangePicker.
 | dateRender | Custom rendering function for date cells | function(currentDate: moment, today: moment) => React.ReactNode | - |  |
 | disabled | Determine whether the DatePicker is disabled | boolean | false |  |
 | disabledDate | Specify the date that cannot be selected | (currentDate: moment) => boolean | - |  |
-| dropdownClassName | To customize the className of the popup calendar | string | - |  |
+| popupClassName | To customize the className of the popup calendar | string | - | 4.23.0 |
 | getPopupContainer | To set the container of the floating layer, while the default is to create a `div` element in `body` | function(trigger) | - |  |
 | inputReadOnly | Set the `readonly` attribute of the input tag (avoids virtual keyboard on touch devices) | boolean | false |  |
 | locale | Localization configuration | object | [default](https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json) |  |

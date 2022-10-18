@@ -14,7 +14,7 @@ title:
 Crowded components vertical spacing.
 
 ```tsx
-import { Card, Space } from 'infrad';
+import { Card, Space } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

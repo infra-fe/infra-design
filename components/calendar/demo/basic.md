@@ -14,8 +14,8 @@ title:
 A basic calendar component with Year/Month switch.
 
 ```tsx
-import { Calendar } from 'infrad';
-import type { CalendarMode } from 'infrad/lib/calendar/generateCalendar';
+import { Calendar } from 'antd';
+import type { CalendarMode } from 'antd/es/calendar/generateCalendar';
 import type { Moment } from 'moment';
 import React from 'react';
 

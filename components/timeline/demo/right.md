@@ -14,8 +14,8 @@ title:
 Right alternate timeline.
 
 ```tsx
-import { ClockCircleOutlined } from 'infra-design-icons';
-import { Timeline } from 'infrad';
+import { ClockCircleOutlined } from '@ant-design/icons';
+import { Timeline } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

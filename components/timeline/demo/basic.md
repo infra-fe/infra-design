@@ -14,7 +14,7 @@ title:
 Basic timeline.
 
 ```tsx
-import { Timeline } from 'infrad';
+import { Timeline } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

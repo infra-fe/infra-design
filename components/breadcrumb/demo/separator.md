@@ -14,7 +14,7 @@ title:
 The separator can be customized by setting the separator property: `separator=">"`.
 
 ```tsx
-import { Breadcrumb } from 'infrad';
+import { Breadcrumb } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (

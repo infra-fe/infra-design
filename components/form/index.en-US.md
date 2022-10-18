@@ -8,13 +8,6 @@ cover: https://gw.alipayobjects.com/zos/alicdn/ORmcdeaoO/Form.svg
 
 High performance Form component with data scope management. Including data collection, verification, and styles.
 
-## ProForm
-
-Link: https://shopee.git-pages.garena.com/InfraFe/infrad-pro/pro-component/pro-form
-
-- Quickly build forms with Formily
-- Includes（DrawerForm、ModalForm、StepForm、QueryForm）
-
 ## When to use
 
 - When you need to create an instance or collect information.

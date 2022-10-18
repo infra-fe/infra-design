@@ -14,7 +14,7 @@ title:
 A simple step bar in the vertical direction.
 
 ```tsx
-import { Steps } from 'infrad';
+import { Steps } from 'antd';
 import React from 'react';
 
 const { Step } = Steps;

@@ -14,15 +14,16 @@ title:
 Input type of password.
 
 ```tsx
-import { IInvisible, IView } from 'infra-design-icons';
-import { Input, Space } from 'infrad';
+import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
+import { Input, Space } from 'antd';
 import React from 'react';
 
 const App: React.FC = () => (
   <Space direction="vertical">
+    <Input.Password placeholder="input password" />
     <Input.Password
       placeholder="input password"
-      iconRender={visible => (visible ? <IView /> : <IInvisible />)}
+      iconRender={visible => (visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />)}
     />
   </Space>
 );
