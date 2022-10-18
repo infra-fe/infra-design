@@ -14,8 +14,8 @@ title:
 We can set the date format by `format`.
 
 ```tsx
-import type { DatePickerProps } from 'antd';
-import { DatePicker, Space } from 'antd';
+import type { DatePickerProps } from 'infrad';
+import { DatePicker, Space } from 'infrad';
 import moment from 'moment';
 import React from 'react';
 

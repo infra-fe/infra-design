@@ -14,7 +14,7 @@ title:
 Make it pop up under some conditions.
 
 ```tsx
-import { message, Popconfirm, Switch } from 'antd';
+import { message, Popconfirm, Switch } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

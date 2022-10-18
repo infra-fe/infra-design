@@ -15,7 +15,7 @@ title:
 Descriptions with border and background color.
 
 ```tsx
-import { Badge, Descriptions, Table } from 'antd';
+import { Badge, Descriptions, Table } from 'infrad';
 import React from 'react';
 
 const dataSource = [

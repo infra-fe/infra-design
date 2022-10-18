@@ -14,7 +14,7 @@ title:
 Should be used at the top of container, needs to override styles.
 
 ```tsx
-import { Tabs } from 'antd';
+import { Tabs } from 'infrad';
 import React from 'react';
 
 const items = new Array(3).fill(null).map((_, i) => {

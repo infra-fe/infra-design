@@ -15,7 +15,7 @@ Limit files with `maxCount`. Will replace current one when `maxCount` is `1`.
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import { Button, Space, Upload } from 'antd';
+import { Button, Space, Upload } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

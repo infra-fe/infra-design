@@ -16,7 +16,7 @@ https://github.com/ant-design/ant-design/issues/36165
 
 ```jsx
 import { PoweroffOutlined } from '@ant-design/icons';
-import { Button } from 'antd';
+import { Button } from 'infrad';
 import React from 'react';
 
 const Text1 = () => '部署';

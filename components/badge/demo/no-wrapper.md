@@ -17,7 +17,7 @@ Used in standalone when children is empty.
 
 ```tsx
 import { ClockCircleOutlined } from '@ant-design/icons';
-import { Badge, Space, Switch } from 'antd';
+import { Badge, Space, Switch } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

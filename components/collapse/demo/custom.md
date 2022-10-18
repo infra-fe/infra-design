@@ -15,7 +15,7 @@ Customize the background, border, margin styles and icon for each panel.
 
 ```tsx
 import { CaretRightOutlined } from '@ant-design/icons';
-import { Collapse } from 'antd';
+import { Collapse } from 'infrad';
 import React from 'react';
 
 const { Panel } = Collapse;

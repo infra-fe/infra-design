@@ -15,8 +15,8 @@ Generating a set of Tags by array, you can add and remove dynamically.
 
 ```tsx
 import { PlusOutlined } from '@ant-design/icons';
-import type { InputRef } from 'antd';
-import { Input, Tag, Tooltip } from 'antd';
+import type { InputRef } from 'infrad';
+import { Input, Tag, Tooltip } from 'infrad';
 import React, { useEffect, useRef, useState } from 'react';
 
 const App: React.FC = () => {

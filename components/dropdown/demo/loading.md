@@ -15,7 +15,7 @@ A loading indicator can be added to a button by setting the `loading` property o
 
 ```tsx
 import { DownOutlined } from '@ant-design/icons';
-import { Dropdown, Menu, Space } from 'antd';
+import { Dropdown, Menu, Space } from 'infrad';
 import React, { useState } from 'react';
 
 const menu = (

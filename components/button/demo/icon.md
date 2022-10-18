@@ -19,7 +19,7 @@ If you want specific control over the positioning and placement of the `Icon`, t
 
 ```tsx
 import { SearchOutlined } from '@ant-design/icons';
-import { Button, Tooltip } from 'antd';
+import { Button, Tooltip } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

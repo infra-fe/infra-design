@@ -23,7 +23,7 @@ import {
   SearchOutlined as SearchIcon,
   SmileOutlined,
 } from '@ant-design/icons';
-import type { RadioChangeEvent } from 'antd';
+import type { RadioChangeEvent } from 'infrad';
 import {
   Badge,
   Button,
@@ -43,8 +43,8 @@ import {
   Switch,
   Tree,
   TreeSelect,
-} from 'antd';
-import type { DirectionType } from 'antd/es/config-provider';
+} from 'infrad';
+import type { DirectionType } from 'infrad/es/config-provider';
 import React, { useState } from 'react';
 
 const InputGroup = Input.Group;

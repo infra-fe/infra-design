@@ -15,7 +15,7 @@ Set `icon` props to customize the icon.
 
 ```tsx
 import { QuestionCircleOutlined } from '@ant-design/icons';
-import { Popconfirm } from 'antd';
+import { Popconfirm } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

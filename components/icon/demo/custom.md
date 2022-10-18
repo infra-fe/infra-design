@@ -16,7 +16,7 @@ Create a reusable React component by using `<Icon component={...} />`. The prope
 ```tsx
 import Icon, { HomeOutlined } from '@ant-design/icons';
 import type { CustomIconComponentProps } from '@ant-design/icons/lib/components/Icon';
-import { Space } from 'antd';
+import { Space } from 'infrad';
 import React from 'react';
 
 const HeartSvg = () => (

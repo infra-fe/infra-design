@@ -14,7 +14,7 @@ title:
 Simplest Skeleton usage.
 
 ```tsx
-import { Skeleton } from 'antd';
+import { Skeleton } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Skeleton />;

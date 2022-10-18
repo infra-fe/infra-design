@@ -14,8 +14,8 @@ title:
 Custom each Transfer Item, and in this way you can render a complex datasource.
 
 ```tsx
-import { Transfer } from 'antd';
-import type { TransferDirection } from 'antd/es/transfer';
+import { Transfer } from 'infrad';
+import type { TransferDirection } from 'infrad/es/transfer';
 import React, { useEffect, useState } from 'react';
 
 interface RecordType {

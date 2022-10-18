@@ -14,7 +14,7 @@ title:
 Use ribbon badge.
 
 ```tsx
-import { Badge, Card } from 'antd';
+import { Badge, Card } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

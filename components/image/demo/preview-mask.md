@@ -16,7 +16,7 @@ Custom preview mask.
 
 ```tsx
 import { ZoomInOutlined } from '@ant-design/icons';
-import { Image, Space } from 'antd';
+import { Image, Space } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

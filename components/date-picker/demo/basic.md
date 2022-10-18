@@ -14,8 +14,8 @@ title:
 Basic use case. Users can select or input a date in panel.
 
 ```tsx
-import type { DatePickerProps } from 'antd';
-import { DatePicker, Space } from 'antd';
+import type { DatePickerProps } from 'infrad';
+import { DatePicker, Space } from 'infrad';
 import React from 'react';
 
 const onChange: DatePickerProps['onChange'] = (date, dateString) => {

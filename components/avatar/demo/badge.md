@@ -15,7 +15,7 @@ Usually used for reminders and notifications.
 
 ```tsx
 import { UserOutlined } from '@ant-design/icons';
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

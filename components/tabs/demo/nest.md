@@ -15,7 +15,7 @@ title:
 Default activate first tab.
 
 ```tsx
-import { Select, Tabs } from 'antd';
+import { Select, Tabs } from 'infrad';
 import React, { useState } from 'react';
 
 const { Option } = Select;

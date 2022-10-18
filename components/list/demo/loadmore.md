@@ -14,7 +14,7 @@ title:
 Load more list with `loadMore` property.
 
 ```tsx
-import { Avatar, Button, List, Skeleton } from 'antd';
+import { Avatar, Button, List, Skeleton } from 'infrad';
 import React, { useEffect, useState } from 'react';
 
 interface DataType {

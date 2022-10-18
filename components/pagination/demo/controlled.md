@@ -14,8 +14,8 @@ title:
 Controlled page number.
 
 ```tsx
-import type { PaginationProps } from 'antd';
-import { Pagination } from 'antd';
+import type { PaginationProps } from 'infrad';
+import { Pagination } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

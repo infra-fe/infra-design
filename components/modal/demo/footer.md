@@ -18,7 +18,7 @@ A more complex example which define a customized footer button bar. The dialog w
 You could set `footer` to `null` if you don't need default footer buttons.
 
 ```tsx
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

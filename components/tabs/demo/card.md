@@ -14,7 +14,7 @@ title:
 Another type of Tabs, which doesn't support vertical mode.
 
 ```tsx
-import { Tabs } from 'antd';
+import { Tabs } from 'infrad';
 import React from 'react';
 
 const onChange = (key: string) => {

@@ -14,7 +14,7 @@ title:
 Displaying a series of comments using the `antd` List Component.
 
 ```tsx
-import { Comment, List, Tooltip } from 'antd';
+import { Comment, List, Tooltip } from 'infrad';
 import React from 'react';
 
 const data = [

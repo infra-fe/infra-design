@@ -15,7 +15,7 @@ There are three sizes of an Input box: `large` (40px), `default` (32px) and `sma
 
 ```tsx
 import { UserOutlined } from '@ant-design/icons';
-import { Input } from 'antd';
+import { Input } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

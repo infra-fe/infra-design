@@ -30,7 +30,7 @@ import {
   Row,
   Select,
   Tooltip,
-} from 'antd';
+} from 'infrad';
 import React from 'react';
 
 const { Option } = Select;

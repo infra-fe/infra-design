@@ -14,7 +14,7 @@ title:
 Click the left and right switch buttons to preview multiple images.
 
 ```tsx
-import { Image } from 'antd';
+import { Image } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

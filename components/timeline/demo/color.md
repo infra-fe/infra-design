@@ -15,7 +15,7 @@ Set the color of circles. `green` means completed or success status, `red` means
 
 ```tsx
 import { SmileOutlined } from '@ant-design/icons';
-import { Timeline } from 'antd';
+import { Timeline } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

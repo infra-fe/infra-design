@@ -18,7 +18,7 @@ Display value within it's situation with `formatter`, and we usually use `parser
 > Here is a Intl.NumberFormat InputNumber implementation: [https://codesandbox.io/s/currency-wrapper-antd-input-3ynzo](https://codesandbox.io/s/currency-wrapper-antd-input-3ynzo)
 
 ```tsx
-import { InputNumber, Space } from 'antd';
+import { InputNumber, Space } from 'infrad';
 import React from 'react';
 
 const onChange = (value: number | string) => {

@@ -14,7 +14,7 @@ title:
 Basic modal.
 
 ```tsx
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

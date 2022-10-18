@@ -16,7 +16,7 @@ Basic use case. Users can select or input a date in panel.
 
 ```tsx
 import { SmileOutlined } from '@ant-design/icons';
-import { DatePicker, Space } from 'antd';
+import { DatePicker, Space } from 'infrad';
 import type { Moment } from 'moment';
 import React from 'react';
 

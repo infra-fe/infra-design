@@ -15,7 +15,7 @@ debug: true
 Display the title and paragraph.
 
 ```tsx
-import { Typography } from 'antd';
+import { Typography } from 'infrad';
 import React from 'react';
 
 const { Title, Paragraph, Text } = Typography;

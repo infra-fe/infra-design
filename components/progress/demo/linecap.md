@@ -14,7 +14,7 @@ title:
 By setting `strokeLinecap="butt"`, you can change the linecaps from `round` to `butt`, see [stroke-linecap](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linecap) for more information.
 
 ```tsx
-import { Progress } from 'antd';
+import { Progress } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

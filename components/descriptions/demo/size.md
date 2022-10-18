@@ -14,8 +14,8 @@ title:
 Custom sizes to fit in a variety of containers.
 
 ```tsx
-import type { RadioChangeEvent } from 'antd';
-import { Button, Descriptions, Radio } from 'antd';
+import type { RadioChangeEvent } from 'infrad';
+import { Button, Descriptions, Radio } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

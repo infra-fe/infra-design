@@ -19,8 +19,8 @@ If a large or small button is desired, set the `size` property to either `large`
 
 ```tsx
 import { DownloadOutlined } from '@ant-design/icons';
-import { Button, Radio } from 'antd';
-import type { SizeType } from 'antd/es/config-provider/SizeContext';
+import { Button, Radio } from 'infrad';
+import type { SizeType } from 'infrad/es/config-provider/SizeContext';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

@@ -14,7 +14,7 @@ title:
 Using `reverse` to render slider reversely.
 
 ```tsx
-import { Slider, Switch } from 'antd';
+import { Slider, Switch } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

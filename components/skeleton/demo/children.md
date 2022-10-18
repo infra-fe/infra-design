@@ -14,7 +14,7 @@ title:
 Skeleton contains sub component.
 
 ```tsx
-import { Button, Skeleton } from 'antd';
+import { Button, Skeleton } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

@@ -15,7 +15,7 @@ title:
 Test Badge style.
 
 ```tsx
-import { Badge, Radio } from 'antd';
+import { Badge, Radio } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

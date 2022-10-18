@@ -15,7 +15,7 @@ Can customize each character using `(RateProps) => ReactNode`.
 
 ```tsx
 import { FrownOutlined, MehOutlined, SmileOutlined } from '@ant-design/icons';
-import { Rate } from 'antd';
+import { Rate } from 'infrad';
 import React from 'react';
 
 const customIcons: Record<number, React.ReactNode> = {

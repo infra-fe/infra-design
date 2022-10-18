@@ -15,7 +15,7 @@ Provide additional interactive capacity of editable and copyable.
 
 ```tsx
 import { CheckOutlined, HighlightOutlined, SmileFilled, SmileOutlined } from '@ant-design/icons';
-import { Divider, Radio, Typography } from 'antd';
+import { Divider, Radio, Typography } from 'infrad';
 import React, { useState } from 'react';
 
 const { Paragraph } = Typography;

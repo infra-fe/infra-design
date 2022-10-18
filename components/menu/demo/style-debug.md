@@ -16,8 +16,8 @@ buggy!
 
 ```tsx
 import { AppstoreOutlined, MailOutlined } from '@ant-design/icons';
-import type { MenuProps, MenuTheme } from 'antd';
-import { Menu, Switch } from 'antd';
+import type { MenuProps, MenuTheme } from 'infrad';
+import { Menu, Switch } from 'infrad';
 import React, { useState } from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];

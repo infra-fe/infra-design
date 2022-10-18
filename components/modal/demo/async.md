@@ -14,7 +14,7 @@ title:
 Asynchronously close a modal dialog when the OK button is pressed. For example, you can use this pattern when you submit a form.
 
 ```tsx
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

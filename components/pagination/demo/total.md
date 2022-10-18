@@ -14,7 +14,7 @@ title:
 You can show the total number of data by setting `showTotal`.
 
 ```tsx
-import { Pagination } from 'antd';
+import { Pagination } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

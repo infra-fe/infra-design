@@ -14,7 +14,7 @@ title:
 Custom each Segmented Item by ReactNode.
 
 ```jsx
-import { Avatar, Segmented } from 'antd';
+import { Avatar, Segmented } from 'infrad';
 import { UserOutlined } from '@ant-design/icons';
 
 export default () => (

@@ -19,8 +19,8 @@ We can upload serveral files at once in modern browsers by giving the input the 
 
 ```tsx
 import { InboxOutlined } from '@ant-design/icons';
-import type { UploadProps } from 'antd';
-import { message, Upload } from 'antd';
+import type { UploadProps } from 'infrad';
+import { message, Upload } from 'infrad';
 import React from 'react';
 
 const { Dragger } = Upload;

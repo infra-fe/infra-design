@@ -14,7 +14,7 @@ title:
 Cards usually cooperate with grid column layout in overview page.
 
 ```tsx
-import { Card, Col, Row } from 'antd';
+import { Card, Col, Row } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

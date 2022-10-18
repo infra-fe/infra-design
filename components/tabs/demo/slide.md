@@ -14,8 +14,8 @@ title:
 In order to fit in more tabs, they can slide left and right (or up and down).
 
 ```tsx
-import type { RadioChangeEvent } from 'antd';
-import { Radio, Tabs } from 'antd';
+import type { RadioChangeEvent } from 'infrad';
+import { Radio, Tabs } from 'infrad';
 import React, { useState } from 'react';
 
 type TabPosition = 'left' | 'right' | 'top' | 'bottom';

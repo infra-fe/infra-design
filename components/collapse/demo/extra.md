@@ -15,7 +15,7 @@ More than one panel can be expanded at a time, the first panel is initialized to
 
 ```tsx
 import { SettingOutlined } from '@ant-design/icons';
-import { Collapse, Select } from 'antd';
+import { Collapse, Select } from 'infrad';
 import React, { useState } from 'react';
 
 const { Panel } = Collapse;

@@ -15,8 +15,8 @@ Use `defaultFileList` for uploaded files when page init.
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import type { UploadProps } from 'antd';
-import { Button, Upload } from 'antd';
+import type { UploadProps } from 'infrad';
+import { Button, Upload } from 'infrad';
 import React from 'react';
 
 const props: UploadProps = {

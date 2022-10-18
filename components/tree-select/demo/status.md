@@ -15,7 +15,7 @@ title:
 Add status to TreeSelect with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { Space, TreeSelect } from 'antd';
+import { Space, TreeSelect } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

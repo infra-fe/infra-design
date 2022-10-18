@@ -15,7 +15,7 @@ This will simply display a red badge, without a specific count. If count equals 
 
 ```tsx
 import { NotificationOutlined } from '@ant-design/icons';
-import { Badge } from 'antd';
+import { Badge } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

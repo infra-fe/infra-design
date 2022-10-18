@@ -14,7 +14,7 @@ title:
 Set size of numeral Badge.
 
 ```tsx
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -15,7 +15,7 @@ With text and icon.
 
 ```tsx
 import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
-import { Switch } from 'antd';
+import { Switch } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

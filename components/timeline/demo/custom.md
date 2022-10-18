@@ -15,7 +15,7 @@ Set a node as an icon or other custom element.
 
 ```tsx
 import { ClockCircleOutlined } from '@ant-design/icons';
-import { Timeline } from 'antd';
+import { Timeline } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

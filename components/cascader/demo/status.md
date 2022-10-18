@@ -15,7 +15,7 @@ title:
 Add status to Cascader with `status`, which could be `error` or `warning`.
 
 ```tsx
-import { Cascader, Space } from 'antd';
+import { Cascader, Space } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

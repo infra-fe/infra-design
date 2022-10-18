@@ -15,7 +15,7 @@ A dynamic progress bar is better.
 
 ```tsx
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
-import { Button, Progress } from 'antd';
+import { Button, Progress } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

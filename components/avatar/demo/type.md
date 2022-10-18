@@ -15,7 +15,7 @@ Image, Icon and letter are supported, and the latter two kinds of avatar can hav
 
 ```tsx
 import { UserOutlined } from '@ant-design/icons';
-import { Avatar, Image } from 'antd';
+import { Avatar, Image } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

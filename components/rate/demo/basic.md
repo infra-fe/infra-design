@@ -14,7 +14,7 @@ title:
 The simplest usage.
 
 ```tsx
-import { Rate } from 'antd';
+import { Rate } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Rate />;

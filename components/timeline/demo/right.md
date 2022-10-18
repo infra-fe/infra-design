@@ -15,7 +15,7 @@ Right alternate timeline.
 
 ```tsx
 import { ClockCircleOutlined } from '@ant-design/icons';
-import { Timeline } from 'antd';
+import { Timeline } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

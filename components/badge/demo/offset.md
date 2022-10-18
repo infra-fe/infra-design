@@ -14,7 +14,7 @@ title:
 Set offset of the badge dot, the format is `[left, top]`, which represents the offset of the status dot from the left and top of the default position.
 
 ```tsx
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

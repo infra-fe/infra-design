@@ -15,7 +15,7 @@ A basic comment with author, avatar, time and actions.
 
 ```tsx
 import { DislikeFilled, DislikeOutlined, LikeFilled, LikeOutlined } from '@ant-design/icons';
-import { Avatar, Comment, Tooltip } from 'antd';
+import { Avatar, Comment, Tooltip } from 'infrad';
 import React, { createElement, useState } from 'react';
 
 const App: React.FC = () => {

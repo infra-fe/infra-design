@@ -8,7 +8,7 @@ debug: true
 
 ```tsx
 import { SearchOutlined } from '@ant-design/icons';
-import { AutoComplete, Button, Form, Input, TreeSelect } from 'antd';
+import { AutoComplete, Button, Form, Input, TreeSelect } from 'infrad';
 import React from 'react';
 
 const formItemLayout = {

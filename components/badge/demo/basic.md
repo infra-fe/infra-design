@@ -15,7 +15,7 @@ Simplest Usage. Badge will be hidden when `count` is `0`, but we can use `showZe
 
 ```tsx
 import { ClockCircleOutlined } from '@ant-design/icons';
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -15,8 +15,8 @@ title:
 Custom the labels for select all checkboxs.
 
 ```tsx
-import { Transfer } from 'antd';
-import type { SelectAllLabel } from 'antd/es/transfer';
+import { Transfer } from 'infrad';
+import type { SelectAllLabel } from 'infrad/es/transfer';
 import React, { useState } from 'react';
 
 interface RecordType {

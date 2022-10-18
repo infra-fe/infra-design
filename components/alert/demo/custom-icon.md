@@ -16,7 +16,7 @@ A relevant icon makes information clearer and more friendly.
 
 ```tsx
 import { SmileOutlined } from '@ant-design/icons';
-import { Alert } from 'antd';
+import { Alert } from 'infrad';
 import React from 'react';
 
 const icon = <SmileOutlined />;

@@ -14,7 +14,7 @@ title:
 Complex combination with avatar and multiple paragraphs.
 
 ```tsx
-import { Skeleton } from 'antd';
+import { Skeleton } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Skeleton avatar paragraph={{ rows: 4 }} />;

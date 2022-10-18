@@ -15,7 +15,7 @@ The Tab with Icon.
 
 ```tsx
 import { AndroidOutlined, AppleOutlined } from '@ant-design/icons';
-import { Tabs } from 'antd';
+import { Tabs } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

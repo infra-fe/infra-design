@@ -14,7 +14,7 @@ title:
 Crowded components split.
 
 ```tsx
-import { Divider, Space, Typography } from 'antd';
+import { Divider, Space, Typography } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

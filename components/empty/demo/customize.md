@@ -14,7 +14,7 @@ title:
 Customize image source, image size, description and extra content.
 
 ```tsx
-import { Button, Empty } from 'antd';
+import { Button, Empty } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

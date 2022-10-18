@@ -14,7 +14,7 @@ title:
 Basic usage example.
 
 ```tsx
-import { Input } from 'antd';
+import { Input } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Input placeholder="Basic usage" />;

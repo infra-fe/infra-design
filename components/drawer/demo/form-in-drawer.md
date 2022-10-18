@@ -15,7 +15,7 @@ Use a form in Drawer with a submit button.
 
 ```tsx
 import { PlusOutlined } from '@ant-design/icons';
-import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'antd';
+import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'infrad';
 import React, { useState } from 'react';
 
 const { Option } = Select;

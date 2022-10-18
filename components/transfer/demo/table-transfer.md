@@ -14,9 +14,9 @@ title:
 Customize render list with Table component.
 
 ```tsx
-import { Switch, Table, Tag, Transfer } from 'antd';
-import type { ColumnsType, TableRowSelection } from 'antd/es/table/interface';
-import type { TransferItem, TransferProps } from 'antd/es/transfer';
+import { Switch, Table, Tag, Transfer } from 'infrad';
+import type { ColumnsType, TableRowSelection } from 'infrad/es/table/interface';
+import type { TransferItem, TransferProps } from 'infrad/es/transfer';
 import difference from 'lodash/difference';
 import React, { useState } from 'react';
 

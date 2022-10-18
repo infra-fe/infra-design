@@ -14,7 +14,7 @@ title:
 Callback with affixed state.
 
 ```tsx
-import { Affix, Button } from 'antd';
+import { Affix, Button } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

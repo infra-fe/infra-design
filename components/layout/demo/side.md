@@ -30,8 +30,8 @@ import {
   TeamOutlined,
   UserOutlined,
 } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Breadcrumb, Layout, Menu } from 'antd';
+import type { MenuProps } from 'infrad';
+import { Breadcrumb, Layout, Menu } from 'infrad';
 import React, { useState } from 'react';
 
 const { Header, Content, Footer, Sider } = Layout;

@@ -14,7 +14,7 @@ title:
 Simplest Usage.
 
 ```tsx
-import { Descriptions } from 'antd';
+import { Descriptions } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

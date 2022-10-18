@@ -15,8 +15,8 @@ Use `showUploadList` for custom action icons of files.
 
 ```tsx
 import { StarOutlined, UploadOutlined } from '@ant-design/icons';
-import type { UploadProps } from 'antd';
-import { Button, Upload } from 'antd';
+import type { UploadProps } from 'infrad';
+import { Button, Upload } from 'infrad';
 import React from 'react';
 
 const props: UploadProps = {

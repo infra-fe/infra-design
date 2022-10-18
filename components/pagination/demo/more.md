@@ -14,7 +14,7 @@ title:
 More pages.
 
 ```tsx
-import { Pagination } from 'antd';
+import { Pagination } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Pagination defaultCurrent={6} total={500} />;

@@ -15,8 +15,8 @@ By using `itemRender`, we can integrate upload with react-dnd to implement drag 
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import { Button, Tooltip, Upload } from 'antd';
-import type { UploadFile, UploadProps } from 'antd/es/upload/interface';
+import { Button, Tooltip, Upload } from 'infrad';
+import type { UploadFile, UploadProps } from 'infrad/es/upload/interface';
 import update from 'immutability-helper';
 import React, { useCallback, useRef, useState } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';

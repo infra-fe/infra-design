@@ -25,7 +25,7 @@ import {
   Select,
   Switch,
   TreeSelect,
-} from 'antd';
+} from 'infrad';
 import React, { useState } from 'react';
 
 type SizeType = Parameters<typeof Form>[0]['size'];

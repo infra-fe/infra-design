@@ -15,7 +15,7 @@ You can use `scriptUrl` as an array after `@ant-design/icons@4.1.0`, manage icon
 
 ```tsx
 import { createFromIconfontCN } from '@ant-design/icons';
-import { Space } from 'antd';
+import { Space } from 'infrad';
 import React from 'react';
 
 const IconFont = createFromIconfontCN({

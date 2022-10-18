@@ -14,7 +14,7 @@ title:
 Components which need localization support are listed here, you can toggle the language in the demo.
 
 ```tsx
-import type { RadioChangeEvent } from 'antd';
+import type { RadioChangeEvent } from 'infrad';
 import {
   Button,
   Calendar,
@@ -28,9 +28,9 @@ import {
   Table,
   TimePicker,
   Transfer,
-} from 'antd';
-import enUS from 'antd/es/locale/en_US';
-import zhCN from 'antd/es/locale/zh_CN';
+} from 'infrad';
+import enUS from 'infrad/es/locale/en_US';
+import zhCN from 'infrad/es/locale/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 import React, { useState } from 'react';

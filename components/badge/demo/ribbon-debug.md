@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```tsx
-import { Badge, Card, Space } from 'antd';
+import { Badge, Card, Space } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

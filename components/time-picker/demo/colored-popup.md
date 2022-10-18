@@ -15,7 +15,7 @@ debug: true
 Passing custom class to `TimePicker` popup
 
 ```tsx
-import { TimePicker } from 'antd';
+import { TimePicker } from 'infrad';
 import type { Moment } from 'moment';
 import moment from 'moment';
 import React from 'react';

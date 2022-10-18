@@ -15,8 +15,8 @@ A button is on the left, and a related functional menu is on the right. You can 
 
 ```tsx
 import { DownOutlined, UserOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Button, Dropdown, Menu, message, Space, Tooltip } from 'antd';
+import type { MenuProps } from 'infrad';
+import { Button, Dropdown, Menu, message, Space, Tooltip } from 'infrad';
 import React from 'react';
 
 const handleButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {

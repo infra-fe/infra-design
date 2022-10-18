@@ -14,7 +14,7 @@ title:
 Comment can be used as an editor, so the user can customize the contents of the component.
 
 ```tsx
-import { Avatar, Button, Comment, Form, Input, List } from 'antd';
+import { Avatar, Button, Comment, Form, Input, List } from 'infrad';
 import moment from 'moment';
 import React, { useState } from 'react';
 

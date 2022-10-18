@@ -20,7 +20,7 @@ import {
   TimePicker,
   TreeSelect,
   Typography,
-} from 'antd';
+} from 'infrad';
 import React from 'react';
 
 const { Text } = Typography;

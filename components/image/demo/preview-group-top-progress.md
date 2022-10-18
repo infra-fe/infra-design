@@ -15,7 +15,7 @@ debug: true
 The progress is displayed at the top of the multi-image preview, and customization is supported
 
 ```jsx
-import { Image } from 'antd';
+import { Image } from 'infrad';
 
 const App = () => (
   <Image.PreviewGroup

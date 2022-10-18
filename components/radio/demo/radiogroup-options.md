@@ -14,8 +14,8 @@ title:
 Render radios by configuring `options`. Radio type can also be set through the `optionType` parameter.
 
 ```tsx
-import type { RadioChangeEvent } from 'antd';
-import { Radio } from 'antd';
+import type { RadioChangeEvent } from 'infrad';
+import { Radio } from 'infrad';
 import React, { useState } from 'react';
 
 const plainOptions = ['Apple', 'Pear', 'Orange'];

@@ -15,7 +15,7 @@ DEBUG
 DEBUG
 
 ```tsx
-import { Affix, Button } from 'antd';
+import { Affix, Button } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

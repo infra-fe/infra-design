@@ -15,7 +15,7 @@ version: < 4.23.0
 Default activate first tab.
 
 ```tsx
-import { Tabs } from 'antd';
+import { Tabs } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

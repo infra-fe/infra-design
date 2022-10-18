@@ -15,9 +15,9 @@ Use Aliyun OSS upload example.
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import type { UploadProps } from 'antd';
-import { Button, Form, message, Upload } from 'antd';
-import type { UploadFile } from 'antd/es/upload/interface';
+import type { UploadProps } from 'infrad';
+import { Button, Form, message, Upload } from 'infrad';
+import type { UploadFile } from 'infrad/es/upload/interface';
 import React, { useEffect, useState } from 'react';
 
 interface OSSDataType {

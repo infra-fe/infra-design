@@ -14,8 +14,8 @@ title:
 Basic usage of checkbox.
 
 ```tsx
-import { Checkbox } from 'antd';
-import type { CheckboxChangeEvent } from 'antd/es/checkbox';
+import { Checkbox } from 'infrad';
+import type { CheckboxChangeEvent } from 'infrad/es/checkbox';
 import React from 'react';
 
 const onChange = (e: CheckboxChangeEvent) => {

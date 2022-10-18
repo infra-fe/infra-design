@@ -14,7 +14,7 @@ title:
 Steps with progress.
 
 ```tsx
-import { Steps } from 'antd';
+import { Steps } from 'infrad';
 import React from 'react';
 
 const { Step } = Steps;

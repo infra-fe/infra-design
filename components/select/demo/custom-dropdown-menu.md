@@ -15,8 +15,8 @@ Customize the dropdown menu via `dropdownRender`. If you want to close the dropd
 
 ```tsx
 import { PlusOutlined } from '@ant-design/icons';
-import { Divider, Input, Select, Space, Button } from 'antd';
-import type { InputRef } from 'antd';
+import { Divider, Input, Select, Space, Button } from 'infrad';
+import type { InputRef } from 'infrad';
 import React, { useState, useRef } from 'react';
 
 const { Option } = Select;

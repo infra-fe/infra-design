@@ -14,7 +14,7 @@ title:
 Setting `onChange` makes Steps clickable.
 
 ```tsx
-import { Divider, Steps } from 'antd';
+import { Divider, Steps } from 'infrad';
 import React, { useState } from 'react';
 
 const { Step } = Steps;

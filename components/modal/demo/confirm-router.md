@@ -15,7 +15,7 @@ title:
 
 ```tsx
 import { ExclamationCircleOutlined } from '@ant-design/icons';
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'infrad';
 import React from 'react';
 
 const { confirm } = Modal;

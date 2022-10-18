@@ -14,9 +14,9 @@ title:
 There are 4 position options available.
 
 ```tsx
-import type { RadioChangeEvent } from 'antd';
-import { Carousel, Radio } from 'antd';
-import type { DotPosition } from 'antd/es/carousel';
+import type { RadioChangeEvent } from 'infrad';
+import { Carousel, Radio } from 'infrad';
+import type { DotPosition } from 'infrad/es/carousel';
 import React, { useState } from 'react';
 
 const contentStyle: React.CSSProperties = {

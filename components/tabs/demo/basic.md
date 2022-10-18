@@ -14,7 +14,7 @@ title:
 Default activate first tab.
 
 ```tsx
-import { Tabs } from 'antd';
+import { Tabs } from 'infrad';
 import React from 'react';
 
 const onChange = (key: string) => {

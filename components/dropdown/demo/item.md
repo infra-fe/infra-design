@@ -15,7 +15,7 @@ Divider and disabled menu item.
 
 ```tsx
 import { DownOutlined } from '@ant-design/icons';
-import { Dropdown, Menu, Space } from 'antd';
+import { Dropdown, Menu, Space } from 'infrad';
 import React from 'react';
 
 const menu = (

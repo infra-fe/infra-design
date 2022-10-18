@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```tsx
-import { Input } from 'antd';
+import { Input } from 'infrad';
 import React from 'react';
 
 const { TextArea } = Input;

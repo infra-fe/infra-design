@@ -14,7 +14,7 @@ title:
 Separate trigger button and result.
 
 ```tsx
-import { Cascader } from 'antd';
+import { Cascader } from 'infrad';
 import React, { useState } from 'react';
 
 interface Option {

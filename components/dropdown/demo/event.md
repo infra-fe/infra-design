@@ -15,8 +15,8 @@ An event will be triggered when you click menu items, in which you can make diff
 
 ```tsx
 import { DownOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Dropdown, Menu, message, Space } from 'antd';
+import type { MenuProps } from 'infrad';
+import { Dropdown, Menu, message, Space } from 'infrad';
 import React from 'react';
 
 const onClick: MenuProps['onClick'] = ({ key }) => {

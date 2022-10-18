@@ -14,7 +14,7 @@ title:
 Show warning style when `value` is out of range by control.
 
 ```tsx
-import { Button, InputNumber, Space } from 'antd';
+import { Button, InputNumber, Space } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

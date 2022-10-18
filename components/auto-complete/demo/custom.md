@@ -14,7 +14,7 @@ title:
 Customize Input Component
 
 ```tsx
-import { AutoComplete, Input } from 'antd';
+import { AutoComplete, Input } from 'infrad';
 import React, { useState } from 'react';
 
 const { TextArea } = Input;

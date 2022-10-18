@@ -14,7 +14,7 @@ title:
 Render addon contents to time picker panel's bottom.
 
 ```tsx
-import { Button, TimePicker } from 'antd';
+import { Button, TimePicker } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

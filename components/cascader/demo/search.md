@@ -18,8 +18,8 @@ Search and select options directly.
 > Now, `Cascader[showSearch]` doesn't support search on server, more info [#5547](https://github.com/ant-design/ant-design/issues/5547)
 
 ```tsx
-import { Cascader } from 'antd';
-import type { DefaultOptionType } from 'antd/es/cascader';
+import { Cascader } from 'infrad';
+import type { DefaultOptionType } from 'infrad/es/cascader';
 import React from 'react';
 
 interface Option {

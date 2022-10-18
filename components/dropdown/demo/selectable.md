@@ -15,7 +15,7 @@ Config Menu `selectable` prop to enable selectable ability.
 
 ```tsx
 import { DownOutlined } from '@ant-design/icons';
-import { Dropdown, Menu, Space, Typography } from 'antd';
+import { Dropdown, Menu, Space, Typography } from 'infrad';
 import React from 'react';
 
 const menu = (

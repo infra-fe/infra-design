@@ -14,7 +14,7 @@ title:
 The most basic example. The size of the floating layer depends on the contents region.
 
 ```tsx
-import { Button, Popover } from 'antd';
+import { Button, Popover } from 'infrad';
 import React from 'react';
 
 const content = (

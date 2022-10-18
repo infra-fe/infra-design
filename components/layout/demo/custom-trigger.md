@@ -21,7 +21,7 @@ import {
   UserOutlined,
   VideoCameraOutlined,
 } from '@ant-design/icons';
-import { Layout, Menu } from 'antd';
+import { Layout, Menu } from 'infrad';
 import React, { useState } from 'react';
 
 const { Header, Sider, Content } = Layout;

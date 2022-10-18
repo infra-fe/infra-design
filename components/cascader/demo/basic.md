@@ -14,7 +14,7 @@ title:
 Cascade selection box for selecting province/city/district.
 
 ```tsx
-import { Cascader } from 'antd';
+import { Cascader } from 'infrad';
 import React from 'react';
 
 interface Option {

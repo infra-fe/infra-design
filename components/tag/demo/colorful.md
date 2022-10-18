@@ -14,7 +14,7 @@ title:
 We preset a series of colorful tag styles for use in different situations. You can also set it to a hex color string for custom color.
 
 ```tsx
-import { Divider, Tag } from 'antd';
+import { Divider, Tag } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

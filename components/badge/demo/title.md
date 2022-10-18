@@ -15,7 +15,7 @@ debug: true
 The badge will display `title` when hovered over, instead of `count`.
 
 ```tsx
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

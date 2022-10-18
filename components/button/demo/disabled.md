@@ -14,7 +14,7 @@ title:
 To mark a button as disabled, add the `disabled` property to the `Button`.
 
 ```tsx
-import { Button } from 'antd';
+import { Button } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

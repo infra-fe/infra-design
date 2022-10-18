@@ -14,7 +14,7 @@ title:
 Set `icon` for Segmented Item.
 
 ```jsx
-import { Segmented } from 'antd';
+import { Segmented } from 'infrad';
 import { AppstoreOutlined, BarsOutlined } from '@ant-design/icons';
 
 export default () => (

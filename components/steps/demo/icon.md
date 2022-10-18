@@ -15,7 +15,7 @@ You can use your own custom icons by setting the property `icon` for `Steps.Step
 
 ```tsx
 import { LoadingOutlined, SmileOutlined, SolutionOutlined, UserOutlined } from '@ant-design/icons';
-import { Steps } from 'antd';
+import { Steps } from 'infrad';
 import React from 'react';
 
 const { Step } = Steps;

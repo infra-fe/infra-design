@@ -14,7 +14,7 @@ title:
 Display a global loading indicator, which is dismissed by itself asynchronously.
 
 ```tsx
-import { Button, message } from 'antd';
+import { Button, message } from 'infrad';
 import React from 'react';
 
 const success = () => {

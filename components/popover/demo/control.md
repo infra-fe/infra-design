@@ -14,7 +14,7 @@ title:
 Use `open` prop to control the display of the card.
 
 ```tsx
-import { Button, Popover } from 'antd';
+import { Button, Popover } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

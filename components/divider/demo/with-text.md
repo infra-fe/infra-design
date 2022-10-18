@@ -14,7 +14,7 @@ title:
 Divider with inner title, set `orientation="left/right"` to align it.
 
 ```tsx
-import { Divider } from 'antd';
+import { Divider } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

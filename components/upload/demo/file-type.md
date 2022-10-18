@@ -24,8 +24,8 @@ import {
   PictureTwoTone,
   PlusOutlined,
 } from '@ant-design/icons';
-import { Modal, Upload } from 'antd';
-import type { RcFile, UploadFile, UploadProps } from 'antd/es/upload/interface';
+import { Modal, Upload } from 'infrad';
+import type { RcFile, UploadFile, UploadProps } from 'infrad/es/upload/interface';
 import React, { useState } from 'react';
 
 const getBase64 = (file: RcFile): Promise<string> =>

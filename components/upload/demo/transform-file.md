@@ -15,8 +15,8 @@ Use `beforeUpload` for transform file before request such as add a watermark.
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import type { UploadProps } from 'antd';
-import { Button, Upload } from 'antd';
+import type { UploadProps } from 'infrad';
+import { Button, Upload } from 'infrad';
 import React from 'react';
 
 const props: UploadProps = {

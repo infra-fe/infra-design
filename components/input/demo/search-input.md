@@ -15,7 +15,7 @@ Example of creating a search box by grouping a standard input with a search butt
 
 ```tsx
 import { AudioOutlined } from '@ant-design/icons';
-import { Input, Space } from 'antd';
+import { Input, Space } from 'infrad';
 import React from 'react';
 
 const { Search } = Input;

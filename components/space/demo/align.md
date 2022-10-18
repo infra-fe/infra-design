@@ -14,7 +14,7 @@ title:
 Config item align.
 
 ```tsx
-import { Button, Space } from 'antd';
+import { Button, Space } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

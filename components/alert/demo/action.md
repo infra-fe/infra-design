@@ -14,7 +14,7 @@ title:
 Custom action.
 
 ```tsx
-import { Alert, Button, Space } from 'antd';
+import { Alert, Button, Space } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

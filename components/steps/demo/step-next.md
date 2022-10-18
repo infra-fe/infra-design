@@ -14,7 +14,7 @@ title:
 Cooperate with the content and buttons, to represent the progress of a process.
 
 ```tsx
-import { Button, message, Steps } from 'antd';
+import { Button, message, Steps } from 'infrad';
 import React, { useState } from 'react';
 
 const { Step } = Steps;

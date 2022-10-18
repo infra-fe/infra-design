@@ -14,8 +14,8 @@ title:
 Communicated with other components.
 
 ```tsx
-import { Button, Checkbox } from 'antd';
-import type { CheckboxChangeEvent } from 'antd/es/checkbox';
+import { Button, Checkbox } from 'infrad';
+import type { CheckboxChangeEvent } from 'infrad/es/checkbox';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

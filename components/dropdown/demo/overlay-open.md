@@ -15,8 +15,8 @@ The default is to close the menu when you click on menu items, this feature can 
 
 ```tsx
 import { DownOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Dropdown, Menu, Space } from 'antd';
+import type { MenuProps } from 'infrad';
+import { Dropdown, Menu, Space } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

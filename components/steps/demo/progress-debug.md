@@ -15,8 +15,8 @@ Buggy!
 Buggy!
 
 ```tsx
-import type { StepsProps } from 'antd';
-import { Button, Steps } from 'antd';
+import type { StepsProps } from 'infrad';
+import { Button, Steps } from 'infrad';
 import React, { useState } from 'react';
 
 const { Step } = Steps;

@@ -14,7 +14,7 @@ title:
 Bordered-less style component.
 
 ```tsx
-import { DatePicker, Space } from 'antd';
+import { DatePicker, Space } from 'infrad';
 import React from 'react';
 
 const { RangePicker } = DatePicker;

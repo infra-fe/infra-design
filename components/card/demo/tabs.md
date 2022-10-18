@@ -14,7 +14,7 @@ title:
 More content can be hosted.
 
 ```tsx
-import { Card } from 'antd';
+import { Card } from 'infrad';
 import React, { useState } from 'react';
 
 const tabList = [

@@ -14,9 +14,9 @@ title:
 Customize render list with Tree component.
 
 ```tsx
-import { Transfer, Tree } from 'antd';
-import type { TransferDirection, TransferItem } from 'antd/es/transfer';
-import type { DataNode } from 'antd/es/tree';
+import { Transfer, Tree } from 'infrad';
+import type { TransferDirection, TransferItem } from 'infrad/es/transfer';
+import type { DataNode } from 'infrad/es/tree';
 import React, { useState } from 'react';
 
 interface TreeTransferProps {

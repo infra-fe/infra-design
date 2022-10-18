@@ -15,7 +15,7 @@ debug: true
 Steps with progress dot style.
 
 ```tsx
-import { Divider, Steps } from 'antd';
+import { Divider, Steps } from 'infrad';
 import React from 'react';
 
 const { Step } = Steps;

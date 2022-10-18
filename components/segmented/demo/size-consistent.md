@@ -15,7 +15,7 @@ debug: true
 Keep consistent height with other components.
 
 ```jsx
-import { Button, Input, Select, Segmented } from 'antd';
+import { Button, Input, Select, Segmented } from 'infrad';
 
 export default () => (
   <>

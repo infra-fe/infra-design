@@ -16,7 +16,7 @@ When you need to use a custom `Icon`, you can set the `Icon` component as the pr
 
 ```tsx
 import { ArrowDownOutlined, ArrowUpOutlined } from '@ant-design/icons';
-import { InputNumber } from 'antd';
+import { InputNumber } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

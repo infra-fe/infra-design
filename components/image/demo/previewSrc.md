@@ -14,7 +14,7 @@ title:
 You can set different preview image.
 
 ```tsx
-import { Image } from 'antd';
+import { Image } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

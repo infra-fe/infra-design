@@ -14,7 +14,7 @@ title:
 We preset a series of colorful Tooltip styles for use in different situations.
 
 ```tsx
-import { Button, Divider, Tooltip } from 'antd';
+import { Button, Divider, Tooltip } from 'infrad';
 import React from 'react';
 
 const colors = [

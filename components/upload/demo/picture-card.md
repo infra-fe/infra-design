@@ -15,9 +15,9 @@ After users upload picture, the thumbnail will be shown in list. The upload butt
 
 ```tsx
 import { PlusOutlined } from '@ant-design/icons';
-import { Modal, Upload } from 'antd';
-import type { RcFile, UploadProps } from 'antd/es/upload';
-import type { UploadFile } from 'antd/es/upload/interface';
+import { Modal, Upload } from 'infrad';
+import type { RcFile, UploadProps } from 'infrad/es/upload';
+import type { UploadFile } from 'infrad/es/upload/interface';
 import React, { useState } from 'react';
 
 const getBase64 = (file: RcFile): Promise<string> =>

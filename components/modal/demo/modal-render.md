@@ -14,7 +14,7 @@ title:
 Custom modal content render. use `react-draggable` implements draggable.
 
 ```tsx
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'infrad';
 import React, { useRef, useState } from 'react';
 import type { DraggableData, DraggableEvent } from 'react-draggable';
 import Draggable from 'react-draggable';

@@ -14,8 +14,8 @@ title:
 Disabled part of dates and time by `disabledDate` and `disabledTime` respectively, and `disabledTime` only works with `showTime`.
 
 ```tsx
-import { DatePicker, Space } from 'antd';
-import type { RangePickerProps } from 'antd/es/date-picker';
+import { DatePicker, Space } from 'infrad';
+import type { RangePickerProps } from 'infrad/es/date-picker';
 import moment from 'moment';
 import React from 'react';
 

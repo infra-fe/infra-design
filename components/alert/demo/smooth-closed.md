@@ -14,7 +14,7 @@ title:
 Smoothly unmount Alert upon close.
 
 ```tsx
-import { Alert } from 'antd';
+import { Alert } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

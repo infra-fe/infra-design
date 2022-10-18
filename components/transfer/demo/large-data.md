@@ -14,8 +14,8 @@ title:
 large count of items with pagination.
 
 ```tsx
-import { Switch, Transfer } from 'antd';
-import type { TransferDirection } from 'antd/es/transfer';
+import { Switch, Transfer } from 'infrad';
+import type { TransferDirection } from 'infrad/es/transfer';
 import React, { useEffect, useState } from 'react';
 
 interface RecordType {

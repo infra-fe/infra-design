@@ -15,7 +15,7 @@ debug: true
 Use `style` to change default style.
 
 ```tsx
-import { Divider } from 'antd';
+import { Divider } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

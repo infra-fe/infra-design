@@ -19,9 +19,9 @@ Click to upload user's avatar, and validate size and format of picture with `bef
 
 ```tsx
 import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
-import { message, Upload } from 'antd';
-import type { UploadChangeParam } from 'antd/es/upload';
-import type { RcFile, UploadFile, UploadProps } from 'antd/es/upload/interface';
+import { message, Upload } from 'infrad';
+import type { UploadChangeParam } from 'infrad/es/upload';
+import type { RcFile, UploadFile, UploadProps } from 'infrad/es/upload/interface';
 import React, { useState } from 'react';
 
 const getBase64 = (img: RcFile, callback: (url: string) => void) => {

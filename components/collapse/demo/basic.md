@@ -14,7 +14,7 @@ title:
 By default, any number of panels can be expanded at a time. The first panel is expanded in this example.
 
 ```tsx
-import { Collapse } from 'antd';
+import { Collapse } from 'infrad';
 import React from 'react';
 
 const { Panel } = Collapse;

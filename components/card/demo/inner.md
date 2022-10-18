@@ -14,7 +14,7 @@ title:
 It can be placed inside the ordinary card to display the information of the multilevel structure.
 
 ```tsx
-import { Card } from 'antd';
+import { Card } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

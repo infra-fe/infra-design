@@ -14,8 +14,8 @@ title:
 Table pagination settings.
 
 ```tsx
-import { Radio, Space, Table, Tag } from 'antd';
-import type { ColumnsType } from 'antd/es/table';
+import { Radio, Space, Table, Tag } from 'infrad';
+import type { ColumnsType } from 'infrad/es/table';
 import React, { useState } from 'react';
 
 interface DataType {

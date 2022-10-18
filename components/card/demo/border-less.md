@@ -14,7 +14,7 @@ title:
 A borderless card on a gray background.
 
 ```tsx
-import { Card } from 'antd';
+import { Card } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

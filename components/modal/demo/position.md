@@ -14,7 +14,7 @@ title:
 You can use `centered`,`style.top` or other styles to set position of modal dialog.
 
 ```tsx
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

@@ -25,8 +25,8 @@ import {
   Select,
   Table,
   Tabs,
-} from 'antd';
-import type { SizeType } from 'antd/es/config-provider/SizeContext';
+} from 'infrad';
+import type { SizeType } from 'infrad/es/config-provider/SizeContext';
 import React, { useState } from 'react';
 
 const { TabPane } = Tabs;

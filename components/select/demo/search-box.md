@@ -14,7 +14,7 @@ title:
 Search with remote data.
 
 ```tsx
-import { Select } from 'antd';
+import { Select } from 'infrad';
 import jsonp from 'fetch-jsonp';
 import qs from 'qs';
 import React, { useState } from 'react';

@@ -14,7 +14,7 @@ title:
 Centered tabs.
 
 ```tsx
-import { Tabs } from 'antd';
+import { Tabs } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -14,7 +14,7 @@ title:
 Basic drawer.
 
 ```tsx
-import { Button, Drawer } from 'antd';
+import { Button, Drawer } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

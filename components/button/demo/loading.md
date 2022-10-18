@@ -15,7 +15,7 @@ A loading indicator can be added to a button by setting the `loading` property o
 
 ```tsx
 import { PoweroffOutlined } from '@ant-design/icons';
-import { Button, Space } from 'antd';
+import { Button, Space } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

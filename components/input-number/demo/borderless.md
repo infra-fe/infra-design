@@ -14,7 +14,7 @@ title:
 No border.
 
 ```tsx
-import { InputNumber } from 'antd';
+import { InputNumber } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <InputNumber min={1} max={10} defaultValue={3} bordered={false} />;

@@ -14,7 +14,7 @@ title:
 Read only, can't use mouse to interact.
 
 ```tsx
-import { Rate } from 'antd';
+import { Rate } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Rate disabled defaultValue={2} />;

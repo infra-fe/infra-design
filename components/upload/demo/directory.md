@@ -15,7 +15,7 @@ You can select and upload a whole directory.
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import { Button, Upload } from 'antd';
+import { Button, Upload } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

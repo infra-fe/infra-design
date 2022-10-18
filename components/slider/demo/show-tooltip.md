@@ -14,7 +14,7 @@ title:
 When `tooltip.open` is `true`, ToolTip will always show, or ToolTip will not show anyway, even if dragging or hovering.
 
 ```tsx
-import { Slider } from 'antd';
+import { Slider } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Slider defaultValue={30} tooltip={{ open: true }} />;

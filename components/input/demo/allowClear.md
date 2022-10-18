@@ -14,7 +14,7 @@ title:
 Input box with the remove icon, click the icon to delete everything.
 
 ```tsx
-import { Input } from 'antd';
+import { Input } from 'infrad';
 import React from 'react';
 
 const { TextArea } = Input;

@@ -15,7 +15,7 @@ If you are using [iconfont.cn](http://iconfont.cn/), you can use the icons in yo
 
 ```tsx
 import { createFromIconfontCN } from '@ant-design/icons';
-import { Space } from 'antd';
+import { Space } from 'infrad';
 import React from 'react';
 
 const IconFont = createFromIconfontCN({

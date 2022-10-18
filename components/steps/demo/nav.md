@@ -14,7 +14,7 @@ title:
 Navigation steps.
 
 ```tsx
-import { Steps } from 'antd';
+import { Steps } from 'infrad';
 import React, { useState } from 'react';
 
 const { Step } = Steps;

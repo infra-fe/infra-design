@@ -14,7 +14,7 @@ title:
 Customized description content.
 
 ```tsx
-import { Alert, Spin } from 'antd';
+import { Alert, Spin } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

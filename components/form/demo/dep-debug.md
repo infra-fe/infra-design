@@ -15,7 +15,7 @@ Buggy!
 Buggy!
 
 ```tsx
-import { Form, Input } from 'antd';
+import { Form, Input } from 'infrad';
 import React from 'react';
 
 let acc = 0;

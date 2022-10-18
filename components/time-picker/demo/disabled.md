@@ -14,7 +14,7 @@ title:
 A disabled state of the `TimePicker`.
 
 ```tsx
-import { TimePicker } from 'antd';
+import { TimePicker } from 'infrad';
 import moment from 'moment';
 import React from 'react';
 

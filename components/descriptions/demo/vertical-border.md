@@ -14,7 +14,7 @@ title:
 Descriptions with border and background color.
 
 ```tsx
-import { Badge, Descriptions } from 'antd';
+import { Badge, Descriptions } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

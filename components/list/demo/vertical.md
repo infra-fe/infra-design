@@ -15,7 +15,7 @@ Set the `itemLayout` property to `vertical` to create a vertical list.
 
 ```tsx
 import { LikeOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
-import { Avatar, List, Space } from 'antd';
+import { Avatar, List, Space } from 'infrad';
 import React from 'react';
 
 const data = Array.from({ length: 23 }).map((_, i) => ({

@@ -14,7 +14,7 @@ title:
 Click the image to zoom in.
 
 ```tsx
-import { Image } from 'antd';
+import { Image } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

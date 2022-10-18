@@ -14,7 +14,7 @@ title:
 Custom field names.
 
 ```tsx
-import { Cascader } from 'antd';
+import { Cascader } from 'infrad';
 import React from 'react';
 
 interface Option {

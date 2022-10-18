@@ -14,7 +14,7 @@ title:
 The `value` of time-related components is a `moment` object, which we need to pre-process it before we submit to server.
 
 ```tsx
-import { Button, DatePicker, Form, TimePicker } from 'antd';
+import { Button, DatePicker, Form, TimePicker } from 'infrad';
 import React from 'react';
 
 const { RangePicker } = DatePicker;

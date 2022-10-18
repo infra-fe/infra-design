@@ -14,7 +14,7 @@ title:
 Update content with unique key.
 
 ```tsx
-import { Button, notification } from 'antd';
+import { Button, notification } from 'infrad';
 import React from 'react';
 
 const key = 'updatable';

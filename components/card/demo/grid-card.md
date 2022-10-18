@@ -14,7 +14,7 @@ title:
 Grid style card content.
 
 ```tsx
-import { Card } from 'antd';
+import { Card } from 'infrad';
 import React from 'react';
 
 const gridStyle: React.CSSProperties = {

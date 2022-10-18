@@ -15,7 +15,7 @@ Controlled Segmented.
 
 ```tsx
 import React, { useState } from 'react';
-import { Segmented } from 'antd';
+import { Segmented } from 'infrad';
 
 const Demo: React.FC = () => {
   const [value, setValue] = useState<string | number>('Map');

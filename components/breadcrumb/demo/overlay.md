@@ -14,7 +14,7 @@ title:
 Breadcrumbs support drop down menu.
 
 ```tsx
-import { Breadcrumb, Menu } from 'antd';
+import { Breadcrumb, Menu } from 'infrad';
 import React from 'react';
 
 const menu = (

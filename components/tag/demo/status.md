@@ -22,7 +22,7 @@ import {
   MinusCircleOutlined,
   SyncOutlined,
 } from '@ant-design/icons';
-import { Divider, Tag } from 'antd';
+import { Divider, Tag } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -15,7 +15,7 @@ Input type of password.
 
 ```tsx
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
-import { Input, Space } from 'antd';
+import { Input, Space } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

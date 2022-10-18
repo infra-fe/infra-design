@@ -14,7 +14,7 @@ title:
 The most basic usage.
 
 ```jsx
-import { Segmented } from 'antd';
+import { Segmented } from 'infrad';
 
 export default () => <Segmented options={['Daily', 'Weekly', 'Monthly', 'Quarterly', 'Yearly']} />;
 ```

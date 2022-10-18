@@ -14,7 +14,7 @@ title:
 The simplest use.
 
 ```tsx
-import { Breadcrumb } from 'antd';
+import { Breadcrumb } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

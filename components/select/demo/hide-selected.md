@@ -14,7 +14,7 @@ title:
 Hide already selected options in the dropdown.
 
 ```tsx
-import { Select } from 'antd';
+import { Select } from 'infrad';
 import React, { useState } from 'react';
 
 const OPTIONS = ['Apples', 'Nails', 'Bananas', 'Helicopters'];

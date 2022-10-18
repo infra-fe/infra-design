@@ -15,7 +15,7 @@ The icon can be customized to any react node.
 
 ```tsx
 import { SmileOutlined } from '@ant-design/icons';
-import { Button, notification } from 'antd';
+import { Button, notification } from 'infrad';
 import React from 'react';
 
 const openNotification = () => {

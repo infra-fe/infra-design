@@ -15,7 +15,7 @@ Three sizes and two shapes are available.
 
 ```tsx
 import { UserOutlined } from '@ant-design/icons';
-import { Avatar } from 'antd';
+import { Avatar } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

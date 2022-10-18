@@ -14,8 +14,8 @@ title:
 Use react-sticky.
 
 ```tsx
-import type { TabsProps } from 'antd';
-import { Tabs } from 'antd';
+import type { TabsProps } from 'infrad';
+import { Tabs } from 'infrad';
 import React from 'react';
 import { Sticky, StickyContainer } from 'react-sticky';
 

@@ -20,8 +20,8 @@ This demo was created for debugging Menu styles inside Dropdown.
 
 ```tsx
 import { AppstoreOutlined, DownOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Dropdown, Menu, Space } from 'antd';
+import type { MenuProps } from 'infrad';
+import { Dropdown, Menu, Space } from 'infrad';
 import React from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];

@@ -16,7 +16,7 @@ Add status to InputNumber with `status`, which could be `error` or `warning`.
 
 ```tsx
 import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
-import { InputNumber, Space } from 'antd';
+import { InputNumber, Space } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

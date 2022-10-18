@@ -14,7 +14,7 @@ title:
 Allows for custom rendering of tags.
 
 ```tsx
-import { Select, Tag } from 'antd';
+import { Select, Tag } from 'infrad';
 import type { CustomTagProps } from 'rc-select/lib/BaseSelect';
 import React from 'react';
 

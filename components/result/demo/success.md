@@ -14,7 +14,7 @@ title:
 Show successful results.
 
 ```tsx
-import { Button, Result } from 'antd';
+import { Button, Result } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

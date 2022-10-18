@@ -15,7 +15,7 @@ Use `confirm()` to show a confirmation modal dialog. Let onCancel/onOk function 
 
 ```tsx
 import { ExclamationCircleOutlined } from '@ant-design/icons';
-import { Button, Modal, Space } from 'antd';
+import { Button, Modal, Space } from 'infrad';
 import React from 'react';
 
 const { confirm } = Modal;

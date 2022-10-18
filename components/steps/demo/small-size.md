@@ -14,7 +14,7 @@ title:
 By setting like this: `<Steps size="small">`, you can get a mini version.
 
 ```tsx
-import { Steps } from 'antd';
+import { Steps } from 'infrad';
 import React from 'react';
 
 const { Step } = Steps;

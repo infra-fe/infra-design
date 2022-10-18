@@ -15,8 +15,8 @@ Upload files manually after `beforeUpload` returns `false`.
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import { Button, message, Upload } from 'antd';
-import type { RcFile, UploadFile, UploadProps } from 'antd/es/upload/interface';
+import { Button, message, Upload } from 'infrad';
+import type { RcFile, UploadFile, UploadProps } from 'infrad/es/upload/interface';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

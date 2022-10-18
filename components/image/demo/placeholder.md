@@ -14,7 +14,7 @@ title:
 Progressive when large image loading.
 
 ```tsx
-import { Button, Image, Space } from 'antd';
+import { Button, Image, Space } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

@@ -14,8 +14,8 @@ title:
 For instance, add an external link after the selected value.
 
 ```tsx
-import { Cascader } from 'antd';
-import type { DefaultOptionType } from 'antd/es/cascader';
+import { Cascader } from 'infrad';
+import type { DefaultOptionType } from 'infrad/es/cascader';
 import React from 'react';
 
 interface Option {

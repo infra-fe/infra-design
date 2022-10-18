@@ -14,7 +14,7 @@ title:
 Use `tooltip.formatter` to format content of `Tooltip`. If `tooltip.formatter` is null, hide it.
 
 ```tsx
-import { Slider } from 'antd';
+import { Slider } from 'infrad';
 import React from 'react';
 
 const formatter = (value: number) => `${value}%`;

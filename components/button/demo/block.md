@@ -14,7 +14,7 @@ title:
 `block` property will make the button fit to its parent width.
 
 ```tsx
-import { Button } from 'antd';
+import { Button } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

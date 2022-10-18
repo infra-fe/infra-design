@@ -14,8 +14,8 @@ title:
 Responsive columns.
 
 ```tsx
-import { Table } from 'antd';
-import type { ColumnsType } from 'antd/es/table';
+import { Table } from 'infrad';
+import type { ColumnsType } from 'infrad/es/table';
 import React from 'react';
 
 interface DataType {

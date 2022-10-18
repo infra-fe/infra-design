@@ -14,7 +14,7 @@ title:
 Basic Usage, set data source of autocomplete with `options` property.
 
 ```tsx
-import { AutoComplete } from 'antd';
+import { AutoComplete } from 'infrad';
 import React, { useState } from 'react';
 
 const mockVal = (str: string, repeat = 1) => ({

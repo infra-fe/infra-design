@@ -14,7 +14,7 @@ title:
 A simple card only containing a content area.
 
 ```tsx
-import { Card } from 'antd';
+import { Card } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -16,7 +16,7 @@ Tests two Segmented synchronized states in controlled mode.
 
 ```jsx
 import { useState } from 'react';
-import { Segmented } from 'antd';
+import { Segmented } from 'infrad';
 
 const Demo = () => {
   const [foo, setFoo] = useState('AND');

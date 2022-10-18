@@ -15,7 +15,7 @@ Add a prefix inside input.
 
 ```tsx
 import { UserOutlined } from '@ant-design/icons';
-import { InputNumber } from 'antd';
+import { InputNumber } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

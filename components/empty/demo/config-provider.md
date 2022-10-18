@@ -25,7 +25,7 @@ import {
   Table,
   Transfer,
   TreeSelect,
-} from 'antd';
+} from 'infrad';
 import React, { useState } from 'react';
 
 const customizeRenderEmpty = () => (

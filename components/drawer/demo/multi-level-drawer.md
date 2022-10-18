@@ -14,7 +14,7 @@ title:
 Open a new drawer on top of an existing drawer to handle multi branch tasks.
 
 ```tsx
-import { Button, Drawer } from 'antd';
+import { Button, Drawer } from 'infrad';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

@@ -14,7 +14,7 @@ title:
 Comments can be nested.
 
 ```tsx
-import { Avatar, Comment } from 'antd';
+import { Avatar, Comment } from 'infrad';
 import React from 'react';
 
 const ExampleComment: React.FC<{ children?: React.ReactNode }> = ({ children }) => (

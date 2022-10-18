@@ -14,7 +14,7 @@ title:
 There are three sizes of an Segmented: `large` (40px), `default` (32px) and `small` (24px).
 
 ```jsx
-import { Segmented } from 'antd';
+import { Segmented } from 'infrad';
 
 export default () => (
   <>

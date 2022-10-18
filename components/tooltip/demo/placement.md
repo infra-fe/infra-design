@@ -14,7 +14,7 @@ title:
 There are 12 placement options available.
 
 ```tsx
-import { Button, Tooltip } from 'antd';
+import { Button, Tooltip } from 'infrad';
 import React from 'react';
 
 const text = <span>prompt text</span>;

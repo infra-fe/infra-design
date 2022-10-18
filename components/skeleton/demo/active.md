@@ -14,7 +14,7 @@ title:
 Display active animation.
 
 ```tsx
-import { Skeleton } from 'antd';
+import { Skeleton } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => <Skeleton active />;

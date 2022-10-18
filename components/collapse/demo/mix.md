@@ -14,7 +14,7 @@ title:
 `Collapse` is nested inside the `Collapse`.
 
 ```tsx
-import { Collapse } from 'antd';
+import { Collapse } from 'infrad';
 import React from 'react';
 
 const { Panel } = Collapse;

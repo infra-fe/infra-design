@@ -23,9 +23,9 @@ You can gain full control over filelist by configuring `fileList`. You can accom
 
 ```tsx
 import { UploadOutlined } from '@ant-design/icons';
-import type { UploadProps } from 'antd';
-import { Button, Upload } from 'antd';
-import type { UploadFile } from 'antd/es/upload/interface';
+import type { UploadProps } from 'infrad';
+import { Button, Upload } from 'infrad';
+import type { UploadFile } from 'infrad/es/upload/interface';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

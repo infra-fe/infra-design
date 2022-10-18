@@ -33,7 +33,7 @@ import {
   Select,
   TimePicker,
   TreeSelect,
-} from 'antd';
+} from 'infrad';
 import React from 'react';
 
 const { Option } = Select;

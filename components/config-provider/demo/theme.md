@@ -21,7 +21,7 @@ import {
   MailOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
-import type { SpaceProps, TreeSelectProps } from 'antd';
+import type { SpaceProps, TreeSelectProps } from 'infrad';
 import {
   Alert,
   Button,
@@ -56,7 +56,7 @@ import {
   Tree,
   TreeSelect,
   Typography,
-} from 'antd';
+} from 'infrad';
 import React, { useState } from 'react';
 import { SketchPicker } from 'react-color';
 

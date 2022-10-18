@@ -14,7 +14,7 @@ title:
 The badge can be wrapped with `a` tag to make it linkable.
 
 ```tsx
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

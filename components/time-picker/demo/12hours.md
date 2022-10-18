@@ -14,7 +14,7 @@ title:
 TimePicker of 12 hours format, with default format `h:mm:ss a`.
 
 ```tsx
-import { TimePicker } from 'antd';
+import { TimePicker } from 'infrad';
 import type { Moment } from 'moment';
 import React from 'react';
 

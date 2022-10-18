@@ -24,7 +24,7 @@ import {
   TwitterOutlined,
   YoutubeOutlined,
 } from '@ant-design/icons';
-import { Tag } from 'antd';
+import { Tag } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => (

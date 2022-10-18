@@ -14,7 +14,7 @@ value 和 onChange 需要配合使用。
 `value` and `onChange` should be used together,
 
 ```tsx
-import { TimePicker } from 'antd';
+import { TimePicker } from 'infrad';
 import type { Moment } from 'moment';
 import React, { useState } from 'react';
 

@@ -14,7 +14,7 @@ title:
 Simplest Usage with no description.
 
 ```tsx
-import { Empty } from 'antd';
+import { Empty } from 'infrad';
 
 const App: React.FC = () => <Empty description={false} />;
 

@@ -14,8 +14,8 @@ title:
 The default width (or height) of Drawer is `378px`, and there is a presetted large size `736px`.
 
 ```tsx
-import { Button, Drawer, Space } from 'antd';
-import type { DrawerProps } from 'antd/es/drawer';
+import { Button, Drawer, Space } from 'infrad';
+import type { DrawerProps } from 'infrad/es/drawer';
 import React, { useState } from 'react';
 
 const App: React.FC = () => {

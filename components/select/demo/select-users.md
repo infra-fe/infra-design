@@ -14,8 +14,8 @@ title:
 A complete multiple select sample with remote search, debounce fetch, ajax callback order flow, and loading state.
 
 ```tsx
-import { Select, Spin } from 'antd';
-import type { SelectProps } from 'antd/es/select';
+import { Select, Spin } from 'infrad';
+import type { SelectProps } from 'infrad/es/select';
 import debounce from 'lodash/debounce';
 import React, { useMemo, useRef, useState } from 'react';
 
