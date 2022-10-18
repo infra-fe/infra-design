@@ -1,5 +1,5 @@
+import EnterOutlined from '@ant-design/icons/EnterOutlined';
 import classNames from 'classnames';
-import { EnterOutlined } from 'infra-design-icons';
 import type { AutoSizeType } from 'rc-textarea/lib/ResizableTextArea';
 import KeyCode from 'rc-util/lib/KeyCode';
 import * as React from 'react';

@@ -4,7 +4,7 @@ import { Link } from 'bisheng/router';
 import classNames from 'classnames';
 import canUseDom from 'rc-util/lib/Dom/canUseDom';
 import { Input, Tooltip, Typography } from 'antd';
-import { SearchOutlined } from 'infra-design-icons';
+import { SearchOutlined } from '@ant-design/icons';
 import type { DocSearchProps, DocSearchModalProps } from 'docsearch-react-fork';
 import { useDocSearchKeyboardEvents } from 'docsearch-react-fork';
 import '@docsearch/css';

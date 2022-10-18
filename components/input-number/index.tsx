@@ -1,7 +1,9 @@
+import DownOutlined from '@ant-design/icons/DownOutlined';
+import UpOutlined from '@ant-design/icons/UpOutlined';
 import classNames from 'classnames';
-import { DownOutlined, UpOutlined } from 'infra-design-icons';
 import type { InputNumberProps as RcInputNumberProps } from 'rc-input-number';
 import RcInputNumber from 'rc-input-number';
+import type { ValueType } from 'rc-input-number/lib/utils/MiniDecimal';
 import * as React from 'react';
 import { useContext } from 'react';
 import { ConfigContext } from '../config-provider';

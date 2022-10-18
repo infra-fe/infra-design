@@ -8,7 +8,7 @@
 
 <div align="center">
 
-エンタープライズクラスの UI 設計言語と React UI ライブラリです。
+エンタープライズクラスのUI設計言語とReact UIライブラリです。
 
 [![CI status][github-action-image]][github-action-url] [![codecov][codecov-image]][codecov-url] [![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url]
 

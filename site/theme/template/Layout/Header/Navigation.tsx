@@ -2,12 +2,12 @@ import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import { Link } from 'bisheng/router';
 import classNames from 'classnames';
-import { MenuOutlined } from 'infra-design-icons';
 import * as React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { MenuOutlined } from '@ant-design/icons';
+import { getEcosystemGroup } from './More';
 import * as utils from '../../utils';
 import type { SharedProps } from './interface';
-import { getEcosystemGroup } from './More';
 
 import './Navigation.less';
 

@@ -1,5 +1,6 @@
+import ArrowLeftOutlined from '@ant-design/icons/ArrowLeftOutlined';
+import ArrowRightOutlined from '@ant-design/icons/ArrowRightOutlined';
 import classNames from 'classnames';
-import { ArrowLeftOutlined, ArrowRightOutlined } from 'infra-design-icons';
 import ResizeObserver from 'rc-resize-observer';
 import useState from 'rc-util/lib/hooks/useState';
 import * as React from 'react';
@@ -42,14 +43,14 @@ const renderBack = (
   }
   return (
     <LocaleReceiver componentName="PageHeader">
-      {({ back }: { back: string }) => (
+      {contextLocale => (
         <div className={`${prefixCls}-back`}>
           <TransButton
             onClick={(e?: React.MouseEvent<HTMLDivElement>) => {
               onBack?.(e);
             }}
             className={`${prefixCls}-back-button`}
-            aria-label={back}
+            aria-label={contextLocale.back}
           >
             {backIcon}
           </TransButton>

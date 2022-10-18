@@ -16,7 +16,7 @@ import {
   IssuesCloseOutlined,
   QuestionCircleOutlined,
   BgColorsOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import type { FooterColumn } from 'rc-footer/lib/column';
 import { getLocalizedPathname } from '../utils';
 

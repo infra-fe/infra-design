@@ -18,13 +18,14 @@ jobs:
     name: deploy preview
     runs-on: ubuntu-latest
     if: >
+      github.repository == 'ant-design/ant-design' &&
       github.event.workflow_run.conclusion == 'success'
     steps:
       - name: checkout
         uses: actions/checkout@v3
 
       - name: Download commit artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v2.23.0
         with:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           name: commit
@@ -34,7 +35,7 @@ jobs:
         run: echo "::set-output name=id::$(<commit.txt)"
 
       - name: Download branch artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v2.23.0
         with:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           name: branch
@@ -44,7 +45,7 @@ jobs:
         run: echo "::set-output name=id::$(<branch.txt)"
 
       - name: Download snapshots artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v2.23.0
         with:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           workflow_conclusion: success
@@ -52,12 +53,11 @@ jobs:
           path: imageSnapshots
 
       - name: Install
-        run: npm i fast-glob lodash argos-cli
+        run: npm i fast-glob lodash @argos-ci/core
 
-      - name: Upload argos-ci
+      - name: Upload on Argos
         id: deploy
         run: npm run argos
         env:
           ARGOS_TOKEN: ${{ secrets.ARGOS_TOKEN }}
-          ARGOS_GITHUB_BRANCH: ${{ steps.branch.outputs.id }}
-          ARGOS_GITHUB_COMMIT: ${{ steps.commit.outputs.id }}
+          ARGOS_PARALLEL_NONCE: ${{ github.run_id }}

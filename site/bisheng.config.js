@@ -27,7 +27,7 @@ function alertBabelConfig(rules) {
   });
 }
 
-const port = process.env.DEV_PORT || 8002;
+const port = process.env.DEV_PORT || 8001;
 
 module.exports = {
   port,

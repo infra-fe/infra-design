@@ -1,4 +1,4 @@
-import { DownOutlined } from 'infra-design-icons';
+import DownOutlined from '@ant-design/icons/DownOutlined';
 import { INTERNAL_COL_DEFINE } from 'rc-table';
 import type { FixedType } from 'rc-table/lib/interface';
 import type { DataNode, GetCheckDisabled } from 'rc-tree/lib/interface';

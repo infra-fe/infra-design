@@ -1,5 +1,5 @@
 import React from 'react';
-import { SmileOutlined } from 'infra-design-icons';
+import { SmileOutlined } from '@ant-design/icons';
 import message, { getInstance, type MessageType } from '..';
 import { act, render, fireEvent } from '../../../tests/utils';
 

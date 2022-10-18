@@ -3,9 +3,11 @@
     "baseUrl": "./",
     "paths": {
       "antd": ["components/index.tsx"],
-      "infrad": ["components/index.tsx"],
       "antd/es/*": ["components/*"],
-      "infrad/es/*": ["components/*"]
+      "antd/lib/*": ["components/*"],
+      "infrad": ["components/index.tsx"],
+      "infrad/es/*": ["components/*"],
+      "infrad/lib/*": ["components/*"]
     },
     "strictNullChecks": true,
     "module": "esnext",
@@ -20,7 +22,8 @@
     "noImplicitAny": true,
     "target": "es6",
     "lib": ["dom", "es2017"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "stripInternal": true
   },
   "exclude": ["node_modules", "lib", "es"]
 }

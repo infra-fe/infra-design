@@ -1,5 +1,5 @@
+import SearchOutlined from '@ant-design/icons/SearchOutlined';
 import classNames from 'classnames';
-import { SearchOutlined } from 'infra-design-icons';
 import { composeRef } from 'rc-util/lib/ref';
 import * as React from 'react';
 import Button from '../button';
@@ -67,6 +67,7 @@ const Search = React.forwardRef<InputRef, SearchProps>((props, ref) => {
     if (customOnSearch) {
       customOnSearch(inputRef.current?.input?.value!, e);
     }
+    onSearch(e);
   };
 
   const onPressEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {
