@@ -1,6 +1,5 @@
 import classNames from 'classnames';
 import { ISelector } from 'infra-design-icons';
-import CheckOutlined from '@ant-design/icons/CheckOutlined';
 import CloseOutlined from '@ant-design/icons/CloseOutlined';
 import RcSteps from 'rc-steps';
 import type { ProgressDotRender } from 'rc-steps/lib/Steps';

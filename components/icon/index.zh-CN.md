@@ -41,7 +41,7 @@ ReactDOM.render(<IconDisplay />, mountNode);
 其中我们提供了三种主题的图标，不同主题的 Icon 组件名为图标名加主题做为后缀。
 
 ```jsx
-import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
+import { StarOutlined, StarFilled, StarTwoTone } from 'infra-design-icons';
 
 <StarOutlined />
 <StarFilled />
@@ -71,7 +71,7 @@ import { StarOutlined, StarFilled, StarTwoTone } from '@ant-design/icons';
 所有的图标都会以 `<svg>` 标签渲染，可以使用 `style` 和 `className` 设置图标的大小和单色图标的颜色。例如：
 
 ```jsx
-import { MessageOutlined } from '@ant-design/icons';
+import { MessageOutlined } from 'infra-design-icons';
 
 <MessageOutlined style={{ fontSize: '16px', color: '#08c' }} />;
 ```
@@ -81,7 +81,7 @@ import { MessageOutlined } from '@ant-design/icons';
 对于双色图标，可以通过使用 `getTwoToneColor()` 和 `setTwoToneColor(colorString)` 来全局设置图标主色。
 
 ```jsx
-import { getTwoToneColor, setTwoToneColor } from '@ant-design/icons';
+import { getTwoToneColor, setTwoToneColor } from 'infra-design-icons';
 
 setTwoToneColor('#eb2f96');
 getTwoToneColor(); // #eb2f96
@@ -92,7 +92,7 @@ getTwoToneColor(); // #eb2f96
 在 `3.9.0` 之后，我们提供了一个 `createFromIconfontCN` 方法，方便开发者调用在 [iconfont.cn](http://iconfont.cn/) 上自行管理的图标。
 
 ```js
-import { createFromIconfontCN } from '@ant-design/icons';
+import { createFromIconfontCN } from 'infra-design-icons';
 
 const MyIcon = createFromIconfontCN({
   scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js', // 在 iconfont.cn 上生成
@@ -138,7 +138,7 @@ options 的配置项如下：
 ```
 
 ```jsx
-import Icon from '@ant-design/icons';
+import Icon from 'infra-design-icons';
 import MessageSvg from 'path/to/message.svg'; // path to your '*.svg' file.
 // in create-react-app:
 // import { ReactComponent as MessageSvg } from 'path/to/message.svg';

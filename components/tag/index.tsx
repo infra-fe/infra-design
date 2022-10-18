@@ -1,6 +1,5 @@
 import CloseOutlined from '@ant-design/icons/CloseOutlined';
 import classNames from 'classnames';
-import { CloseOutlined } from 'infra-design-icons';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
 

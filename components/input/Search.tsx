@@ -67,7 +67,6 @@ const Search = React.forwardRef<InputRef, SearchProps>((props, ref) => {
     if (customOnSearch) {
       customOnSearch(inputRef.current?.input?.value!, e);
     }
-    onSearch(e);
   };
 
   const onPressEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {

@@ -20,7 +20,7 @@ import {
   SettingFilled,
   SmileOutlined,
   SyncOutlined,
-} from '@ant-design/icons';
+} from 'infra-design-icons';
 import { Space } from 'infrad';
 import React from 'react';
 

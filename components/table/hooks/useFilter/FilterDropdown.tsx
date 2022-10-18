@@ -1,6 +1,5 @@
 import FilterFilled from '@ant-design/icons/FilterFilled';
 import classNames from 'classnames';
-import { FilterOutlined } from 'infra-design-icons';
 import isEqual from 'lodash/isEqual';
 import type { FieldDataNode } from 'rc-tree';
 import * as React from 'react';
@@ -467,7 +466,7 @@ function FilterDropdown<RecordType>(props: FilterDropdownProps<RecordType>) {
   } else if (column.filterIcon) {
     filterIcon = column.filterIcon;
   } else {
-    filterIcon = <FilterOutlined />;
+    filterIcon = <FilterFilled />;
   }
 
   const { direction } = React.useContext(ConfigContext);
