@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { CloseCircleFilled } from 'infra-design-icons';
+import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
 import type { InputProps as RcInputProps, InputRef } from 'rc-input';
 import RcInput from 'rc-input';
 import { composeRef } from 'rc-util/lib/ref';

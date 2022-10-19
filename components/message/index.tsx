@@ -1,11 +1,9 @@
+import CheckCircleFilled from 'infra-design-icons/CheckCircleFilled';
+import CloseCircleFilled from 'infra-design-icons/ICloseFullfiled';
+import ExclamationCircleFilled from 'infra-design-icons/INoticeCircleFilled';
+import InfoCircleFilled from 'infra-design-icons/InfoCircleFilled';
+import LoadingOutlined from 'infra-design-icons/LoadingOutlined';
 import classNames from 'classnames';
-import {
-  ICloseFullfiled,
-  IInformationFilled,
-  INoticeCircleFilled,
-  ISuccessFilled,
-  LoadingOutlined,
-} from 'infra-design-icons';
 import RCNotification from 'rc-notification';
 import type {
   NoticeContent,
@@ -122,10 +120,10 @@ export interface MessageType extends PromiseLike<any> {
 }
 
 const typeToIcon = {
-  info: IInformationFilled,
-  success: ISuccessFilled,
-  error: ICloseFullfiled,
-  warning: INoticeCircleFilled,
+  info: InfoCircleFilled,
+  success: CheckCircleFilled,
+  error: CloseCircleFilled,
+  warning: ExclamationCircleFilled,
   loading: LoadingOutlined,
 };
 

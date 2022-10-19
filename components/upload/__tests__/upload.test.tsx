@@ -467,7 +467,7 @@ describe('Upload', () => {
 
     const { container: wrapper } = render(<Upload {...props} />);
 
-    fireEvent.click(wrapper.querySelector('div.ant-upload-list-item .anticon-delete')!);
+    fireEvent.click(wrapper.querySelector('div.ant-upload-list-item .anticon-trash')!);
 
     setTimeout(() => {
       expect(mockRemove).toHaveBeenCalled();
@@ -502,7 +502,7 @@ describe('Upload', () => {
         onRemove={onRemove}
       />,
     );
-    fireEvent.click(container.querySelector('div.ant-upload-list-item .anticon-delete')!);
+    fireEvent.click(container.querySelector('div.ant-upload-list-item .anticon-trash')!);
 
     // uploadStart is a batch work which we need wait for react act
     await act(async () => {

@@ -134,7 +134,7 @@ describe('Upload List', () => {
     );
     expect(container.querySelectorAll('.ant-upload-list-item').length).toBe(2);
     fireEvent.click(
-      container.querySelectorAll('.ant-upload-list-item')[0].querySelector('.anticon-delete')!,
+      container.querySelectorAll('.ant-upload-list-item')[0].querySelector('.anticon-trash')!,
     );
 
     // Upload use Promise to wait remove action. Let's wait this also.
@@ -356,9 +356,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    fireEvent.click(wrapper.querySelectorAll('.anticon-eye')[0]);
+    fireEvent.click(wrapper.querySelectorAll('.anticon-view')[0]);
     expect(handlePreview).toHaveBeenCalledWith(fileList[0]);
-    fireEvent.click(wrapper.querySelectorAll('.anticon-eye')[1]);
+    fireEvent.click(wrapper.querySelectorAll('.anticon-view')[1]);
     expect(handlePreview).toHaveBeenCalledWith(fileList[1]);
 
     unmount();
@@ -377,9 +377,9 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    fireEvent.click(wrapper.querySelectorAll('.anticon-delete')[0]);
+    fireEvent.click(wrapper.querySelectorAll('.anticon-trash')[0]);
     expect(handleRemove).toHaveBeenCalledWith(fileList[0]);
-    fireEvent.click(wrapper.querySelectorAll('.anticon-delete')[1]);
+    fireEvent.click(wrapper.querySelectorAll('.anticon-trash')[1]);
     expect(handleRemove).toHaveBeenCalledWith(fileList[1]);
     await sleep();
     expect(handleChange.mock.calls.length).toBe(2);
@@ -1603,7 +1603,7 @@ describe('Upload List', () => {
       />,
     );
 
-    fireEvent.click(container.querySelector('.anticon-delete')!);
+    fireEvent.click(container.querySelector('.anticon-trash')!);
 
     // Wait for Upload sync
     for (let i = 0; i < 10; i += 1) {

@@ -90,10 +90,10 @@ describe('Select', () => {
         <Option value="1">1</Option>
       </Select>,
     );
-    expect(container.querySelectorAll('.anticon-down').length).toBe(1);
+    expect(container.querySelectorAll('.anticon-arrow-down').length).toBe(1);
     expect(container.querySelectorAll('.anticon-search').length).toBe(0);
     toggleOpen(container);
-    expect(container.querySelectorAll('.anticon-down').length).toBe(0);
+    expect(container.querySelectorAll('.anticon-arrow-down').length).toBe(0);
     expect(container.querySelectorAll('.anticon-search').length).toBe(1);
   });
 

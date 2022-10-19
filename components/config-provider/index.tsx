@@ -225,9 +225,7 @@ const ProviderChildren: React.FC<ProviderChildrenProps> = props => {
 
   let childNode = children;
   // Additional Form provider
-  let validateMessages: ValidateMessages = {
-    ...defaultLocale.Form?.defaultValidateMessages,
-  };
+  let validateMessages: ValidateMessages = {};
 
   if (locale) {
     validateMessages =

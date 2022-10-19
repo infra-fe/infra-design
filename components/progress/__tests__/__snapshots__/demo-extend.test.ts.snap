@@ -1,0 +1,1730 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/progress/demo/circle.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:76.82742735936014;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="75%"
+      >
+        75%
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-exception ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:91.59291283123217;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+      >
+        <span
+          aria-label="close"
+          class="anticon anticon-close"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="close"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M13.65 2.15a.5.5 0 11.7.7L9.21 8l5.46 5.46a.5.5 0 11-.71.7L8.5 8.72l-5.46 5.46a.5.5 0 01-.7-.71L7.78 8 2.65 2.85a.5.5 0 11.7-.7L8.5 7.29l5.15-5.14z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+      >
+        <span
+          aria-label="selector"
+          class="anticon anticon-selector"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="selector"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/circle-dynamic.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="0%"
+      >
+        0%
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-btn-group"
+  >
+    <button
+      class="ant-btn ant-btn-default ant-btn-icon-only"
+      type="button"
+    >
+      <span
+        aria-label="minus"
+        class="anticon anticon-minus"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="minus"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      class="ant-btn ant-btn-default ant-btn-icon-only"
+      type="button"
+    >
+      <span
+        aria-label="plus"
+        class="anticon anticon-plus"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="plus"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <defs>
+            <style />
+          </defs>
+          <path
+            d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+          />
+          <path
+            d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/circle-mini.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:80px;height:80px;font-size:18px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:209.7167966062084;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="30%"
+      >
+        30%
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-exception ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:80px;height:80px;font-size:18px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:91.59291283123217;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+      >
+        <span
+          aria-label="close"
+          class="anticon anticon-close"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="close"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M13.65 2.15a.5.5 0 11.7.7L9.21 8l5.46 5.46a.5.5 0 11-.71.7L8.5 8.72l-5.46 5.46a.5.5 0 01-.7-.71L7.78 8 2.65 2.85a.5.5 0 11.7-.7L8.5 7.29l5.15-5.14z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:80px;height:80px;font-size:18px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+      >
+        <span
+          aria-label="selector"
+          class="anticon anticon-selector"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="selector"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/dashboard.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:0;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:61.44671332616011;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:233.77685330464044;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="75%"
+      >
+        75%
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:270.7005669843205px 295.3097094374406;stroke-dashoffset:0;transform:rotate(105deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:270.7005669843205px 295.3097094374406;stroke-dashoffset:70.67514174608013;transform:rotate(105deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:270.7005669843205px 295.3097094374406;stroke-dashoffset:270.6905669843205;transform:rotate(105deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="75%"
+      >
+        75%
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/dynamic.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:0%;height:8px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="0%"
+    >
+      0%
+    </span>
+  </div>,
+  <div
+    class="ant-btn-group"
+  >
+    <button
+      class="ant-btn ant-btn-default ant-btn-icon-only"
+      type="button"
+    >
+      <span
+        aria-label="minus"
+        class="anticon anticon-minus"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="minus"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z"
+          />
+        </svg>
+      </span>
+    </button>
+    <button
+      class="ant-btn ant-btn-default ant-btn-icon-only"
+      type="button"
+    >
+      <span
+        aria-label="plus"
+        class="anticon anticon-plus"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="plus"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <defs>
+            <style />
+          </defs>
+          <path
+            d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+          />
+          <path
+            d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/format.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:76.82742735936014;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="75 Days"
+      >
+        75 Days
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="Done"
+      >
+        Done
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/gradient-line.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:99.9%;height:8px;background-image:linear-gradient(to right, #108ee9 0%, #87d068 100%)"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="99.9%"
+    >
+      99.9%
+    </span>
+  </div>,
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:99.9%;height:8px;background-image:linear-gradient(to right, #108ee9, #87d068)"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="99.9%"
+    >
+      99.9%
+    </span>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner ant-progress-circle-gradient"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <defs>
+          <lineargradient
+            id="undefined-gradient"
+            x1="100%"
+            x2="0%"
+            y1="0%"
+            y2="0%"
+          >
+            <stop
+              offset="0%"
+              stop-color="#108ee9"
+            />
+            <stop
+              offset="100%"
+              stop-color="#87d068"
+            />
+          </lineargradient>
+        </defs>
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke="url(#undefined-gradient)"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:32.53097094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="90%"
+      >
+        90%
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-success ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner ant-progress-circle-gradient"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <defs>
+          <lineargradient
+            id="undefined-gradient"
+            x1="100%"
+            x2="0%"
+            y1="0%"
+            y2="0%"
+          >
+            <stop
+              offset="0%"
+              stop-color="#108ee9"
+            />
+            <stop
+              offset="100%"
+              stop-color="#87d068"
+            />
+          </lineargradient>
+        </defs>
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke="url(#undefined-gradient)"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.2997094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+      >
+        <span
+          aria-label="selector"
+          class="anticon anticon-selector"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="selector"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M14 4.47c.29.3.29.77 0 1.06l-6.75 6.74c-.3.3-.77.3-1.06 0L1.94 8.02A.75.75 0 013 6.96l3.72 3.72 6.22-6.21c.29-.3.76-.3 1.06 0z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/line.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:30%;height:8px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="30%"
+    >
+      30%
+    </span>
+  </div>,
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:50%;height:8px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="50%"
+    >
+      50%
+    </span>
+  </div>,
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-exception ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:70%;height:8px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+    >
+      <span
+        aria-label="close-fullfiled"
+        class="anticon anticon-close-fullfiled"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close-fullfiled"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8 1a7 7 0 110 14A7 7 0 018 1zm0 6.3L5.88 5.16a.5.5 0 00-.77.64l.06.07L7.3 8l-2.12 2.12a.5.5 0 00.64.77l.07-.06L8 8.7l2.12 2.12a.5.5 0 00.77-.64l-.06-.07L8.7 8l2.12-2.12a.5.5 0 00-.64-.77l-.07.06L8 7.3 5.88 5.17 8 7.3z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>,
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:100%;height:8px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+    >
+      <span
+        aria-label="success-filled"
+        class="anticon anticon-success-filled"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="success-filled"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8 1a7 7 0 110 14A7 7 0 018 1zm3.15 4.93L7.1 9.98 4.85 7.73a.5.5 0 10-.7.71l2.6 2.6c.19.2.5.2.7 0l4.4-4.4a.5.5 0 00-.7-.71z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>,
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:50%;height:8px"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/line-mini.md extend context correctly 1`] = `
+<div
+  style="width:170px"
+>
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-small"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:30%;height:6px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="30%"
+    >
+      30%
+    </span>
+  </div>
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-active ant-progress-show-info ant-progress-small"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:50%;height:6px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="50%"
+    >
+      50%
+    </span>
+  </div>
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-exception ant-progress-show-info ant-progress-small"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:70%;height:6px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+    >
+      <span
+        aria-label="close-fullfiled"
+        class="anticon anticon-close-fullfiled"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close-fullfiled"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8 1a7 7 0 110 14A7 7 0 018 1zm0 6.3L5.88 5.16a.5.5 0 00-.77.64l.06.07L7.3 8l-2.12 2.12a.5.5 0 00.64.77l.07-.06L8 8.7l2.12 2.12a.5.5 0 00.77-.64l-.06-.07L8.7 8l2.12-2.12a.5.5 0 00-.64-.77l-.07.06L8 7.3 5.88 5.17 8 7.3z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-success ant-progress-show-info ant-progress-small"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:100%;height:6px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+    >
+      <span
+        aria-label="success-filled"
+        class="anticon anticon-success-filled"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="success-filled"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+        >
+          <path
+            d="M8 1a7 7 0 110 14A7 7 0 018 1zm3.15 4.93L7.1 9.98 4.85 7.73a.5.5 0 10-.7.71l2.6 2.6c.19.2.5.2.7 0l4.4-4.4a.5.5 0 00-.7-.71z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/progress/demo/linecap.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+        style="border-radius:0"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:75%;height:8px;border-radius:0"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="75%"
+    >
+      75%
+    </span>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="butt"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="butt"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:73.82742735936014;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="butt"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:295.3097094374406;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="75%"
+      >
+        75%
+      </span>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="butt"
+          stroke-width="6"
+          style="stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:0;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="butt"
+          stroke-width="6"
+          style="stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:58.44671332616011;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="0"
+          r="47"
+          stroke-linecap="butt"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:233.78685330464043;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="75%"
+      >
+        75%
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/segment.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-outer"
+    >
+      <div
+        class="ant-progress-inner"
+      >
+        <div
+          class="ant-progress-bg"
+          style="width:60%;height:8px"
+        />
+        <div
+          class="ant-progress-success-bg"
+          style="width:30%;height:8px"
+        />
+      </div>
+    </div>
+    <span
+      class="ant-progress-text"
+      title="60%"
+    >
+      60%
+    </span>
+  </div>,
+  <div>
+    <div
+      class="ant-tooltip"
+      style="opacity:0"
+    >
+      <div
+        class="ant-tooltip-content"
+      >
+        <div
+          class="ant-tooltip-arrow"
+        >
+          <span
+            class="ant-tooltip-arrow-content"
+          />
+        </div>
+        <div
+          class="ant-tooltip-inner"
+          role="tooltip"
+        >
+          3 done / 3 in progress / 4 to do
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:0;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:209.7167966062084;transform:rotate(18deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:295.3097094374406px 295.3097094374406;stroke-dashoffset:209.7167966062084;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="60%"
+      >
+        60%
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      class="ant-tooltip"
+      style="opacity:0"
+    >
+      <div
+        class="ant-tooltip-content"
+      >
+        <div
+          class="ant-tooltip-arrow"
+        >
+          <span
+            class="ant-tooltip-arrow-content"
+          />
+        </div>
+        <div
+          class="ant-tooltip-inner"
+          role="tooltip"
+        >
+          3 done / 3 in progress / 4 to do
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="ant-progress ant-progress-circle ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-inner"
+      style="width:120px;height:120px;font-size:24px"
+    >
+      <svg
+        class="ant-progress-circle"
+        viewBox="0 0 100 100"
+      >
+        <circle
+          class="ant-progress-circle-trail"
+          cx="50"
+          cy="50"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:0;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:166.6507973132483;transform:rotate(213deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+        <circle
+          class="ant-progress-circle-path"
+          cx="50"
+          cy="50"
+          opacity="1"
+          r="47"
+          stroke-linecap="round"
+          stroke-width="6"
+          style="stroke:#52C41A;stroke-dasharray:233.78685330464043px 295.3097094374406;stroke-dashoffset:166.6507973132483;transform:rotate(127.5deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s ease 0s, stroke-dasharray .3s ease 0s, stroke .3s, stroke-width .06s ease .3s, opacity .3s ease 0s;fill-opacity:0"
+        />
+      </svg>
+      <span
+        class="ant-progress-text"
+        title="60%"
+      >
+        60%
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      class="ant-tooltip"
+      style="opacity:0"
+    >
+      <div
+        class="ant-tooltip-content"
+      >
+        <div
+          class="ant-tooltip-arrow"
+        >
+          <span
+            class="ant-tooltip-arrow-content"
+          />
+        </div>
+        <div
+          class="ant-tooltip-inner"
+          role="tooltip"
+        >
+          3 done / 3 in progress / 4 to do
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/progress/demo/steps.md extend context correctly 1`] = `
+Array [
+  <div
+    class="ant-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-steps-outer"
+    >
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item"
+        style="width:14px;height:8px"
+      />
+      <span
+        class="ant-progress-text"
+        title="50%"
+      >
+        50%
+      </span>
+    </div>
+  </div>,
+  <br />,
+  <div
+    class="ant-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-steps-outer"
+    >
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item"
+        style="width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item"
+        style="width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item"
+        style="width:14px;height:8px"
+      />
+      <span
+        class="ant-progress-text"
+        title="30%"
+      >
+        30%
+      </span>
+    </div>
+  </div>,
+  <br />,
+  <div
+    class="ant-progress ant-progress-steps ant-progress-status-success ant-progress-show-info ant-progress-small"
+  >
+    <div
+      class="ant-progress-steps-outer"
+    >
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#389e0d;width:2px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#389e0d;width:2px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#389e0d;width:2px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#389e0d;width:2px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#389e0d;width:2px;height:8px"
+      />
+      <span
+        class="ant-progress-text"
+      >
+        <span
+          aria-label="success-filled"
+          class="anticon anticon-success-filled"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="success-filled"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+          >
+            <path
+              d="M8 1a7 7 0 110 14A7 7 0 018 1zm3.15 4.93L7.1 9.98 4.85 7.73a.5.5 0 10-.7.71l2.6 2.6c.19.2.5.2.7 0l4.4-4.4a.5.5 0 00-.7-.71z"
+            />
+          </svg>
+        </span>
+      </span>
+    </div>
+  </div>,
+  <br />,
+  <div
+    class="ant-progress ant-progress-steps ant-progress-status-normal ant-progress-show-info ant-progress-default"
+  >
+    <div
+      class="ant-progress-steps-outer"
+    >
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#389e0d;width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#389e0d;width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item ant-progress-steps-item-active"
+        style="background-color:#f5222d;width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item"
+        style="width:14px;height:8px"
+      />
+      <div
+        class="ant-progress-steps-item"
+        style="width:14px;height:8px"
+      />
+      <span
+        class="ant-progress-text"
+        title="60%"
+      >
+        60%
+      </span>
+    </div>
+  </div>,
+]
+`;

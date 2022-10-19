@@ -16,7 +16,7 @@ Config component and icon prefixCls.
 
 ```tsx
 import { SmileOutlined } from '@ant-design/icons';
-import { Button, ConfigProvider, Select } from 'infrad';
+import { Button, ConfigProvider, Select } from 'antd';
 import React, { useState } from 'react';
 
 // Ant Design site use `es` module for view
