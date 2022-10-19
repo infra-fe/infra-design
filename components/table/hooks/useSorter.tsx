@@ -194,7 +194,7 @@ function injectSorter<RecordType>(
             originOnClick?.(event);
           };
           cell.onKeyDown = (event: React.KeyboardEvent<HTMLElement>) => {
-            if (event.keyCode === KeyCode.ENTER && event.currentTarget === event.target) {
+            if (event.keyCode === KeyCode.ENTER) {
               triggerSorter({
                 column,
                 key: columnKey,
