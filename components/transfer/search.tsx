@@ -1,4 +1,4 @@
-import { ISearch } from 'infra-design-icons';
+import ISearch from 'infra-design-icons/ISearch';
 import * as React from 'react';
 
 import Input from '../input';

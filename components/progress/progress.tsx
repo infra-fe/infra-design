@@ -1,5 +1,8 @@
 import classNames from 'classnames';
-import { IClose, ICloseFullfiled, ISelector, ISuccessFilled } from 'infra-design-icons';
+import IClose from 'infra-design-icons/IClose';
+import ICloseFullfiled from 'infra-design-icons/ICloseFullfiled';
+import ISelector from 'infra-design-icons/ISelector';
+import ISuccessFilled from 'infra-design-icons/ISuccessFilled';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
 import { ConfigContext } from '../config-provider';

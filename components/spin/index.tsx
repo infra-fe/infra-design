@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { ILoading } from 'infra-design-icons';
+import ILoading from 'infra-design-icons/ILoading';
 import debounce from 'lodash/debounce';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';

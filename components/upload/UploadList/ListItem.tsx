@@ -1,5 +1,7 @@
 import classNames from 'classnames';
-import { DownloadOutlined, ITrash, IView } from 'infra-design-icons';
+import DownloadOutlined from 'infra-design-icons/DownloadOutlined';
+import ITrash from 'infra-design-icons/ITrash';
+import IView from 'infra-design-icons/IView';
 import CSSMotion from 'rc-motion';
 import * as React from 'react';
 import { ConfigContext } from '../../config-provider';
