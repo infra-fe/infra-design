@@ -8,7 +8,8 @@ function getTestRegex(libDir) {
   if (libDir === 'dist') {
     return 'demo\\.test\\.(j|t)s$';
   }
-  return '.*\\.test\\.(j|t)sx?$';
+  // return '.*\\.test\\.(j|t)sx?$';
+  return 'components/message/.*.test\\.(j|t)sx?$';
 }
 
 module.exports = {

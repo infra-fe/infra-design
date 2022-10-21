@@ -2,8 +2,8 @@ import React from 'react';
 import { act } from 'react-dom/test-utils';
 import type { ArgsProps, MessageType } from '..';
 import message, { getInstance } from '..';
+import { fireEvent, pureRender, render } from '../../../tests/utils';
 import ConfigProvider from '../../config-provider';
-import { render, fireEvent, pureRender } from '../../../tests/utils';
 
 describe('message.hooks', () => {
   beforeAll(() => {
@@ -87,7 +87,7 @@ describe('message.hooks', () => {
     const { container } = render(<Demo />);
     fireEvent.click(container.querySelector('button')!);
     expect(document.querySelectorAll('.my-test-message-notice').length).toBe(1);
-    expect(document.querySelectorAll('.anticon-check-circle').length).toBe(1);
+    expect(document.querySelectorAll('.anticon-success-filled').length).toBe(1);
     expect(document.querySelector('.hook-test-result')?.innerHTML).toEqual('bamboo');
   });
 
@@ -224,7 +224,7 @@ describe('message.hooks', () => {
     const { container, baseElement } = render(<Demo />);
     fireEvent.click(container.querySelector('button')!);
     expect(document.querySelectorAll('.my-test-message-notice').length).toBe(1);
-    expect(document.querySelectorAll('.anticon-check-circle').length).toBe(1);
+    expect(document.querySelectorAll('.anticon-success-filled').length).toBe(1);
     expect(document.querySelector('.hook-content')?.innerHTML).toEqual('happy');
     expect(document.querySelectorAll(`#${containerId}`).length).toBe(1);
     expect(baseElement.querySelectorAll(`#${containerId}`).length).toBe(1);
