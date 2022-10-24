@@ -9,6 +9,7 @@ timeline: true
 
 | infrad version | antd version | update content | time |
 | --- | --- | --- | --- |
+| 4.23.6 | 4.23.6 | Synchronize the update of antd 4.23.6 version | 2022-10-24 |
 | 4.22.6 | 4.22.6 | Synchronize the update of antd 4.22.6 version | 2022-08-18 |
 | 4.22.3 | 4.22.3 | 1.Synchronize the update of antd 4.22.3 version<br/>2.Modified the title's font size and font weight of the PageHeader component | 2022-08-04 |
 | 4.21.7 | 4.21.7 | Synchronize the update of antd 4.21.7 version | 2022-07-25 |
