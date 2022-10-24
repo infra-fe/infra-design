@@ -32,6 +32,8 @@ declare module 'rc-editor-mention';
 
 declare module 'rc-tabs*';
 
+declare module 'rc-rate';
+
 declare module '*.json' {
   const value: any;
   export const version: string;

@@ -1,7 +1,8 @@
-import classNames from 'classnames';
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
+import classNames from 'classnames';
 import type { InputProps as RcInputProps, InputRef } from 'rc-input';
 import RcInput from 'rc-input';
+import type { BaseInputProps } from 'rc-input/lib/interface';
 import { composeRef } from 'rc-util/lib/ref';
 import React, { forwardRef, useContext, useEffect, useRef } from 'react';
 import { ConfigContext } from '../config-provider';

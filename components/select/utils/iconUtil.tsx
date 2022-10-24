@@ -1,6 +1,5 @@
 import {
   IArrowDown,
-  IArrowUp,
   IClose,
   ICloseFullfiled,
   ISelector,
