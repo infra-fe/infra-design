@@ -14,7 +14,7 @@ title:
 Image, Icon and letter are supported, and the latter two kinds of avatar can have custom colors and background colors.
 
 ```tsx
-import { UserOutlined } from 'infra-design-icons';
+import { UserOutlined } from '@ant-design/icons';
 import { Avatar, Image } from 'infrad';
 import React from 'react';
 

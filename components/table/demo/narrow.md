@@ -16,7 +16,7 @@ There are two compacted table sizes: `middle` and `small`. The `small` size is u
 
 ```tsx
 import { Table } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
+import type { ColumnsType } from 'infrad/es/table';
 import React from 'react';
 
 interface DataType {

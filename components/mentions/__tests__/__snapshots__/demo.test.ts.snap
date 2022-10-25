@@ -112,6 +112,7 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
               class="ant-mentions"
             >
               <textarea
+                aria-required="true"
                 class="rc-textarea"
                 id="bio"
                 placeholder="You can use @ to ref user here"
@@ -146,7 +147,6 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
                 Submit
               </span>
             </button>
-               
             <button
               class="ant-btn ant-btn-default"
               type="button"
@@ -225,7 +225,7 @@ exports[`renders ./components/mentions/demo/status.md correctly 1`] = `
 >
   <div
     class="ant-space-item"
-    style="margin-bottom:16px"
+    style="margin-bottom:8px"
   >
     <div
       class="ant-mentions ant-mentions-status-error"

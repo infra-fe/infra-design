@@ -14,7 +14,7 @@ title:
 Use Aliyun OSS upload example.
 
 ```tsx
-import { IUpload } from 'infra-design-icons';
+import { UploadOutlined } from '@ant-design/icons';
 import type { UploadProps } from 'infrad';
 import { Button, Form, message, Upload } from 'infrad';
 import type { UploadFile } from 'infrad/es/upload/interface';
@@ -110,7 +110,7 @@ const AliyunOSSUpload = ({ value, onChange }: AliyunOSSUploadProps) => {
 
   return (
     <Upload {...uploadProps}>
-      <Button icon={<IUpload />}>Click to Upload</Button>
+      <Button icon={<UploadOutlined />}>Click to Upload</Button>
     </Upload>
   );
 };

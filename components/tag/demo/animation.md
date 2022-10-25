@@ -14,7 +14,7 @@ title:
 Animating the Tag by using [rc-tween-one](https://github.com/react-component/tween-one).
 
 ```tsx
-import { PlusOutlined } from 'infra-design-icons';
+import { PlusOutlined } from '@ant-design/icons';
 import type { InputRef } from 'infrad';
 import { Input, Tag } from 'infrad';
 import { TweenOneGroup } from 'rc-tween-one';

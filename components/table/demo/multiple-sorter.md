@@ -15,7 +15,7 @@ title:
 
 ```tsx
 import { Table } from 'infrad';
-import type { ColumnsType, TableProps } from 'infrad/lib/table';
+import type { ColumnsType, TableProps } from 'infrad/es/table';
 import React from 'react';
 
 interface DataType {

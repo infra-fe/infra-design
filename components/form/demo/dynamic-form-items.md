@@ -14,7 +14,7 @@ title:
 Nest dynamic field need extends `field`. Pass `field.name` to nest item.
 
 ```tsx
-import { MinusCircleOutlined, PlusOutlined } from 'infra-design-icons';
+import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
 import { Button, Form, Input, Space } from 'infrad';
 import React from 'react';
 

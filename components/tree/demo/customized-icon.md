@@ -20,9 +20,9 @@ import {
   FrownOutlined,
   MehOutlined,
   SmileOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import { Tree } from 'infrad';
-import type { DataNode } from 'infrad/lib/tree';
+import type { DataNode } from 'infrad/es/tree';
 import React from 'react';
 
 const treeData: DataNode[] = [

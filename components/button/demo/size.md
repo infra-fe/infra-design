@@ -13,12 +13,12 @@ title:
 
 ## en-US
 
-Infra Design supports a default button size as well as a large and small size.
+Ant Design supports a default button size as well as a large and small size.
 
 If a large or small button is desired, set the `size` property to either `large` or `small` respectively. Omit the `size` property for a button with the default size.
 
 ```tsx
-import { IDownload } from 'infra-design-icons';
+import { DownloadOutlined } from '@ant-design/icons';
 import { Button, Radio } from 'infrad';
 import type { SizeType } from 'infrad/es/config-provider/SizeContext';
 import React, { useState } from 'react';
@@ -47,13 +47,13 @@ const App: React.FC = () => {
         Link
       </Button>
       <br />
-      <Button type="primary" icon={<IDownload />} size={size} />
-      <Button type="primary" shape="circle" icon={<IDownload />} size={size} />
-      <Button type="primary" shape="round" icon={<IDownload />} size={size} />
-      <Button type="primary" shape="round" icon={<IDownload />} size={size}>
+      <Button type="primary" icon={<DownloadOutlined />} size={size} />
+      <Button type="primary" shape="circle" icon={<DownloadOutlined />} size={size} />
+      <Button type="primary" shape="round" icon={<DownloadOutlined />} size={size} />
+      <Button type="primary" shape="round" icon={<DownloadOutlined />} size={size}>
         Download
       </Button>
-      <Button type="primary" icon={<IDownload />} size={size}>
+      <Button type="primary" icon={<DownloadOutlined />} size={size}>
         Download
       </Button>
     </>

@@ -26,7 +26,7 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   PieChartOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import type { MenuProps } from 'infrad';
 import { Button, Menu } from 'infrad';
 import React, { useState } from 'react';

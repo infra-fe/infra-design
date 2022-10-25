@@ -16,7 +16,7 @@ Implement resizable column by integrate with [react-resizable](https://github.co
 
 ```tsx
 import { Table } from 'infrad';
-import type { ColumnsType, ColumnType } from 'infrad/lib/table';
+import type { ColumnsType, ColumnType } from 'infrad/es/table';
 import React, { useState } from 'react';
 import type { ResizeCallbackData } from 'react-resizable';
 import { Resizable } from 'react-resizable';

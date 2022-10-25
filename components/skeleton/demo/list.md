@@ -14,8 +14,8 @@ title:
 Use skeleton in list component.
 
 ```tsx
-import type Icon from 'infra-design-icons';
-import { LikeOutlined, MessageOutlined, StarOutlined } from 'infra-design-icons';
+import type Icon from '@ant-design/icons';
+import { LikeOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
 import { Avatar, List, Skeleton, Switch } from 'infrad';
 import React, { useState } from 'react';
 
@@ -29,7 +29,7 @@ const listData = Array.from({ length: 3 }).map((_, i) => ({
   title: `ant design part ${i}`,
   avatar: 'https://joeschmoe.io/api/v1/random',
   description:
-    'Infra Design, a design language for background applications, is refined by Ant UED Team.',
+    'Ant Design, a design language for background applications, is refined by Ant UED Team.',
   content:
     'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
 }));

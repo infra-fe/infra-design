@@ -18,7 +18,7 @@ Input.Group example.
 Note: You don't need `Col` to control the width in the `compact` mode.
 
 ```tsx
-import { CopyOutlined } from 'infra-design-icons';
+import { CopyOutlined } from '@ant-design/icons';
 import {
   AutoComplete,
   Button,

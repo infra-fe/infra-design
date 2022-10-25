@@ -14,7 +14,7 @@ title:
 Set `icon` props to customize the icon.
 
 ```tsx
-import { QuestionCircleOutlined } from 'infra-design-icons';
+import { QuestionCircleOutlined } from '@ant-design/icons';
 import { Popconfirm } from 'infrad';
 import React from 'react';
 

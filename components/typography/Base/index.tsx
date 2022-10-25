@@ -1,6 +1,8 @@
+import CheckOutlined from '@ant-design/icons/CheckOutlined';
+import CopyOutlined from '@ant-design/icons/CopyOutlined';
+import EditOutlined from '@ant-design/icons/EditOutlined';
 import classNames from 'classnames';
 import copy from 'copy-to-clipboard';
-import { CheckOutlined, CopyOutlined, EditOutlined } from 'infra-design-icons';
 import ResizeObserver from 'rc-resize-observer';
 import type { AutoSizeType } from 'rc-textarea/lib/ResizableTextArea';
 import toArray from 'rc-util/lib/Children/toArray';
@@ -104,7 +106,10 @@ function getNode(dom: React.ReactNode, defaultNode: React.ReactNode, needDom?: b
   return dom || (needDom && defaultNode);
 }
 
-function toList<T>(val: T | T[]): T[] {
+function toList<T extends any>(val: T | T[]): T[] {
+  if (val === false) {
+    return [false, false] as T[];
+  }
   return Array.isArray(val) ? val : [val];
 }
 
@@ -225,6 +230,7 @@ const Base = React.forwardRef((props: InternalBlockProps, ref: any) => {
   const [expanded, setExpanded] = React.useState(false);
   const [isJsEllipsis, setIsJsEllipsis] = React.useState(false);
   const [isNativeEllipsis, setIsNativeEllipsis] = React.useState(false);
+  const [isNativeVisible, setIsNativeVisible] = React.useState(true);
   const [enableEllipsis, ellipsisConfig] = useMergedConfig<EllipsisConfig>(ellipsis, {
     expandable: false,
   });
@@ -279,8 +285,10 @@ const Base = React.forwardRef((props: InternalBlockProps, ref: any) => {
   };
 
   const [ellipsisWidth, setEllipsisWidth] = React.useState(0);
-  const onResize = ({ offsetWidth }: { offsetWidth: number }) => {
+  const [ellipsisFontSize, setEllipsisFontSize] = React.useState(0);
+  const onResize = ({ offsetWidth }: { offsetWidth: number }, element: HTMLElement) => {
     setEllipsisWidth(offsetWidth);
+    setEllipsisFontSize(parseInt(window.getComputedStyle?.(element).fontSize, 10) || 0);
   };
 
   // >>>>> JS Ellipsis
@@ -305,7 +313,31 @@ const Base = React.forwardRef((props: InternalBlockProps, ref: any) => {
         setIsNativeEllipsis(currentEllipsis);
       }
     }
-  }, [enableEllipsis, cssEllipsis, children, cssLineClamp]);
+  }, [enableEllipsis, cssEllipsis, children, cssLineClamp, isNativeVisible]);
+
+  // https://github.com/ant-design/ant-design/issues/36786
+  // Use IntersectionObserver to check if element is invisible
+  React.useEffect(() => {
+    const textEle = typographyRef.current;
+    if (
+      typeof IntersectionObserver === 'undefined' ||
+      !textEle ||
+      !cssEllipsis ||
+      !mergedEnableEllipsis
+    ) {
+      return;
+    }
+
+    /* eslint-disable-next-line compat/compat */
+    const observer = new IntersectionObserver(() => {
+      setIsNativeVisible(!!textEle.offsetParent);
+    });
+    observer.observe(textEle!);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [cssEllipsis, mergedEnableEllipsis]);
 
   // ========================== Tooltip ===========================
   let tooltipProps: TooltipProps = {};
@@ -493,6 +525,7 @@ const Base = React.forwardRef((props: InternalBlockProps, ref: any) => {
               text={children}
               rows={rows}
               width={ellipsisWidth}
+              fontSize={ellipsisFontSize}
               onEllipsis={onJsEllipsis}
             >
               {(node, needEllipsis) => {

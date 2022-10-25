@@ -15,7 +15,7 @@ Debug usage
 Debug usage
 
 ```tsx
-import { DownloadOutlined } from 'infra-design-icons';
+import { DownloadOutlined } from '@ant-design/icons';
 import { Button, Tooltip } from 'infrad';
 import type { ButtonGroupProps } from 'infrad/es/button';
 import React from 'react';

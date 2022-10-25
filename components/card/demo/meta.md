@@ -1,5 +1,5 @@
 ---
-order: 11
+order: 9
 title:
   zh-CN: 支持更多内容配置
   en-US: Support more content configuration
@@ -14,7 +14,7 @@ title:
 A Card that supports `cover`, `avatar`, `title` and `description`.
 
 ```tsx
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from 'infra-design-icons';
+import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 import { Avatar, Card } from 'infrad';
 import React from 'react';
 

@@ -31,7 +31,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <Context.Provider value={{ name: 'Infra Design' }}>
+    <Context.Provider value={{ name: 'Ant Design' }}>
       {contextHolder}
       <Button type="primary" onClick={info}>
         Display normal message

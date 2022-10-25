@@ -14,7 +14,7 @@ title:
 Upload files manually after `beforeUpload` returns `false`.
 
 ```tsx
-import { IUpload } from 'infra-design-icons';
+import { UploadOutlined } from '@ant-design/icons';
 import { Button, message, Upload } from 'infrad';
 import type { RcFile, UploadFile, UploadProps } from 'infrad/es/upload/interface';
 import React, { useState } from 'react';
@@ -65,7 +65,7 @@ const App: React.FC = () => {
   return (
     <>
       <Upload {...props}>
-        <Button icon={<IUpload />}>Select File</Button>
+        <Button icon={<UploadOutlined />}>Select File</Button>
       </Upload>
       <Button
         type="primary"

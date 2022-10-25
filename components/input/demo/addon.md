@@ -14,7 +14,7 @@ title:
 Using pre & post tabs example.
 
 ```tsx
-import { SettingOutlined } from 'infra-design-icons';
+import { SettingOutlined } from '@ant-design/icons';
 import { Cascader, Input, Select, Space } from 'infrad';
 import React from 'react';
 
@@ -39,7 +39,7 @@ const App: React.FC = () => (
   <Space direction="vertical">
     <Input addonBefore="http://" addonAfter=".com" defaultValue="mysite" />
     <Input addonBefore={selectBefore} addonAfter={selectAfter} defaultValue="mysite" />
-    <Input addonAfter={<SettingOutlined style={{ color: '#999999' }} />} defaultValue="mysite" />
+    <Input addonAfter={<SettingOutlined />} defaultValue="mysite" />
     <Input addonBefore="http://" suffix=".com" defaultValue="mysite" />
     <Input
       addonBefore={<Cascader placeholder="cascader" style={{ width: 150 }} />}

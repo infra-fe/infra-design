@@ -15,7 +15,6 @@ Controlled Segmented.
 
 ```tsx
 import React, { useState } from 'react';
-
 import { Segmented } from 'infrad';
 
 const Demo: React.FC = () => {

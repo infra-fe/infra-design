@@ -1,15 +1,13 @@
+import CheckCircleFilled from '@ant-design/icons/CheckCircleFilled';
+import CheckCircleOutlined from '@ant-design/icons/CheckCircleOutlined';
+import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
+import CloseCircleOutlined from '@ant-design/icons/CloseCircleOutlined';
+import CloseOutlined from '@ant-design/icons/CloseOutlined';
+import ExclamationCircleFilled from '@ant-design/icons/ExclamationCircleFilled';
+import ExclamationCircleOutlined from '@ant-design/icons/ExclamationCircleOutlined';
+import InfoCircleFilled from '@ant-design/icons/InfoCircleFilled';
+import InfoCircleOutlined from '@ant-design/icons/InfoCircleOutlined';
 import classNames from 'classnames';
-import {
-  CheckCircleFilled,
-  CheckCircleOutlined,
-  CloseCircleFilled,
-  CloseCircleOutlined,
-  CloseOutlined,
-  ExclamationCircleFilled,
-  ExclamationCircleOutlined,
-  InfoCircleFilled,
-  InfoCircleOutlined,
-} from 'infra-design-icons';
 import CSSMotion from 'rc-motion';
 import type { ReactElement } from 'react';
 import * as React from 'react';
@@ -42,7 +40,7 @@ export interface AlertProps {
   className?: string;
   banner?: boolean;
   icon?: React.ReactNode;
-  /** Custome closeIcon */
+  /** Custom closeIcon */
   closeIcon?: React.ReactNode;
   action?: React.ReactNode;
   onMouseEnter?: React.MouseEventHandler<HTMLDivElement>;

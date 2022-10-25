@@ -14,12 +14,12 @@ title:
 Select different settings to see the result.
 
 ```tsx
-import { DownOutlined } from 'infra-design-icons';
+import { DownOutlined } from '@ant-design/icons';
 import type { RadioChangeEvent } from 'infrad';
 import { Form, Radio, Space, Switch, Table } from 'infrad';
-import type { SizeType } from 'infrad/lib/config-provider/SizeContext';
-import type { ColumnsType, TableProps } from 'infrad/lib/table';
-import type { ExpandableConfig, TableRowSelection } from 'infrad/lib/table/interface';
+import type { SizeType } from 'infrad/es/config-provider/SizeContext';
+import type { ColumnsType, TableProps } from 'infrad/es/table';
+import type { ExpandableConfig, TableRowSelection } from 'infrad/es/table/interface';
 import React, { useState } from 'react';
 
 interface DataType {

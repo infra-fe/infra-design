@@ -20,7 +20,7 @@ import {
   LinkOutlined,
   MailOutlined,
   SettingOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import { Divider, Menu, Switch } from 'infrad';
 import type { MenuProps, MenuTheme } from 'infrad/es/menu';
 import React, { useState } from 'react';

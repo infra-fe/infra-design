@@ -1,7 +1,9 @@
+import DownOutlined from '@ant-design/icons/DownOutlined';
+import UpOutlined from '@ant-design/icons/UpOutlined';
 import classNames from 'classnames';
-import { DownOutlined, UpOutlined } from 'infra-design-icons';
 import type { InputNumberProps as RcInputNumberProps } from 'rc-input-number';
 import RcInputNumber from 'rc-input-number';
+import type { ValueType } from 'rc-input-number/lib/utils/MiniDecimal';
 import * as React from 'react';
 import { useContext } from 'react';
 import { ConfigContext } from '../config-provider';
@@ -12,8 +14,6 @@ import { FormItemInputContext, NoFormStyle } from '../form/context';
 import { cloneElement } from '../_util/reactNode';
 import type { InputStatus } from '../_util/statusUtils';
 import { getMergedStatus, getStatusClassNames } from '../_util/statusUtils';
-
-type ValueType = string | number;
 
 export interface InputNumberProps<T extends ValueType = ValueType>
   extends Omit<RcInputNumberProps<T>, 'prefix' | 'size' | 'controls'> {

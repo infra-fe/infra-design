@@ -14,7 +14,7 @@ title:
 The icon should be placed in front of the text.
 
 ```tsx
-import { HomeOutlined, UserOutlined } from 'infra-design-icons';
+import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb } from 'infrad';
 import React from 'react';
 

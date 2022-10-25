@@ -19,8 +19,8 @@ You can control the indent width by setting `indentSize`.
 
 ```tsx
 import { Space, Switch, Table } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
-import type { TableRowSelection } from 'infrad/lib/table/interface';
+import type { ColumnsType } from 'infrad/es/table';
+import type { TableRowSelection } from 'infrad/es/table/interface';
 import React, { useState } from 'react';
 
 interface DataType {

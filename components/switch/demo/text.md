@@ -14,7 +14,7 @@ title:
 With text and icon.
 
 ```tsx
-import { CheckOutlined, CloseOutlined } from 'infra-design-icons';
+import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
 import { Switch } from 'infrad';
 import React from 'react';
 

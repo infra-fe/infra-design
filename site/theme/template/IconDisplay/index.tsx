@@ -10,7 +10,6 @@ import { FilledIcon, OutlinedIcon, TwoToneIcon } from './themeIcons';
 import type { CategoriesKeys } from './fields';
 import { categories } from './fields';
 import { categoriesShopee } from './fieldShopee';
-
 export enum ThemeType {
   Filled = 'Filled',
   Outlined = 'Outlined',

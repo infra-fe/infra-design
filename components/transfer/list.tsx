@@ -1,5 +1,5 @@
+import DownOutlined from '@ant-design/icons/DownOutlined';
 import classNames from 'classnames';
-import { DownOutlined } from 'infra-design-icons';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
 import Checkbox from '../checkbox';

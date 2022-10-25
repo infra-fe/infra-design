@@ -15,7 +15,7 @@ Customize Calendar header content.
 
 ```tsx
 import { Calendar, Col, Radio, Row, Select, Typography } from 'infrad';
-import type { CalendarMode } from 'infrad/lib/calendar/generateCalendar';
+import type { CalendarMode } from 'infrad/es/calendar/generateCalendar';
 import type { Moment } from 'moment';
 import React from 'react';
 

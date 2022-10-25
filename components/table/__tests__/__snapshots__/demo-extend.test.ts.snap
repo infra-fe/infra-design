@@ -35,6 +35,7 @@ exports[`renders ./components/table/demo/ajax.md extend context correctly 1`] = 
               >
                 <tr>
                   <th
+                    aria-label="Name sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -55,7 +56,7 @@ exports[`renders ./components/table/demo/ajax.md extend context correctly 1`] = 
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -74,7 +75,7 @@ exports[`renders ./components/table/demo/ajax.md extend context correctly 1`] = 
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -149,7 +150,7 @@ exports[`renders ./components/table/demo/ajax.md extend context correctly 1`] = 
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -522,7 +523,9 @@ exports[`renders ./components/table/demo/basic.md extend context correctly 1`] =
                         style="margin-right:16px"
                       >
                         <a>
-                          Invite John Brown
+                          Invite 
+                          <!-- -->
+                          John Brown
                         </a>
                       </div>
                       <div
@@ -576,7 +579,9 @@ exports[`renders ./components/table/demo/basic.md extend context correctly 1`] =
                         style="margin-right:16px"
                       >
                         <a>
-                          Invite Jim Green
+                          Invite 
+                          <!-- -->
+                          Jim Green
                         </a>
                       </div>
                       <div
@@ -635,7 +640,9 @@ exports[`renders ./components/table/demo/basic.md extend context correctly 1`] =
                         style="margin-right:16px"
                       >
                         <a>
-                          Invite Joe Black
+                          Invite 
+                          <!-- -->
+                          Joe Black
                         </a>
                       </div>
                       <div
@@ -1328,7 +1335,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                               >
                                 <div
                                   class="ant-space-item"
-                                  style="margin-right:16px"
+                                  style="margin-right:8px"
                                 >
                                   <button
                                     class="ant-btn ant-btn-primary ant-btn-sm"
@@ -1361,7 +1368,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                                 </div>
                                 <div
                                   class="ant-space-item"
-                                  style="margin-right:16px"
+                                  style="margin-right:8px"
                                 >
                                   <button
                                     class="ant-btn ant-btn-default ant-btn-sm"
@@ -1451,7 +1458,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                               >
                                 <div
                                   class="ant-space-item"
-                                  style="margin-right:16px"
+                                  style="margin-right:8px"
                                 >
                                   <button
                                     class="ant-btn ant-btn-primary ant-btn-sm"
@@ -1484,7 +1491,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                                 </div>
                                 <div
                                   class="ant-space-item"
-                                  style="margin-right:16px"
+                                  style="margin-right:8px"
                                 >
                                   <button
                                     class="ant-btn ant-btn-default ant-btn-sm"
@@ -1516,6 +1523,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                     </div>
                   </th>
                   <th
+                    aria-label="Address sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -1542,7 +1550,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                               <span
                                 aria-label="caret-up"
                                 class="anticon anticon-caret-up ant-table-column-sorter-up"
-                                role="img"
+                                role="presentation"
                               >
                                 <svg
                                   aria-hidden="true"
@@ -1561,7 +1569,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                               <span
                                 aria-label="caret-down"
                                 class="anticon anticon-caret-down ant-table-column-sorter-down"
-                                role="img"
+                                role="presentation"
                               >
                                 <svg
                                   aria-hidden="true"
@@ -1653,7 +1661,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                               >
                                 <div
                                   class="ant-space-item"
-                                  style="margin-right:16px"
+                                  style="margin-right:8px"
                                 >
                                   <button
                                     class="ant-btn ant-btn-primary ant-btn-sm"
@@ -1686,7 +1694,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md extend context c
                                 </div>
                                 <div
                                   class="ant-space-item"
-                                  style="margin-right:16px"
+                                  style="margin-right:8px"
                                 >
                                   <button
                                     class="ant-btn ant-btn-default ant-btn-sm"
@@ -3266,6 +3274,7 @@ Array [
                       Name
                     </th>
                     <th
+                      aria-label="Age sortable"
                       class="ant-table-cell ant-table-column-has-sorters"
                       tabindex="0"
                     >
@@ -3286,7 +3295,7 @@ Array [
                             <span
                               aria-label="caret-up"
                               class="anticon anticon-caret-up ant-table-column-sorter-up"
-                              role="img"
+                              role="presentation"
                             >
                               <svg
                                 aria-hidden="true"
@@ -3305,7 +3314,7 @@ Array [
                             <span
                               aria-label="caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down"
-                              role="img"
+                              role="presentation"
                             >
                               <svg
                                 aria-hidden="true"
@@ -3380,7 +3389,7 @@ Array [
                               width="1em"
                             >
                               <path
-                                d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                                d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                               />
                             </svg>
                           </span>
@@ -3576,6 +3585,7 @@ Array [
                       </div>
                     </th>
                     <th
+                      aria-label="Action sortable"
                       class="ant-table-cell ant-table-column-has-sorters"
                       tabindex="0"
                     >
@@ -3596,7 +3606,7 @@ Array [
                             <span
                               aria-label="caret-up"
                               class="anticon anticon-caret-up ant-table-column-sorter-up"
-                              role="img"
+                              role="presentation"
                             >
                               <svg
                                 aria-hidden="true"
@@ -3615,7 +3625,7 @@ Array [
                             <span
                               aria-label="caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down"
-                              role="img"
+                              role="presentation"
                             >
                               <svg
                                 aria-hidden="true"
@@ -3735,7 +3745,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -3839,7 +3849,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -3943,7 +3953,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4047,7 +4057,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4151,7 +4161,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4255,7 +4265,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4359,7 +4369,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4463,7 +4473,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4567,7 +4577,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4671,7 +4681,7 @@ Array [
                             >
                               <div
                                 class="ant-space-item"
-                                style="margin-right:16px"
+                                style="margin-right:8px"
                               >
                                 More actions
                               </div>
@@ -4922,21 +4932,21 @@ exports[`renders ./components/table/demo/edit-cell.md extend context correctly 1
                                   class="ant-popover-message"
                                 >
                                   <span
-                                    aria-label="notice-circle-filled"
-                                    class="anticon anticon-notice-circle-filled"
+                                    aria-label="exclamation-circle"
+                                    class="anticon anticon-exclamation-circle"
                                     role="img"
                                   >
                                     <svg
                                       aria-hidden="true"
-                                      data-icon="notice-circle-filled"
+                                      data-icon="exclamation-circle"
                                       fill="currentColor"
                                       focusable="false"
                                       height="1em"
-                                      viewBox="0 0 16 16"
+                                      viewBox="64 64 896 896"
                                       width="1em"
                                     >
                                       <path
-                                        d="M14.58 5.28A6.98 6.98 0 008.13 1a6.96 6.96 0 00-6.45 4.28 6.96 6.96 0 001.5 7.67 6.99 6.99 0 0011.4-7.67zm-6.45 6.66a.88.88 0 110-1.75.88.88 0 010 1.75zm.88-7c0 .06 0 .11-.02.16l-.42 3.82a.44.44 0 01-.87 0L7.27 5.1a.8.8 0 01-.01-.15V4.9a.88.88 0 011.75 0v.03z"
+                                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
                                       />
                                     </svg>
                                   </span>
@@ -5029,21 +5039,21 @@ exports[`renders ./components/table/demo/edit-cell.md extend context correctly 1
                                   class="ant-popover-message"
                                 >
                                   <span
-                                    aria-label="notice-circle-filled"
-                                    class="anticon anticon-notice-circle-filled"
+                                    aria-label="exclamation-circle"
+                                    class="anticon anticon-exclamation-circle"
                                     role="img"
                                   >
                                     <svg
                                       aria-hidden="true"
-                                      data-icon="notice-circle-filled"
+                                      data-icon="exclamation-circle"
                                       fill="currentColor"
                                       focusable="false"
                                       height="1em"
-                                      viewBox="0 0 16 16"
+                                      viewBox="64 64 896 896"
                                       width="1em"
                                     >
                                       <path
-                                        d="M14.58 5.28A6.98 6.98 0 008.13 1a6.96 6.96 0 00-6.45 4.28 6.96 6.96 0 001.5 7.67 6.99 6.99 0 0011.4-7.67zm-6.45 6.66a.88.88 0 110-1.75.88.88 0 010 1.75zm.88-7c0 .06 0 .11-.02.16l-.42 3.82a.44.44 0 01-.87 0L7.27 5.1a.8.8 0 01-.01-.15V4.9a.88.88 0 011.75 0v.03z"
+                                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
                                       />
                                     </svg>
                                   </span>
@@ -7123,7 +7133,7 @@ exports[`renders ./components/table/demo/filter-in-tree.md extend context correc
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -7531,6 +7541,7 @@ exports[`renders ./components/table/demo/filter-in-tree.md extend context correc
                     </div>
                   </th>
                   <th
+                    aria-label="Age sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -7551,7 +7562,7 @@ exports[`renders ./components/table/demo/filter-in-tree.md extend context correc
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -7570,7 +7581,7 @@ exports[`renders ./components/table/demo/filter-in-tree.md extend context correc
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -7645,7 +7656,7 @@ exports[`renders ./components/table/demo/filter-in-tree.md extend context correc
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -8119,7 +8130,7 @@ exports[`renders ./components/table/demo/filter-search.md extend context correct
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -8351,6 +8362,7 @@ exports[`renders ./components/table/demo/filter-search.md extend context correct
                     </div>
                   </th>
                   <th
+                    aria-label="Age sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -8371,7 +8383,7 @@ exports[`renders ./components/table/demo/filter-search.md extend context correct
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -8390,7 +8402,7 @@ exports[`renders ./components/table/demo/filter-search.md extend context correct
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -8465,7 +8477,7 @@ exports[`renders ./components/table/demo/filter-search.md extend context correct
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -8546,9 +8558,7 @@ exports[`renders ./components/table/demo/filter-search.md extend context correct
                                     </span>
                                   </label>
                                   <span>
-                                    <span>
-                                      London
-                                    </span>
+                                    London
                                   </span>
                                 </span>
                               </li>
@@ -8598,9 +8608,7 @@ exports[`renders ./components/table/demo/filter-search.md extend context correct
                                     </span>
                                   </label>
                                   <span>
-                                    <span>
-                                      New York
-                                    </span>
+                                    New York
                                   </span>
                                 </span>
                               </li>
@@ -8997,7 +9005,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9006,7 +9013,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9015,7 +9021,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9024,7 +9029,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9033,7 +9037,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9042,7 +9045,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9051,7 +9053,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9060,7 +9061,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9069,7 +9069,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9078,7 +9077,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9087,7 +9085,6 @@ exports[`renders ./components/table/demo/fixed-columns.md extend context correct
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                 </tr>
@@ -9455,7 +9452,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9464,7 +9460,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9473,7 +9468,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9482,7 +9476,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9491,7 +9484,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9500,7 +9492,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9509,7 +9500,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9518,7 +9508,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9527,7 +9516,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9536,7 +9524,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -9545,7 +9532,6 @@ exports[`renders ./components/table/demo/fixed-columns-header.md extend context 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                 </tr>
@@ -10640,7 +10626,6 @@ exports[`renders ./components/table/demo/fixed-header.md extend context correctl
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -10649,7 +10634,6 @@ exports[`renders ./components/table/demo/fixed-header.md extend context correctl
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -10658,7 +10642,6 @@ exports[`renders ./components/table/demo/fixed-header.md extend context correctl
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                 </tr>
@@ -12006,7 +11989,7 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -12223,6 +12206,7 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                 </tr>
                 <tr>
                   <th
+                    aria-label="Age sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     rowspan="3"
                     tabindex="0"
@@ -12244,7 +12228,7 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -12263,7 +12247,7 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -12400,7 +12384,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -12409,7 +12392,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -12418,7 +12400,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -12427,7 +12408,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -12436,7 +12416,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -12445,7 +12424,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -12454,7 +12432,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -12463,7 +12440,6 @@ exports[`renders ./components/table/demo/grouping-columns.md extend context corr
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                 </tr>
@@ -13330,6 +13306,7 @@ exports[`renders ./components/table/demo/head.md extend context correctly 1`] = 
               >
                 <tr>
                   <th
+                    aria-label="Name sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -13356,7 +13333,7 @@ exports[`renders ./components/table/demo/head.md extend context correctly 1`] = 
                               <span
                                 aria-label="caret-down"
                                 class="anticon anticon-caret-down ant-table-column-sorter-down"
-                                role="img"
+                                role="presentation"
                               >
                                 <svg
                                   aria-hidden="true"
@@ -13420,7 +13397,7 @@ exports[`renders ./components/table/demo/head.md extend context correctly 1`] = 
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -13834,7 +13811,7 @@ exports[`renders ./components/table/demo/head.md extend context correctly 1`] = 
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -13853,7 +13830,7 @@ exports[`renders ./components/table/demo/head.md extend context correctly 1`] = 
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down active"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -13928,7 +13905,7 @@ exports[`renders ./components/table/demo/head.md extend context correctly 1`] = 
                             width="1em"
                           >
                             <path
-                              d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                              d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                             />
                           </svg>
                         </span>
@@ -14421,7 +14398,9 @@ exports[`renders ./components/table/demo/jsx.md extend context correctly 1`] = `
                         style="margin-right:16px"
                       >
                         <a>
-                          Invite Brown
+                          Invite 
+                          <!-- -->
+                          Brown
                         </a>
                       </div>
                       <div
@@ -14478,7 +14457,9 @@ exports[`renders ./components/table/demo/jsx.md extend context correctly 1`] = `
                         style="margin-right:16px"
                       >
                         <a>
-                          Invite Green
+                          Invite 
+                          <!-- -->
+                          Green
                         </a>
                       </div>
                       <div
@@ -14540,7 +14521,9 @@ exports[`renders ./components/table/demo/jsx.md extend context correctly 1`] = `
                         style="margin-right:16px"
                       >
                         <a>
-                          Invite Black
+                          Invite 
+                          <!-- -->
+                          Black
                         </a>
                       </div>
                       <div
@@ -14676,6 +14659,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                     Name
                   </th>
                   <th
+                    aria-label="Chinese Score sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -14696,7 +14680,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -14715,7 +14699,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -14760,6 +14744,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                     </div>
                   </th>
                   <th
+                    aria-label="Math Score sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -14780,7 +14765,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -14799,7 +14784,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -14844,6 +14829,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                     </div>
                   </th>
                   <th
+                    aria-label="English Score sortable"
                     class="ant-table-cell ant-table-column-has-sorters"
                     tabindex="0"
                   >
@@ -14864,7 +14850,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -14883,7 +14869,7 @@ exports[`renders ./components/table/demo/multiple-sorter.md extend context corre
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -16424,9 +16410,6 @@ Array [
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
                                               />
-                                              <span
-                                                class="ant-badge-status-text"
-                                              />
                                             </span>
                                             Finished
                                           </span>
@@ -16642,9 +16625,6 @@ Array [
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
                                               />
-                                              <span
-                                                class="ant-badge-status-text"
-                                              />
                                             </span>
                                             Finished
                                           </span>
@@ -16859,9 +16839,6 @@ Array [
                                             >
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
-                                              />
-                                              <span
-                                                class="ant-badge-status-text"
                                               />
                                             </span>
                                             Finished
@@ -17468,9 +17445,6 @@ Array [
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
                                               />
-                                              <span
-                                                class="ant-badge-status-text"
-                                              />
                                             </span>
                                             Finished
                                           </span>
@@ -17686,9 +17660,6 @@ Array [
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
                                               />
-                                              <span
-                                                class="ant-badge-status-text"
-                                              />
                                             </span>
                                             Finished
                                           </span>
@@ -17903,9 +17874,6 @@ Array [
                                             >
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
-                                              />
-                                              <span
-                                                class="ant-badge-status-text"
                                               />
                                             </span>
                                             Finished
@@ -18512,9 +18480,6 @@ Array [
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
                                               />
-                                              <span
-                                                class="ant-badge-status-text"
-                                              />
                                             </span>
                                             Finished
                                           </span>
@@ -18730,9 +18695,6 @@ Array [
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
                                               />
-                                              <span
-                                                class="ant-badge-status-text"
-                                              />
                                             </span>
                                             Finished
                                           </span>
@@ -18947,9 +18909,6 @@ Array [
                                             >
                                               <span
                                                 class="ant-badge-status-dot ant-badge-status-success"
-                                              />
-                                              <span
-                                                class="ant-badge-status-text"
                                               />
                                             </span>
                                             Finished
@@ -20067,7 +20026,9 @@ exports[`renders ./components/table/demo/pagination.md extend context correctly 
                           style="margin-right:16px"
                         >
                           <a>
-                            Invite John Brown
+                            Invite 
+                            <!-- -->
+                            John Brown
                           </a>
                         </div>
                         <div
@@ -20123,7 +20084,9 @@ exports[`renders ./components/table/demo/pagination.md extend context correctly 
                           style="margin-right:16px"
                         >
                           <a>
-                            Invite Jim Green
+                            Invite 
+                            <!-- -->
+                            Jim Green
                           </a>
                         </div>
                         <div
@@ -20184,7 +20147,9 @@ exports[`renders ./components/table/demo/pagination.md extend context correctly 
                           style="margin-right:16px"
                         >
                           <a>
-                            Invite Joe Black
+                            Invite 
+                            <!-- -->
+                            Joe Black
                           </a>
                         </div>
                         <div
@@ -20296,7 +20261,7 @@ Array [
   >
     <div
       class="ant-space-item"
-      style="margin-right:16px"
+      style="margin-right:8px"
     >
       <button
         class="ant-btn ant-btn-default"
@@ -20309,7 +20274,7 @@ Array [
     </div>
     <div
       class="ant-space-item"
-      style="margin-right:16px"
+      style="margin-right:8px"
     >
       <button
         class="ant-btn ant-btn-default"
@@ -20360,8 +20325,10 @@ Array [
                 >
                   <tr>
                     <th
+                      aria-label="Name sortable"
                       class="ant-table-cell ant-table-cell-ellipsis ant-table-column-has-sorters"
                       tabindex="0"
+                      title="Name"
                     >
                       <div
                         class="ant-table-filter-column"
@@ -20386,7 +20353,7 @@ Array [
                                 <span
                                   aria-label="caret-up"
                                   class="anticon anticon-caret-up ant-table-column-sorter-up"
-                                  role="img"
+                                  role="presentation"
                                 >
                                   <svg
                                     aria-hidden="true"
@@ -20405,7 +20372,7 @@ Array [
                                 <span
                                   aria-label="caret-down"
                                   class="anticon anticon-caret-down ant-table-column-sorter-down"
-                                  role="img"
+                                  role="presentation"
                                 >
                                   <svg
                                     aria-hidden="true"
@@ -20469,7 +20436,7 @@ Array [
                               width="1em"
                             >
                               <path
-                                d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                                d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                               />
                             </svg>
                           </span>
@@ -20665,8 +20632,10 @@ Array [
                       </div>
                     </th>
                     <th
+                      aria-label="Age sortable"
                       class="ant-table-cell ant-table-cell-ellipsis ant-table-column-has-sorters"
                       tabindex="0"
+                      title="Age"
                     >
                       <div
                         class="ant-table-column-sorters"
@@ -20685,7 +20654,7 @@ Array [
                             <span
                               aria-label="caret-up"
                               class="anticon anticon-caret-up ant-table-column-sorter-up"
-                              role="img"
+                              role="presentation"
                             >
                               <svg
                                 aria-hidden="true"
@@ -20704,7 +20673,7 @@ Array [
                             <span
                               aria-label="caret-down"
                               class="anticon anticon-caret-down ant-table-column-sorter-down"
-                              role="img"
+                              role="presentation"
                             >
                               <svg
                                 aria-hidden="true"
@@ -20749,8 +20718,10 @@ Array [
                       </div>
                     </th>
                     <th
+                      aria-label="Address sortable"
                       class="ant-table-cell ant-table-cell-ellipsis ant-table-column-has-sorters"
                       tabindex="0"
+                      title="Address"
                     >
                       <div
                         class="ant-table-filter-column"
@@ -20775,7 +20746,7 @@ Array [
                                 <span
                                   aria-label="caret-up"
                                   class="anticon anticon-caret-up ant-table-column-sorter-up"
-                                  role="img"
+                                  role="presentation"
                                 >
                                   <svg
                                     aria-hidden="true"
@@ -20794,7 +20765,7 @@ Array [
                                 <span
                                   aria-label="caret-down"
                                   class="anticon anticon-caret-down ant-table-column-sorter-down"
-                                  role="img"
+                                  role="presentation"
                                 >
                                   <svg
                                     aria-hidden="true"
@@ -20858,7 +20829,7 @@ Array [
                               width="1em"
                             >
                               <path
-                                d="M880.1 154H143.9c-24.5 0-39.8 26.7-27.5 48L349 597.4V838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V597.4L907.7 202c12.2-21.3-3.1-48-27.6-48zM603.4 798H420.6V642h182.9v156zm9.6-236.6l-9.5 16.6h-183l-9.5-16.6L212.7 226h598.6L613 561.4z"
+                                d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
                               />
                             </svg>
                           </span>
@@ -21290,6 +21261,7 @@ exports[`renders ./components/table/demo/resizable-column.md extend context corr
                     />
                   </th>
                   <th
+                    aria-label="Amount sortable"
                     class="ant-table-cell ant-table-column-has-sorters react-resizable"
                     tabindex="0"
                   >
@@ -21310,7 +21282,7 @@ exports[`renders ./components/table/demo/resizable-column.md extend context corr
                           <span
                             aria-label="caret-up"
                             class="anticon anticon-caret-up ant-table-column-sorter-up"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -21329,7 +21301,7 @@ exports[`renders ./components/table/demo/resizable-column.md extend context corr
                           <span
                             aria-label="caret-down"
                             class="anticon anticon-caret-down ant-table-column-sorter-down"
-                            role="img"
+                            role="presentation"
                           >
                             <svg
                               aria-hidden="true"
@@ -23716,7 +23688,9 @@ exports[`renders ./components/table/demo/row-selection-custom-debug.md extend co
                     class="ant-table-cell ant-table-selection-column"
                     rowspan="2"
                   >
-                    false: 
+                    false
+                    <!-- -->
+                    : 
                     <label
                       class="ant-checkbox-wrapper"
                     >
@@ -23757,7 +23731,9 @@ exports[`renders ./components/table/demo/row-selection-custom-debug.md extend co
                     class="ant-table-cell ant-table-selection-column"
                     rowspan="2"
                   >
-                    false: 
+                    false
+                    <!-- -->
+                    : 
                     <label
                       class="ant-checkbox-wrapper"
                     >
@@ -23798,7 +23774,9 @@ exports[`renders ./components/table/demo/row-selection-custom-debug.md extend co
                     class="ant-table-cell ant-table-selection-column"
                     rowspan="2"
                   >
-                    false: 
+                    false
+                    <!-- -->
+                    : 
                     <label
                       class="ant-checkbox-wrapper"
                     >
@@ -23839,7 +23817,9 @@ exports[`renders ./components/table/demo/row-selection-custom-debug.md extend co
                     class="ant-table-cell ant-table-selection-column"
                     rowspan="2"
                   >
-                    false: 
+                    false
+                    <!-- -->
+                    : 
                     <label
                       class="ant-checkbox-wrapper"
                     >
@@ -23880,7 +23860,9 @@ exports[`renders ./components/table/demo/row-selection-custom-debug.md extend co
                     class="ant-table-cell ant-table-selection-column"
                     rowspan="2"
                   >
-                    false: 
+                    false
+                    <!-- -->
+                    : 
                     <label
                       class="ant-checkbox-wrapper"
                     >
@@ -24590,7 +24572,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24599,7 +24580,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24608,7 +24588,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24617,7 +24596,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24626,7 +24604,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24635,7 +24612,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24644,7 +24620,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24653,7 +24628,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24662,7 +24636,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24671,7 +24644,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                   <td
@@ -24680,7 +24652,6 @@ exports[`renders ./components/table/demo/sticky.md extend context correctly 1`] 
                     <div
                       style="height:0;overflow:hidden"
                     >
-                       
                     </div>
                   </td>
                 </tr>
@@ -25999,7 +25970,6 @@ Array [
                       <div
                         style="height:0;overflow:hidden"
                       >
-                         
                       </div>
                     </td>
                     <td
@@ -26008,7 +25978,6 @@ Array [
                       <div
                         style="height:0;overflow:hidden"
                       >
-                         
                       </div>
                     </td>
                   </tr>
@@ -26378,7 +26347,7 @@ Array [
   >
     <div
       class="ant-space-item"
-      style="margin-right:16px"
+      style="margin-right:8px"
     >
       CheckStrictly: 
     </div>
@@ -26677,7 +26646,7 @@ Array [
   >
     <div
       class="ant-space-item"
-      style="margin-right:16px"
+      style="margin-right:8px"
     >
       Fixed first column: 
     </div>

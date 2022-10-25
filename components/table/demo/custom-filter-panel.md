@@ -18,11 +18,11 @@ Implement a customized column search example via `filterDropdown`.
 Add the `boolean` type parameter `closeDropdown` to the function `clearFilters`. Whether to close the filter menu is `true` by default. Add the `boolean` type parameter `confirm` to clear whether to submit the option during filtering. The default is `true`.
 
 ```tsx
-import { SearchOutlined } from 'infra-design-icons';
+import { SearchOutlined } from '@ant-design/icons';
 import type { InputRef } from 'infrad';
 import { Button, Input, Space, Table } from 'infrad';
-import type { ColumnsType, ColumnType } from 'infrad/lib/table';
-import type { FilterConfirmProps } from 'infrad/lib/table/interface';
+import type { ColumnsType, ColumnType } from 'infrad/es/table';
+import type { FilterConfirmProps } from 'infrad/es/table/interface';
 import React, { useRef, useState } from 'react';
 import Highlighter from 'react-highlight-words';
 
@@ -125,14 +125,14 @@ const App: React.FC = () => {
       </div>
     ),
     filterIcon: (filtered: boolean) => (
-      <SearchOutlined style={{ color: filtered ? '#2673dd' : undefined }} />
+      <SearchOutlined style={{ color: filtered ? '#1890ff' : undefined }} />
     ),
     onFilter: (value, record) =>
       record[dataIndex]
         .toString()
         .toLowerCase()
         .includes((value as string).toLowerCase()),
-    onFilterDropdownVisibleChange: visible => {
+    onFilterDropdownOpenChange: visible => {
       if (visible) {
         setTimeout(() => searchInput.current?.select(), 100);
       }

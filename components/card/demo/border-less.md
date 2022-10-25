@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 1
 title:
   zh-CN: 无边框
   en-US: No border

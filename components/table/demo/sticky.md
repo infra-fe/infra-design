@@ -15,7 +15,7 @@ For long table，need to scroll to view the header and scroll bar，then you can
 
 ```tsx
 import { Switch, Table } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
+import type { ColumnsType } from 'infrad/es/table';
 import React, { useState } from 'react';
 
 interface DataType {

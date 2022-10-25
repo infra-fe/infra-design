@@ -14,7 +14,7 @@ title:
 Add a prefix inside input.
 
 ```tsx
-import { UserOutlined } from 'infra-design-icons';
+import { UserOutlined } from '@ant-design/icons';
 import { InputNumber } from 'infrad';
 import React from 'react';
 

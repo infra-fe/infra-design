@@ -39,13 +39,13 @@ exports[`renders ./components/list/demo/basic.md extend context correctly 1`] = 
                 <a
                   href="https://ant.design"
                 >
-                  Infra Design Title 1
+                  Ant Design Title 1
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Infra Design, a design language for background applications, is refined by Ant UED Team
+                Ant Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -76,13 +76,13 @@ exports[`renders ./components/list/demo/basic.md extend context correctly 1`] = 
                 <a
                   href="https://ant.design"
                 >
-                  Infra Design Title 2
+                  Ant Design Title 2
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Infra Design, a design language for background applications, is refined by Ant UED Team
+                Ant Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -113,13 +113,13 @@ exports[`renders ./components/list/demo/basic.md extend context correctly 1`] = 
                 <a
                   href="https://ant.design"
                 >
-                  Infra Design Title 3
+                  Ant Design Title 3
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Infra Design, a design language for background applications, is refined by Ant UED Team
+                Ant Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -150,13 +150,13 @@ exports[`renders ./components/list/demo/basic.md extend context correctly 1`] = 
                 <a
                   href="https://ant.design"
                 >
-                  Infra Design Title 4
+                  Ant Design Title 4
                 </a>
               </h4>
               <div
                 class="ant-list-item-meta-description"
               >
-                Infra Design, a design language for background applications, is refined by Ant UED Team
+                Ant Design, a design language for background applications, is refined by Ant UED Team
               </div>
             </div>
           </div>
@@ -1426,7 +1426,8 @@ Array [
                 [ITEM]
               </mark>
             </span>
-             Racing car sprays burning fuel into crowd.
+            <!-- -->
+            Racing car sprays burning fuel into crowd.
           </li>
           <li
             class="ant-list-item ant-list-item-no-flex"
@@ -1438,7 +1439,8 @@ Array [
                 [ITEM]
               </mark>
             </span>
-             Japanese princess to wed commoner.
+            <!-- -->
+            Japanese princess to wed commoner.
           </li>
           <li
             class="ant-list-item ant-list-item-no-flex"
@@ -1450,7 +1452,8 @@ Array [
                 [ITEM]
               </mark>
             </span>
-             Australian walks 100km after outback crash.
+            <!-- -->
+            Australian walks 100km after outback crash.
           </li>
           <li
             class="ant-list-item ant-list-item-no-flex"
@@ -1462,7 +1465,8 @@ Array [
                 [ITEM]
               </mark>
             </span>
-             Man charged over missing wedding girl.
+            <!-- -->
+            Man charged over missing wedding girl.
           </li>
           <li
             class="ant-list-item ant-list-item-no-flex"
@@ -1474,7 +1478,8 @@ Array [
                 [ITEM]
               </mark>
             </span>
-             Los Angeles battles huge wildfires.
+            <!-- -->
+            Los Angeles battles huge wildfires.
           </li>
         </ul>
       </div>
@@ -1668,7 +1673,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Infra Design, a design language for background applications, is refined by Ant UED Team.
+                  Ant Design, a design language for background applications, is refined by Ant UED Team.
                 </div>
               </div>
             </div>
@@ -1682,7 +1687,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="star"
@@ -1720,7 +1725,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="like"
@@ -1758,7 +1763,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="message"
@@ -1834,7 +1839,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Infra Design, a design language for background applications, is refined by Ant UED Team.
+                  Ant Design, a design language for background applications, is refined by Ant UED Team.
                 </div>
               </div>
             </div>
@@ -1848,7 +1853,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="star"
@@ -1886,7 +1891,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="like"
@@ -1924,7 +1929,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="message"
@@ -2000,7 +2005,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 <div
                   class="ant-list-item-meta-description"
                 >
-                  Infra Design, a design language for background applications, is refined by Ant UED Team.
+                  Ant Design, a design language for background applications, is refined by Ant UED Team.
                 </div>
               </div>
             </div>
@@ -2014,7 +2019,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="star"
@@ -2052,7 +2057,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="like"
@@ -2090,7 +2095,7 @@ exports[`renders ./components/list/demo/vertical.md extend context correctly 1`]
                 >
                   <div
                     class="ant-space-item"
-                    style="margin-right:16px"
+                    style="margin-right:8px"
                   >
                     <span
                       aria-label="message"

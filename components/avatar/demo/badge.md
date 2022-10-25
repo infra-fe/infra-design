@@ -14,7 +14,7 @@ title:
 Usually used for reminders and notifications.
 
 ```tsx
-import { UserOutlined } from 'infra-design-icons';
+import { UserOutlined } from '@ant-design/icons';
 import { Avatar, Badge } from 'infrad';
 import React from 'react';
 

@@ -41,6 +41,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                   class="ant-form-item-control-input-content"
                 >
                   <input
+                    aria-required="true"
                     class="ant-input"
                     id="advanced_search_field-0"
                     placeholder="placeholder"
@@ -84,6 +85,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                   class="ant-form-item-control-input-content"
                 >
                   <div
+                    aria-required="true"
                     class="ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow"
                   >
                     <div
@@ -98,6 +100,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                           aria-controls="advanced_search_field-1_list"
                           aria-haspopup="listbox"
                           aria-owns="advanced_search_field-1_list"
+                          aria-required="true"
                           autocomplete="off"
                           class="ant-select-selection-search-input"
                           id="advanced_search_field-1"
@@ -262,6 +265,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                   class="ant-form-item-control-input-content"
                 >
                   <input
+                    aria-required="true"
                     class="ant-input"
                     id="advanced_search_field-2"
                     placeholder="placeholder"
@@ -305,6 +309,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                   class="ant-form-item-control-input-content"
                 >
                   <input
+                    aria-required="true"
                     class="ant-input"
                     id="advanced_search_field-3"
                     placeholder="placeholder"
@@ -348,6 +353,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                   class="ant-form-item-control-input-content"
                 >
                   <div
+                    aria-required="true"
                     class="ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow"
                   >
                     <div
@@ -362,6 +368,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                           aria-controls="advanced_search_field-4_list"
                           aria-haspopup="listbox"
                           aria-owns="advanced_search_field-4_list"
+                          aria-required="true"
                           autocomplete="off"
                           class="ant-select-selection-search-input"
                           id="advanced_search_field-4"
@@ -526,6 +533,7 @@ exports[`renders ./components/form/demo/advanced-search.md extend context correc
                   class="ant-form-item-control-input-content"
                 >
                   <input
+                    aria-required="true"
                     class="ant-input"
                     id="advanced_search_field-5"
                     placeholder="placeholder"
@@ -631,6 +639,7 @@ exports[`renders ./components/form/demo/basic.md extend context correctly 1`] = 
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="basic_username"
               type="text"
@@ -671,7 +680,7 @@ exports[`renders ./components/form/demo/basic.md extend context correctly 1`] = 
               class="ant-input-affix-wrapper ant-input-password"
             >
               <input
-                action="click"
+                aria-required="true"
                 class="ant-input"
                 id="basic_password"
                 type="password"
@@ -815,6 +824,7 @@ Array [
               class="ant-form-item-control-input-content"
             >
               <input
+                aria-required="true"
                 class="ant-input"
                 id="basic_username"
                 type="text"
@@ -855,7 +865,7 @@ Array [
                 class="ant-input-affix-wrapper ant-input-password"
               >
                 <input
-                  action="click"
+                  aria-required="true"
                   class="ant-input"
                   id="basic_password"
                   type="password"
@@ -1004,7 +1014,6 @@ Array [
                           aria-hidden="true"
                           class="ant-select-selection-search-mirror"
                         >
-                           
                         </span>
                       </div>
                     </div>
@@ -1184,6 +1193,7 @@ Array [
               class="ant-form-item-control-input-content"
             >
               <input
+                aria-required="true"
                 class="ant-input"
                 id="responsive_username"
                 type="text"
@@ -1224,7 +1234,7 @@ Array [
                 class="ant-input-affix-wrapper ant-input-password"
               >
                 <input
-                  action="click"
+                  aria-required="true"
                   class="ant-input"
                   id="responsive_password"
                   type="password"
@@ -1409,7 +1419,6 @@ Array [
                           aria-hidden="true"
                           class="ant-select-selection-search-mirror"
                         >
-                           
                         </span>
                       </div>
                     </div>
@@ -1601,6 +1610,7 @@ exports[`renders ./components/form/demo/control-hooks.md extend context correctl
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="control-hooks_note"
               type="text"
@@ -1638,6 +1648,7 @@ exports[`renders ./components/form/demo/control-hooks.md extend context correctl
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-select-in-form-item ant-select-single ant-select-allow-clear ant-select-show-arrow"
             >
               <div
@@ -1652,6 +1663,7 @@ exports[`renders ./components/form/demo/control-hooks.md extend context correctl
                     aria-controls="control-hooks_gender_list"
                     aria-haspopup="listbox"
                     aria-owns="control-hooks_gender_list"
+                    aria-required="true"
                     autocomplete="off"
                     class="ant-select-selection-search-input"
                     id="control-hooks_gender"
@@ -1879,6 +1891,7 @@ exports[`renders ./components/form/demo/control-ref.md extend context correctly 
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="control-ref_note"
               type="text"
@@ -1916,6 +1929,7 @@ exports[`renders ./components/form/demo/control-ref.md extend context correctly 
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-select-in-form-item ant-select-single ant-select-allow-clear ant-select-show-arrow"
             >
               <div
@@ -1930,6 +1944,7 @@ exports[`renders ./components/form/demo/control-ref.md extend context correctly 
                     aria-controls="control-ref_gender_list"
                     aria-haspopup="listbox"
                     aria-owns="control-ref_gender_list"
+                    aria-required="true"
                     autocomplete="off"
                     class="ant-select-selection-search-input"
                     id="control-ref_gender"
@@ -2334,89 +2349,6 @@ exports[`renders ./components/form/demo/customized-form-controls.md extend conte
                 Submit
               </span>
             </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</form>
-`;
-
-exports[`renders ./components/form/demo/dep-debug.md extend context correctly 1`] = `
-<form
-  class="ant-form ant-form-horizontal"
-  id="debug"
->
-  0
-  <div
-    class="ant-form-item"
-  >
-    <div
-      class="ant-row ant-form-item-row"
-    >
-      <div
-        class="ant-col ant-form-item-label"
-      >
-        <label
-          class=""
-          for="debug_debug1"
-          title="debug1"
-        >
-          debug1
-        </label>
-      </div>
-      <div
-        class="ant-col ant-form-item-control"
-      >
-        <div
-          class="ant-form-item-control-input"
-        >
-          <div
-            class="ant-form-item-control-input-content"
-          >
-            <input
-              class="ant-input"
-              id="debug_debug1"
-              type="text"
-              value="debug1"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="ant-form-item"
-  >
-    <div
-      class="ant-row ant-form-item-row"
-    >
-      <div
-        class="ant-col ant-form-item-label"
-      >
-        <label
-          class=""
-          for="debug_debug2"
-          title="debug2"
-        >
-          debug2
-        </label>
-      </div>
-      <div
-        class="ant-col ant-form-item-control"
-      >
-        <div
-          class="ant-form-item-control-input"
-        >
-          <div
-            class="ant-form-item-control-input-content"
-          >
-            <input
-              class="ant-input"
-              id="debug_debug2"
-              type="text"
-              value="debug2"
-            />
           </div>
         </div>
       </div>
@@ -5155,7 +5087,9 @@ Array [
                             viewBox="64 64 896 896"
                             width="1em"
                           >
-                            <defs />
+                            <defs>
+                              <style />
+                            </defs>
                             <path
                               d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
                             />
@@ -5770,7 +5704,9 @@ exports[`renders ./components/form/demo/dynamic-form-item.md extend context corr
                   viewBox="64 64 896 896"
                   width="1em"
                 >
-                  <defs />
+                  <defs>
+                    <style />
+                  </defs>
                   <path
                     d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
                   />
@@ -5802,7 +5738,9 @@ exports[`renders ./components/form/demo/dynamic-form-item.md extend context corr
                   viewBox="64 64 896 896"
                   width="1em"
                 >
-                  <defs />
+                  <defs>
+                    <style />
+                  </defs>
                   <path
                     d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
                   />
@@ -5890,7 +5828,9 @@ exports[`renders ./components/form/demo/dynamic-form-items.md extend context cor
                   viewBox="64 64 896 896"
                   width="1em"
                 >
-                  <defs />
+                  <defs>
+                    <style />
+                  </defs>
                   <path
                     d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
                   />
@@ -5972,6 +5912,7 @@ exports[`renders ./components/form/demo/dynamic-form-items-complex.md extend con
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow"
             >
               <div
@@ -5986,6 +5927,7 @@ exports[`renders ./components/form/demo/dynamic-form-items-complex.md extend con
                     aria-controls="dynamic_form_nest_item_area_list"
                     aria-haspopup="listbox"
                     aria-owns="dynamic_form_nest_item_area_list"
+                    aria-required="true"
                     autocomplete="off"
                     class="ant-select-selection-search-input"
                     id="dynamic_form_nest_item_area"
@@ -6148,7 +6090,9 @@ exports[`renders ./components/form/demo/dynamic-form-items-complex.md extend con
                   viewBox="64 64 896 896"
                   width="1em"
                 >
-                  <defs />
+                  <defs>
+                    <style />
+                  </defs>
                   <path
                     d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
                   />
@@ -6261,7 +6205,9 @@ exports[`renders ./components/form/demo/dynamic-form-items-no-style.md extend co
                             viewBox="64 64 896 896"
                             width="1em"
                           >
-                            <defs />
+                            <defs>
+                              <style />
+                            </defs>
                             <path
                               d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
                             />
@@ -6347,6 +6293,7 @@ exports[`renders ./components/form/demo/dynamic-rule.md extend context correctly
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="dynamic_rule_username"
               placeholder="Please input your name"
@@ -6497,6 +6444,7 @@ exports[`renders ./components/form/demo/form-context.md extend context correctly
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="basicForm_group"
               type="text"
@@ -6648,6 +6596,7 @@ Array [
               class="ant-form-item-control-input-content"
             >
               <input
+                aria-required="true"
                 class="ant-input"
                 id="global_state_username"
                 type="text"
@@ -6721,6 +6670,7 @@ exports[`renders ./components/form/demo/inline-login.md extend context correctly
                 </span>
               </span>
               <input
+                aria-required="true"
                 class="ant-input"
                 id="horizontal_login_username"
                 placeholder="Username"
@@ -6775,6 +6725,7 @@ exports[`renders ./components/form/demo/inline-login.md extend context correctly
                 </span>
               </span>
               <input
+                aria-required="true"
                 class="ant-input"
                 id="horizontal_login_password"
                 placeholder="Password"
@@ -6844,13 +6795,13 @@ exports[`renders ./components/form/demo/label-debug.md extend context correctly 
             longtextlongtextlongtextlongtextlongtextlongtextlongtext
             <span
               aria-hidden="true"
-              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;word-break:keep-all;white-space:nowrap"
+              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;font-size:0;word-break:keep-all;white-space:nowrap"
             >
               lg
             </span>
             <span
               aria-hidden="true"
-              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;width:0;white-space:normal;margin:0;padding:0"
+              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;font-size:0;width:0;white-space:normal;margin:0;padding:0"
             >
               <span
                 aria-hidden="true"
@@ -6902,13 +6853,13 @@ exports[`renders ./components/form/demo/label-debug.md extend context correctly 
             longtext longtext longtext longtext longtext longtext longtext
             <span
               aria-hidden="true"
-              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;word-break:keep-all;white-space:nowrap"
+              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;font-size:0;word-break:keep-all;white-space:nowrap"
             >
               lg
             </span>
             <span
               aria-hidden="true"
-              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;width:0;white-space:normal;margin:0;padding:0"
+              style="position:fixed;display:block;left:0;top:0;z-index:-9999;visibility:hidden;pointer-events:none;font-size:0;width:0;white-space:normal;margin:0;padding:0"
             >
               <span
                 aria-hidden="true"
@@ -6932,7 +6883,6 @@ exports[`renders ./components/form/demo/label-debug.md extend context correctly 
               class="ant-input-affix-wrapper ant-input-password"
             >
               <input
-                action="click"
                 class="ant-input"
                 id="label-ellipsis_password"
                 type="password"
@@ -7209,6 +7159,7 @@ exports[`renders ./components/form/demo/layout-can-wrap.md extend context correc
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="wrap_username"
               type="text"
@@ -7248,6 +7199,7 @@ exports[`renders ./components/form/demo/layout-can-wrap.md extend context correc
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="wrap_password"
               type="text"
@@ -7272,7 +7224,6 @@ exports[`renders ./components/form/demo/layout-can-wrap.md extend context correc
           class="ant-form-item-no-colon"
           title=" "
         >
-           
         </label>
       </div>
       <div
@@ -7333,6 +7284,7 @@ exports[`renders ./components/form/demo/nest-messages.md extend context correctl
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="nest-messages_user_name"
               type="text"
@@ -7635,6 +7587,7 @@ exports[`renders ./components/form/demo/normal-login.md extend context correctly
                 </span>
               </span>
               <input
+                aria-required="true"
                 class="ant-input"
                 id="normal_login_username"
                 placeholder="Username"
@@ -7689,6 +7642,7 @@ exports[`renders ./components/form/demo/normal-login.md extend context correctly
                 </span>
               </span>
               <input
+                aria-required="true"
                 class="ant-input"
                 id="normal_login_password"
                 placeholder="Password"
@@ -7902,6 +7856,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="register_email"
               type="text"
@@ -7942,7 +7897,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
               class="ant-input-affix-wrapper ant-input-password ant-input-affix-wrapper-has-feedback"
             >
               <input
-                action="click"
+                aria-required="true"
                 class="ant-input"
                 id="register_password"
                 type="password"
@@ -8011,7 +7966,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
               class="ant-input-affix-wrapper ant-input-password ant-input-affix-wrapper-has-feedback"
             >
               <input
-                action="click"
+                aria-required="true"
                 class="ant-input"
                 id="register_confirm"
                 type="password"
@@ -8124,6 +8079,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="register_nickname"
               type="text"
@@ -8161,6 +8117,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-cascader ant-select-in-form-item ant-select-single ant-select-allow-clear ant-select-show-arrow"
             >
               <div
@@ -8174,6 +8131,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
                     aria-controls="register_residence_list"
                     aria-haspopup="listbox"
                     aria-owns="register_residence_list"
+                    aria-required="true"
                     autocomplete="off"
                     class="ant-select-selection-search-input"
                     id="register_residence"
@@ -8521,6 +8479,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
                   </div>
                 </span>
                 <input
+                  aria-required="true"
                   class="ant-input"
                   id="register_phone"
                   type="text"
@@ -8631,6 +8590,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
                     class="ant-input-number-input-wrap"
                   >
                     <input
+                      aria-required="true"
                       autocomplete="off"
                       class="ant-input-number-input"
                       id="register_donation"
@@ -8818,6 +8778,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-select-in-form-item ant-select-auto-complete ant-select-single ant-select-customize-input ant-select-show-search"
             >
               <div
@@ -8832,6 +8793,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
                     aria-controls="register_website_list"
                     aria-haspopup="listbox"
                     aria-owns="register_website_list"
+                    aria-required="true"
                     autocomplete="off"
                     class="ant-input ant-select-selection-search-input"
                     id="register_website"
@@ -8897,6 +8859,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
               data-count="0 / 100"
             >
               <textarea
+                aria-required="true"
                 class="ant-input"
                 id="register_intro"
               />
@@ -8933,6 +8896,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow"
             >
               <div
@@ -8947,6 +8911,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
                     aria-controls="register_gender_list"
                     aria-haspopup="listbox"
                     aria-owns="register_gender_list"
+                    aria-required="true"
                     autocomplete="off"
                     class="ant-select-selection-search-input"
                     id="register_gender"
@@ -9129,6 +9094,7 @@ exports[`renders ./components/form/demo/register.md extend context correctly 1`]
                 style="padding-left:4px;padding-right:4px"
               >
                 <input
+                  aria-required="true"
                   class="ant-input"
                   id="register_captcha"
                   type="text"
@@ -10986,6 +10952,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                 class="ant-picker-input"
               >
                 <input
+                  aria-required="true"
                   autocomplete="off"
                   id="time_related_controls_date-picker"
                   placeholder="Select date"
@@ -11611,6 +11578,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                 class="ant-picker-input"
               >
                 <input
+                  aria-required="true"
                   autocomplete="off"
                   id="time_related_controls_date-time-picker"
                   placeholder="Select date"
@@ -12197,7 +12165,6 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                           <div
                             class="ant-picker-header-view"
                           >
-                             
                           </div>
                         </div>
                         <div
@@ -13589,6 +13556,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                 class="ant-picker-input"
               >
                 <input
+                  aria-required="true"
                   autocomplete="off"
                   id="time_related_controls_month-picker"
                   placeholder="Select month"
@@ -13844,6 +13812,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-picker ant-picker-range"
             >
               <div
@@ -15054,6 +15023,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-picker ant-picker-range"
             >
               <div
@@ -15700,7 +15670,6 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                               <div
                                 class="ant-picker-header-view"
                               >
-                                 
                               </div>
                             </div>
                             <div
@@ -17085,6 +17054,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                 class="ant-picker-input"
               >
                 <input
+                  aria-required="true"
                   autocomplete="off"
                   id="time_related_controls_time-picker"
                   placeholder="Select time"
@@ -18748,6 +18718,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-select-in-form-item ant-select-has-feedback ant-select-single ant-select-show-arrow"
             >
               <div
@@ -18762,6 +18733,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
                     aria-controls="validate_other_select_list"
                     aria-haspopup="listbox"
                     aria-owns="validate_other_select_list"
+                    aria-required="true"
                     autocomplete="off"
                     class="ant-select-selection-search-input"
                     id="validate_other_select"
@@ -18920,6 +18892,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-select ant-select-in-form-item ant-select-multiple ant-select-show-search"
             >
               <div
@@ -18942,6 +18915,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
                         aria-controls="validate_other_select-multiple_list"
                         aria-haspopup="listbox"
                         aria-owns="validate_other_select-multiple_list"
+                        aria-required="true"
                         autocomplete="off"
                         class="ant-select-selection-search-input"
                         id="validate_other_select-multiple"
@@ -18956,7 +18930,6 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
                         aria-hidden="true"
                         class="ant-select-selection-search-mirror"
                       >
-                         
                       </span>
                     </div>
                   </div>
@@ -19475,6 +19448,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
             class="ant-form-item-control-input-content"
           >
             <div
+              aria-required="true"
               class="ant-radio-group ant-radio-group-outline"
               id="validate_other_radio-button"
             >
@@ -20081,9 +20055,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
           <div
             class="ant-form-item-control-input-content"
           >
-            <span
-              class=""
-            >
+            <span>
               <div
                 class="ant-upload ant-upload-select ant-upload-select-picture"
               >
@@ -20094,6 +20066,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
                 >
                   <input
                     accept=""
+                    aria-describedby="validate_other_upload_extra"
                     id="validate_other_upload"
                     style="display:none"
                     type="file"
@@ -20135,6 +20108,7 @@ exports[`renders ./components/form/demo/validate-other.md extend context correct
         </div>
         <div
           class="ant-form-item-extra"
+          id="validate_other_upload_extra"
         >
           longgggggggggggggggggggggggggggggggggg
         </div>
@@ -24157,6 +24131,29 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                     />
                   </svg>
                 </span>
+                <span
+                  class="ant-form-item-feedback-icon ant-form-item-feedback-icon-error"
+                >
+                  <span
+                    aria-label="close-circle"
+                    class="anticon anticon-close-circle"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 01-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+                      />
+                    </svg>
+                  </span>
+                </span>
               </span>
             </div>
           </div>
@@ -24274,6 +24271,29 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                       d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
                     />
                   </svg>
+                </span>
+                <span
+                  class="ant-form-item-feedback-icon ant-form-item-feedback-icon-error"
+                >
+                  <span
+                    aria-label="close-circle"
+                    class="anticon anticon-close-circle"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 01-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+                      />
+                    </svg>
+                  </span>
                 </span>
               </span>
             </div>
@@ -24438,6 +24458,29 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                       d="M8.25 9.19L4.28 5.22a.75.75 0 00-1.06 1.06l4.5 4.5c.3.3.77.3 1.06 0l4.5-4.5a.75.75 0 00-1.06-1.06L8.25 9.19z"
                     />
                   </svg>
+                </span>
+                <span
+                  class="ant-form-item-feedback-icon ant-form-item-feedback-icon-warning"
+                >
+                  <span
+                    aria-label="exclamation-circle"
+                    class="anticon anticon-exclamation-circle"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="exclamation-circle"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
+                      />
+                    </svg>
+                  </span>
                 </span>
               </span>
             </div>
@@ -25966,7 +26009,6 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
               class="ant-input-affix-wrapper ant-input-password ant-input-affix-wrapper-status-warning ant-input-affix-wrapper-has-feedback"
             >
               <input
-                action="click"
                 class="ant-input"
                 placeholder="with input password"
                 type="password"
@@ -26057,7 +26099,6 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
               class="ant-input-affix-wrapper ant-input-password ant-input-affix-wrapper-status-error ant-input-affix-wrapper-has-feedback"
             >
               <input
-                action="click"
                 class="ant-input"
                 placeholder="with input password and allowClear"
                 type="password"
@@ -26337,6 +26378,7 @@ exports[`renders ./components/form/demo/warning-only.md extend context correctly
             class="ant-form-item-control-input-content"
           >
             <input
+              aria-required="true"
               class="ant-input"
               id="url"
               placeholder="input placeholder"
@@ -26368,7 +26410,7 @@ exports[`renders ./components/form/demo/warning-only.md extend context correctly
             >
               <div
                 class="ant-space-item"
-                style="margin-right:16px"
+                style="margin-right:8px"
               >
                 <button
                   class="ant-btn ant-btn-primary"

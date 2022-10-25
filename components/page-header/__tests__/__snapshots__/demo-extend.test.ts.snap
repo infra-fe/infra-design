@@ -63,7 +63,7 @@ Array [
         >
           <div
             class="ant-space-item"
-            style="margin-right:16px"
+            style="margin-right:8px"
           >
             <button
               class="ant-btn ant-btn-default"
@@ -76,7 +76,7 @@ Array [
           </div>
           <div
             class="ant-space-item"
-            style="margin-right:16px"
+            style="margin-right:8px"
           >
             <button
               class="ant-btn ant-btn-default"
@@ -295,7 +295,7 @@ Array [
         >
           <div
             class="ant-space-item"
-            style="margin-right:16px"
+            style="margin-right:8px"
           >
             <button
               class="ant-btn ant-btn-default"
@@ -308,7 +308,7 @@ Array [
           </div>
           <div
             class="ant-space-item"
-            style="margin-right:16px"
+            style="margin-right:8px"
           >
             <button
               class="ant-btn ant-btn-default"
@@ -665,7 +665,7 @@ exports[`renders ./components/page-header/demo/content.md extend context correct
       >
         <div
           class="ant-space-item"
-          style="margin-right:16px"
+          style="margin-right:8px"
         >
           <button
             class="ant-btn ant-btn-default"
@@ -678,7 +678,7 @@ exports[`renders ./components/page-header/demo/content.md extend context correct
         </div>
         <div
           class="ant-space-item"
-          style="margin-right:16px"
+          style="margin-right:8px"
         >
           <button
             class="ant-btn ant-btn-default"
@@ -691,7 +691,7 @@ exports[`renders ./components/page-header/demo/content.md extend context correct
         </div>
         <div
           class="ant-space-item"
-          style="margin-right:16px"
+          style="margin-right:8px"
         >
           <button
             class="ant-btn ant-btn-primary"
@@ -948,12 +948,12 @@ exports[`renders ./components/page-header/demo/content.md extend context correct
         <div
           class="ant-typography"
         >
-          Infra Design interprets the color system into two levels: a system-level color system and a product-level color system.
+          Ant Design interprets the color system into two levels: a system-level color system and a product-level color system.
         </div>
         <div
           class="ant-typography"
         >
-          Infra Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams.
+          Ant Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams.
         </div>
         <div>
           <a
@@ -1067,7 +1067,7 @@ exports[`renders ./components/page-header/demo/ghost.md extend context correctly
         >
           <div
             class="ant-space-item"
-            style="margin-right:16px"
+            style="margin-right:8px"
           >
             <button
               class="ant-btn ant-btn-default"
@@ -1080,7 +1080,7 @@ exports[`renders ./components/page-header/demo/ghost.md extend context correctly
           </div>
           <div
             class="ant-space-item"
-            style="margin-right:16px"
+            style="margin-right:8px"
           >
             <button
               class="ant-btn ant-btn-default"
@@ -1293,7 +1293,7 @@ exports[`renders ./components/page-header/demo/responsive.md extend context corr
       >
         <div
           class="ant-space-item"
-          style="margin-right:16px"
+          style="margin-right:8px"
         >
           <button
             class="ant-btn ant-btn-default"
@@ -1306,7 +1306,7 @@ exports[`renders ./components/page-header/demo/responsive.md extend context corr
         </div>
         <div
           class="ant-space-item"
-          style="margin-right:16px"
+          style="margin-right:8px"
         >
           <button
             class="ant-btn ant-btn-default"
@@ -1636,13 +1636,6 @@ exports[`renders ./components/page-header/demo/responsive.md extend context corr
             class="ant-tabs-tabpane ant-tabs-tabpane-active"
             role="tabpanel"
             tabindex="0"
-          />
-          <div
-            aria-hidden="true"
-            class="ant-tabs-tabpane"
-            role="tabpanel"
-            style="display:none"
-            tabindex="-1"
           />
         </div>
       </div>

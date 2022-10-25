@@ -14,7 +14,7 @@ title:
 Showing more detailed info of every row.
 
 ```tsx
-import { DownOutlined } from 'infra-design-icons';
+import { DownOutlined } from '@ant-design/icons';
 import type { TableColumnsType } from 'infrad';
 import { Badge, Dropdown, Menu, Space, Table } from 'infrad';
 import React from 'react';

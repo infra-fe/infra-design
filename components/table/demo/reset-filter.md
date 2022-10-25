@@ -24,7 +24,7 @@ Control filters and sorters by `filteredValue` and `sortOrder`.
 ```tsx
 import type { TableProps } from 'infrad';
 import { Button, Space, Table } from 'infrad';
-import type { ColumnsType, FilterValue, SorterResult } from 'infrad/lib/table/interface';
+import type { ColumnsType, FilterValue, SorterResult } from 'infrad/es/table/interface';
 import React, { useState } from 'react';
 
 interface DataType {

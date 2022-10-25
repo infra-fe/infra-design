@@ -854,7 +854,7 @@ exports[`renders ./components/time-picker/demo/status.md correctly 1`] = `
 >
   <div
     class="ant-space-item"
-    style="margin-bottom:16px"
+    style="margin-bottom:8px"
   >
     <div
       class="ant-picker ant-picker-status-error"
@@ -901,7 +901,7 @@ exports[`renders ./components/time-picker/demo/status.md correctly 1`] = `
   </div>
   <div
     class="ant-space-item"
-    style="margin-bottom:16px"
+    style="margin-bottom:8px"
   >
     <div
       class="ant-picker ant-picker-status-warning"
@@ -948,7 +948,7 @@ exports[`renders ./components/time-picker/demo/status.md correctly 1`] = `
   </div>
   <div
     class="ant-space-item"
-    style="margin-bottom:16px"
+    style="margin-bottom:8px"
   >
     <div
       class="ant-picker ant-picker-range ant-picker-status-error"

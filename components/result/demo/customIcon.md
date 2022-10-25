@@ -14,7 +14,7 @@ title:
 Custom icon.
 
 ```tsx
-import { SmileOutlined } from 'infra-design-icons';
+import { SmileOutlined } from '@ant-design/icons';
 import { Button, Result } from 'infrad';
 import React from 'react';
 

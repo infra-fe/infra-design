@@ -15,7 +15,7 @@ Set `icon` without `label` for Segmented Item.
 
 ```jsx
 import { Segmented } from 'infrad';
-import { AppstoreOutlined, BarsOutlined } from 'infra-design-icons';
+import { AppstoreOutlined, BarsOutlined } from '@ant-design/icons';
 
 export default () => (
   <Segmented

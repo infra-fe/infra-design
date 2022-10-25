@@ -587,7 +587,7 @@ exports[`renders ./components/image/demo/preview-mask.md extend context correctl
     >
       <div
         class="ant-space-item"
-        style="margin-bottom:16px"
+        style="margin-bottom:8px"
       >
         <span
           aria-label="zoom-in"

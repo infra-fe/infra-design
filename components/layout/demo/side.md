@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 3
 iframe: 360
 title:
   zh-CN: 侧边布局
@@ -29,7 +29,7 @@ import {
   PieChartOutlined,
   TeamOutlined,
   UserOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import type { MenuProps } from 'infrad';
 import { Breadcrumb, Layout, Menu } from 'infrad';
 import React, { useState } from 'react';

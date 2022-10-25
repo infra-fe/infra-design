@@ -16,7 +16,7 @@ Skeleton Button, Avatar, Input, Image and Node.
 ```tsx
 import type { RadioChangeEvent } from 'infrad';
 import { Divider, Form, Radio, Skeleton, Space, Switch } from 'infrad';
-import { DotChartOutlined } from 'infra-design-icons';
+import { DotChartOutlined } from '@ant-design/icons';
 import React, { useState } from 'react';
 
 type SizeType = 'default' | 'small' | 'large';

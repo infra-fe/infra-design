@@ -712,7 +712,7 @@ exports[`renders ./components/layout/demo/fixed.md extend context correctly 1`] 
     class="ant-layout-footer"
     style="text-align:center"
   >
-    Infra Design ©2018 Created by Ant UED
+    Ant Design ©2018 Created by Ant UED
   </footer>
 </section>
 `;
@@ -1570,7 +1570,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md extend context correctl
       class="ant-layout-footer"
       style="text-align:center"
     >
-      Infra Design ©2018 Created by Ant UED
+      Ant Design ©2018 Created by Ant UED
     </footer>
   </section>
 </section>
@@ -1926,7 +1926,7 @@ exports[`renders ./components/layout/demo/responsive.md extend context correctly
       class="ant-layout-footer"
       style="text-align:center"
     >
-      Infra Design ©2018 Created by Ant UED
+      Ant Design ©2018 Created by Ant UED
     </footer>
   </section>
 </section>
@@ -3623,7 +3623,7 @@ exports[`renders ./components/layout/demo/top.md extend context correctly 1`] = 
     class="ant-layout-footer"
     style="text-align:center"
   >
-    Infra Design ©2018 Created by Ant UED
+    Ant Design ©2018 Created by Ant UED
   </footer>
 </section>
 `;
@@ -4924,7 +4924,7 @@ exports[`renders ./components/layout/demo/top-side.md extend context correctly 1
     class="ant-layout-footer"
     style="text-align:center"
   >
-    Infra Design ©2018 Created by Ant UED
+    Ant Design ©2018 Created by Ant UED
   </footer>
 </section>
 `;
@@ -6167,7 +6167,7 @@ exports[`renders ./components/layout/demo/top-side-2.md extend context correctly
     </aside>
     <section
       class="ant-layout"
-      style="padding:0 32px 32px"
+      style="padding:0 24px 24px"
     >
       <nav
         class="ant-breadcrumb"

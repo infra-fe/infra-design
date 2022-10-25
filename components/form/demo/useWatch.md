@@ -16,7 +16,6 @@ title:
 
 ```tsx
 import React from 'react';
-
 import { Form, Input, InputNumber, Typography } from 'infrad';
 
 const Demo = () => {

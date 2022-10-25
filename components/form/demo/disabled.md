@@ -16,19 +16,19 @@ Set component disabled, only works for antd components.
 
 ```tsx
 import React, { useState } from 'react';
-import { PlusOutlined } from 'infra-design-icons';
+import { PlusOutlined } from '@ant-design/icons';
 import {
-  Button,
-  Cascader,
-  Checkbox,
-  DatePicker,
   Form,
   Input,
-  InputNumber,
+  Button,
   Radio,
   Select,
-  Switch,
+  Cascader,
+  DatePicker,
+  InputNumber,
   TreeSelect,
+  Switch,
+  Checkbox,
   Upload,
 } from 'infrad';
 

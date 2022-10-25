@@ -1,11 +1,12 @@
 import classNames from 'classnames';
-import { DownloadOutlined, ITrash, IView } from 'infra-design-icons';
+import DownloadOutlined from 'infra-design-icons/DownloadOutlined';
+import ITrash from 'infra-design-icons/ITrash';
+import IView from 'infra-design-icons/IView';
 import CSSMotion from 'rc-motion';
 import * as React from 'react';
 import { ConfigContext } from '../../config-provider';
 import Progress from '../../progress';
 import Tooltip from '../../tooltip';
-
 import type {
   ItemRender,
   UploadFile,
@@ -236,7 +237,7 @@ const ListItem = React.forwardRef(
       </span>
     );
 
-    let message;
+    let message: string;
     if (file.response && typeof file.response === 'string') {
       message = file.response;
     } else {
@@ -265,7 +266,7 @@ const ListItem = React.forwardRef(
               // show loading icon if upload progress listener is disabled
               const loadingProgress =
                 'percent' in file ? (
-                  <Progress {...progressProps} showInfo type="line" percent={file.percent} />
+                  <Progress {...progressProps} type="line" percent={file.percent} />
                 ) : null;
 
               return (

@@ -1,5 +1,5 @@
+import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
 import classNames from 'classnames';
-import { LoadingOutlined } from 'infra-design-icons';
 import * as React from 'react';
 
 import { ConfigContext } from '../config-provider';

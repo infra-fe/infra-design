@@ -15,8 +15,8 @@ Use `rowSelection.selections` custom selections, default no select dropdown, sho
 
 ```tsx
 import { Table } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
-import type { TableRowSelection } from 'infrad/lib/table/interface';
+import type { ColumnsType } from 'infrad/es/table';
+import type { TableRowSelection } from 'infrad/es/table/interface';
 import React, { useState } from 'react';
 
 interface DataType {
@@ -55,7 +55,7 @@ const App: React.FC = () => {
   const [selectedRowKeys, setSelectedRowKeys] = useState<React.Key[]>([]);
 
   const onSelectChange = (newSelectedRowKeys: React.Key[]) => {
-    console.log('selectedRowKeys changed: ', selectedRowKeys);
+    console.log('selectedRowKeys changed: ', newSelectedRowKeys);
     setSelectedRowKeys(newSelectedRowKeys);
   };
 

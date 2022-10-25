@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 4
 title:
   zh-CN: 自定义触发器
   en-US: Custom trigger
@@ -20,7 +20,7 @@ import {
   UploadOutlined,
   UserOutlined,
   VideoCameraOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import { Layout, Menu } from 'infrad';
 import React, { useState } from 'react';
 
@@ -91,7 +91,7 @@ export default App;
 }
 
 #components-layout-demo-custom-trigger .trigger:hover {
-  color: #2673dd;
+  color: #1890ff;
 }
 
 #components-layout-demo-custom-trigger .logo {

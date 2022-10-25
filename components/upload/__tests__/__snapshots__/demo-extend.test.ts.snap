@@ -32,7 +32,9 @@ exports[`renders ./components/upload/demo/avatar.md extend context correctly 1`]
             viewBox="64 64 896 896"
             width="1em"
           >
-            <defs />
+            <defs>
+              <style />
+            </defs>
             <path
               d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
             />
@@ -53,9 +55,7 @@ exports[`renders ./components/upload/demo/avatar.md extend context correctly 1`]
 `;
 
 exports[`renders ./components/upload/demo/basic.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -84,11 +84,11 @@ exports[`renders ./components/upload/demo/basic.md extend context correctly 1`] 
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -225,9 +225,7 @@ exports[`renders ./components/upload/demo/crop-image.md extend context correctly
 `;
 
 exports[`renders ./components/upload/demo/customize-progress-bar.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -256,11 +254,11 @@ exports[`renders ./components/upload/demo/customize-progress-bar.md extend conte
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -277,9 +275,7 @@ exports[`renders ./components/upload/demo/customize-progress-bar.md extend conte
 `;
 
 exports[`renders ./components/upload/demo/defaultFileList.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -308,11 +304,11 @@ exports[`renders ./components/upload/demo/defaultFileList.md extend context corr
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -588,9 +584,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md extend context corr
 `;
 
 exports[`renders ./components/upload/demo/directory.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -621,11 +615,11 @@ exports[`renders ./components/upload/demo/directory.md extend context correctly 
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -664,21 +658,21 @@ exports[`renders ./components/upload/demo/drag.md extend context correctly 1`] =
           class="ant-upload-drag-icon"
         >
           <span
-            aria-label="upload-cloud"
-            class="anticon anticon-upload-cloud"
+            aria-label="inbox"
+            class="anticon anticon-inbox"
             role="img"
           >
             <svg
               aria-hidden="true"
-              data-icon="upload-cloud"
+              data-icon="inbox"
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="0 0 16 16"
+              viewBox="0 0 1024 1024"
               width="1em"
             >
               <path
-                d="M8.78 7.58l.07.06 2.05 2.03a.5.5 0 01-.64.77l-.07-.06L9 9.19 9 13.53a.5.5 0 01-1 0V9.21l-1.16 1.17a.5.5 0 01-.64.06l-.07-.06a.5.5 0 01-.06-.64l.06-.07 2.02-2.03a.5.5 0 01.56-.1l.07.04zm-.28-5.6a4.5 4.5 0 014.49 4.18 3.5 3.5 0 01-.76 6.85H12a.5.5 0 01-.5-.5c0-.27.22-.5.5-.5h.17a2.5 2.5 0 00.54-4.9l-.67-.19-.05-.7a3.5 3.5 0 00-6.98 0l-.05.7-.67.2a2.5 2.5 0 00.71 4.9.5.5 0 01.5.4v.1a.5.5 0 01-.41.49H5a3.5 3.5 0 01-.99-6.85A4.5 4.5 0 018.5 1.97z"
+                d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0060.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z"
               />
             </svg>
           </span>
@@ -703,9 +697,7 @@ exports[`renders ./components/upload/demo/drag.md extend context correctly 1`] =
 `;
 
 exports[`renders ./components/upload/demo/drag-sorting.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -734,11 +726,11 @@ exports[`renders ./components/upload/demo/drag-sorting.md extend context correct
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -1884,7 +1876,9 @@ exports[`renders ./components/upload/demo/file-type.md extend context correctly 
               viewBox="64 64 896 896"
               width="1em"
             >
-              <defs />
+              <defs>
+                <style />
+              </defs>
               <path
                 d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
               />
@@ -1906,9 +1900,7 @@ exports[`renders ./components/upload/demo/file-type.md extend context correctly 
 `;
 
 exports[`renders ./components/upload/demo/fileList.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -1938,11 +1930,11 @@ exports[`renders ./components/upload/demo/fileList.md extend context correctly 1
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -2046,9 +2038,7 @@ exports[`renders ./components/upload/demo/max-count.md extend context correctly 
     class="ant-space-item"
     style="margin-bottom:32px"
   >
-    <span
-      class=""
-    >
+    <span>
       <div
         class="ant-upload ant-upload-select ant-upload-select-picture"
       >
@@ -2077,11 +2067,11 @@ exports[`renders ./components/upload/demo/max-count.md extend context correctly 
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="0 0 16 16"
+                viewBox="64 64 896 896"
                 width="1em"
               >
                 <path
-                  d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+                  d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
                 />
               </svg>
             </span>
@@ -2099,9 +2089,7 @@ exports[`renders ./components/upload/demo/max-count.md extend context correctly 
   <div
     class="ant-space-item"
   >
-    <span
-      class=""
-    >
+    <span>
       <div
         class="ant-upload ant-upload-select ant-upload-select-picture"
       >
@@ -2131,11 +2119,11 @@ exports[`renders ./components/upload/demo/max-count.md extend context correctly 
                 fill="currentColor"
                 focusable="false"
                 height="1em"
-                viewBox="0 0 16 16"
+                viewBox="64 64 896 896"
                 width="1em"
               >
                 <path
-                  d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+                  d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
                 />
               </svg>
             </span>
@@ -2732,7 +2720,9 @@ exports[`renders ./components/upload/demo/picture-card.md extend context correct
               viewBox="64 64 896 896"
               width="1em"
             >
-              <defs />
+              <defs>
+                <style />
+              </defs>
               <path
                 d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
               />
@@ -2755,9 +2745,7 @@ exports[`renders ./components/upload/demo/picture-card.md extend context correct
 
 exports[`renders ./components/upload/demo/picture-style.md extend context correctly 1`] = `
 Array [
-  <span
-    class=""
-  >
+  <span>
     <div
       class="ant-upload ant-upload-select ant-upload-select-picture"
     >
@@ -2786,11 +2774,11 @@ Array [
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="0 0 16 16"
+              viewBox="64 64 896 896"
               width="1em"
             >
               <path
-                d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+                d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
               />
             </svg>
           </span>
@@ -3021,11 +3009,11 @@ Array [
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="0 0 16 16"
+              viewBox="64 64 896 896"
               width="1em"
             >
               <path
-                d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+                d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
               />
             </svg>
           </span>
@@ -3227,9 +3215,7 @@ Array [
 `;
 
 exports[`renders ./components/upload/demo/preview-file.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-picture"
   >
@@ -3258,11 +3244,11 @@ exports[`renders ./components/upload/demo/preview-file.md extend context correct
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -3279,9 +3265,7 @@ exports[`renders ./components/upload/demo/preview-file.md extend context correct
 `;
 
 exports[`renders ./components/upload/demo/transform-file.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-picture"
   >
@@ -3310,11 +3294,11 @@ exports[`renders ./components/upload/demo/transform-file.md extend context corre
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -3331,9 +3315,7 @@ exports[`renders ./components/upload/demo/transform-file.md extend context corre
 `;
 
 exports[`renders ./components/upload/demo/upload-custom-action-icon.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -3362,11 +3344,11 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md extend co
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -3661,9 +3643,7 @@ exports[`renders ./components/upload/demo/upload-custom-action-icon.md extend co
 
 exports[`renders ./components/upload/demo/upload-manually.md extend context correctly 1`] = `
 Array [
-  <span
-    class=""
-  >
+  <span>
     <div
       class="ant-upload ant-upload-select ant-upload-select-text"
     >
@@ -3692,11 +3672,11 @@ Array [
               fill="currentColor"
               focusable="false"
               height="1em"
-              viewBox="0 0 16 16"
+              viewBox="64 64 896 896"
               width="1em"
             >
               <path
-                d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+                d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
               />
             </svg>
           </span>
@@ -3724,9 +3704,7 @@ Array [
 `;
 
 exports[`renders ./components/upload/demo/upload-png-only.md extend context correctly 1`] = `
-<span
-  class=""
->
+<span>
   <div
     class="ant-upload ant-upload-select ant-upload-select-text"
   >
@@ -3755,11 +3733,11 @@ exports[`renders ./components/upload/demo/upload-png-only.md extend context corr
             fill="currentColor"
             focusable="false"
             height="1em"
-            viewBox="0 0 16 16"
+            viewBox="64 64 896 896"
             width="1em"
           >
             <path
-              d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+              d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
             />
           </svg>
         </span>
@@ -3805,9 +3783,7 @@ exports[`renders ./components/upload/demo/upload-with-aliyun-oss.md extend conte
           <div
             class="ant-form-item-control-input-content"
           >
-            <span
-              class=""
-            >
+            <span>
               <div
                 class="ant-upload ant-upload-select ant-upload-select-text"
               >
@@ -3836,11 +3812,11 @@ exports[`renders ./components/upload/demo/upload-with-aliyun-oss.md extend conte
                         fill="currentColor"
                         focusable="false"
                         height="1em"
-                        viewBox="0 0 16 16"
+                        viewBox="64 64 896 896"
                         width="1em"
                       >
                         <path
-                          d="M14.5 9a.5.5 0 01.5.42v4.09a.5.5 0 01-.4.5H1.5a.5.5 0 01-.5-.41V9.5a.5.5 0 011-.08V13h12V9.5c0-.28.23-.5.5-.5zM8 11.34a.47.47 0 01-.47-.47V3.73l-2 2.33a.47.47 0 01-.66-.66l2.8-3.27h.01c.06-.06.14-.1.22-.12L7.99 2c.12 0 .25.04.34.13l2.8 3.27a.47.47 0 01-.66.66l-2-2.33v7.13c0 .26-.21.47-.47.47z"
+                          d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
                         />
                       </svg>
                     </span>

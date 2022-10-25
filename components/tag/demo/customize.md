@@ -15,7 +15,7 @@ title:
 The close icon can be customized using `closeIcon`.
 
 ```tsx
-import { CloseCircleOutlined } from 'infra-design-icons';
+import { CloseCircleOutlined } from '@ant-design/icons';
 import { Tag } from 'infrad';
 import React from 'react';
 

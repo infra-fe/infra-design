@@ -14,7 +14,7 @@ title:
 Replace the default star to other character like alphabet, digit, iconfont or even Chinese word.
 
 ```tsx
-import { HeartOutlined } from 'infra-design-icons';
+import { HeartOutlined } from '@ant-design/icons';
 import { Rate } from 'infrad';
 import React from 'react';
 

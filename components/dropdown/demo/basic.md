@@ -14,7 +14,7 @@ title:
 The most basic dropdown menu.
 
 ```tsx
-import { IArrowDown } from 'infra-design-icons';
+import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space } from 'infrad';
 import React from 'react';
 
@@ -36,7 +36,7 @@ const menu = (
             2nd menu item (disabled)
           </a>
         ),
-        icon: <IArrowDown />,
+        icon: <SmileOutlined />,
         disabled: true,
       },
       {
@@ -62,7 +62,7 @@ const App: React.FC = () => (
     <a onClick={e => e.preventDefault()}>
       <Space>
         Hover me
-        <IArrowDown />
+        <DownOutlined />
       </Space>
     </a>
   </Dropdown>

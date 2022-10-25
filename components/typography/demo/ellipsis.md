@@ -32,7 +32,7 @@ const App: React.FC = () => {
       />
 
       <Paragraph ellipsis={ellipsis}>
-        Infra Design, a design language for background applications, is refined by Ant UED Team. Ant
+        Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
@@ -41,7 +41,7 @@ const App: React.FC = () => {
       </Paragraph>
 
       <Paragraph ellipsis={ellipsis ? { rows: 2, expandable: true, symbol: 'more' } : false}>
-        Infra Design, a design language for background applications, is refined by Ant UED Team. Ant
+        Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
         Design, a design language for background applications, is refined by Ant UED Team. Ant
@@ -53,7 +53,7 @@ const App: React.FC = () => {
         style={ellipsis ? { width: 100 } : undefined}
         ellipsis={ellipsis ? { tooltip: 'I am ellipsis now!' } : false}
       >
-        Infra Design, a design language for background applications, is refined by Ant UED Team.
+        Ant Design, a design language for background applications, is refined by Ant UED Team.
       </Text>
     </>
   );

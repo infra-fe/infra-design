@@ -15,7 +15,7 @@ buggy!
 buggy!
 
 ```tsx
-import { AppstoreOutlined, MailOutlined } from 'infra-design-icons';
+import { AppstoreOutlined, MailOutlined } from '@ant-design/icons';
 import type { MenuProps, MenuTheme } from 'infrad';
 import { Menu, Switch } from 'infrad';
 import React, { useState } from 'react';

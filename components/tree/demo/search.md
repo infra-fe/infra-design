@@ -15,7 +15,7 @@ Searchable Tree.
 
 ```tsx
 import { Input, Tree } from 'infrad';
-import type { DataNode } from 'infrad/lib/tree';
+import type { DataNode } from 'infrad/es/tree';
 import React, { useMemo, useState } from 'react';
 
 const { Search } = Input;

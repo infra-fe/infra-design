@@ -14,7 +14,7 @@ title:
 Horizontal top navigation menu.
 
 ```tsx
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'infrad';
 import { Menu } from 'infrad';
 import React, { useState } from 'react';

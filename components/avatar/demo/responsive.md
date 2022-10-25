@@ -14,7 +14,7 @@ title:
 Avatar size can be automatically adjusted based on the screen size.
 
 ```tsx
-import { AntDesignOutlined } from 'infra-design-icons';
+import { AntDesignOutlined } from '@ant-design/icons';
 import { Avatar } from 'infrad';
 import React from 'react';
 

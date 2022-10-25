@@ -1,5 +1,5 @@
 ---
-order: 9
+order: 7
 title:
   zh-CN: 内部卡片
   en-US: Inner card

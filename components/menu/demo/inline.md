@@ -14,7 +14,7 @@ title:
 Vertical menu with inline submenus.
 
 ```tsx
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'infra-design-icons';
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'infrad';
 import { Menu } from 'infrad';
 import React from 'react';

@@ -14,7 +14,7 @@ title:
 Config Menu `selectable` prop to enable selectable ability.
 
 ```tsx
-import { DownOutlined } from 'infra-design-icons';
+import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space, Typography } from 'infrad';
 import React from 'react';
 

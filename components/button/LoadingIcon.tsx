@@ -1,4 +1,4 @@
-import { LoadingOutlined } from 'infra-design-icons';
+import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
 import CSSMotion from 'rc-motion';
 import React from 'react';
 

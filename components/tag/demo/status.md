@@ -21,7 +21,7 @@ import {
   ExclamationCircleOutlined,
   MinusCircleOutlined,
   SyncOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import { Divider, Tag } from 'infrad';
 import React from 'react';
 

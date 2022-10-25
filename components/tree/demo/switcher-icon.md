@@ -14,9 +14,9 @@ title:
 customize collapse/expand icon of tree node
 
 ```tsx
-import { DownOutlined } from 'infra-design-icons';
+import { DownOutlined } from '@ant-design/icons';
 import { Tree } from 'infrad';
-import type { DataNode, TreeProps } from 'infrad/lib/tree';
+import type { DataNode, TreeProps } from 'infrad/es/tree';
 import React from 'react';
 
 const treeData: DataNode[] = [

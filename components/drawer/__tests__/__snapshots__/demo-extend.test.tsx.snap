@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders ./components/drawer/demo/basic-right.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <button
     class="ant-btn ant-btn-primary"
     type="button"
@@ -20,12 +20,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 378px;"
+      style="width:378px"
     >
       <div
         aria-modal="true"
@@ -92,7 +92,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,
@@ -113,7 +113,7 @@ exports[`renders ./components/drawer/demo/config-provider.md extend context corr
   </button>
   <div
     class="ant-drawer ant-drawer-right ant-drawer-open ant-drawer-inline"
-    style="position: absolute;"
+    style="position:absolute"
     tabindex="-1"
   >
     <div
@@ -122,12 +122,12 @@ exports[`renders ./components/drawer/demo/config-provider.md extend context corr
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 378px;"
+      style="width:378px"
     >
       <div
         aria-modal="true"
@@ -194,7 +194,7 @@ exports[`renders ./components/drawer/demo/config-provider.md extend context corr
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>
@@ -202,13 +202,13 @@ exports[`renders ./components/drawer/demo/config-provider.md extend context corr
 `;
 
 exports[`renders ./components/drawer/demo/extra.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <div
     class="ant-space ant-space-horizontal ant-space-align-center"
   >
     <div
       class="ant-space-item"
-      style="margin-right: 16px;"
+      style="margin-right:8px"
     >
       <div
         class="ant-radio-group ant-radio-group-outline"
@@ -315,12 +315,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 500px;"
+      style="width:500px"
     >
       <div
         aria-modal="true"
@@ -375,7 +375,7 @@ HTMLCollection [
               >
                 <div
                   class="ant-space-item"
-                  style="margin-right: 16px;"
+                  style="margin-right:8px"
                 >
                   <button
                     class="ant-btn ant-btn-default"
@@ -420,7 +420,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,
@@ -428,7 +428,7 @@ HTMLCollection [
 `;
 
 exports[`renders ./components/drawer/demo/form-in-drawer.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <button
     class="ant-btn ant-btn-primary"
     type="button"
@@ -472,12 +472,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 720px;"
+      style="width:720px"
     >
       <div
         aria-modal="true"
@@ -532,7 +532,7 @@ HTMLCollection [
               >
                 <div
                   class="ant-space-item"
-                  style="margin-right: 16px;"
+                  style="margin-right:8px"
                 >
                   <button
                     class="ant-btn ant-btn-default"
@@ -560,18 +560,18 @@ HTMLCollection [
           </div>
           <div
             class="ant-drawer-body"
-            style="padding-bottom: 80px;"
+            style="padding-bottom:80px"
           >
             <form
               class="ant-form ant-form-vertical ant-form-hide-required-mark"
             >
               <div
                 class="ant-row"
-                style="margin-left: -8px; margin-right: -8px;"
+                style="margin-left:-8px;margin-right:-8px"
               >
                 <div
                   class="ant-col ant-col-12"
-                  style="padding-left: 8px; padding-right: 8px;"
+                  style="padding-left:8px;padding-right:8px"
                 >
                   <div
                     class="ant-form-item"
@@ -600,6 +600,7 @@ HTMLCollection [
                             class="ant-form-item-control-input-content"
                           >
                             <input
+                              aria-required="true"
                               class="ant-input"
                               id="name"
                               placeholder="Please enter user name"
@@ -614,7 +615,7 @@ HTMLCollection [
                 </div>
                 <div
                   class="ant-col ant-col-12"
-                  style="padding-left: 8px; padding-right: 8px;"
+                  style="padding-left:8px;padding-right:8px"
                 >
                   <div
                     class="ant-form-item"
@@ -644,7 +645,7 @@ HTMLCollection [
                           >
                             <span
                               class="ant-input-group-wrapper"
-                              style="width: 100%;"
+                              style="width:100%"
                             >
                               <span
                                 class="ant-input-wrapper ant-input-group"
@@ -655,6 +656,7 @@ HTMLCollection [
                                   http://
                                 </span>
                                 <input
+                                  aria-required="true"
                                   class="ant-input"
                                   id="url"
                                   placeholder="Please enter url"
@@ -677,11 +679,11 @@ HTMLCollection [
               </div>
               <div
                 class="ant-row"
-                style="margin-left: -8px; margin-right: -8px;"
+                style="margin-left:-8px;margin-right:-8px"
               >
                 <div
                   class="ant-col ant-col-12"
-                  style="padding-left: 8px; padding-right: 8px;"
+                  style="padding-left:8px;padding-right:8px"
                 >
                   <div
                     class="ant-form-item"
@@ -710,6 +712,7 @@ HTMLCollection [
                             class="ant-form-item-control-input-content"
                           >
                             <div
+                              aria-required="true"
                               class="ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow"
                             >
                               <div
@@ -724,12 +727,13 @@ HTMLCollection [
                                     aria-controls="owner_list"
                                     aria-haspopup="listbox"
                                     aria-owns="owner_list"
+                                    aria-required="true"
                                     autocomplete="off"
                                     class="ant-select-selection-search-input"
                                     id="owner"
                                     readonly=""
                                     role="combobox"
-                                    style="opacity: 0;"
+                                    style="opacity:0"
                                     type="search"
                                     unselectable="on"
                                     value=""
@@ -743,14 +747,14 @@ HTMLCollection [
                               </div>
                               <div>
                                 <div
-                                  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
-                                  style="opacity: 0;"
+                                  class="ant-select-dropdown"
+                                  style="opacity:0"
                                 >
                                   <div>
                                     <div
                                       id="owner_list"
                                       role="listbox"
-                                      style="height: 0px; width: 0px; overflow: hidden;"
+                                      style="height:0;width:0;overflow:hidden"
                                     >
                                       <div
                                         aria-label="Xiaoxiao Fu"
@@ -771,16 +775,16 @@ HTMLCollection [
                                     </div>
                                     <div
                                       class="rc-virtual-list"
-                                      style="position: relative;"
+                                      style="position:relative"
                                     >
                                       <div
                                         class="rc-virtual-list-holder"
-                                        style="max-height: 256px; overflow-y: auto;"
+                                        style="max-height:256px;overflow-y:auto;overflow-anchor:none"
                                       >
                                         <div>
                                           <div
                                             class="rc-virtual-list-holder-inner"
-                                            style="display: flex; flex-direction: column;"
+                                            style="display:flex;flex-direction:column"
                                           >
                                             <div
                                               aria-selected="false"
@@ -795,7 +799,7 @@ HTMLCollection [
                                               <span
                                                 aria-hidden="true"
                                                 class="ant-select-item-option-state"
-                                                style="user-select: none;"
+                                                style="user-select:none;-webkit-user-select:none"
                                                 unselectable="on"
                                               />
                                             </div>
@@ -812,7 +816,7 @@ HTMLCollection [
                                               <span
                                                 aria-hidden="true"
                                                 class="ant-select-item-option-state"
-                                                style="user-select: none;"
+                                                style="user-select:none;-webkit-user-select:none"
                                                 unselectable="on"
                                               />
                                             </div>
@@ -826,7 +830,7 @@ HTMLCollection [
                               <span
                                 aria-hidden="true"
                                 class="ant-select-arrow"
-                                style="user-select: none;"
+                                style="user-select:none;-webkit-user-select:none"
                                 unselectable="on"
                               >
                                 <span
@@ -858,7 +862,7 @@ HTMLCollection [
                 </div>
                 <div
                   class="ant-col ant-col-12"
-                  style="padding-left: 8px; padding-right: 8px;"
+                  style="padding-left:8px;padding-right:8px"
                 >
                   <div
                     class="ant-form-item"
@@ -887,6 +891,7 @@ HTMLCollection [
                             class="ant-form-item-control-input-content"
                           >
                             <div
+                              aria-required="true"
                               class="ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow"
                             >
                               <div
@@ -901,12 +906,13 @@ HTMLCollection [
                                     aria-controls="type_list"
                                     aria-haspopup="listbox"
                                     aria-owns="type_list"
+                                    aria-required="true"
                                     autocomplete="off"
                                     class="ant-select-selection-search-input"
                                     id="type"
                                     readonly=""
                                     role="combobox"
-                                    style="opacity: 0;"
+                                    style="opacity:0"
                                     type="search"
                                     unselectable="on"
                                     value=""
@@ -920,14 +926,14 @@ HTMLCollection [
                               </div>
                               <div>
                                 <div
-                                  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
-                                  style="opacity: 0;"
+                                  class="ant-select-dropdown"
+                                  style="opacity:0"
                                 >
                                   <div>
                                     <div
                                       id="type_list"
                                       role="listbox"
-                                      style="height: 0px; width: 0px; overflow: hidden;"
+                                      style="height:0;width:0;overflow:hidden"
                                     >
                                       <div
                                         aria-label="Private"
@@ -948,16 +954,16 @@ HTMLCollection [
                                     </div>
                                     <div
                                       class="rc-virtual-list"
-                                      style="position: relative;"
+                                      style="position:relative"
                                     >
                                       <div
                                         class="rc-virtual-list-holder"
-                                        style="max-height: 256px; overflow-y: auto;"
+                                        style="max-height:256px;overflow-y:auto;overflow-anchor:none"
                                       >
                                         <div>
                                           <div
                                             class="rc-virtual-list-holder-inner"
-                                            style="display: flex; flex-direction: column;"
+                                            style="display:flex;flex-direction:column"
                                           >
                                             <div
                                               aria-selected="false"
@@ -972,7 +978,7 @@ HTMLCollection [
                                               <span
                                                 aria-hidden="true"
                                                 class="ant-select-item-option-state"
-                                                style="user-select: none;"
+                                                style="user-select:none;-webkit-user-select:none"
                                                 unselectable="on"
                                               />
                                             </div>
@@ -989,7 +995,7 @@ HTMLCollection [
                                               <span
                                                 aria-hidden="true"
                                                 class="ant-select-item-option-state"
-                                                style="user-select: none;"
+                                                style="user-select:none;-webkit-user-select:none"
                                                 unselectable="on"
                                               />
                                             </div>
@@ -1003,7 +1009,7 @@ HTMLCollection [
                               <span
                                 aria-hidden="true"
                                 class="ant-select-arrow"
-                                style="user-select: none;"
+                                style="user-select:none;-webkit-user-select:none"
                                 unselectable="on"
                               >
                                 <span
@@ -1036,11 +1042,11 @@ HTMLCollection [
               </div>
               <div
                 class="ant-row"
-                style="margin-left: -8px; margin-right: -8px;"
+                style="margin-left:-8px;margin-right:-8px"
               >
                 <div
                   class="ant-col ant-col-12"
-                  style="padding-left: 8px; padding-right: 8px;"
+                  style="padding-left:8px;padding-right:8px"
                 >
                   <div
                     class="ant-form-item"
@@ -1069,6 +1075,7 @@ HTMLCollection [
                             class="ant-form-item-control-input-content"
                           >
                             <div
+                              aria-required="true"
                               class="ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow"
                             >
                               <div
@@ -1083,12 +1090,13 @@ HTMLCollection [
                                     aria-controls="approver_list"
                                     aria-haspopup="listbox"
                                     aria-owns="approver_list"
+                                    aria-required="true"
                                     autocomplete="off"
                                     class="ant-select-selection-search-input"
                                     id="approver"
                                     readonly=""
                                     role="combobox"
-                                    style="opacity: 0;"
+                                    style="opacity:0"
                                     type="search"
                                     unselectable="on"
                                     value=""
@@ -1102,14 +1110,14 @@ HTMLCollection [
                               </div>
                               <div>
                                 <div
-                                  class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
-                                  style="opacity: 0;"
+                                  class="ant-select-dropdown"
+                                  style="opacity:0"
                                 >
                                   <div>
                                     <div
                                       id="approver_list"
                                       role="listbox"
-                                      style="height: 0px; width: 0px; overflow: hidden;"
+                                      style="height:0;width:0;overflow:hidden"
                                     >
                                       <div
                                         aria-label="Jack Ma"
@@ -1130,16 +1138,16 @@ HTMLCollection [
                                     </div>
                                     <div
                                       class="rc-virtual-list"
-                                      style="position: relative;"
+                                      style="position:relative"
                                     >
                                       <div
                                         class="rc-virtual-list-holder"
-                                        style="max-height: 256px; overflow-y: auto;"
+                                        style="max-height:256px;overflow-y:auto;overflow-anchor:none"
                                       >
                                         <div>
                                           <div
                                             class="rc-virtual-list-holder-inner"
-                                            style="display: flex; flex-direction: column;"
+                                            style="display:flex;flex-direction:column"
                                           >
                                             <div
                                               aria-selected="false"
@@ -1154,7 +1162,7 @@ HTMLCollection [
                                               <span
                                                 aria-hidden="true"
                                                 class="ant-select-item-option-state"
-                                                style="user-select: none;"
+                                                style="user-select:none;-webkit-user-select:none"
                                                 unselectable="on"
                                               />
                                             </div>
@@ -1171,7 +1179,7 @@ HTMLCollection [
                                               <span
                                                 aria-hidden="true"
                                                 class="ant-select-item-option-state"
-                                                style="user-select: none;"
+                                                style="user-select:none;-webkit-user-select:none"
                                                 unselectable="on"
                                               />
                                             </div>
@@ -1185,7 +1193,7 @@ HTMLCollection [
                               <span
                                 aria-hidden="true"
                                 class="ant-select-arrow"
-                                style="user-select: none;"
+                                style="user-select:none;-webkit-user-select:none"
                                 unselectable="on"
                               >
                                 <span
@@ -1217,7 +1225,7 @@ HTMLCollection [
                 </div>
                 <div
                   class="ant-col ant-col-12"
-                  style="padding-left: 8px; padding-right: 8px;"
+                  style="padding-left:8px;padding-right:8px"
                 >
                   <div
                     class="ant-form-item"
@@ -1246,8 +1254,9 @@ HTMLCollection [
                             class="ant-form-item-control-input-content"
                           >
                             <div
+                              aria-required="true"
                               class="ant-picker ant-picker-range"
-                              style="width: 100%;"
+                              style="width:100%"
                             >
                               <div
                                 class="ant-picker-input ant-picker-input-active"
@@ -1302,7 +1311,7 @@ HTMLCollection [
                               </div>
                               <div
                                 class="ant-picker-active-bar"
-                                style="left: 0px; width: 0px; position: absolute;"
+                                style="left:0;width:0;position:absolute"
                               />
                               <span
                                 class="ant-picker-suffix"
@@ -1330,20 +1339,20 @@ HTMLCollection [
                             </div>
                             <div>
                               <div
-                                class="ant-picker-dropdown ant-picker-dropdown-range ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up"
-                                style="opacity: 0;"
+                                class="ant-picker-dropdown ant-picker-dropdown-range"
+                                style="opacity:0"
                               >
                                 <div
                                   class="ant-picker-range-wrapper ant-picker-date-range-wrapper"
-                                  style="min-width: 0;"
+                                  style="min-width:0"
                                 >
                                   <div
                                     class="ant-picker-range-arrow"
-                                    style="left: 0px;"
+                                    style="left:0"
                                   />
                                   <div
                                     class="ant-picker-panel-container"
-                                    style="margin-left: 0px;"
+                                    style="margin-left:0"
                                   >
                                     <div
                                       class="ant-picker-panels"
@@ -1396,7 +1405,7 @@ HTMLCollection [
                                             </div>
                                             <button
                                               class="ant-picker-header-next-btn"
-                                              style="visibility: hidden;"
+                                              style="visibility:hidden"
                                               tabindex="-1"
                                               type="button"
                                             >
@@ -1406,7 +1415,7 @@ HTMLCollection [
                                             </button>
                                             <button
                                               class="ant-picker-header-super-next-btn"
-                                              style="visibility: hidden;"
+                                              style="visibility:hidden"
                                               tabindex="-1"
                                               type="button"
                                             >
@@ -1896,7 +1905,7 @@ HTMLCollection [
                                           >
                                             <button
                                               class="ant-picker-header-super-prev-btn"
-                                              style="visibility: hidden;"
+                                              style="visibility:hidden"
                                               tabindex="-1"
                                               type="button"
                                             >
@@ -1906,7 +1915,7 @@ HTMLCollection [
                                             </button>
                                             <button
                                               class="ant-picker-header-prev-btn"
-                                              style="visibility: hidden;"
+                                              style="visibility:hidden"
                                               tabindex="-1"
                                               type="button"
                                             >
@@ -2425,9 +2434,6 @@ HTMLCollection [
                                 </div>
                               </div>
                             </div>
-                            <div
-                              style="position: absolute; top: 0px; left: 0px; width: 100%;"
-                            />
                           </div>
                         </div>
                       </div>
@@ -2437,11 +2443,11 @@ HTMLCollection [
               </div>
               <div
                 class="ant-row"
-                style="margin-left: -8px; margin-right: -8px;"
+                style="margin-left:-8px;margin-right:-8px"
               >
                 <div
                   class="ant-col ant-col-24"
-                  style="padding-left: 8px; padding-right: 8px;"
+                  style="padding-left:8px;padding-right:8px"
                 >
                   <div
                     class="ant-form-item"
@@ -2470,6 +2476,7 @@ HTMLCollection [
                             class="ant-form-item-control-input-content"
                           >
                             <textarea
+                              aria-required="true"
                               class="ant-input"
                               id="description"
                               placeholder="please enter url description"
@@ -2490,7 +2497,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,
@@ -2498,7 +2505,7 @@ HTMLCollection [
 `;
 
 exports[`renders ./components/drawer/demo/multi-level-drawer.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <button
     class="ant-btn ant-btn-primary"
     type="button"
@@ -2517,12 +2524,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 520px; transform: translateX(-180px);"
+      style="width:520px"
     >
       <div
         aria-modal="true"
@@ -2566,12 +2573,12 @@ HTMLCollection [
               <div
                 aria-hidden="true"
                 data-sentinel="start"
-                style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+                style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
                 tabindex="0"
               />
               <div
                 class="ant-drawer-content-wrapper"
-                style="width: 320px;"
+                style="width:320px"
               >
                 <div
                   aria-modal="true"
@@ -2605,7 +2612,7 @@ HTMLCollection [
               <div
                 aria-hidden="true"
                 data-sentinel="end"
-                style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+                style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
                 tabindex="0"
               />
             </div>
@@ -2616,7 +2623,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,
@@ -2624,7 +2631,7 @@ HTMLCollection [
 `;
 
 exports[`renders ./components/drawer/demo/no-mask.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <button
     class="ant-btn ant-btn-primary"
     type="button"
@@ -2640,12 +2647,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 333px; background: red; border-radius: 20px; box-shadow: -5px 0 5px green; overflow: hidden;"
+      style="width:333px;background:red;border-radius:20px;box-shadow:-5px 0 5px green;overflow:hidden"
     >
       <div
         aria-modal="true"
@@ -2712,7 +2719,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,
@@ -2720,13 +2727,13 @@ HTMLCollection [
 `;
 
 exports[`renders ./components/drawer/demo/placement.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <div
     class="ant-space ant-space-horizontal ant-space-align-center"
   >
     <div
       class="ant-space-item"
-      style="margin-right: 16px;"
+      style="margin-right:8px"
     >
       <div
         class="ant-radio-group ant-radio-group-outline"
@@ -2833,12 +2840,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 378px;"
+      style="width:378px"
     >
       <div
         aria-modal="true"
@@ -2880,7 +2887,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,
@@ -2893,7 +2900,7 @@ exports[`renders ./components/drawer/demo/render-in-current.md extend context co
 >
   Render in this
   <div
-    style="margin-top: 16px;"
+    style="margin-top:16px"
   >
     <button
       class="ant-btn ant-btn-primary"
@@ -2906,7 +2913,7 @@ exports[`renders ./components/drawer/demo/render-in-current.md extend context co
   </div>
   <div
     class="ant-drawer ant-drawer-right ant-drawer-open ant-drawer-inline"
-    style="position: absolute;"
+    style="position:absolute"
     tabindex="-1"
   >
     <div
@@ -2915,12 +2922,12 @@ exports[`renders ./components/drawer/demo/render-in-current.md extend context co
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 378px;"
+      style="width:378px"
     >
       <div
         aria-modal="true"
@@ -2956,7 +2963,7 @@ exports[`renders ./components/drawer/demo/render-in-current.md extend context co
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>
@@ -2964,13 +2971,13 @@ exports[`renders ./components/drawer/demo/render-in-current.md extend context co
 `;
 
 exports[`renders ./components/drawer/demo/size.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <div
     class="ant-space ant-space-horizontal ant-space-align-center"
   >
     <div
       class="ant-space-item"
-      style="margin-right: 16px;"
+      style="margin-right:8px"
     >
       <button
         class="ant-btn ant-btn-primary"
@@ -3004,12 +3011,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 378px;"
+      style="width:378px"
     >
       <div
         aria-modal="true"
@@ -3064,7 +3071,7 @@ HTMLCollection [
               >
                 <div
                   class="ant-space-item"
-                  style="margin-right: 16px;"
+                  style="margin-right:8px"
                 >
                   <button
                     class="ant-btn ant-btn-default"
@@ -3109,7 +3116,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,
@@ -3117,7 +3124,7 @@ HTMLCollection [
 `;
 
 exports[`renders ./components/drawer/demo/user-profile.md extend context correctly 1`] = `
-HTMLCollection [
+Array [
   <div
     class="ant-list ant-list-split ant-list-bordered"
   >
@@ -3236,12 +3243,12 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="start"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
     <div
       class="ant-drawer-content-wrapper"
-      style="width: 640px;"
+      style="width:640px"
     >
       <div
         aria-modal="true"
@@ -3256,7 +3263,7 @@ HTMLCollection [
           >
             <p
               class="site-description-item-profile-p"
-              style="margin-bottom: 24px;"
+              style="margin-bottom:24px"
             >
               User Profile
             </p>
@@ -3278,6 +3285,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Full Name
+                    <!-- -->
                     :
                   </p>
                   Lily
@@ -3293,6 +3301,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Account
+                    <!-- -->
                     :
                   </p>
                   AntDesign@example.com
@@ -3312,6 +3321,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     City
+                    <!-- -->
                     :
                   </p>
                   HangZhou
@@ -3327,6 +3337,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Country
+                    <!-- -->
                     :
                   </p>
                   China🇨🇳
@@ -3346,6 +3357,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Birthday
+                    <!-- -->
                     :
                   </p>
                   February 2,1900
@@ -3361,6 +3373,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Website
+                    <!-- -->
                     :
                   </p>
                   -
@@ -3380,6 +3393,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Message
+                    <!-- -->
                     :
                   </p>
                   Make things as simple as possible but no simpler.
@@ -3408,6 +3422,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Position
+                    <!-- -->
                     :
                   </p>
                   Programmer
@@ -3423,6 +3438,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Responsibilities
+                    <!-- -->
                     :
                   </p>
                   Coding
@@ -3442,6 +3458,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Department
+                    <!-- -->
                     :
                   </p>
                   XTech
@@ -3457,6 +3474,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Supervisor
+                    <!-- -->
                     :
                   </p>
                   <a>
@@ -3478,6 +3496,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Skills
+                    <!-- -->
                     :
                   </p>
                   C / C + +, data structures, software engineering, operating systems, computer networks, databases, compiler theory, computer architecture, Microcomputer Principle and Interface Technology, Computer English, Java, ASP, etc.
@@ -3506,6 +3525,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Email
+                    <!-- -->
                     :
                   </p>
                   AntDesign@example.com
@@ -3521,6 +3541,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Phone Number
+                    <!-- -->
                     :
                   </p>
                   +86 181 0000 0000
@@ -3540,6 +3561,7 @@ HTMLCollection [
                     class="site-description-item-profile-p-label"
                   >
                     Github
+                    <!-- -->
                     :
                   </p>
                   <a
@@ -3557,7 +3579,7 @@ HTMLCollection [
     <div
       aria-hidden="true"
       data-sentinel="end"
-      style="width: 0px; height: 0px; overflow: hidden; outline: none; position: absolute;"
+      style="width:0;height:0;overflow:hidden;outline:none;position:absolute"
       tabindex="0"
     />
   </div>,

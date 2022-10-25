@@ -14,7 +14,7 @@ title:
 Use custom loading indicator.
 
 ```tsx
-import { LoadingOutlined } from 'infra-design-icons';
+import { LoadingOutlined } from '@ant-design/icons';
 import { Spin } from 'infrad';
 import React from 'react';
 

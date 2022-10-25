@@ -34,7 +34,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/_0XzgOis7/Select.svg
 | defaultOpen | 是否默认展开下拉菜单 | boolean | - |  |
 | defaultValue | 指定默认选中的条目 | string \| string\[]<br />number \| number\[]<br />LabeledValue \| LabeledValue\[] | - |  |
 | disabled | 是否禁用 | boolean | false |  |
-| dropdownClassName | 下拉菜单的 className 属性 | string | - |  |
+| popupClassName | 下拉菜单的 className 属性 | string | - | 4.23.0 |
 | dropdownMatchSelectWidth | 下拉菜单和选择器同宽。默认将设置 `min-width`，当值小于选择框宽度时会被忽略。false 时会关闭虚拟滚动 | boolean \| number | true |  |
 | dropdownRender | 自定义下拉框内容 | (originNode: ReactNode) => ReactNode | - |  |
 | dropdownStyle | 下拉菜单的 style 属性 | CSSProperties | - |  |
@@ -115,6 +115,25 @@ cover: https://gw.alipayobjects.com/zos/alicdn/_0XzgOis7/Select.svg
 ### 点击 `dropdownRender` 里的元素，下拉菜单不会自动消失？
 
 你可以使用受控模式，手动设置 `open` 属性：[codesandbox](https://codesandbox.io/s/ji-ben-shi-yong-antd-4-21-7-forked-gnp4cy?file=/demo.js)。
+
+### 反过来希望点击 `dropdownRender` 里元素不消失该怎么办？
+
+Select 当失去焦点时会关闭下拉框，如果你可以通过阻止默认行为避免丢失焦点导致的关闭：
+
+```jsx
+<Select
+  dropdownRender={() => (
+    <div
+      onMouseDown={e => {
+        e.preventDefault();
+        e.stopPropagation();
+      }}
+    >
+      Some Content
+    </div>
+  )}
+/>
+```
 
 ### 自定义 Option 样式导致滚动异常怎么办？
 

@@ -14,7 +14,7 @@ title:
 Simplest Usage. Badge will be hidden when `count` is `0`, but we can use `showZero` to show it.
 
 ```tsx
-import { ClockCircleOutlined } from 'infra-design-icons';
+import { ClockCircleOutlined } from '@ant-design/icons';
 import { Avatar, Badge } from 'infrad';
 import React from 'react';
 

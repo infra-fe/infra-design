@@ -14,7 +14,7 @@ title:
 The default trigger mode is `hover`, you can change it to `click`.
 
 ```tsx
-import { IArrowDown } from 'infra-design-icons';
+import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space } from 'infrad';
 import React from 'react';
 
@@ -45,7 +45,7 @@ const App: React.FC = () => (
     <a onClick={e => e.preventDefault()}>
       <Space>
         Click me
-        <IArrowDown />
+        <DownOutlined />
       </Space>
     </a>
   </Dropdown>

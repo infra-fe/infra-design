@@ -7,7 +7,7 @@ debug: true
 ---
 
 ```tsx
-import { SearchOutlined } from 'infra-design-icons';
+import { SearchOutlined } from '@ant-design/icons';
 import { AutoComplete, Button, Form, Input, TreeSelect } from 'infrad';
 import React from 'react';
 

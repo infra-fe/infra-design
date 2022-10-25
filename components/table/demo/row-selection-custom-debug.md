@@ -16,8 +16,8 @@ Customize selection group.
 
 ```tsx
 import { Table } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
-import type { TableRowSelection } from 'infrad/lib/table/interface';
+import type { ColumnsType } from 'infrad/es/table';
+import type { TableRowSelection } from 'infrad/es/table/interface';
 import React from 'react';
 
 interface DataType {

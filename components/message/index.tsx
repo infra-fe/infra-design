@@ -1,11 +1,14 @@
+import CheckCircleFilled from 'infra-design-icons/ISuccessFilled';
+import CloseCircleFilled from 'infra-design-icons/ICloseFullfiled';
+import ExclamationCircleFilled from 'infra-design-icons/INoticeCircleFilled';
+// import InfoCircleFilled from 'infra-design-icons/InfoCircleFilled';
+import LoadingOutlined from 'infra-design-icons/LoadingOutlined';
+// import CheckCircleFilled from '@ant-design/icons/CheckCircleFilled';
+// import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
+// import ExclamationCircleFilled from '@ant-design/icons/ExclamationCircleFilled';
+import InfoCircleFilled from '@ant-design/icons/InfoCircleFilled';
+// import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
 import classNames from 'classnames';
-import {
-  ICloseFullfiled,
-  IInformationFilled,
-  INoticeCircleFilled,
-  ISuccessFilled,
-  LoadingOutlined,
-} from 'infra-design-icons';
 import RCNotification from 'rc-notification';
 import type {
   NoticeContent,
@@ -122,10 +125,10 @@ export interface MessageType extends PromiseLike<any> {
 }
 
 const typeToIcon = {
-  info: IInformationFilled,
-  success: ISuccessFilled,
-  error: ICloseFullfiled,
-  warning: INoticeCircleFilled,
+  info: InfoCircleFilled,
+  success: CheckCircleFilled,
+  error: CloseCircleFilled,
+  warning: ExclamationCircleFilled,
   loading: LoadingOutlined,
 };
 
@@ -273,7 +276,7 @@ export interface MessageApi extends MessageInstance {
   useMessage(): [MessageInstance, React.ReactElement];
 }
 
-/** @private test Only function. Not work on production */
+/** @internal test Only function. Not work on production */
 export const getInstance = () => (process.env.NODE_ENV === 'test' ? messageInstance : null);
 
 export default api as MessageApi;

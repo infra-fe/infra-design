@@ -19,7 +19,7 @@ import {
   PieChartOutlined,
   TeamOutlined,
   UserOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import type { MenuProps } from 'infrad';
 import { Layout, Menu } from 'infrad';
 import React, { useState } from 'react';
@@ -127,6 +127,6 @@ export default App;
 }
 
 #components-layout-demo-custom-trigger .trigger:hover {
-  color: #2673dd;
+  color: #1890ff;
 }
 ```

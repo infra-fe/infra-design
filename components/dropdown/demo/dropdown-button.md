@@ -14,7 +14,7 @@ title:
 A button is on the left, and a related functional menu is on the right. You can set the icon property to modify the icon of right.
 
 ```tsx
-import { IArrowDown, UserOutlined } from 'infra-design-icons';
+import { DownOutlined, UserOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'infrad';
 import { Button, Dropdown, Menu, message, Space, Tooltip } from 'infrad';
 import React from 'react';
@@ -78,10 +78,13 @@ const App: React.FC = () => (
       <Button>
         <Space>
           Button
-          <IArrowDown />
+          <DownOutlined />
         </Space>
       </Button>
     </Dropdown>
+    <Dropdown.Button danger onClick={handleButtonClick} overlay={menu}>
+      Danger
+    </Dropdown.Button>
   </Space>
 );
 

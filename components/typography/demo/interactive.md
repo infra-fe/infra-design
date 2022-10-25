@@ -14,7 +14,7 @@ title:
 Provide additional interactive capacity of editable and copyable.
 
 ```tsx
-import { CheckOutlined, HighlightOutlined, SmileFilled, SmileOutlined } from 'infra-design-icons';
+import { CheckOutlined, HighlightOutlined, SmileFilled, SmileOutlined } from '@ant-design/icons';
 import { Divider, Radio, Typography } from 'infrad';
 import React, { useState } from 'react';
 
@@ -136,7 +136,7 @@ const App: React.FC = () => {
       </Typography.Title>
       <Divider />
       <Paragraph copyable>This is a copyable text.</Paragraph>
-      <Paragraph copyable={{ text: 'Hello, Infra Design!' }}>Replace copy text.</Paragraph>
+      <Paragraph copyable={{ text: 'Hello, Ant Design!' }}>Replace copy text.</Paragraph>
       <Paragraph
         copyable={{
           icon: [<SmileOutlined key="copy-icon" />, <SmileFilled key="copied-icon" />],

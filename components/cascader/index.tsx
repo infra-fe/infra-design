@@ -1,4 +1,6 @@
-import { LeftOutlined, LoadingOutlined, RightOutlined } from 'infra-design-icons';
+import LeftOutlined from '@ant-design/icons/LeftOutlined';
+import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
+import RightOutlined from '@ant-design/icons/RightOutlined';
 import classNames from 'classnames';
 import type {
   BaseOptionType,
@@ -106,6 +108,11 @@ export type CascaderProps<DataNodeType> = UnionCascaderProps & {
   suffixIcon?: React.ReactNode;
   options?: DataNodeType[];
   status?: InputStatus;
+  /**
+   * @deprecated `dropdownClassName` is deprecated which will be removed in next major
+   *   version.Please use `popupClassName` instead.
+   */
+  dropdownClassName?: string;
 };
 
 export interface CascaderRef {
@@ -162,9 +169,9 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
 
   // =================== Warning =====================
   warning(
-    popupClassName === undefined,
+    !dropdownClassName,
     'Cascader',
-    '`popupClassName` is deprecated. Please use `dropdownClassName` instead.',
+    '`dropdownClassName` is deprecated which will be removed in next major version. Please use `popupClassName` instead.',
   );
 
   warning(
@@ -183,7 +190,7 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
 
   // =================== Dropdown ====================
   const mergedDropdownClassName = classNames(
-    dropdownClassName || popupClassName,
+    popupClassName || dropdownClassName,
     `${cascaderPrefixCls}-dropdown`,
     {
       [`${cascaderPrefixCls}-dropdown-rtl`]: mergedDirection === 'rtl',

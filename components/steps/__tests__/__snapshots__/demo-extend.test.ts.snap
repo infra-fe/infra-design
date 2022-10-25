@@ -278,7 +278,13 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md extend conte
                     class="ant-popover-inner-content"
                   >
                     <span>
-                      step 0 status: finish
+                      step 
+                      <!-- -->
+                      0
+                      <!-- -->
+                       status: 
+                      <!-- -->
+                      finish
                     </span>
                   </div>
                 </div>
@@ -344,7 +350,13 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md extend conte
                     class="ant-popover-inner-content"
                   >
                     <span>
-                      step 1 status: process
+                      step 
+                      <!-- -->
+                      1
+                      <!-- -->
+                       status: 
+                      <!-- -->
+                      process
                     </span>
                   </div>
                 </div>
@@ -410,7 +422,13 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md extend conte
                     class="ant-popover-inner-content"
                   >
                     <span>
-                      step 2 status: wait
+                      step 
+                      <!-- -->
+                      2
+                      <!-- -->
+                       status: 
+                      <!-- -->
+                      wait
                     </span>
                   </div>
                 </div>
@@ -476,7 +494,13 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md extend conte
                     class="ant-popover-inner-content"
                   >
                     <span>
-                      step 3 status: wait
+                      step 
+                      <!-- -->
+                      3
+                      <!-- -->
+                       status: 
+                      <!-- -->
+                      wait
                     </span>
                   </div>
                 </div>

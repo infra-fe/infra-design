@@ -15,7 +15,7 @@ Drag treeNode to insert after the other treeNode or insert into the other parent
 
 ```tsx
 import { Tree } from 'infrad';
-import type { DataNode, TreeProps } from 'infrad/lib/tree';
+import type { DataNode, TreeProps } from 'infrad/es/tree';
 import React, { useState } from 'react';
 
 const x = 3;

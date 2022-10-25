@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 4
 title:
   zh-CN: 栅格卡片
   en-US: Card in column

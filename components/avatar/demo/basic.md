@@ -14,7 +14,7 @@ title:
 Three sizes and two shapes are available.
 
 ```tsx
-import { UserOutlined } from 'infra-design-icons';
+import { UserOutlined } from '@ant-design/icons';
 import { Avatar } from 'infrad';
 import React from 'react';
 

@@ -15,7 +15,7 @@ title:
 When you need to use a custom `Icon`, you can set the `Icon` component as the property value of `upIcon` and `downIcon`.
 
 ```tsx
-import { ArrowDownOutlined, ArrowUpOutlined } from 'infra-design-icons';
+import { ArrowDownOutlined, ArrowUpOutlined } from '@ant-design/icons';
 import { InputNumber } from 'infrad';
 import React from 'react';
 

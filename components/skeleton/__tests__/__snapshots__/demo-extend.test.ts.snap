@@ -54,7 +54,7 @@ exports[`renders ./components/skeleton/demo/children.md extend context correctly
 >
   <div>
     <h4>
-      Infra Design, a design language
+      Ant Design, a design language
     </h4>
     <p>
       We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
@@ -108,7 +108,7 @@ Array [
   >
     <div
       class="ant-space-item"
-      style="margin-right:16px"
+      style="margin-right:8px"
     >
       <div
         class="ant-skeleton ant-skeleton-element"
@@ -120,7 +120,7 @@ Array [
     </div>
     <div
       class="ant-space-item"
-      style="margin-right:16px"
+      style="margin-right:8px"
     >
       <div
         class="ant-skeleton ant-skeleton-element"
@@ -167,7 +167,7 @@ Array [
   >
     <div
       class="ant-space-item"
-      style="margin-right:16px"
+      style="margin-right:8px"
     >
       <div
         class="ant-skeleton ant-skeleton-element"

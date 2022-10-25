@@ -15,7 +15,7 @@ Table pagination settings.
 
 ```tsx
 import { Radio, Space, Table, Tag } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
+import type { ColumnsType } from 'infrad/es/table';
 import React, { useState } from 'react';
 
 interface DataType {

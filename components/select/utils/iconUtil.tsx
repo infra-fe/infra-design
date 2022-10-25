@@ -1,6 +1,5 @@
 import {
   IArrowDown,
-  IArrowUp,
   IClose,
   ICloseFullfiled,
   ISelector,
@@ -36,10 +35,7 @@ export default function getIcons({
   showArrow?: boolean;
 }) {
   // Clear Icon
-  let mergedClearIcon = clearIcon;
-  if (!clearIcon) {
-    mergedClearIcon = <ICloseFullfiled />;
-  }
+  const mergedClearIcon = clearIcon ?? <ICloseFullfiled />;
 
   // Validation Feedback Icon
   const getSuffixIconNode = (arrowIcon?: ReactNode) => (
@@ -58,14 +54,10 @@ export default function getIcons({
   } else {
     const iconCls = `${prefixCls}-suffix`;
     mergedSuffixIcon = ({ open, showSearch }: { open: boolean; showSearch: boolean }) => {
-      if (open) {
-        return showSearch ? (
-          <SearchOutlined className={iconCls} />
-        ) : (
-          <IArrowUp className={iconCls} />
-        );
+      if (open && showSearch) {
+        return getSuffixIconNode(<SearchOutlined className={iconCls} />);
       }
-      return <IArrowDown className={iconCls} />;
+      return getSuffixIconNode(<IArrowDown className={iconCls} />);
     };
   }
 

@@ -14,7 +14,7 @@ title:
 Crowded components horizontal spacing.
 
 ```tsx
-import { UploadOutlined } from 'infra-design-icons';
+import { UploadOutlined } from '@ant-design/icons';
 import { Button, Popconfirm, Space, Upload } from 'infrad';
 import React from 'react';
 

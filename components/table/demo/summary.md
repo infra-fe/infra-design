@@ -15,7 +15,7 @@ Set summary content by `summary` prop. Sync column fixed status with `Table.Summ
 
 ```tsx
 import { Table, Typography } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
+import type { ColumnsType } from 'infrad/es/table';
 import React from 'react';
 
 const { Text } = Typography;

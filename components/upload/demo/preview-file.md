@@ -14,7 +14,7 @@ title:
 Customize local preview. Can handle with non-image format files such as video.
 
 ```tsx
-import { IUpload } from 'infra-design-icons';
+import { UploadOutlined } from '@ant-design/icons';
 import type { UploadProps } from 'infrad';
 import { Button, Upload } from 'infrad';
 import React from 'react';
@@ -36,7 +36,7 @@ const props: UploadProps = {
 
 const App: React.FC = () => (
   <Upload {...props}>
-    <Button icon={<IUpload />}>Upload</Button>
+    <Button icon={<UploadOutlined />}>Upload</Button>
   </Upload>
 );
 

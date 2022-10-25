@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 7
 iframe: 360
 title:
   zh-CN: 固定侧边栏
@@ -24,7 +24,7 @@ import {
   UploadOutlined,
   UserOutlined,
   VideoCameraOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import type { MenuProps } from 'infrad';
 import { Layout, Menu } from 'infrad';
 import React from 'react';
@@ -77,7 +77,7 @@ const App: React.FC = () => (
           }
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Infra Design ©2018 Created by Ant UED</Footer>
+      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
     </Layout>
   </Layout>
 );

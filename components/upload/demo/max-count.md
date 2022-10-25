@@ -14,7 +14,7 @@ title:
 Limit files with `maxCount`. Will replace current one when `maxCount` is `1`.
 
 ```tsx
-import { IUpload } from 'infra-design-icons';
+import { UploadOutlined } from '@ant-design/icons';
 import { Button, Space, Upload } from 'infrad';
 import React from 'react';
 
@@ -25,7 +25,7 @@ const App: React.FC = () => (
       listType="picture"
       maxCount={1}
     >
-      <Button icon={<IUpload />}>Upload (Max: 1)</Button>
+      <Button icon={<UploadOutlined />}>Upload (Max: 1)</Button>
     </Upload>
     <Upload
       action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
@@ -33,7 +33,7 @@ const App: React.FC = () => (
       maxCount={3}
       multiple
     >
-      <Button icon={<IUpload />}>Upload (Max: 3)</Button>
+      <Button icon={<UploadOutlined />}>Upload (Max: 3)</Button>
     </Upload>
   </Space>
 );

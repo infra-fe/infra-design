@@ -15,7 +15,7 @@ title:
 Basic Usage.
 
 ```tsx
-import { MehOutlined, SmileOutlined } from 'infra-design-icons';
+import { MehOutlined, SmileOutlined } from '@ant-design/icons';
 import { Select } from 'infrad';
 import React from 'react';
 

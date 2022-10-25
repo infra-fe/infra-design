@@ -14,7 +14,7 @@ title:
 Demonstration of [Lookup Patterns: Certain Category](https://ant.design/docs/spec/reaction#Lookup-Patterns). Basic Usage, set options of autocomplete with `options` property.
 
 ```tsx
-import { UserOutlined } from 'infra-design-icons';
+import { UserOutlined } from '@ant-design/icons';
 import { AutoComplete, Input } from 'infrad';
 import React from 'react';
 
@@ -52,21 +52,21 @@ const renderItem = (title: string, count: number) => ({
 const options = [
   {
     label: renderTitle('Libraries'),
-    options: [renderItem('AntDesign', 10000), renderItem('AntDesign UI', 10600)],
+    options: [renderItem('infradesign', 10000), renderItem('infradesign UI', 10600)],
   },
   {
     label: renderTitle('Solutions'),
-    options: [renderItem('AntDesign UI FAQ', 60100), renderItem('AntDesign FAQ', 30010)],
+    options: [renderItem('infradesign UI FAQ', 60100), renderItem('infradesign FAQ', 30010)],
   },
   {
     label: renderTitle('Articles'),
-    options: [renderItem('AntDesign design language', 100000)],
+    options: [renderItem('infradesign design language', 100000)],
   },
 ];
 
 const App: React.FC = () => (
   <AutoComplete
-    dropdownClassName="certain-category-search-dropdown"
+    popupClassName="certain-category-search-dropdown"
     dropdownMatchSelectWidth={500}
     style={{ width: 250 }}
     options={options}

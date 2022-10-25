@@ -1,5 +1,5 @@
+import RightOutlined from '@ant-design/icons/RightOutlined';
 import classNames from 'classnames';
-import { RightOutlined } from 'infra-design-icons';
 import RcCollapse from 'rc-collapse';
 import type { CSSMotionProps } from 'rc-motion';
 import * as React from 'react';

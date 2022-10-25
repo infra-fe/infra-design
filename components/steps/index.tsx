@@ -1,5 +1,6 @@
 import classNames from 'classnames';
-import { CloseOutlined, ISelector } from 'infra-design-icons';
+import ISelector from 'infra-design-icons/ISelector';
+import CloseOutlined from '@ant-design/icons/CloseOutlined';
 import RcSteps from 'rc-steps';
 import type { ProgressDotRender } from 'rc-steps/lib/Steps';
 import * as React from 'react';
@@ -43,7 +44,15 @@ interface StepsType extends React.FC<StepsProps> {
 }
 
 const Steps: StepsType = props => {
-  const { percent, size, className, direction, responsive, ...restProps } = props;
+  const {
+    percent,
+    size,
+    className,
+    direction,
+    responsive = true,
+    current = 0,
+    ...restProps
+  } = props;
   const { xs } = useBreakpoint(responsive);
   const { getPrefixCls, direction: rtlDirection } = React.useContext(ConfigContext);
 
@@ -98,6 +107,7 @@ const Steps: StepsType = props => {
     <RcSteps
       icons={icons}
       {...restProps}
+      current={current}
       size={size}
       direction={getDirection()}
       stepIcon={stepIconRender}
@@ -109,10 +119,5 @@ const Steps: StepsType = props => {
 };
 
 Steps.Step = RcSteps.Step;
-
-Steps.defaultProps = {
-  current: 0,
-  responsive: true,
-};
 
 export default Steps;

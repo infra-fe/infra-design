@@ -1,4 +1,4 @@
-import { LoadingOutlined } from 'infra-design-icons';
+import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
 import classNames from 'classnames';
 import RcSwitch from 'rc-switch';
 import * as React from 'react';
@@ -37,6 +37,7 @@ export interface SwitchProps {
 
 interface CompoundedComponent
   extends React.ForwardRefExoticComponent<SwitchProps & React.RefAttributes<HTMLElement>> {
+  /** @internal */
   __ANT_SWITCH: boolean;
 }
 

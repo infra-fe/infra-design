@@ -14,7 +14,7 @@ title:
 Can customize each character using `(RateProps) => ReactNode`.
 
 ```tsx
-import { FrownOutlined, MehOutlined, SmileOutlined } from 'infra-design-icons';
+import { FrownOutlined, MehOutlined, SmileOutlined } from '@ant-design/icons';
 import { Rate } from 'infrad';
 import React from 'react';
 

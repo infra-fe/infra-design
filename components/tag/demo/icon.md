@@ -23,7 +23,7 @@ import {
   LinkedinOutlined,
   TwitterOutlined,
   YoutubeOutlined,
-} from 'infra-design-icons';
+} from '@ant-design/icons';
 import { Tag } from 'infrad';
 import React from 'react';
 

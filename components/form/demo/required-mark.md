@@ -14,7 +14,7 @@ title:
 Switch required or optional style with `requiredMark`.
 
 ```tsx
-import { InfoCircleOutlined } from 'infra-design-icons';
+import { InfoCircleOutlined } from '@ant-design/icons';
 import { Button, Form, Input, Radio } from 'infrad';
 import React, { useState } from 'react';
 

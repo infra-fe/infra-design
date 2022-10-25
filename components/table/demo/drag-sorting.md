@@ -15,7 +15,7 @@ By using `components`, we can integrate table with [react-dnd](https://github.co
 
 ```tsx
 import { Table } from 'infrad';
-import type { ColumnsType } from 'infrad/lib/table';
+import type { ColumnsType } from 'infrad/es/table';
 import update from 'immutability-helper';
 import React, { useCallback, useRef, useState } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
@@ -162,10 +162,10 @@ export default App;
 
 ```css
 #components-table-demo-drag-sorting tr.drop-over-downward td {
-  border-bottom: 2px dashed #2673dd;
+  border-bottom: 2px dashed #1890ff;
 }
 
 #components-table-demo-drag-sorting tr.drop-over-upward td {
-  border-top: 2px dashed #2673dd;
+  border-top: 2px dashed #1890ff;
 }
 ```

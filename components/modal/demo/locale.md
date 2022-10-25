@@ -14,19 +14,19 @@ title:
 To customize the text of the buttons, you need to set `okText` and `cancelText` props.
 
 ```tsx
-import { ExclamationCircleOutlined } from 'infra-design-icons';
+import { ExclamationCircleOutlined } from '@ant-design/icons';
 import { Button, Modal, Space } from 'infrad';
 import React, { useState } from 'react';
 
 const LocalizedModal = () => {
-  const [visible, setVisible] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const showModal = () => {
-    setVisible(true);
+    setOpen(true);
   };
 
   const hideModal = () => {
-    setVisible(false);
+    setOpen(false);
   };
 
   return (
@@ -36,7 +36,7 @@ const LocalizedModal = () => {
       </Button>
       <Modal
         title="Modal"
-        visible={visible}
+        open={open}
         onOk={hideModal}
         onCancel={hideModal}
         okText="确认"

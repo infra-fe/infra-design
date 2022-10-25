@@ -1,5 +1,5 @@
 ---
-order: 9
+order: 3
 title:
   zh-CN: 全局化配置
   en-US: ConfigProvider
@@ -14,7 +14,7 @@ title:
 Use ConfigProvider set global Empty style.
 
 ```tsx
-import { SmileOutlined } from 'infra-design-icons';
+import { SmileOutlined } from '@ant-design/icons';
 import {
   Cascader,
   ConfigProvider,

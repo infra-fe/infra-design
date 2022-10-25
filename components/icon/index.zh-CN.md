@@ -7,29 +7,26 @@ toc: false
 cover: https://gw.alipayobjects.com/zos/alicdn/rrwbSt3FQ/Icon.svg
 ---
 
-语义化的矢量图形。使用图标组件，你需要安装 `infra-design-icons` 图标组件包：
+语义化的矢量图形。使用图标组件，你需要安装 `@ant-design/icons` 图标组件包：
 
 ```bash
-npm install --save infra-design-icons
+npm install --save @ant-design/icons
 ```
-
-其中`i`的大写字母`I`加大写字母开头的组件是 Shopee Infra 的 icon 图标库，见下列 Shopee Icon 图标下名字
 
 ## 设计师专属
 
-安装 [Kitchen Sketch 插件 💎](https://kitchen.alipay.com)，就可以一键拖拽使用 Infra Design 和 Iconfont 的海量图标，还可以关联自有项目。
+安装 [Kitchen Sketch 插件 💎](https://kitchen.alipay.com)，就可以一键拖拽使用 Ant Design 和 Iconfont 的海量图标，还可以关联自有项目。
 
 ## 图标列表
 
 ```__react
 import IconDisplay from 'site/theme/template/IconDisplay';
-
 ReactDOM.render(<IconDisplay />, mountNode);
 ```
 
 ## API
 
-从 4.0 开始，antd 不再内置 Icon 组件，请使用独立的包 `infra-design-icons`。
+从 4.0 开始，antd 不再内置 Icon 组件，请使用独立的包 `@ant-design/icons`。
 
 ### 通用图标
 
@@ -87,7 +84,7 @@ import { MessageOutlined } from 'infra-design-icons';
 import { getTwoToneColor, setTwoToneColor } from 'infra-design-icons';
 
 setTwoToneColor('#eb2f96');
-getTwoToneColor(); // #EB2F96
+getTwoToneColor(); // #eb2f96
 ```
 
 ### 自定义 font 图标
@@ -111,7 +108,7 @@ options 的配置项如下：
 | 参数 | 说明 | 类型 | 默认值 | 版本 |
 | --- | --- | --- | --- | --- |
 | extraCommonProps | 给所有的 `svg` 图标 `<Icon />` 组件设置额外的属性 | { \[key: string]: any } | {} |  |
-| scriptUrl | [iconfont.cn](http://iconfont.cn/) 项目在线生成的 js 地址，`infra-design-iconss@4.1.0` 之后支持 `string[]` 类型 | string \| string\[] | - |  |
+| scriptUrl | [iconfont.cn](http://iconfont.cn/) 项目在线生成的 js 地址，`@ant-design/icons@4.1.0` 之后支持 `string[]` 类型 | string \| string\[] | - |  |
 
 在 `scriptUrl` 都设置有效的情况下，组件在渲染前会自动引入 [iconfont.cn](http://iconfont.cn/) 项目中的图标符号集，无需手动引入。
 

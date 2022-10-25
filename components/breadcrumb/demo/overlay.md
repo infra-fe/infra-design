@@ -50,7 +50,7 @@ const menu = (
 
 const App: React.FC = () => (
   <Breadcrumb>
-    <Breadcrumb.Item>Infra Design</Breadcrumb.Item>
+    <Breadcrumb.Item>Ant Design</Breadcrumb.Item>
     <Breadcrumb.Item>
       <a href="">Component</a>
     </Breadcrumb.Item>

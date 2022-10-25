@@ -14,7 +14,7 @@ title:
 The count will be animated as it changes.
 
 ```tsx
-import { MinusOutlined, PlusOutlined, QuestionOutlined } from 'infra-design-icons';
+import { MinusOutlined, PlusOutlined, QuestionOutlined } from '@ant-design/icons';
 import { Avatar, Badge, Button, Divider, Switch } from 'infrad';
 import React, { useState } from 'react';
 
