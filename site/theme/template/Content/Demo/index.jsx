@@ -142,7 +142,6 @@ class Demo extends React.Component {
       intl: { locale },
       theme,
       showRiddleButton,
-      react18,
     } = props;
     const { copied, copyTooltipOpen, codeType } = state;
     if (!this.liveDemo) {

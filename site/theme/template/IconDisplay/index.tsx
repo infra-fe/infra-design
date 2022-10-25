@@ -1,15 +1,16 @@
-import * as React from 'react';
 import Icon, * as AntdIcons from 'infra-design-icons';
-import { Radio, Input, Empty } from 'infrad';
+import { Empty, Input, Radio } from 'infrad';
 import type { RadioChangeEvent } from 'infrad/es/radio/interface';
-import { injectIntl } from 'react-intl';
 import debounce from 'lodash/debounce';
+import * as React from 'react';
+import { injectIntl } from 'react-intl';
 import Category from './Category';
-import IconPicSearcher from './IconPicSearcher';
-import { FilledIcon, OutlinedIcon, TwoToneIcon } from './themeIcons';
 import type { CategoriesKeys } from './fields';
 import { categories } from './fields';
 import { categoriesShopee } from './fieldShopee';
+import IconPicSearcher from './IconPicSearcher';
+import { FilledIcon, OutlinedIcon, TwoToneIcon } from './themeIcons';
+
 export enum ThemeType {
   Filled = 'Filled',
   Outlined = 'Outlined',

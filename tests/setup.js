@@ -1,4 +1,5 @@
 const React = require('react');
+// eslint-disable-next-line import/no-extraneous-dependencies
 const util = require('util');
 
 // eslint-disable-next-line no-console
