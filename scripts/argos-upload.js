@@ -1,6 +1,8 @@
 // Thanks to material-ui ❤️
 // Create chunks for Argos: https://github.com/mui/material-ui/pull/23518
 // https://github.com/mui/material-ui/blob/af81aae3b292ed180e7652a665fad1be2b38a7b3/scripts/pushArgos.js
+
+// eslint-disable-next-line import/no-extraneous-dependencies
 const util = require('util');
 const glob = require('fast-glob');
 const lodashChunk = require('lodash/chunk');

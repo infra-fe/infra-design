@@ -1,4 +1,4 @@
-/* eslint-disable import/no-dynamic-require, no-console */
+/* eslint-disable import/no-dynamic-require, no-console, import/no-extraneous-dependencies */
 const path = require('path');
 const axios = require('axios');
 
