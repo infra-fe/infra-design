@@ -1,9 +1,8 @@
-import type { MenuProps } from 'antd';
-import * as React from 'react';
-import type { MenuProps } from 'antd';
-import { Dropdown, Menu, Button } from 'antd';
-import { FormattedMessage } from 'react-intl';
 import { DownOutlined } from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Button, Dropdown, Menu } from 'antd';
+import * as React from 'react';
+import { FormattedMessage } from 'react-intl';
 import type { SharedProps } from './interface';
 
 const smallStyle = { fontSize: 12, color: '#777', marginLeft: '0.3em' };
