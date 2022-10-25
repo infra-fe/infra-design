@@ -2,12 +2,12 @@ import React from 'react';
 import {
   NoApp,
   NoData,
+  NoImage,
   NoLog,
+  NoPermission,
+  NoRatings,
   NoRecords,
   NoResults,
-  NoRatings,
-  NoImage,
-  NoPremission,
 } from './otherImageType';
 
 const noAppImg = <NoApp />;
@@ -17,7 +17,7 @@ const noRecords = <NoRecords />;
 const noResults = <NoResults />;
 const noRatings = <NoRatings />;
 const noImage = <NoImage />;
-const noPremission = <NoPremission />;
+const noPermission = <NoPermission />;
 
 type ImageType =
   | 'NO_APP'
@@ -27,7 +27,7 @@ type ImageType =
   | 'NO_RESULTS'
   | 'NO_RATINGS'
   | 'NO_IMAGE'
-  | 'NO_PREMISSION';
+  | 'NO_PERMISSION';
 
 const typeConfig = new Map([
   ['NO_APP', { icon: noAppImg, description: 'No Application Found' }],
@@ -35,9 +35,9 @@ const typeConfig = new Map([
   ['NO_LOG', { icon: noLog, description: 'No Logs Found' }],
   ['NO_RECORDS', { icon: noRecords, description: 'No Operation Records' }],
   ['NO_RESULTS', { icon: noResults, description: 'Your search does not match any results' }],
-  ['NO_RATINGS', { icon: noRatings, description: 'You hava not received any ratings' }],
+  ['NO_RATINGS', { icon: noRatings, description: 'You have not received any ratings' }],
   ['NO_IMAGE', { icon: noImage, description: 'No Image Found' }],
-  ['NO_PREMISSION', { icon: noPremission, description: 'No Premission' }],
+  ['NO_PERMISSION', { icon: noPermission, description: 'No Permission' }],
 ]);
 
 export { ImageType, typeConfig };

@@ -118,7 +118,7 @@ export const NoLog = () => (
   </svg>
 );
 
-export const NoPremission = () => (
+export const NoPermission = () => (
   <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect opacity="0.01" width="96" height="96" fill="#D8D8D8" />
     <path

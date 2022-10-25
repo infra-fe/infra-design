@@ -13,20 +13,31 @@ title:
 
 You can customize the content to make it jump with frequently used links
 
-```jsx
-import { Popover, Button } from 'infrad';
+```tsx
+import { Popover, Button, Image } from 'infrad';
+import React from 'react';
 
-const Content = (
-  <div>
-    <span>popover</span>
-    <a style={{ marginLeft: '10px' }}>Link</a>
-  </div>
-);
+const App: React.FC = () => {
+  const flexStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    width: '400px',
+  };
 
-ReactDOM.render(
-  <Popover content={Content} trigger="click">
-    <Button type="primary">click me</Button>
-  </Popover>,
-  mountNode,
-);
+  const Content = (
+    <div>
+      <span>popover</span>
+      <a style={{ marginLeft: '10px' }}>Link</a>
+    </div>
+  );
+
+  return (
+    <Popover content={Content} trigger="click">
+      <Button type="primary">click me</Button>
+    </Popover>
+  );
+};
+
+export default App;
 ```
