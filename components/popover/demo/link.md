@@ -14,17 +14,10 @@ title:
 You can customize the content to make it jump with frequently used links
 
 ```tsx
-import { Popover, Button, Image } from 'infrad';
+import { Popover, Button } from 'infrad';
 import React from 'react';
 
 const App: React.FC = () => {
-  const flexStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    width: '400px',
-  };
-
   const Content = (
     <div>
       <span>popover</span>
