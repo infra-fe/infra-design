@@ -13,17 +13,26 @@ title:
 
 A shadow card containing a title, content and an extra corner content. Set mode to 'shadow'.
 
-```jsx
+```tsx
 import { Card } from 'infrad';
+import React from 'react';
 
-ReactDOM.render(
-  <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300 }} mode="shadow">
-    <p>Card content</p>
-    <p>Card content</p>
-    <p>Card content</p>
-  </Card>,
-  mountNode,
-);
+const App: React.FC = () => {
+  return (
+    <Card
+      title="Default size card"
+      extra={<a href="#">More</a>}
+      style={{ width: 300 }}
+      mode="shadow"
+    >
+      <p>Card content</p>
+      <p>Card content</p>
+      <p>Card content</p>
+    </Card>
+  );
+};
+
+export default App;
 ```
 
 <style>

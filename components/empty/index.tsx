@@ -2,6 +2,8 @@ import classNames from 'classnames';
 import * as React from 'react';
 import { ConfigContext } from '../config-provider';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
+import type { ImageType } from './config';
+import { typeConfig } from './config';
 import DefaultEmptyImg from './empty';
 import SimpleEmptyImg from './simple';
 
@@ -21,6 +23,7 @@ export interface EmptyProps {
   image?: React.ReactNode;
   description?: React.ReactNode;
   children?: React.ReactNode;
+  type?: ImageType;
 }
 
 interface EmptyType extends React.FC<EmptyProps> {
@@ -35,6 +38,7 @@ const Empty: EmptyType = ({
   description,
   children,
   imageStyle,
+  type,
   ...restProps
 }) => {
   const { getPrefixCls, direction } = React.useContext(ConfigContext);
@@ -43,13 +47,19 @@ const Empty: EmptyType = ({
     <LocaleReceiver componentName="Empty">
       {contextLocale => {
         const prefixCls = getPrefixCls('empty', customizePrefixCls);
-        const des = typeof description !== 'undefined' ? description : contextLocale.description;
+        let des = typeof description !== 'undefined' ? description : contextLocale.description;
         const alt = typeof des === 'string' ? des : 'empty';
 
         let imageNode: React.ReactNode = null;
 
         if (typeof image === 'string') {
           imageNode = <img alt={alt} src={image} />;
+        } else if (!!type && image === defaultEmptyImg) {
+          imageNode = typeConfig.get(type)?.icon;
+          des =
+            typeof description !== 'undefined'
+              ? des
+              : (typeConfig.get(type)?.description as string);
         } else {
           imageNode = image;
         }
@@ -59,7 +69,7 @@ const Empty: EmptyType = ({
             className={classNames(
               prefixCls,
               {
-                [`${prefixCls}-normal`]: image === simpleEmptyImg,
+                [`${prefixCls}-normal`]: image === simpleEmptyImg || typeConfig.has(type as string),
                 [`${prefixCls}-rtl`]: direction === 'rtl',
               },
               className,

@@ -1588,7 +1588,7 @@ exports[`renders ./components/empty/demo/no-log.md extend context correctly 1`] 
 </div>
 `;
 
-exports[`renders ./components/empty/demo/no-premission.md extend context correctly 1`] = `
+exports[`renders ./components/empty/demo/no-permission.md extend context correctly 1`] = `
 <div
   class="ant-empty ant-empty-normal"
 >
@@ -1681,7 +1681,7 @@ exports[`renders ./components/empty/demo/no-premission.md extend context correct
   <div
     class="ant-empty-description"
   >
-    No Premission
+    No Permission
   </div>
 </div>
 `;
@@ -1757,7 +1757,7 @@ exports[`renders ./components/empty/demo/no-ratings.md extend context correctly 
   <div
     class="ant-empty-description"
   >
-    You hava not received any ratings
+    You have not received any ratings
   </div>
 </div>
 `;

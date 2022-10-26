@@ -13,8 +13,10 @@ title:
 
 You can choose another style of `type` by setting image to `NO_RESULTS`.
 
-```jsx
+```tsx
 import { Empty } from 'infrad';
 
-ReactDOM.render(<Empty type="NO_RESULTS" />, mountNode);
+const App: React.FC = () => <Empty type="NO_RESULTS" />;
+
+export default App;
 ```
