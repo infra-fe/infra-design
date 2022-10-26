@@ -17,15 +17,13 @@ A gray card containing a title, content and an extra corner content. Set mode to
 import { Card } from 'infrad';
 import React from 'react';
 
-const App: React.FC = () => {
-  return (
-    <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300 }} mode="gray">
-      <p>Card content</p>
-      <p>Card content</p>
-      <p>Card content</p>
-    </Card>
-  );
-};
+const App: React.FC = () => (
+  <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 300 }} mode="gray">
+    <p>Card content</p>
+    <p>Card content</p>
+    <p>Card content</p>
+  </Card>
+);
 
 export default App;
 ```
