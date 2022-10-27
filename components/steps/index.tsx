@@ -68,7 +68,7 @@ const Steps: StepsType = props => {
     {
       [`${prefixCls}-rtl`]: rtlDirection === 'rtl',
       [`${prefixCls}-with-progress`]: percent !== undefined,
-      [`${prefixCls}-template-navigation`]: type === 'navigation',
+      [`${prefixCls}-infrad-reset-navigation`]: type === 'navigation',
     },
     className,
   );

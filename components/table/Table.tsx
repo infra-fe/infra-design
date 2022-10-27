@@ -536,7 +536,7 @@ function InternalTable<RecordType extends object = any>(
               [`${prefixCls}-bordered`]: bordered,
               [`${prefixCls}-empty`]: rawData.length === 0,
             },
-            `${prefixCls}-template-table`,
+            `${prefixCls}-infrad-reset-table`,
           )}
           data={pageData}
           rowKey={getRowKey}

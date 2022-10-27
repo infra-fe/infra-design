@@ -127,12 +127,10 @@ const Card = React.forwardRef((props: CardProps, ref: React.Ref<HTMLDivElement>)
     ) : null;
   if (title || extra || tabs) {
     head = (
-      <div className={`${prefixCls}-head ${prefixCls}-template-head`} style={headStyle}>
+      <div className={`${prefixCls}-head ${prefixCls}-infrad-reset-head`} style={headStyle}>
         <div className={`${prefixCls}-head-wrapper`}>
           {title && (
-            <div className={`${prefixCls}-head-title ${prefixCls}-template-head-title`}>
-              {title}
-            </div>
+            <div className={`${prefixCls}-head-title infrad-reset-head-title`}>{title}</div>
           )}
           {extra && <div className={`${prefixCls}-extra`}>{extra}</div>}
         </div>
@@ -142,7 +140,7 @@ const Card = React.forwardRef((props: CardProps, ref: React.Ref<HTMLDivElement>)
   }
   const coverDom = cover ? <div className={`${prefixCls}-cover`}>{cover}</div> : null;
   const body = (
-    <div className={`${prefixCls}-body ${prefixCls}-template-body`} style={bodyStyle}>
+    <div className={`${prefixCls}-body ${prefixCls}-infrad-reset-body`} style={bodyStyle}>
       {loading ? loadingBlock : children}
     </div>
   );
