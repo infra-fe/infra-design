@@ -60,8 +60,8 @@ const renderBack = (
   );
 };
 
-const renderBreadcrumb = (breadcrumb: BreadcrumbProps) => (
-  <Breadcrumb {...breadcrumb} className="infrad-reset-page-header-breadcrumb" />
+const renderBreadcrumb = (prefixCls: string, breadcrumb: BreadcrumbProps) => (
+  <Breadcrumb {...breadcrumb} className={`${prefixCls}-infrad-reset-page-header-breadcrumb`} />
 );
 
 const getBackIcon = (props: PageHeaderProps, direction: DirectionType = 'ltr') => {
@@ -161,7 +161,7 @@ const PageHeader: React.FC<PageHeaderProps> = props => {
 
         const getDefaultBreadcrumbDom = () => {
           if ((breadcrumb as BreadcrumbProps)?.routes) {
-            return renderBreadcrumb(breadcrumb as BreadcrumbProps);
+            return renderBreadcrumb(prefixCls, breadcrumb as BreadcrumbProps);
           }
           return null;
         };
@@ -178,7 +178,6 @@ const PageHeader: React.FC<PageHeaderProps> = props => {
         const className = classNames(prefixCls, customizeClassName, {
           'has-breadcrumb': !!breadcrumbDom,
           'has-footer': !!footer,
-          [`${prefixCls}-infrad-reset-breadcrumb-container`]: !!breadcrumbDom,
           [`${prefixCls}-ghost`]: ghost,
           [`${prefixCls}-rtl`]: direction === 'rtl',
           [`${prefixCls}-compact`]: compact,

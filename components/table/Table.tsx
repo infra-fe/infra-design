@@ -89,6 +89,7 @@ export interface TableProps<RecordType>
   size?: SizeType;
   bordered?: boolean;
   locale?: TableLocale;
+  outline?: boolean;
 
   onChange?: (
     pagination: TablePaginationConfig,
@@ -137,6 +138,7 @@ function InternalTable<RecordType extends object = any>(
     sortDirections,
     locale,
     showSorterTooltip = true,
+    outline = true,
   } = props;
 
   warning(
@@ -529,15 +531,13 @@ function InternalTable<RecordType extends object = any>(
           direction={direction}
           expandable={mergedExpandable}
           prefixCls={prefixCls}
-          className={classNames(
-            {
-              [`${prefixCls}-middle`]: mergedSize === 'middle',
-              [`${prefixCls}-small`]: mergedSize === 'small',
-              [`${prefixCls}-bordered`]: bordered,
-              [`${prefixCls}-empty`]: rawData.length === 0,
-            },
-            `${prefixCls}-infrad-reset-table`,
-          )}
+          className={classNames({
+            [`${prefixCls}-middle`]: mergedSize === 'middle',
+            [`${prefixCls}-small`]: mergedSize === 'small',
+            [`${prefixCls}-bordered`]: bordered,
+            [`${prefixCls}-empty`]: rawData.length === 0,
+            [`${prefixCls}-infrad-reset-table-outline`]: outline,
+          })}
           data={pageData}
           rowKey={getRowKey}
           rowClassName={internalRowClassName}

@@ -130,7 +130,9 @@ const Card = React.forwardRef((props: CardProps, ref: React.Ref<HTMLDivElement>)
       <div className={`${prefixCls}-head ${prefixCls}-infrad-reset-head`} style={headStyle}>
         <div className={`${prefixCls}-head-wrapper`}>
           {title && (
-            <div className={`${prefixCls}-head-title infrad-reset-head-title`}>{title}</div>
+            <div className={`${prefixCls}-head-title ${prefixCls}-infrad-reset-head-title`}>
+              {title}
+            </div>
           )}
           {extra && <div className={`${prefixCls}-extra`}>{extra}</div>}
         </div>

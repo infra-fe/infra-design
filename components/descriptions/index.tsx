@@ -170,9 +170,7 @@ function Descriptions({
         {(title || extra) && (
           <div className={`${prefixCls}-header`}>
             {title && (
-              <div className={`${prefixCls}-title ${prefixCls}-infrad-reset-descriptions-title`}>
-                {title}
-              </div>
+              <div className={`${prefixCls}-title ${prefixCls}-infrad-reset-title`}>{title}</div>
             )}
             {extra && <div className={`${prefixCls}-extra`}>{extra}</div>}
           </div>
