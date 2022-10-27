@@ -45,6 +45,7 @@ interface StepsType extends React.FC<StepsProps> {
 
 const Steps: StepsType = props => {
   const {
+    type,
     percent,
     size,
     className,
@@ -67,6 +68,7 @@ const Steps: StepsType = props => {
     {
       [`${prefixCls}-rtl`]: rtlDirection === 'rtl',
       [`${prefixCls}-with-progress`]: percent !== undefined,
+      [`${prefixCls}-infrad-reset-navigation`]: type === 'navigation',
     },
     className,
   );
@@ -105,6 +107,7 @@ const Steps: StepsType = props => {
   };
   return (
     <RcSteps
+      type={type}
       icons={icons}
       {...restProps}
       current={current}

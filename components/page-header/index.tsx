@@ -60,7 +60,9 @@ const renderBack = (
   );
 };
 
-const renderBreadcrumb = (breadcrumb: BreadcrumbProps) => <Breadcrumb {...breadcrumb} />;
+const renderBreadcrumb = (prefixCls: string, breadcrumb: BreadcrumbProps) => (
+  <Breadcrumb {...breadcrumb} className={`${prefixCls}-infrad-reset-page-header-breadcrumb`} />
+);
 
 const getBackIcon = (props: PageHeaderProps, direction: DirectionType = 'ltr') => {
   if (props.backIcon !== undefined) {
@@ -85,9 +87,9 @@ const renderTitle = (
   const backIconDom = renderBack(prefixCls, backIcon, onBack);
   const hasTitle = backIconDom || avatar || hasHeading;
   return (
-    <div className={headingPrefixCls}>
+    <div className={`${headingPrefixCls} ${prefixCls}-infrad-reset-heading`}>
       {hasTitle && (
-        <div className={`${headingPrefixCls}-left`}>
+        <div className={`${headingPrefixCls}-left ${headingPrefixCls}-infrad-reset-left`}>
           {backIconDom}
           {avatar && <Avatar {...avatar} />}
           {title && (
@@ -110,7 +112,7 @@ const renderTitle = (
         </div>
       )}
       {extra && (
-        <span className={`${headingPrefixCls}-extra`}>
+        <span className={`${headingPrefixCls}-extra ${headingPrefixCls}-infrad-reset-extra`}>
           <Space>{extra}</Space>
         </span>
       )}
@@ -120,13 +122,13 @@ const renderTitle = (
 
 const renderFooter = (prefixCls: string, footer: React.ReactNode) => {
   if (footer) {
-    return <div className={`${prefixCls}-footer`}>{footer}</div>;
+    return <div className={`${prefixCls}-footer ${prefixCls}-infrad-reset-footer`}>{footer}</div>;
   }
   return null;
 };
 
 const renderChildren = (prefixCls: string, children: React.ReactNode) => (
-  <div className={`${prefixCls}-content`}>{children}</div>
+  <div className={`${prefixCls}-content ${prefixCls}-infrad-reset-content`}>{children}</div>
 );
 
 const PageHeader: React.FC<PageHeaderProps> = props => {
@@ -159,7 +161,7 @@ const PageHeader: React.FC<PageHeaderProps> = props => {
 
         const getDefaultBreadcrumbDom = () => {
           if ((breadcrumb as BreadcrumbProps)?.routes) {
-            return renderBreadcrumb(breadcrumb as BreadcrumbProps);
+            return renderBreadcrumb(prefixCls, breadcrumb as BreadcrumbProps);
           }
           return null;
         };
