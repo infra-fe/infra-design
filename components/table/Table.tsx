@@ -529,12 +529,15 @@ function InternalTable<RecordType extends object = any>(
           direction={direction}
           expandable={mergedExpandable}
           prefixCls={prefixCls}
-          className={classNames({
-            [`${prefixCls}-middle`]: mergedSize === 'middle',
-            [`${prefixCls}-small`]: mergedSize === 'small',
-            [`${prefixCls}-bordered`]: bordered,
-            [`${prefixCls}-empty`]: rawData.length === 0,
-          })}
+          className={classNames(
+            {
+              [`${prefixCls}-middle`]: mergedSize === 'middle',
+              [`${prefixCls}-small`]: mergedSize === 'small',
+              [`${prefixCls}-bordered`]: bordered,
+              [`${prefixCls}-empty`]: rawData.length === 0,
+            },
+            `${prefixCls}-template-table`,
+          )}
           data={pageData}
           rowKey={getRowKey}
           rowClassName={internalRowClassName}

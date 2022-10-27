@@ -59,6 +59,10 @@
       overflow: hidden;
     }
 
+    &-template-left {
+      margin: 0;
+    }
+
     &-title {
       margin-right: @margin-sm;
       margin-bottom: 0;
@@ -89,10 +93,18 @@
         white-space: unset;
       }
     }
+
+    &-template-extra {
+      margin: 0;
+    }
   }
 
   &-content {
     padding-top: @page-header-content-padding-vertical;
+  }
+
+  &-template-content {
+    padding-top: 16px;
   }
 
   &-footer {
@@ -114,8 +126,23 @@
     }
   }
 
+  &-template-footer {
+    height: 57px;
+    margin-top: 0;
+    .@{ant-prefix}-tabs {
+      height: 100%;
+      > .@{ant-prefix}-tabs-nav {
+        height: 100%;
+      }
+    }
+  }
+
   &-compact &-heading {
     flex-wrap: wrap;
+  }
+
+  &-template-breadcrumb {
+    margin-bottom: 12px;
   }
 }
 

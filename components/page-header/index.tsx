@@ -87,7 +87,7 @@ const renderTitle = (
   return (
     <div className={headingPrefixCls}>
       {hasTitle && (
-        <div className={`${headingPrefixCls}-left`}>
+        <div className={`${headingPrefixCls}-left ${headingPrefixCls}-template-left`}>
           {backIconDom}
           {avatar && <Avatar {...avatar} />}
           {title && (
@@ -110,7 +110,7 @@ const renderTitle = (
         </div>
       )}
       {extra && (
-        <span className={`${headingPrefixCls}-extra`}>
+        <span className={`${headingPrefixCls}-extra ${headingPrefixCls}-template-extra`}>
           <Space>{extra}</Space>
         </span>
       )}
@@ -120,13 +120,13 @@ const renderTitle = (
 
 const renderFooter = (prefixCls: string, footer: React.ReactNode) => {
   if (footer) {
-    return <div className={`${prefixCls}-footer`}>{footer}</div>;
+    return <div className={`${prefixCls}-footer ${prefixCls}-template-footer`}>{footer}</div>;
   }
   return null;
 };
 
 const renderChildren = (prefixCls: string, children: React.ReactNode) => (
-  <div className={`${prefixCls}-content`}>{children}</div>
+  <div className={`${prefixCls}-template-content`}>{children}</div>
 );
 
 const PageHeader: React.FC<PageHeaderProps> = props => {
@@ -184,7 +184,11 @@ const PageHeader: React.FC<PageHeaderProps> = props => {
         return (
           <ResizeObserver onResize={onResize}>
             <div className={className} style={style}>
-              {breadcrumbDom}
+              <div
+                className={classNames({ [`${prefixCls}-template-breadcrumb`]: !!breadcrumbDom })}
+              >
+                {breadcrumbDom}
+              </div>
               {renderTitle(prefixCls, props, direction)}
               {children && renderChildren(prefixCls, children)}
               {renderFooter(prefixCls, footer)}

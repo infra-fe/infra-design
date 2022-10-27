@@ -87,6 +87,10 @@
     }
   }
 
+  &-template-head {
+    padding: 0 24px;
+  }
+
   &-extra {
     // https://stackoverflow.com/a/22429853/3040605
     margin-left: auto;
@@ -104,6 +108,10 @@
   &-body {
     padding: 16px;
     .clearfix();
+  }
+
+  &-template-body {
+    padding: 24px;
   }
 
   &-contain-grid &-body {
@@ -138,6 +146,10 @@
   &-contain-tabs > &-head &-head-title {
     min-height: @card-head-height - @card-head-padding;
     padding-bottom: 0;
+  }
+
+  &-contain-tabs > &-template-head-title {
+    font-size: 16;
   }
 
   &-contain-tabs > &-head &-extra {

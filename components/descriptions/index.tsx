@@ -169,7 +169,11 @@ function Descriptions({
       >
         {(title || extra) && (
           <div className={`${prefixCls}-header`}>
-            {title && <div className={`${prefixCls}-title`}>{title}</div>}
+            {title && (
+              <div className={`${prefixCls}-title ${prefixCls}-template-descriptions-title`}>
+                {title}
+              </div>
+            )}
             {extra && <div className={`${prefixCls}-extra`}>{extra}</div>}
           </div>
         )}
