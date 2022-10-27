@@ -107,6 +107,7 @@ const Steps: StepsType = props => {
   };
   return (
     <RcSteps
+      type={type}
       icons={icons}
       {...restProps}
       current={current}
